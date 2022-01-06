@@ -1,0 +1,2207 @@
+{
+   
+   "Resume" : {
+      "StructuredResume" : {
+         "ContactMethod" : {
+            "InternetEmailAddress_main" : "vijinara1@gmail.com",
+            "PostalAddress_main" : {
+               "PostalCode" : "19087",
+               "AddressLine" : "49 Rampart Drive",
+               "Municipality" : "Wayne",
+               "Region" : "PA",
+               "CountryCode" : "US"
+            },
+            "Telephone_home" : "+1 908 704-1910",
+            "Telephone_mobile" : "+1 201 220-9656"
+         },
+         "PersonName" : {
+            "FormattedName" : "Narayan V Shyam",
+            "FamilyName" : "Shyam",
+            "GivenName" : "Narayan",
+            "MiddleName" : [
+               "V"
+            ],
+            "sex" : "Male"
+         },
+         "RevisionDate" : "2015-06-23",
+         "lang" : "en",
+         "Nationality" : [
+            "US"
+         ],
+         "Competency" : [
+            {
+               "skillLevel" : 90,
+               "skillName" : "Project Team Skills",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Project Team Skills",
+                  "project team"
+               ]
+            },
+            {
+               "skillLevel" : 89,
+               "skillName" : "Liaison",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Liaison"
+               ]
+            },
+            {
+               "skillLevel" : 72,
+               "skillName" : "Business Processes",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 87,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Business Processes",
+                  "Business Process"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "Business Stake holder relationship Management",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Business Stake holder relationship Management"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "Issue Management",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Issue Management"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "Requirements Gathering",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Requirements Gathering",
+                  "Requirement Gathering"
+               ]
+            },
+            {
+               "skillLevel" : 66,
+               "skillName" : "Hyper care support",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 17,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Hyper care support"
+               ]
+            },
+            {
+               "skillLevel" : 65,
+               "skillName" : "Project Approvals Management",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 17,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Project Approvals Management",
+                  "Project Approvals"
+               ]
+            },
+            {
+               "skillLevel" : 64,
+               "skillName" : "BW Monitoring",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 17,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "BW Monitoring"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "Functional Design",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Functional Design"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "Process Design",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Process Design"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "Process Improvement",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Process Improvement"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "Requirements Analysis",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Requirements Analysis",
+                  "Requirement Analysis"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Compliance",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 26,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Compliance",
+                  "regulatory compliance"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Design",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 26,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Design"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Performed Requirement Analysis",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 26,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Performed Requirement Analysis"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Business Process Analysis",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Business Process Analysis"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "Configuration",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Configuration",
+                  "Configuration,"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Continuous Improvement",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Continuous Improvement"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "Coordinated Development",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Coordinated Development"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Managerial Skills > Team Management",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Managerial Skills > Team Management",
+                  "TEAM LEADERSHIP",
+                  "Managed team"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Process Mapping",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Process Mapping"
+               ]
+            },
+            {
+               "skillUsed" : {
+                  "value" : 10,
+                  "type" : "Years"
+               },
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Project Management",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Project Management",
+                  "Around 10 years of Project Management experience"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Project Planning",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Project Planning"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "STRONG MOTIVATIONAL SKILLS",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "STRONG MOTIVATIONAL SKILLS"
+               ]
+            },
+            {
+               "skillLevel" : 100,
+               "skillName" : "SAP",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 18,
+                  "type" : "Years"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Implementation",
+                  "Set up",
+                  "SAP",
+                  "18 YEARS IN SAP",
+                  "18 Years of SAP Implementation",
+                  "SAP implementation",
+                  "Set up SAP"
+               ]
+            },
+            {
+               "skillLevel" : 98,
+               "skillName" : "SAP SD",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP SD",
+                  "SD"
+               ]
+            },
+            {
+               "skillLevel" : 97,
+               "skillName" : "SAP FI",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 132,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP FI",
+                  "Finance",
+                  "FI",
+                  "SAP Finance (FI)",
+                  "Financial",
+                  "SAP Financial"
+               ]
+            },
+            {
+               "skillLevel" : 97,
+               "skillName" : "SAP MM",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 106,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP MM",
+                  "MM"
+               ]
+            },
+            {
+               "skillLevel" : 95,
+               "skillName" : "Data Migration",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 178,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Data Migration",
+                  "Data Migrations"
+               ]
+            },
+            {
+               "skillLevel" : 95,
+               "skillName" : "Legacy Systems",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 101,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Legacy Systems"
+               ]
+            },
+            {
+               "skillLevel" : 95,
+               "skillName" : "SAP-FI- Reporting",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 101,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP-FI- Reporting",
+                  "Reporting"
+               ]
+            },
+            {
+               "skillLevel" : 93,
+               "skillName" : "SAP-netweaver- Master Data",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP-netweaver- Master Data",
+                  "Master Data"
+               ]
+            },
+            {
+               "skillLevel" : 91,
+               "skillName" : "SAP-netweaver- business",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 96,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP-netweaver- business",
+                  "business"
+               ]
+            },
+            {
+               "skillLevel" : 90,
+               "skillName" : "SCM",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 172,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SCM",
+                  "SCM business"
+               ]
+            },
+            {
+               "skillLevel" : 89,
+               "skillName" : "Business Intelligence",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Business Intelligence"
+               ]
+            },
+            {
+               "skillLevel" : 89,
+               "skillName" : "Master Data",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Master Data"
+               ]
+            },
+            {
+               "skillLevel" : 86,
+               "skillName" : "SAP CO",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 77,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP CO",
+                  "CO"
+               ]
+            },
+            {
+               "skillLevel" : 86,
+               "skillName" : "SAP PP",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 77,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP PP",
+                  "PP"
+               ]
+            },
+            {
+               "skillLevel" : 82,
+               "skillName" : "SAP LO Logistics",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP LO Logistics",
+                  "Logistics"
+               ]
+            },
+            {
+               "skillLevel" : 82,
+               "skillName" : "SAP SD Sales",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP SD Sales",
+                  "Sales"
+               ]
+            },
+            {
+               "skillLevel" : 81,
+               "skillName" : "SAP SCM Manufacturing",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP SCM Manufacturing",
+                  "Manufacturing"
+               ]
+            },
+            {
+               "skillLevel" : 80,
+               "skillName" : "SAP APO",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP APO",
+                  "APO"
+               ]
+            },
+            {
+               "skillLevel" : 80,
+               "skillName" : "SAP CRM",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP CRM",
+                  "CRM"
+               ]
+            },
+            {
+               "skillLevel" : 80,
+               "skillName" : "SAP WM",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP WM",
+                  "WM"
+               ]
+            },
+            {
+               "skillLevel" : 80,
+               "skillName" : "VMS",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "VMS"
+               ]
+            },
+            {
+               "skillLevel" : 73,
+               "skillName" : "SAP IS RE",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "SAP IS RE",
+                  "Re"
+               ]
+            },
+            {
+               "skillLevel" : 72,
+               "skillName" : "SAP FS",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "SAP FS",
+                  "FS"
+               ]
+            },
+            {
+               "skillLevel" : 71,
+               "skillName" : "Go-Live",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 106,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Go-Live",
+                  "Defect Management and Go-Live"
+               ]
+            },
+            {
+               "skillLevel" : 71,
+               "skillName" : "SAP IS FS-CD",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "SAP IS FS-CD",
+                  "FS-CD"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "Ariba",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 17,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Ariba"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "Cognos Impromptu",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Cognos Impromptu",
+                  "COGNOS"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "Data Mapping",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Data Mapping",
+                  "Data Mappings"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "Integration Testing",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Integration Testing"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "Oracle",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Oracle"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "SAP ABAP OO",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "SAP ABAP OO",
+                  "Objects"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "SAP Configuration",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Setup",
+                  "SAP Configuration",
+                  "Setup SAP Configuration"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "SAP Netweaver > SAP BW",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 115,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "SAP Netweaver > SAP BW",
+                  "Business Intelligence",
+                  "BI",
+                  "SAP/BI",
+                  "SAP/ BW",
+                  "SAP BW",
+                  "BW"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "Testing",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 89,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Testing"
+               ]
+            },
+            {
+               "skillLevel" : 65,
+               "skillName" : "HP Hardware",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 17,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it > hardware"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "HP Hardware",
+                  "HP"
+               ]
+            },
+            {
+               "skillLevel" : 64,
+               "skillName" : "Mercury Quality Center",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 17,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Mercury Quality Center",
+                  "HPQC"
+               ]
+            },
+            {
+               "skillLevel" : 64,
+               "skillName" : "Test Planning",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 17,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Integration",
+                  "Test Planning",
+                  "Integration Test Plans"
+               ]
+            },
+            {
+               "skillLevel" : 64,
+               "skillName" : "Trend Analysis",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 17,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Trend Analysis"
+               ]
+            },
+            {
+               "skillLevel" : 28,
+               "skillName" : "Siemens Hardware",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it > hardware"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Siemens Hardware",
+                  "Siemens"
+               ]
+            },
+            {
+               "skillLevel" : 27,
+               "skillName" : "SAP FICO",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 96,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "SAP FICO",
+                  "FI-CO"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "EDI",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "EDI"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "Interfaces",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "development",
+                  "Interfaces",
+                  "development in Interfaces"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "SAP ABAP",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "SAP ABAP",
+                  "ABAP"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "SAP ABAP BAPI",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "SAP ABAP BAPI",
+                  "BAPI"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "SAP QM",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "SAP QM",
+                  "QM"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "SAP SCM",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "SAP SCM",
+                  "SCM"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "SAP- Is",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "SAP- Is",
+                  "Is"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "SAP-netweaver- As",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "SAP-netweaver- As",
+                  "As"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "4GL",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "4GL"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "ASAP methodology",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "ASAP methodology",
+                  "ASAP"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Agile Methodology",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Agile Methodology",
+                  "AGILE"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Ascential DataStage",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Ascential DataStage",
+                  "Datastage"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "BEx Analyzer",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "BEx Analyzer"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "COBOL",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it > progr-lang"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "COBOL"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Data Management",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Data Management"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Databases",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Databases"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "ER Diagram Tools",
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "ER Diagram Tools"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "ETL",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "ETL"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Informatica",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Informatica"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Informix",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Informix"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "MVS",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it > operating-syst"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "MVS"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Mercury Interactive TestDirector",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Mercury Interactive TestDirector",
+                  "Test Director"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Microsoft Office",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Microsoft Office",
+                  "MS Office Suite"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Microsoft Project",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Microsoft Project",
+                  "MS Project"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Microsoft SQL Server",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Microsoft SQL Server",
+                  "SQL Server"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Microsoft Visio",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Microsoft Visio",
+                  "Visio"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Microsoft Windows",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it > operating-syst"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Microsoft Windows",
+                  "MS Windows"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Oracle Developer 2000",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Oracle Developer 2000",
+                  "Developer 2000"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Oracle PL/SQL",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Oracle PL/SQL",
+                  "PL/SQL"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "PowerBuilder",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "PowerBuilder"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "SAP ABAP LSMW",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "SAP ABAP LSMW",
+                  "LSMW"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "SAP ECC",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "SAP ECC"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "SAP HR PAY",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "SAP HR PAY",
+                  "Pay"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "SQL",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "SQL"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "UNIX",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "UNIX"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Visual Basic",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it > progr-lang"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Visual Basic"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "shell scripting",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "shell scripting",
+                  "UNIX Scripts"
+               ]
+            },
+            {
+               "skillLevel" : 94,
+               "skillName" : "SAP Project Manager",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2015",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP Project Manager"
+               ]
+            },
+            {
+               "skillLevel" : 85,
+               "skillName" : "SAP Implementation Project Manager",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SAP Implementation Project Manager"
+               ]
+            },
+            {
+               "skillLevel" : 84,
+               "skillName" : "Consulting Partner",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Consulting Partner"
+               ]
+            },
+            {
+               "skillLevel" : 73,
+               "skillName" : "Project Manager",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 106,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Project Manager"
+               ]
+            },
+            {
+               "skillLevel" : 73,
+               "skillName" : "Solutions Delivery Manager",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 106,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Solutions Delivery Manager"
+               ]
+            },
+            {
+               "skillLevel" : 28,
+               "skillName" : "SAP Lead Consultant",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "SAP Lead Consultant"
+               ]
+            },
+            {
+               "skillLevel" : 28,
+               "skillName" : "SCM and Order to Cash",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 70,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2002",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "SCM and Order to Cash"
+               ]
+            },
+            {
+               "skillLevel" : 27,
+               "skillName" : "Manager",
+               "description" : "Held Position",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 26,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Manager"
+               ]
+            },
+            {
+               "skillLevel" : 26,
+               "skillName" : "IBM partner",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 26,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "IBM partner"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "SCM, Order to Cash",
+               "description" : "Held Position",
+               "skillAliasArray" : [
+                  "SCM, Order to Cash"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "SENIOR TECHNOLOGY & BUSINESS MANAGER , Solutions Design & Delivery",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Held Position",
+               "skillAliasArray" : [
+                  "SENIOR TECHNOLOGY & BUSINESS MANAGER , Solutions Design & Delivery"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "TEAM LEADER",
+               "description" : "Held Position",
+               "skillAliasArray" : [
+                  "TEAM LEADER"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 91,
+               "skillName" : "Bachelors Degree > Bachelor of Science > Bachelor of Science Mechanical Engineering",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "bachelors"
+               },
+               "description" : "Degree/Qualification",
+               "skillAliasArray" : [
+                  "Mechanical Engineering",
+                  "Bachelors Degree > Bachelor of Science > Bachelor of Science Mechanical Engineering",
+                  "Bachelor of Science in Mechanical Engineering , REGIONAL ENGINEERING"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 91,
+               "skillName" : "Bachelors Degree > Bachelor of Science > Bachelor of Science REGIONAL ENGINEERING",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "bachelors"
+               },
+               "description" : "Degree/Qualification",
+               "skillAliasArray" : [
+                  "REGIONAL ENGINEERING",
+                  "Bachelors Degree > Bachelor of Science > Bachelor of Science REGIONAL ENGINEERING",
+                  "Bachelor of Science in Mechanical Engineering , REGIONAL ENGINEERING"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 88,
+               "skillName" : "Diploma > Diploma Business Management",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "intermediategraduate"
+               },
+               "description" : "Degree/Qualification",
+               "skillAliasArray" : [
+                  "Business Management",
+                  "Diploma > Diploma Business Management",
+                  "Diploma in Business Management",
+                  "Diploma in Systems Analysis and Data Processing"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 88,
+               "skillName" : "Diploma > Diploma Data Processing",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "intermediategraduate"
+               },
+               "description" : "Degree/Qualification",
+               "skillAliasArray" : [
+                  "Data Processing",
+                  "Diploma > Diploma Data Processing",
+                  "Diploma in Business Management",
+                  "Diploma in Systems Analysis and Data Processing"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 88,
+               "skillName" : "Diploma > Diploma Systems Analysis",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "intermediategraduate"
+               },
+               "description" : "Degree/Qualification",
+               "skillAliasArray" : [
+                  "Systems Analysis",
+                  "Diploma > Diploma Systems Analysis",
+                  "Diploma in Business Management",
+                  "Diploma in Systems Analysis and Data Processing"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 12,
+               "skillName" : "Qualification",
+               "description" : "Degree/Qualification",
+               "skillAliasArray" : [
+                  "Qualification",
+                  "EXTENSIVE QUALIFICATIONS"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 100,
+               "skillName" : "industry~it",
+               "skillCount" : 6,
+               "description" : "Industry"
+            }
+         ],
+         "EmploymentHistory" : [
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "Present",
+               "MonthsOfWork" : 12,
+               "LocationSummary" : {
+                  "Municipality" : "King of Prussia",
+                  "Region" : "PA",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "AmeriGas/ComTec Consulting",
+               "Title" : [
+                  "SAP Project Manager"
+               ],
+               "OrgName" : "AmeriGas/ComTec Consulting",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-management-low",
+               "StartDate" : "2014-07",
+               "Description" : "*  Responsibilities included full accountability of SAP implementation (Master Data, SD, MM and FI) for 75 US Districts spans across all regions, managing project team of 25 people, worth $15M\n-------\n*  Prepared the Project Plan, Status Reporting and presented to the Senior Management\n    *  Led the On-Line experience team in extending the Customer Portals to these new Districts\n    *  Coordinated all efforts in organizing Process Sessions, Data Validations/Cleansing, Data Migration from 4 Legacy Systems, Training, Cutover & Site Readiness Tasks in liaison with Master Data, Process, Business Intelligence (BI), Security and Field Management Teams"
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2014-05",
+               "MonthsOfWork" : 7,
+               "LocationSummary" : {
+                  "Municipality" : "Greensboro",
+                  "Region" : "NC",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "TBB",
+               "Title" : [
+                  "SAP Implementation Project Manager",
+                  "Consulting Partner"
+               ],
+               "OrgName" : "Xtreme Consulting",
+               "PositionType" : "CONTRACT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-management-low",
+               "StartDate" : "2013-11",
+               "Description" : "TBB/Xtreme Consulting -     *  Led Business Groups and Consulting Partner team of 20 people to provide strategy, guidance and PMO Support for Business Deliverables to implement SAP in Sales, Logistics and Manufacturing areas (SD/MM/WM/PP/APO/VMS/FI-CO/CRM).\n-------\n*  Prepared the Business Group Plan and presented the Status Report to Steering Committee\n    *  Responsibilities included Leadership for Process Workshops, RICEF tracking, Defining Testing Strategy and Execution, Guidance to Data Migration Activities, Coordinated Training Preparation and Security Activities"
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2013-08",
+               "MonthsOfWork" : 17,
+               "LocationSummary" : {
+                  "Municipality" : "Collegeville",
+                  "Region" : "PA",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "Pfizer",
+               "Title" : [
+                  "Solutions Delivery Manager",
+                  "Project Manager"
+               ],
+               "OrgName" : "TEK Systems",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-management-low",
+               "StartDate" : "2012-04",
+               "Description" : "Pfizer/TEK Systems  - -------\nKey Achievements:\n    *  Given full Accountability to implement Global Request to Pay - Health Care Compliance to many European Markets in multiple business segments including Procurement, Finance using ECC, Ariba and BI Solutions\n    *  Led a cross functional team of 20 people from different locations globally in Organizing Solution Workshops and Weekly Deployment Meetings, Presented the Business Process, Communicated plan and Status Reports, Identified the Training needs. Coordinated all Integration/Business Verification Testing Efforts, Cutover and Go-Live Activities and Hyper care support\n    *  Led the implementation of Third Party Portal Project to capture the HCP Expenses through External Portal Applications to improve the Business Verification Processes\n    *  Coordinated all Change Management Activities for Solution enhancements for global sites by extensively coordinating with Business, ERP, Validation, Compliance groups using HP Service Center as part of COE\n    *  Business Analysis of Project Approvals, Vendor Management, Indirect Procurement for different business transactions in Ariba and SAP Purchase Orders (MM), Payment transactions through Ariba epay and SAP Finance (FI), BW Monitoring and Trend Analysis reports\n    *  Set up SAP Configurations and created Integration Test Plans/Scripts and Executed using HPQC Tool."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2012-03",
+               "MonthsOfWork" : 89,
+               "LocationSummary" : {
+                  "Municipality" : "Princeton",
+                  "Region" : "NJ",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "MSG Systems",
+               "Title" : [
+                  "Solutions Delivery Manager",
+                  "Project Manager"
+               ],
+               "OrgName" : "MSG Systems",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-management-low",
+               "StartDate" : "2004-11",
+               "Description" : "AIG/Munich Re/Catlin\nKey Achievements:\n    *  Credited for streamlining Project Plan and defined approaches for the Business Blueprinting in coordination with Business and Technical Streams for AIG SAP- FS-RI and FS-CD Global implementations\n    *  Spearheaded all efforts to effectively implement SAP FS-RI/FS-CD solution for Munich Re, valued $10M; Identified Scope; Prepared Project Plan and Status Reporting; Issue Management; Business Stake holder relationship Management; Led a cross functional team of 15 people both onshore and offshore in global Design Workshops, Data Migrations from 7 legacy systems, Testing, Defect Management and Go-Live\n    *  Given full budget responsibility for implementing SAP FS-RI and BW Solutions for Catlin, Valued at $2M\n    *  Identified the Legacy Reporting Structures in Oracle and KPIs in COGNOS and provided strategies to implement in the new SAP/ BW Architecture by coordinating with Data and Business Teams\n    *  Performed Requirement Gathering, Business Analysis, Process and Data Mappings from Legacy, Setup SAP Configuration Objects and Integration Testing."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2004-10",
+               "MonthsOfWork" : 26,
+               "LocationSummary" : {
+                  "Municipality" : "Basking Ridge",
+                  "Region" : "NJ",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "AVAYA, INC.",
+               "Title" : [
+                  "Manager"
+               ],
+               "OrgName" : "AVAYA, INC.",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-management-low",
+               "StartDate" : "2002-09",
+               "Description" : "BI Applications Lead / -------\nKey Achievements:\n    *  Led Global Management Reporting Group (COE), Established and enhanced relationship with business stakeholders and outsourced IBM partner, Led cross-functional teams up to 15 members\n    *  Credited in enhancing and expanding the Business Intelligence Program, providing sales and marketing, SCM, financials (FI-CO), contracts, and corporate management teams\n    *  Conceptualized and spearheaded all efforts to establish a Centralized Help Desk Organization for SAP BW, appropriately supporting more than 1,500 users globally.\n    *  Directed the technical upgrade of SAP BW from 2.1 to 3.0, improving overall system performance\n    *  Proposed Enterprise Role Based Security structure to meet SOX regulatory compliance.\n    *  Performed Requirement Analysis, Design and Financial Reconciliations, Created BEx Queries/Reports for end users and Guided the development team to deliver BW Object: Info Providers, DSO, Cubes"
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2002-07",
+               "MonthsOfWork" : 70,
+               "EmployerOrgName" : "Rapidigm - Multiple Locations",
+               "Title" : [
+                  "SAP Lead Consultant"
+               ],
+               "OrgName" : "Rapidigm - Multiple Locations",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-nonmanager-mid",
+               "StartDate" : "1996-10",
+               "Description" : "Rapidigm  - Multiple Locations      - Harman Kardon/Lennox/Siemens/Sanyo/Rey&Rey\n-------\nKey Achievements & Solutions:\n    *  Recognized for consistently delivering projects on-time, within budget and with high customer satisfaction for SAP Financial, SCM and Order to Cash (SD/MM/FI-CO/PP/QM) Modules, coordinating the blueprint, functional design and RICEF delivery efforts for Lennox, Sanyo, Siemens, Reynolds & Reynolds\n    *  Directed all efforts to re-organize Business structures to implement the SAP Profit Center Accounting for Harmon Kardon\n    *  Conceptualized and presented the process improvement strategy to effectively deploy the SCM to improve the operational efficiency and customer satisfaction by consolidating SAP MM/SD/FI-CO business processes\n    *  Coordinated the COE activities including the migration of Material Valuation System from the Moving Average to Standard Cost Methods\n    *  Performed Requirement Analysis, ``As-Is'' and ``To-Be'' process design, setup configuration objects for MM, SD and FI-CO, Hands-On development in Interfaces, Reporting, Data Migrations, Enhancements using ABAP, BAPI, BDC, LSMW, EDI, SMART FORMS, IMG tools."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "1996-09",
+               "MonthsOfWork" : 146,
+               "EmployerOrgName" : "W R Grace",
+               "OrgName" : "W R Grace",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "engineering",
+               "StartDate" : "1984-08",
+               "Description" : "/Nexgen SI/L&T/Rallis  - Multiple Locations     -------\nKey Achievements & Solutions:\n    *  Spearheaded all efforts to implement the SCM and Shop Floor Automation strategies to reduce the inventory levels by 50% and increased the Production output by 90% for Manufacturing companies to improve operations efficiency"
+            }
+         ],
+         "EducationHistory" : [
+            {
+               "LocationSummary" : {
+                  "CountryCode" : "IN"
+               },
+               "schoolType" : "university",
+               "Major" : "Mechanical Engineering, REGIONAL ENGINEERING",
+               "Degree" : {
+                  "degreeType" : "bachelors",
+                  "DegreeName" : "Bachelor of Science",
+                  "DegreeDate" : "1984"
+               }
+            },
+            {
+               "Comments" : "Technology Proficiency",
+               "LocationSummary" : {
+                  "CountryCode" : "IN"
+               },
+               "schoolType" : "university",
+               "Major" : "Systems Analysis, Data Processing",
+               "Degree" : {
+                  "degreeType" : "intermediategraduate",
+                  "DegreeName" : "Diploma",
+                  "DegreeDate" : "1993"
+               },
+               "SchoolName" : "ANNAMALAI UNIVERSITY"
+            },
+            {
+               "LocationSummary" : {
+                  "CountryCode" : "IN"
+               },
+               "schoolType" : "university",
+               "Major" : "Business Management",
+               "Degree" : {
+                  "degreeType" : "intermediategraduate",
+                  "DegreeName" : "Diploma",
+                  "DegreeDate" : "1989"
+               },
+               "SchoolName" : "PUNE UNIVERSITY"
+            }
+         ]
+      },
+      "ExperienceSummary" : {
+         "HighestEducationalLevel" : "bachelors",
+         "TotalYearsOfManagementWorkExperience" : 12.5,
+         "TotalYearsOfLowLevelManagementWorkExperience" : 12.5,
+         "TotalMonthsOfWorkExperience" : 367,
+         "ExecutiveBrief" : "Narayan V Shyam is a resident of Wayne, PA, US. He has been working in the IT occupational sector for more than 31 years. Currently he is employed as a Sap Project Manager at AmeriGas/ComTec Consulting. Narayan has extensive knowledge of SAP, SAP SD, SAP FI, SAP MM, SAP-FI- Reporting, Data Migration, Legacy Systems, SAP-netweaver- Master Data, SAP-netweaver- business, SCM, Master Data, Business Intelligence, SAP CO, SAP PP, SAP SD Sales, SAP LO Logistics, SAP SCM Manufacturing, VMS, SAP APO, SAP CRM, SAP WM. Narayan has an extensive management experience (13 years).",
+         "TotalMonthsOfLowLevelManagementWorkExperience" : 151,
+         "TotalMonthsOfManagementWorkExperience" : 151,
+         "TotalYearsOfWorkExperience" : 31,
+         "ManagementRecord" : "Currently since 2014-07 this candidate had experience at a lower grade management level working as a SAP Project Manager at AmeriGas/ComTec Consulting.\nSince 2013-11, for a total duration of 7 months, this candidate had experience at a lower grade management level working as a SAP Implementation Project Manager/Consulting Partner at TBB.\nSince 2012-04, for a total duration of 17 months, this candidate had experience at a lower grade management level working as a Solutions Delivery Manager/Project Manager at Pfizer.\nSince 2004-11, for a total duration of 89 months, this candidate had experience at a lower grade management level working as a Solutions Delivery Manager/Project Manager at MSG Systems.\nSince 2002-09, for a total duration of 26 months, this candidate had experience at a lower grade management level working as a Manager at AVAYA, INC..\n"
+      },
+      "FileStruct" : {
+         "attachment" : [
+            {
+               "conv" : "yes",
+               "lang" : "EN",
+               "doc_type" : "cv",
+               "fname" : "0727352050735444",
+               "content" : "/tmp/soap_299016607963619",
+               "ftype" : "doc"
+            }
+         ],
+         "filename" : "/tmp/soap_299016607963619"
+      },
+      "src" : "DAXTRA-CVX schema:2.0.39 release:0.30.0.73466 rdate:2021-06-22",
+      "TextResume" : "\n\n{{HEADER}}\n\nNARAYAN V SHYAM * Page 3\n\n{{END_HEADER}}\n\n{{DOCUMENT_DATESTAMP}} 2015-6-23 {{END_DOCUMENT_DATESTAMP}}\n\nNARAYAN V SHYAM\n49 Rampart Drive * Wayne, PA 19087\nMobile: (201) 220-9656 * Home: (908) 704-1910 * vijinara1@gmail.com* US Citizen\n\nSENIOR TECHNOLOGY & BUSINESS MANAGER\nSolutions Design & Delivery\n\nHIGHLY ACCOMPLISHED PROFESSIONAL OFFERING 20+ YEARS OF DOCUMENTED ACHIEVEMENTS IN:\n\nBUSINESS PROCESS ANALYSIS & REDESIGN - PROJECT PLANNING & CHARTER\nSTANDARD METHODOLOGIES - BUSINESS RELATIONSHIP - TEAM LEADERSHIP\nBEST PRACTICES & CONTINUOUS IMPROVEMENT - OFFSHORE STRATEGIES - CUSTOMER & VENDOR RELATIONS\nEXTENSIVE QUALIFICATIONS IN PARTNERING WITH BUSINESS STAKEHOLDERS, PARTNERS AND TEAMS TO GUIDE THE DESIGN AND DELIVERY OF INNOVATIVE TECHNOLOGY, BUSINESS AND OPERATIONAL STRATEGIES TO INCREASE EFFICIENCY AND CAPABILITY. PROVIDE VISION AND DEDICATED LEADERSHIP FOR KEY TECHNOLOGIES, INCLUDING 18 YEARS IN SAP, BUSINESS INTELLIGENCE, INTERFACES AND ANALYTICS. ORGANIZED, TAKE-CHARGE PROFESSIONAL WITH EXCEPTIONAL FOLLOW-THROUGH ABILITIES AND DETAIL-ORIENTATION; ABLE TO PLAN AND OVERSEE MULTIPLE PROJECTS FROM CONCEPTION TO SUCCESSFUL CONCLUSION. GOOD COMMUNICATOR AND TEAM LEADER WITH STRONG MOTIVATIONAL SKILLS AND ABILITY TO BUILD, PRODUCE AND SUCCEED.\n\nHighlights of my Experience:\n    *  Around 10 years of Project Management experience in Partnering with Business stakeholders, Development Partners to Identify needs, Present Methodology (ASAP, AGILE), Project Planning, Status Reporting, Issue Management. Organized Design workshops, Coordinated Development, Testing and Go-Live, Managed team size of 15-20 people with Project Values up to $15M\n    *  18 Years of SAP Implementation and Continuous Improvement (COE) Projects in SCM, Order to Cash, Request to Pay, Business Intelligence and Finance business areas (MM, SD, FI, BI, QM, PP, FS-RI)\n    *  Involved in 6 Full life cycle SAP/BI implementation, from Conceptualization to Cutover in Functional and Technical streams for Pfizer, Harmon Kardon, Siemens, Sanyo, Reynolds & Reynolds, Munich Re\n    *  Led both Business and Technical teams of 20 People to implement Request to Pay - HCC for Pfizer for multiple European Plants and Markets\n    *  Managed all efforts to Implement the SAP Financial Solutions for Munich Re, partnering with Process and Data teams (15 People)\n    *  Spearheaded all efforts to streamline the COE -Global Business Intelligence Program for Avaya, Inc. partnering with Finance, Sales and Services, SCM business areas\n    *  Conceptualized and Presented the Process improvement strategies to effectively deploy and measure the SCM efficiency by consolidating Order to Cash and Procure to Pay processes for Harmon Kardon\n    *  Designed and coordinated all efforts to integrate the Legacy Demand to Build and SCM and Sales and Distribution Applications for Sanyo Corporation\n    *  Provided Business Leadership in implementing SCM, Demand to Build Strategies to reduce the Materials inventory by 50% and doubling the shop floor production output for a Manufacturing company\n    *  Business Integration experience in Manufacturing, Pharmaceutical, Oil and Gas, Financial Services and Consumer Industries\n    *  Hands-on experience in Requirement Analysis, ``As-Is'' and ``To-Be'' Process Mapping, Configuration, Data Management including Analysis/Cleansing, Development of: Reports, Data Migrations, Interfaces and Enhancements in multiple platforms - SAP, BI, Oracle, ETL and COBOL\nPROFESSIONAL EXPERIENCE ,\nAmeriGas/ComTec Consulting - King of Prussia, PA          Jul 2014-Current\nSAP Project Manager\n                                                          *  Responsibilities included full accountability of SAP implementation (Master Data, SD, MM and FI) for 75 US Districts spans across all regions, managing project team of 25 people, worth $15M\n                                                          *  Prepared the Project Plan, Status Reporting and presented to the Senior Management\n                                                          *  Led the On-Line experience team in extending the Customer Portals to these new Districts\n                                                          *  Coordinated all efforts in organizing Process Sessions, Data Validations/Cleansing, Data Migration from 4 Legacy Systems, Training, Cutover & Site Readiness Tasks in liaison with Master Data, Process, Business Intelligence (BI), Security and Field Management Teams\n\nTBB/Xtreme Consulting - Greensboro, NC          Nov 2013-May 2014\nSAP Implementation Project Manager\n                                                *  Led Business Groups and Consulting Partner team of 20 people to provide strategy, guidance and PMO Support for Business Deliverables to implement SAP in Sales, Logistics and Manufacturing areas (SD/MM/WM/PP/APO/VMS/FI-CO/CRM).\n                                                *  Prepared the Business Group Plan and presented the Status Report to Steering Committee\n                                                *  Responsibilities included Leadership for Process Workshops, RICEF tracking, Defining Testing Strategy and Execution, Guidance to Data Migration Activities, Coordinated Training Preparation and Security Activities\n\nPfizer/TEK Systems  - Collegeville, PA              Apr 2012-Aug 2013\nSolutions Delivery Manager/Project Manager\nKey Achievements:\n                                                    *  Given full Accountability to implement Global Request to Pay - Health Care Compliance to many European Markets in multiple business segments including Procurement, Finance using ECC, Ariba and BI Solutions\n                                                    *  Led a cross functional team of 20 people from different locations globally in Organizing Solution Workshops and Weekly Deployment Meetings, Presented the Business Process, Communicated plan and Status Reports, Identified the Training needs. Coordinated all Integration/Business Verification Testing Efforts, Cutover and Go-Live Activities and Hyper care support\n                                                    *  Led the implementation of Third Party Portal Project to capture the HCP Expenses through External Portal Applications to improve the Business Verification Processes\n                                                    *  Coordinated all Change Management Activities for Solution enhancements for global sites by extensively coordinating with Business, ERP, Validation, Compliance groups using HP Service Center as part of COE\n                                                    *  Business Analysis of Project Approvals, Vendor Management, Indirect Procurement for different business transactions in Ariba and SAP Purchase Orders (MM), Payment transactions through Ariba epay and SAP Finance (FI), BW Monitoring and Trend Analysis reports\n                                                    *  Set up SAP Configurations and created Integration Test Plans/Scripts and Executed using HPQC Tool.\n\nMSG Systems  - Princeton, NJ          Nov 2004-Mar 2012 ,\nSolutions Delivery Manager/Project Manager - AIG/Munich Re/Catlin\nKey Achievements:\n    *  Credited for streamlining Project Plan and defined approaches for the Business Blueprinting in coordination with Business and Technical Streams for AIG SAP- FS-RI and FS-CD Global implementations\n    *  Spearheaded all efforts to effectively implement SAP FS-RI/FS-CD solution for Munich Re, valued $10M; Identified Scope; Prepared Project Plan and Status Reporting; Issue Management; Business Stake holder relationship Management; Led a cross functional team of 15 people both onshore and offshore in global Design Workshops, Data Migrations from 7 legacy systems, Testing, Defect Management and Go-Live\n    *  Given full budget responsibility for implementing SAP FS-RI and BW Solutions for Catlin, Valued at $2M\n    *  Identified the Legacy Reporting Structures in Oracle and KPIs in COGNOS and provided strategies to implement in the new SAP/ BW Architecture by coordinating with Data and Business Teams\n    *  Performed Requirement Gathering, Business Analysis, Process and Data Mappings from Legacy, Setup SAP Configuration Objects and Integration Testing.\n\nAVAYA, INC. - Basking Ridge, NJ          Sep 2002-Oct 2004 ,\nBI Applications Lead / Manager\nKey Achievements:\n                                         *  Led Global Management Reporting Group (COE), Established and enhanced relationship with business stakeholders and outsourced IBM partner, Led cross-functional teams up to 15 members\n                                         *  Credited in enhancing and expanding the Business Intelligence Program, providing sales and marketing, SCM, financials (FI-CO), contracts, and corporate management teams\n                                         *  Conceptualized and spearheaded all efforts to establish a Centralized Help Desk Organization for SAP BW, appropriately supporting more than 1,500 users globally.\n                                         *  Directed the technical upgrade of SAP BW from 2.1 to 3.0, improving overall system performance\n                                         *  Proposed Enterprise Role Based Security structure to meet SOX regulatory compliance.\n                                         *  Performed Requirement Analysis, Design and Financial Reconciliations, Created BEx Queries/Reports for end users and Guided the development team to deliver BW Object: Info Providers, DSO, Cubes\n\nRapidigm  - Multiple Locations          Oct 1996-Jul 2002 ,\nSAP Lead Consultant - Harman Kardon/Lennox/Siemens/Sanyo/Rey&Rey\nKey Achievements & Solutions:\n    *  Recognized for consistently delivering projects on-time, within budget and with high customer satisfaction for SAP Financial, SCM and Order to Cash (SD/MM/FI-CO/PP/QM) Modules, coordinating the blueprint, functional design and RICEF delivery efforts for Lennox, Sanyo, Siemens, Reynolds & Reynolds\n    *  Directed all efforts to re-organize Business structures to implement the SAP Profit Center Accounting for Harmon Kardon\n    *  Conceptualized and presented the process improvement strategy to effectively deploy the SCM to improve the operational efficiency and customer satisfaction by consolidating SAP MM/SD/FI-CO business processes\n    *  Coordinated the COE activities including the migration of Material Valuation System from the Moving Average to Standard Cost Methods\n    *  Performed Requirement Analysis, ``As-Is'' and ``To-Be'' process design, setup configuration objects for MM, SD and FI-CO, Hands-On development in Interfaces, Reporting, Data Migrations, Enhancements using ABAP, BAPI, BDC, LSMW, EDI, SMART FORMS, IMG tools.\nW R Grace/Nexgen SI/L&T/Rallis  - Multiple Locations          Aug 1984-Sep 1996\nKey Achievements & Solutions:\n                                                                  *  Spearheaded all efforts to implement the SCM and Shop Floor Automation strategies to reduce the inventory levels by 50% and increased the Production output by 90% for Manufacturing companies to improve operations efficiency\n\nEDUCATION & CREDENTIALS\n\nBachelor of Science in Mechanical Engineering\nREGIONAL ENGINEERING COLLEGE, India (1984)\n\nDiploma in Business Management\nPUNE UNIVERSITY, India (1989)\n\nDiploma in Systems Analysis and Data Processing\nANNAMALAI UNIVERSITY, India (1993)\n\nTechnology Proficiency\n\nLanguages:\nABAP,BEX Analyzer, COBOL, UNIX Scripts, SQL, 4GL, Visual Basic\nSystems:                  MS Windows, UNIX, DBOS, OS/MVS\nTools:                    MS Project, Visio, Flow, MS Office Suite, ER Diagram Tools, HPQC, Test Director, SAP Tools, HP Service Center, PDoc\n\nSoftware:                 SAP ECC, ABAP, LSMW, BW, COGNOS, PL/SQL, Developer 2000, COBOL, UNIX, PowerBuilder, Informatica, Datastage Ariba\n\nDatabases:                ORACLE, Informix, SQL Server\n\n{{FOOTER}}\n\nNARAYAN V SHYAM * Page 4\n\n...continued...\n\n...continued...\n\n{{END_FOOTER}}\n\n",
+      "ParserInfo" : {
+         "ConverterRelease" : "0.23.1.72872",
+         "ParserConfiguration" : "{max_len=30000} {tel_flag=} {send_zip=} {fast_conv=} {DEF_LOCAL=} {sdate=0} {no_email_body=0} {do_clever_zoning=0} {keep_zone_span=0} {keep_span=1} {complex=0} {accept_langs=} {not_accept_langs=} {prefer_lang_cv=} {pers_only=0} {projects_off=0} {tree_search_on=0} {all_skills=0} {turbo=0} {known_layouts_only=0} {split_language=0} {picture=0} {picture_inline=0} {debug=0} {ocr_allowed=1} {max_pages=8} {geo_allowed=0} {geo_service=daxtra} {name_space=0} {charset=} {hrxml_upgrade_edu_hist=0}{hrxml_add_languages_section=1}{spool=} {docID=} {user=TitanTech} ",
+         "ParserRelease" : "0.30.0.73466",
+         "ParserReleaseDate" : "2021-06-22",
+         "ConverterReleaseDate" : "2021-04-29",
+         "ParserSchema" : "2.0.39"
+      }
+   }
+}

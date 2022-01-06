@@ -1,0 +1,3277 @@
+{
+  "ContactInformation": {},
+  "Education": {
+    "HighestDegree": {
+      "Name": {
+        "Raw": "Executive MBA",
+        "Normalized": "MBA"
+      },
+      "Type": "masters"
+    },
+    "EducationDetails": [
+      {
+        "Id": "DEG-1",
+        "Text": "Executive MBA, The University of Alabama, Tuscaloosa, AL",
+        "SchoolName": {
+          "Raw": "The University of Alabama",
+          "Normalized": "The University of Alabama"
+        },
+        "SchoolType": "university",
+        "Location": {
+          "CountryCode": "US",
+          "Regions": [
+            "AL"
+          ],
+          "Municipality": "Tuscaloosa"
+        },
+        "Degree": {
+          "Name": {
+            "Raw": "Executive MBA",
+            "Normalized": "MBA"
+          },
+          "Type": "masters"
+        }
+      },
+      {
+        "Id": "DEG-2",
+        "Text": "Bachelors of Engineering in Computer Technology, University of Pune, Maharashtra, India",
+        "SchoolName": {
+          "Raw": "University of Pune",
+          "Normalized": "University of Pune"
+        },
+        "SchoolType": "university",
+        "Location": {
+          "CountryCode": "IN",
+          "Regions": [
+            "Maharashtra"
+          ],
+          "Municipality": "Pune"
+        },
+        "Degree": {
+          "Name": {
+            "Raw": "Bachelors of Engineering in Computer Technology",
+            "Normalized": "bachelors"
+          },
+          "Type": "bachelors"
+        },
+        "Majors": [
+          "Engineering"
+        ]
+      },
+      {
+        "Id": "DEG-3",
+        "Text": "PMP Certification, Project Management Institute (PMI)\nIBM Certified Executive Consultant",
+        "SchoolName": {
+          "Raw": "Institute (PMI)",
+          "Normalized": "Institute PMI"
+        },
+        "SchoolType": "trade",
+        "Degree": {
+          "Name": {
+            "Raw": "PMP Certification",
+            "Normalized": "certification"
+          },
+          "Type": "certification"
+        }
+      }
+    ]
+  },
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "   ~~~~~~   is experienced in the management of:  Information Technology (Project Management).    ~~~~~~   has 24 years of work experience, with 23 years of management experience, including a mid-level position.",
+      "MonthsOfWorkExperience": 291,
+      "MonthsOfManagementExperience": 278,
+      "ExecutiveType": "EXECUTIVE",
+      "AverageMonthsPerEmployer": 48,
+      "FulltimeDirectHirePredictiveIndex": 61,
+      "ManagementStory": "Starting on 1/1/2006, the candidate held the following low-level management position for 12 months:\n\tTitle: Business Development Executive for IBM GLOBAL SERVICES\nStarting on 1/1/1997, the candidate held the following low-level management position for 8 years and 1 months:\n\tTitle: Project Manager/Executive Consultant, Project for IBM GLOBAL SERVICES\nCurrent position is a mid-level management role: Executive Program Manager\nStarting on 1/1/2008, the candidate held the following mid-level management position for 9 years and 3 months:\n\tTitle: Executive Program Manager for IBM Resiliency Services\nStarting on 1/1/2005, the candidate held the following low-level management position for 12 months:\n\tTitle: Client Solution Executive/Project Manager, GM for GMAC\nStarting on 1/1/1994, the candidate held the following low-level management position for 3 years:\n\tTitle: Assistant Project Manager/Manufacturing Consultant\nStarting on 1/1/1993, the candidate held the following low-level management position for 2 years:\n\tTitle: Training & Education Leader",
+      "CurrentManagementLevel": "mid-level",
+      "ManagementScore": 55
+    },
+    "Positions": [
+      {
+        "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "IBM GLOBAL SERVICES",
+            "Normalized": "IBM"
+          },
+          "OtherFoundName": {
+            "Raw": "IBM GLOBAL TECHNOLOGY SERVICES",
+            "Normalized": "IBM"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-3",
+          "POS-5"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": true,
+        "StartDate": {
+          "Date": "1997-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2017-03-08",
+          "IsCurrentDate": true,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-3",
+        "Employer": {
+          "Name": {
+            "Raw": "IBM GLOBAL SERVICES",
+            "Normalized": "IBM"
+          },
+          "Location": {
+            "CountryCode": "CN",
+            "Municipality": "Beijing"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-1",
+          "POS-5"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Business Development Executive",
+          "Normalized": "Business Development Executive",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2006-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2006-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-5",
+        "Employer": {
+          "Name": {
+            "Raw": "IBM GLOBAL SERVICES",
+            "Normalized": "IBM"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "AL"
+            ],
+            "Municipality": "Vance"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-1",
+          "POS-3"
+        ],
+        "IsSelfEmployed": true,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Project Manager/Executive Consultant, Project",
+          "Normalized": "Project Manager/Executive Consultant Project",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1997-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2004-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "JobLevel": "Senior Manager (more than 5 years management experience)",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "IBM Resiliency Services",
+            "Normalized": "IBM"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": true,
+        "JobTitle": {
+          "Raw": "Executive Program Manager",
+          "Normalized": "Executive Program Manager",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2008-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2017-03-08",
+          "IsCurrentDate": true,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Project Management",
+        "JobLevel": "Senior Manager (more than 5 years management experience)",
+        "TaxonomyPercentage": 43,
+        "Description": "Managed IBM Resiliency Data Center (DC) optimization, transformation, cloud transition, led projects to improve the service delivery and operations efficiency, and customer satisfaction. Reduced financial discrepancies by managing budget projects and budgeting challenges to ensure zero profit erosion. Successfully implemented solutions to improve order fulfillment, while improving Global DC service delivery process efficiency across multiple countries. Led DC energy efficiency initiative, minimized operational cost, skills and resource management, while improving asset utilization, tracking customers and respective contracts at each data centers. Managed SLAs and improved the customer experience, data center management, capacity planning, IT availability and business continuity planning, DR planning and testing, DC incident and problem management, change control management, resource syndication, risk management, business applications and productivity tools data privacy/security, IBM internal data security guidelines and audit compliance. Led X as a service IT service strategy development, IT service design, IT service operations management. Led cloud based new software as a Service (SaaS) offering development.\n\nKey Contributions:\n• Led and managed IT service strategy development, service design and service operation processes.  Enhanced service delivery processes, standardization across global data centers, and streamlining of IT Solutions at 354 Global Data Center spanning 54 countries.\n• Led DC Cloud Strategy, DC transformation, Cloud Offering Management, Private, Public, Hybrid and AWS Cloud.\n• Led budget planning and managed program and business controls in support to launch new cloud based Software as a Service (SaaS) service offering, Smart Cloud Content Management (SCCM), offering development, expense management/reporting, project recoveries, vendor management, tracking revenue and GP.\n• Successfully managed the project with budget challenges, rationalizing and prioritizing deliverables and milestones. Interfaced with software/ECM team based in Germany by partnering on the development of the offering and the building of a Global Command Control in Poland for level one customer support.\n• Guided DC service delivery teams in building processes and capabilities to provide global reporting capabilities and visibility to revenue, contract renewal, customer experience and satisfaction, site tracking/leasing information and KPI reporting.\n• Led app development using agile methodology for tracking 354 worldwide data centers non-labor (HW, SW, NW, Facilities, Vendor) savings.\n\n\n\n• Utilized the saving tracker tool to track the realization of over $300M+ in worldwide Non-labor (Hardware, software, network, facilities, vendors) savings initiatives, while offering quick access to various savings initiatives, and process standardization for quick reporting and visibility to IBM Executives.\n• Enhanced order fulfillment processes, data center capacity planning, DC strategy, investments and savings tracking, business partners and vendor management, resource and skills management, DR planning, scheduling and testing.\n• Directed the Data Center Energy Efficiency and Thermal (temperature, pressure, airflow and humidity) control, monitoring and reporting system across 112 Resiliency data centers resulting in savings of $1.65 Mil.\n• Built and deployed solutions to assist with BCRS resource and skills planning.\n• Conducted strategy and fall planning by liaising with IBM Executives during fall planning in building strategy, competitive market analysis, portfolio and development priorities, and planning and allocating budgets for new offerings, projects, capital investments.\n• Partnered with Global and Regional Business Leaders, and Country Executives in tracking business metrics for driving business growth, opportunity pipeline, and gross profit.\n• Interfaced with leadership team to create market channels across developed markets, emerging and growth market units, help drive business growth, and meet business challenges.\n• Executed new acquisition integration by leading business operations and financial process integration of new business acquisition (Arsenal Digital).\n• Appointed to the BCRS Product Development CoE Team, leading new offering through IPD development process improvement.\n• Devised new ideas into new CoE offering, while communicating and securing geographies commitments, and building effective and timely communication to ensure successful offering.\n• Served as project manager, spearheading new BCRS offering through the development cycle and business domains. Led Resiliency Consulting Services, DR Planning, BIA, Risk Analysis, BCP and DR Testing.\n• Led and deployed tools to support deployment and enablement of new offerings, products and services.\n• Worked on the Blue Harmony Project (an IBM internal project code name for SAP Project), leading BCRS opportunity to order management, order fulfillment and process mapping to replace many legacy system and tools and create a WW standardized business processes with the objective of simplifying processes and reducing operational cost.\n• Mitigated compliance risks by managing IBM Internal ASCA compliance, SOX, Internal audits and compliance."
+      },
+      {
+        "Id": "POS-4",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "GMAC",
+            "Normalized": "GMAC"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Client Solution Executive/Project Manager, GM",
+          "Normalized": "Client Solution Executive/Project Manager GM",
+          "Probability": "Confident",
+          "Variations": [
+            "Client Solution Executive/Project Manager",
+            "Client Solution Executive",
+            "Project Manager, GM"
+          ]
+        },
+        "StartDate": {
+          "Date": "2005-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2005-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-6",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "UB Information Consulting Services",
+            "Normalized": "UB Information Consulting Services"
+          }
+        },
+        "IsSelfEmployed": true,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Senior Consultant, Project",
+          "Normalized": "Senior Consultant Project",
+          "Probability": "Confident",
+          "Variations": [
+            "Senior Consultant",
+            "Consultant, Project",
+            "Consultant"
+          ]
+        },
+        "StartDate": {
+          "Date": "1996-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1997-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-7",
+        "IsSelfEmployed": true,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Assistant Project Manager/Manufacturing Consultant",
+          "Normalized": "Assistant Project Manager/Manufacturing Consultant",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1994-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1996-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-8",
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Training & Education Leader",
+          "Normalized": "Training AND Education Leader",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1993-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1994-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      }
+    ]
+  },
+  "SkillsData": [
+    {
+      "Root": "Sovren",
+      "Taxonomies": [
+        {
+          "Id": "10",
+          "Name": "Information Technology",
+          "PercentOfOverall": 43,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "199",
+              "SubTaxonomyName": "Project Management",
+              "PercentOfOverall": 11,
+              "PercentOfParent": 24,
+              "Skills": [
+                {
+                  "Id": "555154520",
+                  "Name": "Agile",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "Variations": [
+                    {
+                      "Id": "555154521",
+                      "Name": "Agile Methodology",
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 110
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "023699",
+                  "Name": "Change Control",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "Variations": [
+                    {
+                      "Id": "012976",
+                      "Name": "Change Control Management",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 110
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "005045",
+                  "Name": "PMI",
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "024546",
+                  "Name": "PMI/PMP",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "005054",
+                      "Name": "PMP Certification",
+                      "FoundIn": [
+                        {
+                          "SectionType": "CERTIFICATIONS"
+                        },
+                        {
+                          "SectionType": "EDUCATION",
+                          "Id": "DEG-3"
+                        }
+                      ],
+                      "ExistsInText": true
+                    }
+                  ]
+                },
+                {
+                  "Id": "005053",
+                  "Name": "PMP",
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "022909",
+                  "Name": "Project Manager",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 254
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "550",
+              "SubTaxonomyName": "Cloud Computing",
+              "PercentOfOverall": 5,
+              "PercentOfParent": 13,
+              "Skills": [
+                {
+                  "Id": "3391154",
+                  "Name": "Amazon Web Services",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "555121760",
+                      "Name": "AWS",
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 110
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "5500342",
+                  "Name": "IBM Smart Cloud",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "550034201",
+                      "Name": "Smart Cloud",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 110
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "553",
+              "SubTaxonomyName": "Big Data",
+              "PercentOfOverall": 5,
+              "PercentOfParent": 12,
+              "Skills": [
+                {
+                  "Id": "5530940",
+                  "Name": "Data Analytics",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "5530942",
+                  "Name": "Data Center",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "5530983",
+                  "Name": "Enterprise Resource Planning",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "5530984",
+                      "Name": "ERP",
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "ExistsInText": true
+                    }
+                  ]
+                },
+                {
+                  "Id": "5531055",
+                  "Name": "Risk Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "5531064",
+                  "Name": "Software as a Service",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "Variations": [
+                    {
+                      "Id": "5531065",
+                      "Name": "SAAS",
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 110
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "338",
+              "SubTaxonomyName": "Security",
+              "PercentOfOverall": 5,
+              "PercentOfParent": 11,
+              "Skills": [
+                {
+                  "Id": "010778",
+                  "Name": "BCP",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "012203",
+                  "Name": "Business Continuity Planning",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "015370",
+                  "Name": "Disaster Recovery",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "556",
+              "SubTaxonomyName": "Privacy and Data Security",
+              "PercentOfOverall": 4,
+              "PercentOfParent": 10,
+              "Skills": [
+                {
+                  "Id": "5551264",
+                  "Name": "Business Continuity",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "5551236",
+                  "Name": "Disaster Recovery",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "5551260",
+                  "Name": "ITIL",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "5551251",
+                  "Name": "Sarbanes Oxley",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "5551252",
+                      "Name": "SOX",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 110
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "195",
+              "SubTaxonomyName": "ERP and CRM",
+              "PercentOfOverall": 3,
+              "PercentOfParent": 7,
+              "Skills": [
+                {
+                  "Id": "014101",
+                  "Name": "CRM",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "016891",
+                  "Name": "ERP",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "007436",
+                  "Name": "SAP",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "251",
+              "SubTaxonomyName": "Config Deploy Upgrade Migrate",
+              "PercentOfOverall": 3,
+              "PercentOfParent": 6,
+              "Skills": [
+                {
+                  "Id": "023631",
+                  "Name": "Deployment",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "020238",
+                  "Name": "ITIL",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "007546",
+                  "Name": "SCM",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "204",
+              "SubTaxonomyName": "Programming",
+              "PercentOfOverall": 3,
+              "PercentOfParent": 6,
+              "Skills": [
+                {
+                  "Id": "021194",
+                  "Name": "API",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "022339",
+                  "Name": "Content Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "194",
+              "SubTaxonomyName": "Help Desk",
+              "PercentOfOverall": 2,
+              "PercentOfParent": 6,
+              "Skills": [
+                {
+                  "Id": "023487",
+                  "Name": "Customer Support",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "196",
+              "SubTaxonomyName": "Internet",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 3,
+              "Skills": [
+                {
+                  "Id": "1004743",
+                  "Name": "SAAS",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "031030",
+                  "Name": "SOA",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "349",
+              "SubTaxonomyName": "Operations, Monitoring and Software Management",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 2,
+              "Skills": [
+                {
+                  "Id": "024134",
+                  "Name": "Data Center",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "0146073",
+                  "Name": "DEV OPS",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "0146074",
+                      "Name": "Devops",
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "ExistsInText": true
+                    }
+                  ]
+                },
+                {
+                  "Id": "3490036",
+                  "Name": "ITIL",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "718",
+              "SubTaxonomyName": "Distributed Systems",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "7180005",
+                  "Name": "IAAS",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "7180006",
+                  "Name": "PAAS",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "201",
+              "SubTaxonomyName": "Architecture",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "025956",
+                  "Name": "SDLC",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "14",
+          "Name": "Marketing",
+          "PercentOfOverall": 10,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "223",
+              "SubTaxonomyName": "Market Research",
+              "PercentOfOverall": 4,
+              "PercentOfParent": 37,
+              "Skills": [
+                {
+                  "Id": "024807",
+                  "Name": "Competitive Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "1400048",
+                  "Name": "Competitive Market Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "1400060",
+                  "Name": "Market Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "588",
+              "SubTaxonomyName": "Data & Analytics",
+              "PercentOfOverall": 2,
+              "PercentOfParent": 25,
+              "Skills": [
+                {
+                  "Id": "1400067",
+                  "Name": "Data Analytics",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "1400070",
+                  "Name": "Program Manager",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "585",
+              "SubTaxonomyName": "Product",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 13,
+              "Skills": [
+                {
+                  "Id": "1400015",
+                  "Name": "Competitive Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "1400022",
+                  "Name": "Product Development",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "589",
+              "SubTaxonomyName": "Business Planning",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 12,
+              "Skills": [
+                {
+                  "Id": "1400091",
+                  "Name": "Competitive Market Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "227",
+              "SubTaxonomyName": "Brand Management",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 12,
+              "Skills": [
+                {
+                  "Id": "005612",
+                  "Name": "Product Development",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "590",
+              "SubTaxonomyName": "Channel, Partner & Ecosystem Marketing",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "1400106",
+                  "Name": "Competitive Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "34",
+          "Name": "Business Operations and General Business",
+          "PercentOfOverall": 9,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "436",
+              "SubTaxonomyName": "Management Activities or Functions",
+              "PercentOfOverall": 6,
+              "PercentOfParent": 67,
+              "Skills": [
+                {
+                  "Id": "024511",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "012214",
+                  "Name": "Business Operations",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "024140",
+                  "Name": "Cost Control",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "003875",
+                  "Name": "Operations",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "024470",
+                  "Name": "Operations Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "022750",
+                  "Name": "Trading",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "007099",
+                      "Name": "Risk Management",
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 110
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "437",
+              "SubTaxonomyName": "General Skills and Activities",
+              "PercentOfOverall": 3,
+              "PercentOfParent": 33,
+              "Skills": [
+                {
+                  "Id": "024808",
+                  "Name": "Competitive Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "022274",
+                  "Name": "Contracts",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "024141",
+                  "Name": "Cost Control",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "021737",
+                  "Name": "Metrics",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "32",
+          "Name": "Degreed Accounting",
+          "PercentOfOverall": 9,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "942",
+              "SubTaxonomyName": "Auditing",
+              "PercentOfOverall": 8,
+              "PercentOfParent": 85,
+              "Skills": [
+                {
+                  "Id": "005584",
+                  "Name": "Audit",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "Variations": [
+                    {
+                      "Id": "005789",
+                      "Name": "Audits",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    },
+                    {
+                      "Id": "020023",
+                      "Name": "Internal Audits",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 110
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "962",
+              "SubTaxonomyName": "Reporting",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 15,
+              "Skills": [
+                {
+                  "Id": "022891",
+                  "Name": "Budget",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "012135",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "026947",
+                  "Name": "Budgets",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "7",
+          "Name": "Finance",
+          "PercentOfOverall": 7,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "710",
+              "SubTaxonomyName": "Real Estate & Facilities",
+              "PercentOfOverall": 2,
+              "PercentOfParent": 36,
+              "Skills": [
+                {
+                  "Id": "7000118",
+                  "Name": "Leasing",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "235",
+              "SubTaxonomyName": "Financial Planning & Analysis",
+              "PercentOfOverall": 2,
+              "PercentOfParent": 22,
+              "Skills": [
+                {
+                  "Id": "007091",
+                  "Name": "Risk Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "080204",
+                  "Name": "Trading",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "007100",
+                      "Name": "Risk Management",
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 110
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "237",
+              "SubTaxonomyName": "Operations",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 12,
+              "Skills": [
+                {
+                  "Id": "7000224",
+                  "Name": "Capacity Planning",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "709",
+              "SubTaxonomyName": "Global Security",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 12,
+              "Skills": [
+                {
+                  "Id": "7000101",
+                  "Name": "Vendor Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "708",
+              "SubTaxonomyName": "Procurement",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 12,
+              "Skills": [
+                {
+                  "Id": "7000088",
+                  "Name": "Vendor Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "705",
+              "SubTaxonomyName": "Accounting",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 5,
+              "Skills": [
+                {
+                  "Id": "7000315",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "246",
+              "SubTaxonomyName": "Treasury",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "026948",
+                  "Name": "Budgets",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "245",
+              "SubTaxonomyName": "Compliance",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "023034",
+                  "Name": "Strategic Planning",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "240",
+              "SubTaxonomyName": "Credit and Underwriting",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "024142",
+                  "Name": "Cost Control",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "97",
+          "Name": "Supply Chain and Logistics",
+          "PercentOfOverall": 7,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "460",
+              "SubTaxonomyName": "Logistics",
+              "PercentOfOverall": 6,
+              "PercentOfParent": 93,
+              "Skills": [
+                {
+                  "Id": "016892",
+                  "Name": "ERP",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "018024",
+                  "Name": "Fulfillment",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "004014",
+                  "Name": "Order Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "022740",
+                  "Name": "Scheduling",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "458",
+              "SubTaxonomyName": "Purchasing",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 4,
+              "Skills": [
+                {
+                  "Id": "022787",
+                  "Name": "Strategic Sourcing",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "010474",
+                  "Name": "Vendor Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "461",
+              "SubTaxonomyName": "Supply Chain",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 2,
+              "Skills": [
+                {
+                  "Id": "014311",
+                  "Name": "Contracts",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "5",
+          "Name": "Engineering",
+          "PercentOfOverall": 5,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "296",
+              "SubTaxonomyName": "Water, Wastewater, Soil, Hydrology",
+              "PercentOfOverall": 2,
+              "PercentOfParent": 45,
+              "Skills": [
+                {
+                  "Id": "080566",
+                  "Name": "Erosion",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "298",
+              "SubTaxonomyName": "Surveying",
+              "PercentOfOverall": 2,
+              "PercentOfParent": 45,
+              "Skills": [
+                {
+                  "Id": "023035",
+                  "Name": "TOPO",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "021224",
+                      "Name": "Mapping",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 110
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "307",
+              "SubTaxonomyName": "General Engineering",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 10,
+              "Skills": [
+                {
+                  "Id": "024471",
+                  "Name": "Operations Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "007090",
+                  "Name": "Risk Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "71",
+          "Name": "Strategy and Planning",
+          "PercentOfOverall": 3,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "876",
+              "SubTaxonomyName": "Workflow and Processes",
+              "PercentOfOverall": 2,
+              "PercentOfParent": 88,
+              "Skills": [
+                {
+                  "Id": "005521",
+                  "Name": "Process Improvement",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "502",
+              "SubTaxonomyName": "Planning and Estimating",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 12,
+              "Skills": [
+                {
+                  "Id": "012137",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "012558",
+                  "Name": "Capacity Planning",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "008685",
+                  "Name": "Strategic Planning",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "89",
+          "Name": "Bookkeeping, Office Management",
+          "PercentOfOverall": 1,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "533",
+              "SubTaxonomyName": "Bookeeping Tasks",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "012120",
+                  "Name": "Budget",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "012132",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "026950",
+                  "Name": "Budgets",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "80",
+          "Name": "General Management",
+          "PercentOfOverall": 1,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "518",
+              "SubTaxonomyName": "Operations and Admin",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 80,
+              "Skills": [
+                {
+                  "Id": "024472",
+                  "Name": "Operations Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "516",
+              "SubTaxonomyName": "Budget Related",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 15,
+              "Skills": [
+                {
+                  "Id": "012134",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "026949",
+                  "Name": "Budgets",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "014306",
+                  "Name": "Contract Negotiations",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "517",
+              "SubTaxonomyName": "People Oriented",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 5,
+              "Skills": [
+                {
+                  "Id": "009221",
+                  "Name": "Team Building",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "45",
+          "Name": "Transmission & Distribution",
+          "PercentOfOverall": 1,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "326",
+              "SubTaxonomyName": "Transmission",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "004805",
+                  "Name": "Pipeline",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "98",
+          "Name": "Security",
+          "PercentOfOverall": 1,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "466",
+              "SubTaxonomyName": "Financial, Accounting and Processes",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 86,
+              "Skills": [
+                {
+                  "Id": "026004",
+                  "Name": "Sarbanes-Oxley (Sox)",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "007443",
+                      "Name": "SOX",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 110
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "464",
+              "SubTaxonomyName": "Disaster",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 14,
+              "Skills": [
+                {
+                  "Id": "023065",
+                  "Name": "Disaster Recovery",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "015482",
+                  "Name": "Disaster Recovery Planning",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "023411",
+                  "Name": "Recovery Planning",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "13",
+          "Name": "Manufacturing",
+          "PercentOfOverall": 1,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "208",
+              "SubTaxonomyName": "Planning",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 95,
+              "Skills": [
+                {
+                  "Id": "022739",
+                  "Name": "Scheduling",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "362",
+              "SubTaxonomyName": "General",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 5,
+              "Skills": [
+                {
+                  "Id": "021164",
+                  "Name": "Manufacturing Consultant",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1996-12-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "16",
+          "Name": "Telecommunications",
+          "PercentOfOverall": 1,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "316",
+              "SubTaxonomyName": "Central Office",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "Skills": [
+                {
+                  "Id": "014970",
+                  "Name": "Data Center",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "323",
+              "SubTaxonomyName": "Skilled",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "Skills": [
+                {
+                  "Id": "023775",
+                  "Name": "Switch Capacity",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "012557",
+                      "Name": "Capacity Planning",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 110
+                      },
+                      "LastUsed": {
+                        "Value": "2017-03-08"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 110
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "22",
+          "Name": "Construction Non-Laborer",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "394",
+              "SubTaxonomyName": "Office, Admin and Clerical",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 51,
+              "Skills": [
+                {
+                  "Id": "022273",
+                  "Name": "Contracts",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "380",
+              "SubTaxonomyName": "Estimating",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 49,
+              "Skills": [
+                {
+                  "Id": "012133",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                },
+                {
+                  "Id": "026946",
+                  "Name": "Budgets",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "12",
+          "Name": "Legal",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "396",
+              "SubTaxonomyName": "Contracts",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 65,
+              "Skills": [
+                {
+                  "Id": "014309",
+                  "Name": "Contracts",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 110
+                  },
+                  "LastUsed": {
+                    "Value": "2017-03-08"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "727",
+              "SubTaxonomyName": "Corporate",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 21,
+              "Skills": [
+                {
+                  "Id": "7270003",
+                  "Name": "Governance",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "721",
+              "SubTaxonomyName": "Mergers & Acquisitions",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 7,
+              "Skills": [
+                {
+                  "Id": "7210010",
+                  "Name": "Contract Negotiations",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "397",
+              "SubTaxonomyName": "Clerical & Paralegal",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 7,
+              "Skills": [
+                {
+                  "Id": "3970012",
+                  "Name": "Contract Negotiations",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "9",
+          "Name": "Human Resources",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "583",
+              "SubTaxonomyName": "Talent Sourcing",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 44,
+              "Skills": [
+                {
+                  "Id": "9000267",
+                  "Name": "Customer Relationship Management",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "9000268",
+                      "Name": "CRM",
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "ExistsInText": true
+                    }
+                  ]
+                },
+                {
+                  "Id": "9000248",
+                  "Name": "Strategic Sourcing",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "584",
+              "SubTaxonomyName": "Talent Management",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 22,
+              "Skills": [
+                {
+                  "Id": "9000269",
+                  "Name": "Performance Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "579",
+              "SubTaxonomyName": "HR Management",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 22,
+              "Skills": [
+                {
+                  "Id": "9000152",
+                  "Name": "Performance Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "574",
+              "SubTaxonomyName": "Diversity & Inclusion",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 11,
+              "Skills": [
+                {
+                  "Id": "9000074",
+                  "Name": "Employee Resource Group",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "9000075",
+                      "Name": "ERP",
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "ExistsInText": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "20",
+          "Name": "Sales",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "104",
+              "SubTaxonomyName": "Account Management",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 83,
+              "Skills": [
+                {
+                  "Id": "006721",
+                  "Name": "Relationship Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "105",
+              "SubTaxonomyName": "General",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 17,
+              "Skills": [
+                {
+                  "Id": "023757",
+                  "Name": "Business Development",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 12
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "86",
+          "Name": "Government",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "524",
+              "SubTaxonomyName": "Regulatory",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "006698",
+                  "Name": "Regulatory Compliance",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "6",
+          "Name": "Environmental",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "328",
+              "SubTaxonomyName": "Testing, Assessments, and Monitoring",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "014023",
+                  "Name": "Compliance Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Certifications": [
+    {
+      "Name": "IBM Certified Executive Consultant",
+      "MatchedFromList": false,
+      "IsVariation": false
+    },
+    {
+      "Name": "IBM Certified",
+      "MatchedFromList": true,
+      "IsVariation": true
+    },
+    {
+      "Name": "PMP",
+      "MatchedFromList": true,
+      "IsVariation": false
+    }
+  ],
+  "LanguageCompetencies": [
+    {
+      "Language": "English",
+      "LanguageCode": "en",
+      "FoundInContext": "[RESUME_LANGUAGE]"
+    }
+  ],
+  "QualificationsSummary": "Core Competencies\nLeadership, Team Building\nProgram Implementation & Management\nPerformance Management\nBudgeting & Cost Control\nOperational Efficiency\nProject Management\nTactical & Strategic Planning\nChange Leadership\nBusiness Development\nRegulatory Compliance\nClient Relationship Management\nContract Negotiations\nVendor Management\nContinuous Improvements\nIT Strategy\nCompetitive Analysis\nBusiness Process Transformation\nStrategic Sourcing\nRisk Management\nVendor Management\nDisruptive Technology Evangelist\nCloud Technology - IaaS, PaaS, SaaS\nPrivate, Public and Hybrid Cloud\nAWS Cloud\nIT Cloud Solutions\nSOA\nAPI\nDevOps\nContainers\nProduct Development\nPredictive Analytic\nOperations Management\nNew Acquisition Business Integration\nIT Management\nIT Governance\nService Delivery\nDisaster Recovery Planning\nResiliency & Business Continuity\nData Privacy & Security\nAudit and Compliance Management\nSAP, ERP, CRM, SCM, HRM Implementation\nData Analytics\nMobile Web Apps\nData Center Management\nITIL\nITSM\nProcess, Methods and Tools\nSDLC\nAgile Methodology",
+  "ResumeMetadata": {
+    "FoundSections": [
+      {
+        "FirstLineNumber": 14,
+        "LastLineNumber": 54,
+        "SectionType": "WORK HISTORY",
+        "HeaderTextFound": "Professional Experience"
+      },
+      {
+        "FirstLineNumber": 55,
+        "LastLineNumber": 60,
+        "SectionType": "EDUCATION",
+        "HeaderTextFound": "Education & Certifications"
+      },
+      {
+        "FirstLineNumber": 61,
+        "LastLineNumber": 110,
+        "SectionType": "SKILLS",
+        "HeaderTextFound": "Core Competencies"
+      }
+    ],
+    "ResumeQuality": [
+      {
+        "Level": "Major Issues Found",
+        "Findings": [
+          {
+            "QualityCode": "303",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "SKILLS",
+                "Id": "2"
+              }
+            ],
+            "Message": "These sections are longer than the work history and education sections combined. This may indicate a problem with section headers, formatting, or content."
+          }
+        ]
+      },
+      {
+        "Level": "Data Missing",
+        "Findings": [
+          {
+            "QualityCode": "213",
+            "Message": "A street level address was not found in the contact information. A full contact address should always be included in a resume as it allows for location based searches."
+          },
+          {
+            "QualityCode": "221",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-1"
+              }
+            ],
+            "Message": "Every position in a resume should have a job title."
+          },
+          {
+            "QualityCode": "222",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-7"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-8"
+              }
+            ],
+            "Message": "Every position in a resume should have an employer name."
+          }
+        ]
+      },
+      {
+        "Level": "Suggested Improvements",
+        "Findings": [
+          {
+            "QualityCode": "161",
+            "Message": "High school (or lower) education should not be included on resumes that contain higher-level education."
+          },
+          {
+            "QualityCode": "112",
+            "Message": "The following section was identified as a skills section type: 'Core Competencies'. Skills should not be in a separate section, but instead, each skill should be included in the descriptions of work history or education. THIS IS INCREDIBLY IMPORTANT FOR AI MATCHING ALGORITHMS"
+          }
+        ]
+      }
+    ],
+    "PlainText": "   ~~~~~~  \nJohns Creek, GA      ~~~~~~~~~~~~~~~~        ~~~~~~~~~  \nIT Director\n\nAdaptive, agile, results-focused IT Cloud Leader, Project Manager and Business Transformation Specialist with 20+ years of talent and operational leadership, executive vision mission planning, strategy planning, and directive expertise spanning multiple divisions to build trust and credibility while delivering optimal solutions through on-time and within-budget fulfillment. Resourceful IT Leader who can translate business needs to IT Strategy and articulate the need for change while delivering on it, to ensure effective deliverables and generating stakeholder value. Hands-on leader and team builder with an ability to establish cross-functional matrix teams and communications to mitigate issues, manage risks and drive success seeking to leverage background into an IT Director role for an agile and progressive organization.\n\nProfessional Value Offered\n• Led multiple team members and monitored performance to ensure optimal productivity.\n• Trained staff on best practices and protocol to drive efficiency.\n• Designed and managed technology-enabled customer centric business solutions to drive innovation, agility and operational efficiency.\n• Deployed IT applications, processes, agile methodology and productivity tools to standardize service delivery for 30 key countries.\n• Led tracking and controlling of budgets and expenses and shared reports and metrics with leadership team and Global Business Continuity and Resiliency Services (BCRS) Executives to meet business objectives and challenges.\n• Cloud Technology services and offering development, Data Center transformation to Cloud.\n\nProfessional Experience\n\nIBM GLOBAL SERVICES/IBM GLOBAL TECHNOLOGY SERVICES   1997 to Present\n\nIBM Resiliency Services - Executive Program Manager (2008-Present)\n\nManaged IBM Resiliency Data Center (DC) optimization, transformation, cloud transition, led projects to improve the service delivery and operations efficiency, and customer satisfaction. Reduced financial discrepancies by managing budget projects and budgeting challenges to ensure zero profit erosion. Successfully implemented solutions to improve order fulfillment, while improving Global DC service delivery process efficiency across multiple countries. Led DC energy efficiency initiative, minimized operational cost, skills and resource management, while improving asset utilization, tracking customers and respective contracts at each data centers. Managed SLAs and improved the customer experience, data center management, capacity planning, IT availability and business continuity planning, DR planning and testing, DC incident and problem management, change control management, resource syndication, risk management, business applications and productivity tools data privacy/security, IBM internal data security guidelines and audit compliance. Led X as a service IT service strategy development, IT service design, IT service operations management. Led cloud based new software as a Service (SaaS) offering development.\n\nKey Contributions:\n• Led and managed IT service strategy development, service design and service operation processes.  Enhanced service delivery processes, standardization across global data centers, and streamlining of IT Solutions at 354 Global Data Center spanning 54 countries.\n• Led DC Cloud Strategy, DC transformation, Cloud Offering Management, Private, Public, Hybrid and AWS Cloud.\n• Led budget planning and managed program and business controls in support to launch new cloud based Software as a Service (SaaS) service offering, Smart Cloud Content Management (SCCM), offering development, expense management/reporting, project recoveries, vendor management, tracking revenue and GP.\n• Successfully managed the project with budget challenges, rationalizing and prioritizing deliverables and milestones. Interfaced with software/ECM team based in Germany by partnering on the development of the offering and the building of a Global Command Control in Poland for level one customer support.\n• Guided DC service delivery teams in building processes and capabilities to provide global reporting capabilities and visibility to revenue, contract renewal, customer experience and satisfaction, site tracking/leasing information and KPI reporting.\n• Led app development using agile methodology for tracking 354 worldwide data centers non-labor (HW, SW, NW, Facilities, Vendor) savings.\n\n\n   ~~~~~~~~  \n\n• Utilized the saving tracker tool to track the realization of over $300M+ in worldwide Non-labor (Hardware, software, network, facilities, vendors) savings initiatives, while offering quick access to various savings initiatives, and process standardization for quick reporting and visibility to IBM Executives.\n• Enhanced order fulfillment processes, data center capacity planning, DC strategy, investments and savings tracking, business partners and vendor management, resource and skills management, DR planning, scheduling and testing.\n• Directed the Data Center Energy Efficiency and Thermal (temperature, pressure, airflow and humidity) control, monitoring and reporting system across 112 Resiliency data centers resulting in savings of $1.65 Mil.\n• Built and deployed solutions to assist with BCRS resource and skills planning.\n• Conducted strategy and fall planning by liaising with IBM Executives during fall planning in building strategy, competitive market analysis, portfolio and development priorities, and planning and allocating budgets for new offerings, projects, capital investments.\n• Partnered with Global and Regional Business Leaders, and Country Executives in tracking business metrics for driving business growth, opportunity pipeline, and gross profit.\n• Interfaced with leadership team to create market channels across developed markets, emerging and growth market units, help drive business growth, and meet business challenges.\n• Executed new acquisition integration by leading business operations and financial process integration of new business acquisition (Arsenal Digital).\n• Appointed to the BCRS Product Development CoE Team, leading new offering through IPD development process improvement.\n• Devised new ideas into new CoE offering, while communicating and securing geographies commitments, and building effective and timely communication to ensure successful offering.\n• Served as project manager, spearheading new BCRS offering through the development cycle and business domains. Led Resiliency Consulting Services, DR Planning, BIA, Risk Analysis, BCP and DR Testing.\n• Led and deployed tools to support deployment and enablement of new offerings, products and services.\n• Worked on the Blue Harmony Project (an IBM internal project code name for SAP Project), leading BCRS opportunity to order management, order fulfillment and process mapping to replace many legacy system and tools and create a WW standardized business processes with the objective of simplifying processes and reducing operational cost.\n• Mitigated compliance risks by managing IBM Internal ASCA compliance, SOX, Internal audits and compliance.\n\n➢ Global BCRS - Business Development Executive - Beijing, China and Amsterdam, The Netherlands (2006)\n➢ Client Solution Executive/Project Manager, GM/GMAC (2005)\n➢ Project Manager/Executive Consultant, Project: Mercedes-Benz US International, Vance, AL (1997 to 2004)\n➢ UB Information Consulting Services - Senior Consultant, Project: IBM/Mercedes-Benz, AL (1996 to 1997)\n➢ Assistant Project Manager/Manufacturing Consultant, Rallis (1994 to 1996)\n➢ TULEC Computer Education - Training & Education Leader (1993 to 1994)\n\nEducation & Certifications\nExecutive MBA, The University of Alabama, Tuscaloosa, AL\nBachelors of Engineering in Computer Technology, University of Pune, Maharashtra, India\nPMP Certification, Project Management Institute (PMI)\nIBM Certified Executive Consultant\n\nCore Competencies\nLeadership, Team Building\nProgram Implementation & Management\nPerformance Management\nBudgeting & Cost Control\nOperational Efficiency\nProject Management\nTactical & Strategic Planning\nChange Leadership\nBusiness Development\nRegulatory Compliance\nClient Relationship Management\nContract Negotiations\nVendor Management\nContinuous Improvements\nIT Strategy\nCompetitive Analysis\nBusiness Process Transformation\nStrategic Sourcing\nRisk Management\nVendor Management\nDisruptive Technology Evangelist\nCloud Technology - IaaS, PaaS, SaaS\nPrivate, Public and Hybrid Cloud\nAWS Cloud\nIT Cloud Solutions\nSOA\nAPI\nDevOps\nContainers\nProduct Development\nPredictive Analytic\nOperations Management\nNew Acquisition Business Integration\nIT Management\nIT Governance\nService Delivery\nDisaster Recovery Planning\nResiliency & Business Continuity\nData Privacy & Security\nAudit and Compliance Management\nSAP, ERP, CRM, SCM, HRM Implementation\nData Analytics\nMobile Web Apps\nData Center Management\nITIL\nITSM\nProcess, Methods and Tools\nSDLC\nAgile Methodology",
+    "DocumentLanguage": "en",
+    "DocumentCulture": "en-US",
+    "ParserSettings": "Coverage.MilitaryHistoryAndSecurityCredentials = True; Coverage.PatentsPublicationsAndSpeakingEvents = True; Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = US; Culture.Language = English; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = False; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2017-03-08",
+    "SovrenSignature": [
+      "23UGAAAAAAA="
+    ]
+  }
+}

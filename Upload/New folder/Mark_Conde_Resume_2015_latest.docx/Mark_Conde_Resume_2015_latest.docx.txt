@@ -1,0 +1,98 @@
+MARK A. CONDE   407-385-0814 • me@markconde.com
+
+
+Proven IT Leader •  Infrastructure architect•  Solutions driven
+
+A highly motivated and results-oriented IT professional with over 20 years in the Information Technology field. More than 15 years were in a management role. A proven track record of delivering many projects on time and within established budgets while adhering to project specifications. Innovative and effective team leader/mentor who always drives to bring out the best in employees. Exceptional ability to manage multiple, complex activities while working within strict deadlines, ensuring all technical solutions successfully meet business goals and needs.
+
+Core Competencies
+* Enterprise Architecture	  * Program & Project Management   * Cybersecurity
+* Strategic Planning	* Budgeting and Forecasting	* Leader/Mentor
+* IT Security Design & Governance   * Team Building & Direction	* ITIL Methodology
+
+
+Selected Highlights
+* Team Leader: Directed, motivated and organized effective project teams.
+* Experienced Project Manager: Proven ability to meet deadlines in a dynamic environment. Extensive experience in operations, budgeting, planning, documentation, tracking and scheduling.
+* Solutions-Driven IT Professional: More than fifteen years of experience designing, delivering and managing large-scale, enterprise infrastructures.
+* Client-Oriented: Dedicated to building productive working relationship with the business partners. Committed to adopting new technologies/methodologies to create customized, cutting-edge and enduring solutions to meet business goals.
+* ITIL (MALC) Certified: Certified in foundations and all core competencies of ITIL.
+
+Professional Experience
+Universal Parks and Resorts  • Orlando, FL • 2009 - Present
+Senior Manager - IT Architecture
+* Directly responsible for the design, implementation and on-going management of the industrial networks and security-infrastructure of several major attractions and show-systems worldwide including the Wizarding World of Harry Potter and Transformers. Provide effective leadership, vision and direction of the industrial control systems cyber security risk-management team.
+* Lead on numerous projects, this would include spearheading the redesign and reconstruction of UPR's core infrastructures including active directory, email, cloud, e-commerce infrastructures and other key systems.
+* Overseeing the 'Ride and Show' IT group for Universal Parks and Resorts (UPR) worldwide; responsibilities for this role include designing and managing the infrastructure (servers, network, security, audits, etc.) for these environments.
+* Defining resource allocation to support domestic and international projects and initiatives, conducting risk assessments/audits (PCI and NIST compliance) and developing information security plan reviews. This function requires 24x7x365 availability since this group supports all current and upcoming initiatives.
+* Act as technical liaison to senior management at international locations.
+* Currently responsible for leading design efforts for two upcoming parks located in Beijing and Moscow.
+* Continuously lead innovative efforts to success, including the development of technologies that resulted in two new patents for UPR in industrial networking and network security.
+* Serve on the Governance, Process Review, DR/BC Management, PMO, Change Management and Steering   committees. Manage key aspects of strategic and tactical planning for Security, Compliance, Risk and Business Continuity departments, developing organizational structure and chartered business groups dedicated to PCI, SOX and NIST requirements.
+* Managed external vendors and outsourced development teams to achieve project success.
+* Consulted with company functional departments and industry experts to build consensus on design goals and priorities.
+* Established cloud infrastructure for UPR's software platforms.
+* Worked with other company executives to establish strategic plan for future technology investments.
+* Accurately estimated project costs, and managed scope with comprehensive statements of work (SOW), and change control methodologies.
+* Contribute and recommend new IT/Governance strategies which reduce IT corporate cost plans and saved over $1 million in revenues after release.
+
+SunGard Higher Education • Orlando, FL • 2008 - 2009
+Senior Infrastructure Architect
+* Designed and oversaw the construction of a large-scale active directory and SharePoint infrastructure to accommodate a user-base of 270,000 students across various campuses. Ensured all project elements were completed on time, within budget and adhered to strict project guidelines.
+* Supervised and managed the reconfiguring of SGHE remote access protocols and virtual-hosting solutions to support the campuses, resulting in optimal service with minimal interruption.
+* Developed security guidelines and processes for numerous colleges.
+* Designed and implemented Infrastructure as a Service (IaaS) environment for cloud applications serving clients across the US and Latin America.
+* Collaborated closely with the software development team and other development and Operations teams within IT with a focus on enterprise design versus implementation. Assisted in the development of a long term vision and strategy regarding virtualization and storage.
+
+Hard Rock Café International  • Orlando, FL • 2006 - 2008
+Enterprise Infrastructure Architect/Consultant
+* Collaborated extensively with Hard Rock Café's (HRC) Senior IT management on various high-profile projects and provided assistance in the development/construction of HRC's corporate-systems disaster recovery plan and development of the HRC corporate security infrastructure.
+* Successfully implemented a VMware-based virtual environment and reconstructed HRC's storage environment which improved storage efficiency by 45%.
+* Audited and managed corporate systems for security and licensing concerns.
+* Provided mentoring to members of HRC's IT team.
+
+FDN Telecommunications  • Orlando, FL • 2005 - 2006
+Director of Corporate Networks
+* Directed and supervised several technology groups including Client/Server Support, Security, Executive Support, Network Services and Helpdesk.
+* Maintained and managed licensing for all corporate systems.
+* Consistently displayed strong financial expertise while managing an operating budget of over $3M, a capital budget of $1.7M and FDN's general IT budget of over $5M.
+* Directed the planning and implementation of process and technical controls specifically designed to mitigate the risk to critical business functions affecting security breaches, weak business practices and disasters. Overall efforts resulted in a 41% reduction in data loss, compromise or unauthorized access within the first year with estimated annual savings of $1M.
+* Oversaw the construction of a large scale NetApp-based SAN/NAS environment and over 300 server infrastructures including large VMware based cloud environment, delivering all project milestones within timeline and budget and in compliance with company requirements.
+
+
+CNL  • Orlando, FL • 2003 - 2005
+Director of IT
+* Directed a number of teams that provided support for the seven companies comprising CNL, including the Help Desk, Support Network, Telecommunication and Server Support. Oversaw CNL's IT budget and expenditures valued at over $7M.
+* Responsible for addressing all internal and external audits of the governance organization, including Sarbanes Oxley reviews, annual control self-assessments and controls issues resolution.
+* Personally developed and implemented CNL's disaster recovery and business-continuity plan development projects.
+
+Ocwen Technology Xchange  • Orlando, FL • 2002 - 2003
+Senior Manager - Infrastructure
+* Supervised server and network teams, each consisting of 20 members, in both Orlando, Florida and India.
+* Oversaw support for Ocwen's e-commerce website, REALTrans.com with numerous corporate clients integrated into backend.
+* Analyzed and provided solutions for a variety of network and server-related technologies. Developed and implemented site enhancements and provided support to client community.
+* Significantly increased client base and company revenues through business development activities and industry contacts.
+* Technology liaison between clients, sales, quality and other teams: ensured a high level of service able to communicate progress between all parties.
+* Analyzed, defined and documented detailed specs for new and existing applications in compliance with client methodologies.
+
+Additional Credentials
+Certifications/Training
+
+
+Interests
+
+Microsoft: Certified MCSE
+Citrix: Certified Administrator
+ITIL: V.3 Certified, MALC Certified
+VMWare: ESX/Virtual Center Certified - VCP
+NetApp: Network Appliance Certified
+EMC: EMC Certified
+(ISC)2: CISSP (In Progress) (2016)
+CeH (In Progress) (2016)
+
+
+Photography, Fishing, Painting and Hiking
+
+
+References: Available Upon Request
+• • •

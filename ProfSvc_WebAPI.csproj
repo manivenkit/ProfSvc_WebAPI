@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <LangVersion>preview</LangVersion>
+        <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <Optimize>False</Optimize>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+        <Optimize>True</Optimize>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Remove="Upload\**"/>
+        <Content Remove="Upload\**"/>
+        <EmbeddedResource Remove="Upload\**"/>
+        <None Remove="Upload\**"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Blazored.LocalStorage" Version="4.1.5"/>
+        <PackageReference Include="Microsoft.Data.SqlClient" Version="4.0.0"/>
+        <PackageReference Include="Radzen.Blazor" Version="3.13.12"/>
+        <PackageReference Include="RestSharp" Version="106.15.0"/>
+        <PackageReference Include="Syncfusion.Blazor" Version="19.4.0.40"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="Sovren.SDK">
+            <HintPath>..\SovrenClient\sovren-dotnet\src\Sovren.SDK\bin\Debug\netstandard2.0\Sovren.SDK.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>

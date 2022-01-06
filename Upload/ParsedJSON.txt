@@ -1,0 +1,2032 @@
+{
+   
+   "Resume" : {
+      "StructuredResume" : {
+         "ContactMethod" : {
+            "InternetEmailAddress_main" : "sunilmumbai@gmail.com",
+            "PostalAddress_main" : {
+               "AddressLine" : "Johns Creek",
+               "Region" : "GA",
+               "CountryCode" : "US"
+            },
+            "Telephone_mobile" : "+1 205 534-0550"
+         },
+         "PersonName" : {
+            "FormattedName" : "Sunil Singh",
+            "FamilyName" : "Singh",
+            "GivenName" : "Sunil",
+            "sex" : "Male"
+         },
+         "EmploymentHistory" : [
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "Present",
+               "PositionType" : "PERMANENT",
+               "MonthsOfWork" : 228,
+               "EmployerOrgName" : "IBM Global Services and IBM Global Technology Services",
+               "StartDate" : "1997",
+               "OrgName" : "IBM Global Services and IBM Global Technology Services"
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "Present",
+               "MonthsOfWork" : 12,
+               "EmployerOrgName" : "IBM",
+               "Title" : [
+                  "Resiliency Services - Executive Program Manager"
+               ],
+               "OrgName" : "IBM",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-management-low",
+               "StartDate" : "2015",
+               "Description" : "Led Resiliency Services Global Data Centers services delivery process management, tools, cloud technology, automation, data center information management, sites energy efficiency management, site data and capacity management. Tracking Non-labor (HW, SW, Network, Facilities, Vendors) savings initiatives. For large Resiliency deals building an interlock between Sales and delivery team. \n    *    Enhanced service delivery business process at 208 DC across 30 Countries with revenue of $560+ Mil. Improved contract management, delivery, SLA, cost savings, resource syndication and asset utilization.\n    *    Improved customer retention, contract renewal rate and sales with upsell opportunity.\n    *    Improved energy efficiency by $650K in power savings, by implementing temperature tracking and CRAC controller, airflow and humidity sensors across 112 large Resiliency DC.\n    *    Achieved savings of over $87 Mil in Non-Labor (HW, SW, Network, facilities, vendor) savings initiative at Global Resiliency data centers.\n    *    Implemented Global Cloud based Orchestra Tool, for customers to request services for managed continuity and rapid recovery services with ROI of 2000%. Led New Deal App to interlock between Sales, CoE and Delivery Team to shorten on-boarding time of large new customers improving Customer Satisfaction and SLA.\n    *    Spearheaded product development using agile methodology and deployment of Yellow Pages Tool resulting in improved site management, site utilization and capacity planning, operational efficiency and driving sales growth at 354 Resiliency sites across 54 countries with reduction in operational cost."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2014",
+               "MonthsOfWork" : 7,
+               "EmployerOrgName" : "IBM",
+               "Title" : [
+                  "Manager (Sales)"
+               ],
+               "OrgName" : "Resiliency Services - Business Operations",
+               "PositionType" : "CONTRACT",
+               "JobArea" : "sales",
+               "JobGrade" : "joblevel-management-low",
+               "StartDate" : "2014",
+               "Description" : "Led Resiliency Services global sales opportunity tracking, provide sales and pre-sales support, lead IOT Sales Cadence calls, provided offering and technical support to the Country Leaders in closing mega deal opportunities. Build Sales Analytic tools, Reports and interfaces with Siebel CRM and IBM SalesConnect Tools. \n    *    Led global signings of $1.6B, revenue $1.1B and GP tracking and driving YOY signings and revenue growth.\n    *    Led Sales cadence call with IOT leaders to track signings pipeline, mega deals, key opportunities and help required to close mega deals. Led Global Sales Center of Excellence team's engagement, Billings, recoveries and expense tracking."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2013",
+               "MonthsOfWork" : 7,
+               "EmployerOrgName" : "BCRS",
+               "Title" : [
+                  "Business Operations Manager"
+               ],
+               "OrgName" : "Smart Cloud Content Management (SCCM)",
+               "PositionType" : "CONTRACT",
+               "JobArea" : "accountancy",
+               "JobGrade" : "joblevel-management-mid",
+               "StartDate" : "2013",
+               "Description" : "BCRS - Smart Cloud Content Management (SCCM) - -------\nLed financial and operations management of new cloud based offering development of SCCM. Responsible for led budget planning, project management, vendor management, expense and recovery management, P&L Statement, and business controls to support the development and launch of SCCM offering. \n    *    Increased SCCM's revenue by 18%, reduced operating expense by 12% by negotiations with vendors, increased GP, successfully managed the project with challenged budgets constraints."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2012",
+               "MonthsOfWork" : 36,
+               "EmployerOrgName" : "BCRS",
+               "Title" : [
+                  "Data Center Service Delivery - Business Operations Manager"
+               ],
+               "OrgName" : "BCRS",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-management-mid",
+               "StartDate" : "2009",
+               "Description" : "Led application design and development of business application and processes to support service delivery of BCRS Services in 30 Countries and 150 Data Centers with Global Revenue of $700 Mil. Designed and implemented CMT Tool, Yellow Pages, WW Customer Sat Tool, DR Invocation Tool, Cloud based - Orchestra Tool, Global Data warehouse and data analytics tool. Led fall planning, investments and strategy, new offerings, capital investments, and developing market channels to help drive business growth and margins. \n    *    Successfully led business operations, service delivery processes, financial and usage based billing process integration of new business acquisition (Arsenal Digital)."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2008",
+               "MonthsOfWork" : 7,
+               "EmployerOrgName" : "BCRS Center of Excellence",
+               "Title" : [
+                  "Project Manager"
+               ],
+               "OrgName" : "BCRS Center of Excellence",
+               "PositionType" : "CONTRACT",
+               "JobArea" : "construction",
+               "JobGrade" : "joblevel-management-low",
+               "StartDate" : "2008",
+               "Description" : "*    Streamlined new offering development process, improved new offering marketing, education and communication materials for quick enablement of new products and offerings in different Geographies. Led development and improvement of Disaster Recovery Consulting Services and Business Continuity Planning.\n    *    Developed new products and services by partnering with IBM Research and by harvesting the intellectual assets and bringing them to market into new products and services."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2007",
+               "MonthsOfWork" : 7,
+               "EmployerOrgName" : "BCRS",
+               "Title" : [
+                  "Executive Consultant"
+               ],
+               "OrgName" : "BCRS",
+               "PositionType" : "CONTRACT",
+               "JobArea" : "senior",
+               "JobGrade" : "joblevel-nonmanager-mid",
+               "StartDate" : "2007",
+               "Description" : "SAP Blue Harmony Project - -------\nLed BCRS Opportunity to Order Management and Order Fulfilment process mapping in Blue Harmony project. Blue Harmony - IBM Internal SAP Project to replace multiple legacy system and tools and create a WW standardized business processes with the objective of simplifying processes and reduce operational cost. Led Internal audits and compliance process for financial data."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2006",
+               "MonthsOfWork" : 7,
+               "LocationSummary" : {
+                  "CountryCode" : "CN"
+               },
+               "EmployerOrgName" : "IBM Global Business Continuity and Resiliency Services",
+               "Title" : [
+                  "Business Development Executive - The Netherlands"
+               ],
+               "OrgName" : "IBM Global Business Continuity and Resiliency Services",
+               "PositionType" : "CONTRACT",
+               "JobArea" : "marketing",
+               "StartDate" : "2006",
+               "Description" : "*    Led BCRS business development opportunities in the Netherlands at ING Bank. Built trusted relationship with Senior Executives building resiliency solution to ING's requirements and business objectives leading to signings of $8 Mil Consulting and implementation of high availability hot data center deal.  Led Risk Analysis, Business Impact Analysis, Prioritized and identified business critical applications. Led Data Center Resiliency and DR Plan and Solution for ING Bank.\n-------\n*    Led business development, sales, marketing strategy, setup of BCRS consulting practice, skills development and strengthening of service delivery capabilities in Beijing and Shanghai, China. As BCRS SME, led coaching, training and education plan. Led development of reusable intellectual assets library, methods and tools to support consulting and Service Delivery. Led business development, Bid, RFP and solution for several large opportunities in China and helped grow BCRS business by 40% (China Mobile, CNOOC, Shanghai General Motors, etc.)."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2005",
+               "MonthsOfWork" : 7,
+               "EmployerOrgName" : "IBM",
+               "Title" : [
+                  "Client Solution Executive",
+                  "Project Manager"
+               ],
+               "OrgName" : "BMW",
+               "PositionType" : "CONTRACT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-management-low",
+               "StartDate" : "2005",
+               "Description" : "*    Led business development opportunity, solution and proposal development for Application Integration Management - Domain for GMAC. Led solution design for outsourcing, transition and transformation, global project management office and governance model, and integration with multiple service providers. Engaged Senior IBM Executives, Pricing team in building bid strategy, pricing, service delivery challenges and risk management.\n*    Led automotive solution design and development for BMW US manufacturing plant"
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2004",
+               "MonthsOfWork" : 84,
+               "LocationSummary" : {
+                  "Municipality" : "Vance",
+                  "Region" : "AL",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "IBM",
+               "Title" : [
+                  "Global Services - Executive Consultant",
+                  "Project Manager"
+               ],
+               "OrgName" : "IBM",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "senior",
+               "JobGrade" : "joblevel-management-low",
+               "StartDate" : "1997",
+               "Description" : "Client: Mercedes-Benz US International, Led SAP implementation and application management team at Mercedes-Benz project to support JIT manufacturing. Led the business processes transformation and design JIT manufacturing, logistics, optimized supply chain management, EDI, product data management, master data management, data strategy and governance, product configuration, product cost analysis, foreign trade zone, vehicle sequencing and scheduling.\n-------\n*    Built world class state of the art JIT business process for automotive manufacturing and a referenced site for IBM. Resulting in increased IBM revenue by 30% and achieving project SLA bonus.\n    *    Improved IT service management, project management and deployed productivity tools to track and prioritize development request, to expedite development and improve authorization and tracking there by resulting in reducing project cost, improved tracking and customer control. Improved SLA and Customer Satisfaction to 96%\n    *    Successfully implemented HR and payroll system, time and attendance system, ADP Interface.\n    *    Led SAP Application architecture and infrastructure landscape to support automotive business processes, customizable vehicles, high volume manufacturing on multiple production lines, JIT Manufacturing, and delivered strategic and best of the breed resilient and high availability solution to support growing business demand.\n    *    Worked closely with the IBM Executive team to develop strategies to improve service level, customer satisfaction, resolve key issues and enhance customer relationship.\n    *    Led risk management, data privacy, data security, audit and compliance management. Led the on-site high availability architecture and off-site disaster recovery solution.\n    *    Led business development and sales opportunities in the automotive and manufacturing sector and successfully closed new signings of over $30 Mil, at Honda, Toyota, BMW, Solar Turbines, Flowserve, Solectron."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "1997",
+               "MonthsOfWork" : 12,
+               "LocationSummary" : {
+                  "Region" : "AL",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "IBM",
+               "Title" : [
+                  "Information Consulting Services - Senior Consultant"
+               ],
+               "OrgName" : "Mercedes-Benz",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "senior",
+               "JobGrade" : "joblevel-nonmanager-mid",
+               "StartDate" : "1996",
+               "Description" : "IBM/Mercedes-Benz, -------\nLed Baan ERP Project implementation at Mercedes Benz US International (MBUSI) at Vance, Alabama. Led Master Data and Product Data Management (PDM), data integration with Mercedes Legacy Central Product Design and Documentation Tool 'Dialog', MRP, logistics and materials management. \n*    Led BaanERP Customization, System Integration, application architecture design to support business, improving customer satisfaction to high 98% and achieving High SLA agreements."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "1996",
+               "MonthsOfWork" : 24,
+               "LocationSummary" : {
+                  "Municipality" : "Mumbai",
+                  "Region" : "Maharashtra",
+                  "CountryCode" : "IN"
+               },
+               "EmployerOrgName" : "Rallis India Limited",
+               "Title" : [
+                  "Senior IT Officer",
+                  "ERP Consultant - Manufacturing and Distribution"
+               ],
+               "OrgName" : "Rallis India Limited",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-management-mid",
+               "StartDate" : "1994",
+               "Description" : "Responsible for implementing BaanERP Manufacturing, Logistics and Distribution for Rallis India at its Agrochemicals manufacturing plant at Belapur, Navi *    Transformed manufacturing planning process and increased production by 20% and transformed logistics and inventory management resulting in inventory cost savings of 25%, and improved quality management process.\n*    Led IT Infrastructure team, database team, IT management processes, methodology and tools resulting in no unplanned system outages."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "1994",
+               "MonthsOfWork" : 12,
+               "EmployerOrgName" : "TULEC Computer Education",
+               "Title" : [
+                  "Training & Education Leader"
+               ],
+               "OrgName" : "TULEC Computer Education",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "edu",
+               "JobGrade" : "joblevel-management-low",
+               "StartDate" : "1993",
+               "Description" : "*    Tech innovator and education leader for latest emerging computer technologies and computer fundamentals."
+            }
+         ],
+         "Competency" : [
+            {
+               "skillLevel" : 100,
+               "skillName" : "Business Processes",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 103,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Business Processes",
+                  "business process"
+               ]
+            },
+            {
+               "skillLevel" : 96,
+               "skillName" : "Cost Reduction",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 36,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Cost Reduction",
+                  "cost savings"
+               ]
+            },
+            {
+               "skillLevel" : 94,
+               "skillName" : "Capacity Planning",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Capacity Planning",
+                  "capacity management"
+               ]
+            },
+            {
+               "skillLevel" : 93,
+               "skillName" : "Contract Management",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Contract Management"
+               ]
+            },
+            {
+               "skillLevel" : 91,
+               "skillName" : "Contract Renewal",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Contract Renewal"
+               ]
+            },
+            {
+               "skillLevel" : 90,
+               "skillName" : "Return on Investment",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Return on Investment",
+                  "ROI"
+               ]
+            },
+            {
+               "skillLevel" : 71,
+               "skillName" : "Invoicing > Issuing Invoices",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 43,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Invoicing > Issuing Invoices",
+                  "Billings",
+                  "billing"
+               ]
+            },
+            {
+               "skillLevel" : 71,
+               "skillName" : "Project Management",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 91,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Project Management",
+                  "managed the project"
+               ]
+            },
+            {
+               "skillLevel" : 68,
+               "skillName" : "offering development",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 14,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "offering development"
+               ]
+            },
+            {
+               "skillLevel" : 67,
+               "skillName" : "Operations Management",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "banking-finance"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Operations Management"
+               ]
+            },
+            {
+               "skillLevel" : 66,
+               "skillName" : "Budgets & Budgeting > Budget Planning & Budget Preparation",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Budgets & Budgeting > Budget Planning & Budget Preparation",
+                  "budget planning"
+               ]
+            },
+            {
+               "skillLevel" : 64,
+               "skillName" : "Profit and Loss Accounts",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Profit and Loss Accounts",
+                  "P&L Statement"
+               ]
+            },
+            {
+               "skillLevel" : 64,
+               "skillName" : "recovery management",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "recovery management"
+               ]
+            },
+            {
+               "skillLevel" : 63,
+               "skillName" : "Budgets & Budgeting",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Budgets & Budgeting",
+                  "budgets"
+               ]
+            },
+            {
+               "skillLevel" : 63,
+               "skillName" : "Operational Expenditure",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "banking-finance"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Operational Expenditure",
+                  "operating expense"
+               ]
+            },
+            {
+               "skillLevel" : 63,
+               "skillName" : "Sales Revenue",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Sales Revenue",
+                  "revenue"
+               ]
+            },
+            {
+               "skillLevel" : 52,
+               "skillName" : "Analytics",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 36,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "WORKING",
+               "skillAliasArray" : [
+                  "Analytics",
+                  "Data Analytics"
+               ]
+            },
+            {
+               "skillLevel" : 52,
+               "skillName" : "Capital Investment",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 36,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "banking-finance"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "WORKING",
+               "skillAliasArray" : [
+                  "Capital Investment",
+                  "capital investments"
+               ]
+            },
+            {
+               "skillLevel" : 51,
+               "skillName" : "Business Operations",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 36,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "WORKING",
+               "skillAliasArray" : [
+                  "Business Operations"
+               ]
+            },
+            {
+               "skillLevel" : 27,
+               "skillName" : "Logistics",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 120,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Logistics",
+                  "logistics,",
+                  "logistics and"
+               ]
+            },
+            {
+               "skillLevel" : 26,
+               "skillName" : "Sales",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 91,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy > misc-mb"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Sales",
+                  "sales,"
+               ]
+            },
+            {
+               "skillLevel" : 26,
+               "skillName" : "product data management",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 96,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "product data management"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "Audit",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Audit"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "Led risk management",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "banking-finance"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Led risk management"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "Payroll",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Payroll"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "compliance management",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "compliance management"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "configuration",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "configuration",
+                  "configuration,"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "develop strategies",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "develop strategies"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "product cost analysis",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "product cost analysis"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "Business Objectives",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Business Objectives"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "Led development",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 14,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2008",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Led development"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "Process Mapping",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2007",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Process Mapping"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "proposal development",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2005",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "proposal development"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Application Integration Management",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2005",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Application Integration Management"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Led Risk Analysis",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "banking-finance"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Led Risk Analysis"
+               ]
+            },
+            {
+               "skillLevel" : 21,
+               "skillName" : "Business Continuity Management > Business Continuity Planning",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2008",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Business Continuity Management > Business Continuity Planning",
+                  "Business Continuity Planning"
+               ]
+            },
+            {
+               "skillLevel" : 21,
+               "skillName" : "Business Impact Analysis",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Business Impact Analysis"
+               ]
+            },
+            {
+               "skillLevel" : 21,
+               "skillName" : "Led solution design",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2005",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Led solution design"
+               ]
+            },
+            {
+               "skillLevel" : 20,
+               "skillName" : "Compliance",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2007",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Compliance"
+               ]
+            },
+            {
+               "skillLevel" : 20,
+               "skillName" : "Internal Audit",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2007",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Internal Audit",
+                  "Internal audits"
+               ]
+            },
+            {
+               "skillLevel" : 20,
+               "skillName" : "Mercedes Legacy Central Product Design",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "1997",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Mercedes Legacy Central Product Design"
+               ]
+            },
+            {
+               "skillLevel" : 20,
+               "skillName" : "Project Management Office",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2005",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Project Management Office"
+               ]
+            },
+            {
+               "skillLevel" : 20,
+               "skillName" : "Risk Management",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "banking-finance"
+               },
+               "lastUsed" : "2005",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Risk Management"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Business Continuity",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Business Continuity"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Business Transformation",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Business Transformation"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Continuous Improvement",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Continuous Improvement"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "DR Planning",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "DR Planning"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "Data Center Management",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Data Center Management"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Negotiation Skills",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Negotiation Skills",
+                  "negotiations,",
+                  "negotiation"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Problem Solving",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Problem Solving",
+                  "problem solver"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Process Improvement",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Process Improvement"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Risk Analysis",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "banking-finance"
+               },
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Risk Analysis"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "develop strategy",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "develop strategy"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "manage complex projects",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "manage complex projects"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "manage risks",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "manage risks"
+               ]
+            },
+            {
+               "skillLevel" : 98,
+               "skillName" : "SLA",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 96,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "SLA",
+                  "SLA,",
+                  "SLA and"
+               ]
+            },
+            {
+               "skillLevel" : 90,
+               "skillName" : "Agile Methodology",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Agile Methodology"
+               ]
+            },
+            {
+               "skillLevel" : 67,
+               "skillName" : "Siebel CRM",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Siebel CRM"
+               ]
+            },
+            {
+               "skillLevel" : 67,
+               "skillName" : "technical support",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "technical support"
+               ]
+            },
+            {
+               "skillLevel" : 66,
+               "skillName" : "IBM Hardware",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it > hardware"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "IBM Hardware",
+                  "IBM"
+               ]
+            },
+            {
+               "skillLevel" : 54,
+               "skillName" : "Led application design and development of business application and processes",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 36,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "WORKING",
+               "skillAliasArray" : [
+                  "Led application design and development of business application and processes"
+               ]
+            },
+            {
+               "skillLevel" : 53,
+               "skillName" : "Data Centre",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 36,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "WORKING",
+               "skillAliasArray" : [
+                  "planning",
+                  "Data Centre",
+                  "data centers",
+                  "data center planning"
+               ]
+            },
+            {
+               "skillLevel" : 29,
+               "skillName" : "Led SAP implementation",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Led SAP implementation"
+               ]
+            },
+            {
+               "skillLevel" : 26,
+               "skillName" : "SAP ABAP EDI",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "SAP ABAP EDI",
+                  "EDI"
+               ]
+            },
+            {
+               "skillLevel" : 26,
+               "skillName" : "implementing BaanERP Manufacturing",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "1996",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "implementing BaanERP Manufacturing"
+               ]
+            },
+            {
+               "skillLevel" : 25,
+               "skillName" : "Master Data Management",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Master Data Management"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "ExpEDite",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "development",
+                  "ExpEDite",
+                  "expedite development"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "ITSM",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "ITSM",
+                  "IT service management"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "SAP SCM Manufacturing",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "SAP SCM Manufacturing",
+                  "Manufacturing"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "IT Infrastructure",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "1996",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "IT Infrastructure"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "IT Management",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "1996",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "IT Management"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "Master Data",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "1997",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Master Data"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Legacy Systems",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2007",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Legacy Systems",
+                  "legacy system"
+               ]
+            },
+            {
+               "skillLevel" : 21,
+               "skillName" : "PDM",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "1997",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "PDM",
+                  "(PDM)"
+               ]
+            },
+            {
+               "skillLevel" : 20,
+               "skillName" : "Data Integration",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "1997",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Data Integration"
+               ]
+            },
+            {
+               "skillLevel" : 19,
+               "skillName" : "Led automotive solution design and development",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2005",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Led automotive solution design and development"
+               ]
+            },
+            {
+               "skillLevel" : 18,
+               "skillName" : "Application Architecture",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "1997",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "design",
+                  "Application Architecture",
+                  "application architecture design"
+               ]
+            },
+            {
+               "skillLevel" : 18,
+               "skillName" : "Systems Integration",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "1997",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Systems Integration",
+                  "System Integration"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Cloud Computing",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Cloud Computing",
+                  "Cloud Technology"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "IT Security",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it > security"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "IT Security"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "SAP",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "SAP"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "SAP CRM",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "SAP CRM",
+                  "CRM"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "SAP SCM",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "SAP SCM",
+                  "SCM"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Web Applications",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Development",
+                  "Web Applications",
+                  "Web App Development"
+               ]
+            },
+            {
+               "skillLevel" : 94,
+               "skillName" : "Resiliency Services - Executive Program Manager",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Resiliency Services - Executive Program Manager"
+               ]
+            },
+            {
+               "skillLevel" : 67,
+               "skillName" : "Business Operations Manager",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2013",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Business Operations Manager"
+               ]
+            },
+            {
+               "skillLevel" : 67,
+               "skillName" : "Manager (Sales)",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "sales"
+               },
+               "lastUsed" : "2014",
+               "skillProficiency" : "GOOD",
+               "skillAliasArray" : [
+                  "Manager (Sales)"
+               ]
+            },
+            {
+               "skillLevel" : 54,
+               "skillName" : "Data Center Service Delivery - Business Operations Manager",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 36,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2012",
+               "skillProficiency" : "WORKING",
+               "skillAliasArray" : [
+                  "Data Center Service Delivery - Business Operations Manager"
+               ]
+            },
+            {
+               "skillLevel" : 29,
+               "skillName" : "Global Services - Executive Consultant",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2004",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Global Services - Executive Consultant"
+               ]
+            },
+            {
+               "skillLevel" : 29,
+               "skillName" : "Project Manager",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 98,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2008",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Project Manager"
+               ]
+            },
+            {
+               "skillLevel" : 26,
+               "skillName" : "ERP Consultant - Manufacturing and Distribution",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "1996",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "ERP Consultant - Manufacturing and Distribution"
+               ]
+            },
+            {
+               "skillLevel" : 26,
+               "skillName" : "Senior IT Officer",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "1996",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Senior IT Officer"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "Business Development Executive - The Netherlands",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Business Development Executive - The Netherlands"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "Client Solution Executive",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2005",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Client Solution Executive"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "Executive Consultant",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2007",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Executive Consultant"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "Information Consulting Services - Senior Consultant",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "1997",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Information Consulting Services - Senior Consultant"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "Training & Education Leader",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "hr"
+               },
+               "lastUsed" : "1994",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Training & Education Leader"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Business Development",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 7,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "marketing"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Business Development"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "Global team builder",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "construction"
+               },
+               "description" : "Held Position",
+               "skillAliasArray" : [
+                  "Global team builder"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 92,
+               "skillName" : "Masters Degree > Master of Business Administration",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "masters"
+               },
+               "description" : "Degree/Qualification",
+               "skillAliasArray" : [
+                  "Masters Degree > Master of Business Administration",
+                  "Masters of Business Administration (MBA)"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 91,
+               "skillName" : "Bachelors Degree > Bachelor of Engineering > Bachelor of Engineering Computer Technology",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "bachelors"
+               },
+               "description" : "Degree/Qualification",
+               "skillAliasArray" : [
+                  "Computer Technology",
+                  "Bachelors Degree > Bachelor of Engineering > Bachelor of Engineering Computer Technology",
+                  "Bachelor of Engineering (B.E.) in Computer Technology"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 82,
+               "skillName" : "IBM Certified Executive Consultant",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "certification"
+               },
+               "description" : "Degree/Qualification > Professional",
+               "skillAliasArray" : [
+                  "IBM Certified Executive Consultant"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 82,
+               "skillName" : "ITIL Foundation Certificate > ITIL V3 Foundation",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "certification"
+               },
+               "description" : "Degree/Qualification > Professional",
+               "skillAliasArray" : [
+                  "ITIL Foundation Certificate > ITIL V3 Foundation",
+                  "ITIL v3 Foundation"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 82,
+               "skillName" : "PMI Qualification",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "certification"
+               },
+               "description" : "Degree/Qualification > Professional",
+               "skillAliasArray" : [
+                  "PMI Qualification",
+                  "PMI (Project Management Institute)"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 82,
+               "skillName" : "Project Management Professional",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "certification"
+               },
+               "description" : "Degree/Qualification > Professional",
+               "skillAliasArray" : [
+                  "Project Management Professional",
+                  "PMP Certified"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 100,
+               "skillName" : "industry~it",
+               "skillCount" : 4,
+               "description" : "Industry"
+            }
+         ],
+         "RevisionDate" : "2016-11-04",
+         "lang" : "en",
+         "EducationHistory" : [
+            {
+               "Comments" : "Bachelor of Engineering (B.E.) in Computer Technology - University of Pune, Maharashtra, India\n\nProject Manager -  PMP Certified by PMI (Project Management Institute)\nIBM Certified Executive Consultant",
+               "LocationSummary" : {
+                  "Municipality" : "Tuscaloosa",
+                  "Region" : "AL",
+                  "CountryCode" : "US"
+               },
+               "schoolType" : "university",
+               "Degree" : {
+                  "degreeType" : "masters",
+                  "DegreeName" : "Masters of Business Administration (MBA)"
+               },
+               "SchoolName" : "The University of Alabama"
+            },
+            {
+               "Comments" : "Project Manager -  PMP Certified by PMI (Project Management Institute)\nIBM Certified Executive Consultant",
+               "LocationSummary" : {
+                  "Region" : "Maharashtra",
+                  "CountryCode" : "IN"
+               },
+               "schoolType" : "university",
+               "Major" : "Computer Technology",
+               "Degree" : {
+                  "degreeType" : "bachelors",
+                  "DegreeName" : "Bachelor of Engineering (B.E.)"
+               },
+               "SchoolName" : "University of Pune"
+            }
+         ]
+      },
+      "ExperienceSummary" : {
+         "HighestEducationalLevel" : "masters",
+         "TotalYearsOfManagementWorkExperience" : 16.3,
+         "TotalYearsOfMidLevelManagementWorkExperience" : 5.5,
+         "TotalYearsOfLowLevelManagementWorkExperience" : 10.7,
+         "TotalMonthsOfWorkExperience" : 450,
+         "TotalMonthsOfMidLevelManagementWorkExperience" : 67,
+         "ExecutiveBrief" : "Sunil Singh has been working in the IT occupational sector for more than 37 years. Currently he is employed at IBM Global Services and IBM Global Technology Services. Sunil has extensive knowledge of SLA, Agile Methodology. Sunil has an extensive management experience (17 years) with exposure to executive/middle management positions.",
+         "TotalMonthsOfLowLevelManagementWorkExperience" : 129,
+         "TotalMonthsOfManagementWorkExperience" : 196,
+         "TotalYearsOfWorkExperience" : 37,
+         "ManagementRecord" : "Currently since 2015 this candidate had experience at a lower grade management level working as a Resiliency Services - Executive Program Manager at IBM.\nSince 2014, for a total duration of 7 months, this candidate had experience at a lower grade management level working as a Manager (Sales) at IBM.\nSince 2013, for a total duration of 7 months, this candidate had experience at an executive/middle management level working as a Business Operations Manager at BCRS.\nSince 2009, for a total duration of 36 months, this candidate had experience at an executive/middle management level working as a Data Center Service Delivery - Business Operations Manager at BCRS.\nSince 2008, for a total duration of 7 months, this candidate had experience at a lower grade management level working as a Project Manager at BCRS Center of Excellence.\nSince 2005, for a total duration of 7 months, this candidate had experience at a lower grade management level working as a Client Solution Executive/Project Manager at IBM.\nSince 1997, for a total duration of 84 months, this candidate had experience at a lower grade management level working as a Global Services - Executive Consultant/Project Manager at IBM.\nSince 1994, for a total duration of 24 months, this candidate had experience at an executive/middle management level working as a Senior IT Officer/ERP Consultant - Manufacturing and Distribution at Rallis India Limited.\nSince 1993, for a total duration of 12 months, this candidate had experience at a lower grade management level working as a Training & Education Leader at TULEC Computer Education.\n"
+      },
+      "FileStruct" : {
+         "attachment" : [
+            {
+               "conv" : "yes",
+               "lang" : "EN",
+               "doc_type" : "cv",
+               "fname" : "0829657108426854",
+               "content" : "/tmp/soap_160510673691658",
+               "ftype" : "docx"
+            }
+         ],
+         "filename" : "/tmp/soap_160510673691658"
+      },
+      "src" : "DAXTRA-CVX schema:2.0.39 release:0.30.0.73466 rdate:2021-06-22",
+      "TextResume" : "\n\n{{HEADER}}\nSunil Singh\nJohns Creek, Georgia                           sunilmumbai@gmail.com              Mobile:(205) 534-0550\n\n{{END_HEADER}}\n\n\n{{FOOTER}}\nPage 1 of 3\n\n\n\n{{END_FOOTER}}\n\n{{DOCUMENT_DATESTAMP}} 2016-11-04 {{END_DOCUMENT_DATESTAMP}}\nAn IT Leader with over 20 years IT Industry experience with proven record of leading and managing large complex multiple data centers, data center planning, cloud transformation, cloud solutions, development of cloud offerings as a service (XaaS) offerings, drive innovations, manage risks, manage complex projects, create a more effective business, improve customer experience, improve operational efficiency, business transformation, implement growth options, develop strategy to respond to competitive pressure, business operations, IT strategy, change leader, vendor management, negotiations, risk analysis, DR Planning, business continuity and IT Security. Global team builder, force multiplier and collaborative problem solver using analytics, process improvement, project management, continuous improvement and negotiation strengths to turnaround troubled operations. \nExpertise in\nBusiness Transformation\nStrategy Development\nCloud Technology\nGlobal Sourcing\nRisk Management\nData Privacy and Security\nCloud Technology\nAgile Methodology\n\nBusiness Operations\nBusiness Development\nCenter of Excellence\nVendor Management\nDisaster Recovery\nIT Management\nData Analytics\nITIL v3 Foundation\n\nService Delivery\nData Center Management\ndisruptive innovations\nNegotiations ,\nBusiness Continuity\nIT Governance\nWeb App Development\nSAP, CRM, SCM, HRM\nProfessional Experience / Career History\n\nIBM Global Services and IBM Global Technology Services                (1997 - Present)\n\nIBM Resiliency Services - Executive Program Manager:                     (2015 - Present)\nLed Resiliency Services Global Data Centers services delivery process management, tools, cloud technology, automation, data center information management, sites energy efficiency management, site data and capacity management. Tracking Non-labor (HW, SW, Network, Facilities, Vendors) savings initiatives. For large Resiliency deals building an interlock between Sales and delivery team. \n        *    Enhanced service delivery business process at 208 DC across 30 Countries with revenue of $560+ Mil. Improved contract management, delivery, SLA, cost savings, resource syndication and asset utilization.\n        *    Improved customer retention, contract renewal rate and sales with upsell opportunity.\n        *    Improved energy efficiency by $650K in power savings, by implementing temperature tracking and CRAC controller, airflow and humidity sensors across 112 large Resiliency DC.\n        *    Achieved savings of over $87 Mil in Non-Labor (HW, SW, Network, facilities, vendor) savings initiative at Global Resiliency data centers.\n        *    Implemented Global Cloud based Orchestra Tool, for customers to request services for managed continuity and rapid recovery services with ROI of 2000%. Led New Deal App to interlock between Sales, CoE and Delivery Team to shorten on-boarding time of large new customers improving Customer Satisfaction and SLA.\n        *    Spearheaded product development using agile methodology and deployment of Yellow Pages Tool resulting in improved site management, site utilization and capacity planning, operational efficiency and driving sales growth at 354 Resiliency sites across 54 countries with reduction in operational cost.\n\nIBM Resiliency Services - Business Operations Manager (Sales):             (2014)\nLed Resiliency Services global sales opportunity tracking, provide sales and pre-sales support, lead IOT Sales Cadence calls, provided offering and technical support to the Country Leaders in closing mega deal opportunities. Build Sales Analytic tools, Reports and interfaces with Siebel CRM and IBM SalesConnect Tools. \n        *    Led global signings of $1.6B, revenue $1.1B and GP tracking and driving YOY signings and revenue growth.\n        *    Led Sales cadence call with IOT leaders to track signings pipeline, mega deals, key opportunities and help required to close mega deals. Led Global Sales Center of Excellence team's engagement, Billings, recoveries and expense tracking.\n\nBCRS - Smart Cloud Content Management (SCCM) - Business Operations Manager:     (2013)\nLed financial and operations management of new cloud based offering development of SCCM. Responsible for led budget planning, project management, vendor management, expense and recovery management, P&L Statement, and business controls to support the development and launch of SCCM offering. \n        *    Increased SCCM's revenue by 18%, reduced operating expense by 12% by negotiations with vendors, increased GP, successfully managed the project with challenged budgets constraints.\n\nBCRS -Data Center Service Delivery -  Business Operations Manager:             (2009 - 2012)\nLed application design and development of business application and processes to support service delivery of BCRS Services in 30 Countries and 150 Data Centers with Global Revenue of $700 Mil. Designed and implemented CMT Tool, Yellow Pages, WW Customer Sat Tool, DR Invocation Tool, Cloud based - Orchestra Tool, Global Data warehouse and data analytics tool. Led fall planning, investments and strategy, new offerings, capital investments, and developing market channels to help drive business growth and margins. \n        *    Successfully led business operations, service delivery processes, financial and usage based billing process integration of new business acquisition (Arsenal Digital).\n\nBCRS Center of Excellence(CoE) - Project Manager:                     (2008)\n        *    Streamlined new offering development process, improved new offering marketing, education and communication materials for quick enablement of new products and offerings in different Geographies. Led development and improvement of Disaster Recovery Consulting Services and Business Continuity Planning.\n        *    Developed new products and services by partnering with IBM Research and by harvesting the intellectual assets and bringing them to market into new products and services.\n\nBCRS - SAP Blue Harmony Project - Executive Consultant:                 (2007)\nLed BCRS Opportunity to Order Management and Order Fulfilment process mapping in Blue Harmony project. Blue Harmony - IBM Internal SAP Project to replace multiple legacy system and tools and create a WW standardized business processes with the objective of simplifying processes and reduce operational cost. Led Internal audits and compliance process for financial data.\n\nIBM Global Business Continuity and Resiliency Services (BCRS)\nBusiness Development Executive - The Netherlands / China                 (2006)\n*    Led BCRS business development opportunities in the Netherlands at ING Bank. Built trusted relationship with Senior Executives building resiliency solution to ING's requirements and business objectives leading to signings of $8 Mil Consulting and implementation of high availability hot data center deal.  Led Risk Analysis, Business Impact Analysis, Prioritized and identified business critical applications. Led Data Center Resiliency and DR Plan and Solution for ING Bank.\n\n*    Led business development, sales, marketing strategy, setup of BCRS consulting practice, skills development and strengthening of service delivery capabilities in Beijing and Shanghai, China. As BCRS SME, led coaching, training and education plan. Led development of reusable intellectual assets library, methods and tools to support consulting and Service Delivery. Led business development, Bid, RFP and solution for several large opportunities in China and helped grow BCRS business by 40% (China Mobile, CNOOC, Shanghai General Motors, etc.).\n\nIBM Client Solution Executive / Project Manager, GM/GMAC / BMW               (2005)\n*    Led business development opportunity, solution and proposal development for Application Integration Management - Domain for GMAC. Led solution design for outsourcing, transition and transformation, global project management office and governance model, and integration with multiple service providers. Engaged Senior IBM Executives, Pricing team in building bid strategy, pricing, service delivery challenges and risk management.\n*    Led automotive solution design and development for BMW US manufacturing plant at Greenville Spartanburg, SC.\n\n\nIBM Global Services - Executive Consultant / Project Manager\nClient: Mercedes-Benz US International, Vance, Alabama                 (1997 to 2004)\nLed SAP implementation and application management team at Mercedes-Benz project to support JIT manufacturing. Led the business processes transformation and design JIT manufacturing, logistics, optimized supply chain management, EDI, product data management, master data management, data strategy and governance, product configuration, product cost analysis, foreign trade zone, vehicle sequencing and scheduling. \n        *    Built world class state of the art JIT business process for automotive manufacturing and a referenced site for IBM. Resulting in increased IBM revenue by 30% and achieving project SLA bonus.\n        *    Improved IT service management, project management and deployed productivity tools to track and prioritize development request, to expedite development and improve authorization and tracking there by resulting in reducing project cost, improved tracking and customer control. Improved SLA and Customer Satisfaction to 96%\n        *    Successfully implemented HR and payroll system, time and attendance system, ADP Interface.\n        *    Led SAP Application architecture and infrastructure landscape to support automotive business processes, customizable vehicles, high volume manufacturing on multiple production lines, JIT Manufacturing, and delivered strategic and best of the breed resilient and high availability solution to support growing business demand.\n        *    Worked closely with the IBM Executive team to develop strategies to improve service level, customer satisfaction, resolve key issues and enhance customer relationship.\n        *    Led risk management, data privacy, data security, audit and compliance management. Led the on-site high availability architecture and off-site disaster recovery solution.\n        *    Led business development and sales opportunities in the automotive and manufacturing sector and successfully closed new signings of over $30 Mil, at Honda, Toyota, BMW, Solar Turbines, Flowserve, Solectron.\n\nUB Information Consulting Services - Senior Consultant,\nIBM/Mercedes-Benz, Alabama                                 (1996 - 1997)\nLed Baan ERP Project implementation at Mercedes Benz US International (MBUSI) at Vance, Alabama. Led Master Data and Product Data Management (PDM), data integration with Mercedes Legacy Central Product Design and Documentation Tool 'Dialog', MRP, logistics and materials management. \n*    Led BaanERP Customization, System Integration, application architecture design to support business, improving customer satisfaction to high 98% and achieving High SLA agreements.\n\nRallis India Limited, Mumbai, India\nSenior IT Officer (ERP Consultant - Manufacturing and Distribution)             (1994 - 1996)\nResponsible for implementing BaanERP Manufacturing, Logistics and Distribution for Rallis India at its Agrochemicals manufacturing plant at Belapur, Navi Mumbai, India. \n*    Transformed manufacturing planning process and increased production by 20% and transformed logistics and inventory management resulting in inventory cost savings of 25%, and improved quality management process.\n*    Led IT Infrastructure team, database team, IT management processes, methodology and tools resulting in no unplanned system outages.\n\nTULEC Computer Education - Training & Education Leader                 (1993 - 1994)\n*    Tech innovator and education leader for latest emerging computer technologies and computer fundamentals.\n\nEducation and Certification ,\nMasters of Business Administration (MBA) - The University of Alabama, Tuscaloosa, AL\nBachelor of Engineering (B.E.) in Computer Technology - University of Pune, Maharashtra, India\n\nProject Manager -  PMP Certified by PMI (Project Management Institute)\nIBM Certified Executive Consultant\n\n",
+      "ParserInfo" : {
+         "ConverterRelease" : "0.23.1.72872",
+         "ParserConfiguration" : "{max_len=30000} {tel_flag=} {send_zip=} {fast_conv=} {DEF_LOCAL=} {sdate=0} {no_email_body=0} {do_clever_zoning=0} {keep_zone_span=0} {keep_span=1} {complex=0} {accept_langs=} {not_accept_langs=} {prefer_lang_cv=} {pers_only=0} {projects_off=0} {tree_search_on=0} {all_skills=0} {turbo=0} {known_layouts_only=0} {split_language=0} {picture=0} {picture_inline=0} {debug=0} {ocr_allowed=1} {max_pages=8} {geo_allowed=0} {geo_service=daxtra} {name_space=0} {charset=} {hrxml_upgrade_edu_hist=0}{hrxml_add_languages_section=1}{spool=} {docID=} {user=TitanTech} ",
+         "ParserRelease" : "0.30.0.73466",
+         "ParserReleaseDate" : "2021-06-22",
+         "ConverterReleaseDate" : "2021-04-29",
+         "ParserSchema" : "2.0.39"
+      }
+   }
+}

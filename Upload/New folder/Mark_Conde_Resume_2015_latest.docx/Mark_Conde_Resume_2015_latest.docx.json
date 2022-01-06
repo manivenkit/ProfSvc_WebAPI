@@ -1,0 +1,2952 @@
+{
+  "ContactInformation": {
+    "CandidateName": {
+      "FormattedName": "MARK A. CONDE",
+      "GivenName": "MARK",
+      "MiddleName": "A.",
+      "FamilyName": "CONDE"
+    },
+    "Telephones": [
+      {
+        "Raw": "407-385-0814",
+        "Normalized": "+1 407-385-0814",
+        "InternationalCountryCode": "1",
+        "AreaCityCode": "407",
+        "SubscriberNumber": "385-0814"
+      }
+    ],
+    "EmailAddresses": [
+      "me@markconde.com"
+    ]
+  },
+  "ProfessionalSummary": "* Team Leader: Directed, motivated and organized effective project teams.\n* Experienced Project Manager: Proven ability to meet deadlines in a dynamic environment. Extensive experience in operations, budgeting, planning, documentation, tracking and scheduling.\n* Solutions-Driven IT Professional: More than fifteen years of experience designing, delivering and managing large-scale, enterprise infrastructures.\n* Client-Oriented: Dedicated to building productive working relationship with the business partners. Committed to adopting new technologies/methodologies to create customized, cutting-edge and enduring solutions to meet business goals.\n* ITIL (MALC) Certified: Certified in foundations and all core competencies of ITIL.",
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "MARK A. CONDE is experienced in the management of:  Information Technology (Privacy and Data Security; Operations, Monitoring and Software Management). MARK A. CONDE has 15 years of work experience, with 13 years of management experience, including a mid-level position.",
+      "MonthsOfWorkExperience": 176,
+      "MonthsOfManagementExperience": 152,
+      "ExecutiveType": "GENERAL",
+      "AverageMonthsPerEmployer": 29,
+      "FulltimeDirectHirePredictiveIndex": 56,
+      "ManagementStory": "Current position is a mid-level management role: Senior Manager - IT Architecture\nStarting on 1/1/2009, the candidate held the following mid-level management position for 7 years and 9 months:\n\tTitle: Senior Manager - IT Architecture for Universal Parks and Resorts\nStarting on 1/1/2005, the candidate held the following mid-level management position for 2 years:\n\tTitle: Director of Corporate Networks for FDN Telecommunications\nStarting on 1/1/2003, the candidate held the following mid-level management position for 3 years:\n\tTitle: Director of IT for CNL\nStarting on 1/1/2002, the candidate held the following mid-level management position for 2 years:\n\tTitle: Senior Manager - Infrastructure for Ocwen Technology Xchange",
+      "CurrentManagementLevel": "mid-level",
+      "ManagementScore": 55
+    },
+    "Positions": [
+      {
+        "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Universal Parks and Resorts",
+            "Normalized": "Universal Parks and Resorts"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "FL"
+            ],
+            "Municipality": "Orlando"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": true,
+        "JobTitle": {
+          "Raw": "Senior Manager - IT Architecture",
+          "Normalized": "Senior Manager IT Architecture",
+          "Probability": "Confident",
+          "Variations": [
+            "Senior Manager",
+            "Manager - IT Architecture",
+            "Manager"
+          ]
+        },
+        "StartDate": {
+          "Date": "2009-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2016-09-12",
+          "IsCurrentDate": true,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Privacy and Data Security",
+        "JobLevel": "Senior Manager (more than 5 years management experience)",
+        "TaxonomyPercentage": 53,
+        "Description": "* Directly responsible for the design, implementation and on-going management of the industrial networks and security-infrastructure of several major attractions and show-systems worldwide including the Wizarding World of Harry Potter and Transformers. Provide effective leadership, vision and direction of the industrial control systems cyber security risk-management team.\n* Lead on numerous projects, this would include spearheading the redesign and reconstruction of UPR's core infrastructures including active directory, email, cloud, e-commerce infrastructures and other key systems.\n* Overseeing the 'Ride and Show' IT group for Universal Parks and Resorts (UPR) worldwide; responsibilities for this role include designing and managing the infrastructure (servers, network, security, audits, etc.) for these environments.\n* Defining resource allocation to support domestic and international projects and initiatives, conducting risk assessments/audits (PCI and NIST compliance) and developing information security plan reviews. This function requires 24x7x365 availability since this group supports all current and upcoming initiatives.\n* Act as technical liaison to senior management at international locations.\n* Currently responsible for leading design efforts for two upcoming parks located in Beijing and Moscow.\n* Continuously lead innovative efforts to success, including the development of technologies that resulted in two new patents for UPR in industrial networking and network security.\n* Serve on the Governance, Process Review, DR/BC Management, PMO, Change Management and Steering   committees. Manage key aspects of strategic and tactical planning for Security, Compliance, Risk and Business Continuity departments, developing organizational structure and chartered business groups dedicated to PCI, SOX and NIST requirements.\n* Managed external vendors and outsourced development teams to achieve project success.\n* Consulted with company functional departments and industry experts to build consensus on design goals and priorities.\n* Established cloud infrastructure for UPR's software platforms.\n* Worked with other company executives to establish strategic plan for future technology investments.\n* Accurately estimated project costs, and managed scope with comprehensive statements of work (SOW), and change control methodologies.\n* Contribute and recommend new IT/Governance strategies which reduce IT corporate cost plans and saved over $1 million in revenues after release."
+      },
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "SunGard Higher Education",
+            "Normalized": "SunGard Higher Education"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "FL"
+            ],
+            "Municipality": "Orlando"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Senior Infrastructure Architect",
+          "Normalized": "Senior Infrastructure Architect",
+          "Probability": "Confident",
+          "Variations": [
+            "Infrastructure Architect"
+          ]
+        },
+        "StartDate": {
+          "Date": "2008-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2009-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Distributed Systems",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 83,
+        "Description": "* Designed and oversaw the construction of a large-scale active directory and SharePoint infrastructure to accommodate a user-base of 270,000 students across various campuses. Ensured all project elements were completed on time, within budget and adhered to strict project guidelines.\n* Supervised and managed the reconfiguring of SGHE remote access protocols and virtual-hosting solutions to support the campuses, resulting in optimal service with minimal interruption.\n* Developed security guidelines and processes for numerous colleges.\n* Designed and implemented Infrastructure as a Service (IaaS) environment for cloud applications serving clients across the US and Latin America.\n* Collaborated closely with the software development team and other development and Operations teams within IT with a focus on enterprise design versus implementation. Assisted in the development of a long term vision and strategy regarding virtualization and storage."
+      },
+      {
+        "Id": "POS-3",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Hard Rock Café International",
+            "Normalized": "Hard Rock Café International"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "FL"
+            ],
+            "Municipality": "Orlando"
+          }
+        },
+        "IsSelfEmployed": true,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Enterprise Infrastructure Architect/Consultant",
+          "Normalized": "Enterprise Infrastructure Architect/Consultant",
+          "Probability": "Confident",
+          "Variations": [
+            "Enterprise Infrastructure Architect",
+            "Consultant"
+          ]
+        },
+        "StartDate": {
+          "Date": "2006-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2008-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Network",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 35,
+        "Description": "* Collaborated extensively with Hard Rock Café's (HRC) Senior IT management on various high-profile projects and provided assistance in the development/construction of HRC's corporate-systems disaster recovery plan and development of the HRC corporate security infrastructure.\n* Successfully implemented a VMware-based virtual environment and reconstructed HRC's storage environment which improved storage efficiency by 45%.\n* Audited and managed corporate systems for security and licensing concerns.\n* Provided mentoring to members of HRC's IT team."
+      },
+      {
+        "Id": "POS-4",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "FDN Telecommunications",
+            "Normalized": "FDN Telecommunications"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "FL"
+            ],
+            "Municipality": "Orlando"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Director of Corporate Networks",
+          "Normalized": "Director of Corporate Networks",
+          "Probability": "Confident",
+          "Variations": [
+            "Director"
+          ]
+        },
+        "StartDate": {
+          "Date": "2005-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2006-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Enterprise Storage",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 67,
+        "Description": "* Directed and supervised several technology groups including Client/Server Support, Security, Executive Support, Network Services and Helpdesk.\n* Maintained and managed licensing for all corporate systems.\n* Consistently displayed strong financial expertise while managing an operating budget of over $3M, a capital budget of $1.7M and FDN's general IT budget of over $5M.\n* Directed the planning and implementation of process and technical controls specifically designed to mitigate the risk to critical business functions affecting security breaches, weak business practices and disasters. Overall efforts resulted in a 41% reduction in data loss, compromise or unauthorized access within the first year with estimated annual savings of $1M.\n* Oversaw the construction of a large scale NetApp-based SAN/NAS environment and over 300 server infrastructures including large VMware based cloud environment, delivering all project milestones within timeline and budget and in compliance with company requirements."
+      },
+      {
+        "Id": "POS-5",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "CNL",
+            "Normalized": "CNL"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "FL"
+            ],
+            "Municipality": "Orlando"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Director of IT",
+          "Normalized": "Director of IT",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2003-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2005-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Help Desk",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 30,
+        "Description": "* Directed a number of teams that provided support for the seven companies comprising CNL, including the Help Desk, Support Network, Telecommunication and Server Support. Oversaw CNL's IT budget and expenditures valued at over $7M.\n* Responsible for addressing all internal and external audits of the governance organization, including Sarbanes Oxley reviews, annual control self-assessments and controls issues resolution.\n* Personally developed and implemented CNL's disaster recovery and business-continuity plan development projects."
+      },
+      {
+        "Id": "POS-6",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Ocwen Technology Xchange",
+            "Normalized": "Ocwen Technology Xchange"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "FL"
+            ],
+            "Municipality": "Orlando"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Senior Manager - Infrastructure",
+          "Normalized": "Senior Manager Infrastructure",
+          "Probability": "Confident",
+          "Variations": [
+            "Senior Manager",
+            "Manager - Infrastructure",
+            "Manager"
+          ]
+        },
+        "StartDate": {
+          "Date": "2002-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2003-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Sales",
+        "SubTaxonomyName": "General",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 50,
+        "Description": "* Supervised server and network teams, each consisting of 20 members, in both Orlando, Florida and India.\n* Oversaw support for Ocwen's e-commerce website, REALTrans.com with numerous corporate clients integrated into backend.\n* Analyzed and provided solutions for a variety of network and server-related technologies. Developed and implemented site enhancements and provided support to client community.\n* Significantly increased client base and company revenues through business development activities and industry contacts.\n* Technology liaison between clients, sales, quality and other teams: ensured a high level of service able to communicate progress between all parties.\n* Analyzed, defined and documented detailed specs for new and existing applications in compliance with client methodologies."
+      }
+    ]
+  },
+  "SkillsData": [
+    {
+      "Root": "Sovren",
+      "Taxonomies": [
+        {
+          "Id": "10",
+          "Name": "Information Technology",
+          "PercentOfOverall": 49,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "556",
+              "SubTaxonomyName": "Privacy and Data Security",
+              "PercentOfOverall": 14,
+              "PercentOfParent": 28,
+              "Skills": [
+                {
+                  "Id": "5551264",
+                  "Name": "Business Continuity",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "5551257",
+                  "Name": "Cissp",
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "HOBBIES"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "5551236",
+                  "Name": "Disaster Recovery",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2008-12-31"
+                  }
+                },
+                {
+                  "Id": "5551239",
+                  "Name": "Information Security",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "5551260",
+                  "Name": "ITIL",
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "HOBBIES"
+                    },
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "5551314",
+                  "Name": "NIST",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "5551248",
+                  "Name": "Payment Card Industry",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "5551249",
+                      "Name": "PCI",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 92
+                      },
+                      "LastUsed": {
+                        "Value": "2016-09-12"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 92
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "5551251",
+                  "Name": "Sarbanes Oxley",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "Variations": [
+                    {
+                      "Id": "5551252",
+                      "Name": "SOX",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 92
+                      },
+                      "LastUsed": {
+                        "Value": "2016-09-12"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 128
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 92
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "349",
+              "SubTaxonomyName": "Operations, Monitoring and Software Management",
+              "PercentOfOverall": 10,
+              "PercentOfParent": 21,
+              "Skills": [
+                {
+                  "Id": "3490026",
+                  "Name": "Active Directory",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 104
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "3490065",
+                  "Name": "Cissp",
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "HOBBIES"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "3490036",
+                  "Name": "ITIL",
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "HOBBIES"
+                    },
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "3490039",
+                  "Name": "NAS",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  }
+                },
+                {
+                  "Id": "3490025",
+                  "Name": "Network Security",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "3490044",
+                  "Name": "Networking",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "3490061",
+                  "Name": "PCI",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "3490016",
+                  "Name": "Virtualization",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "199",
+              "SubTaxonomyName": "Project Management",
+              "PercentOfOverall": 10,
+              "PercentOfParent": 20,
+              "Skills": [
+                {
+                  "Id": "023699",
+                  "Name": "Change Control",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "005052",
+                  "Name": "PMO",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "022909",
+                  "Name": "Project Manager",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "338",
+              "SubTaxonomyName": "Security",
+              "PercentOfOverall": 5,
+              "PercentOfParent": 10,
+              "Skills": [
+                {
+                  "Id": "024946",
+                  "Name": "Cissp",
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "HOBBIES"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "3380000",
+                  "Name": "Cyber Security",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "015370",
+                  "Name": "Disaster Recovery",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2008-12-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "253",
+              "SubTaxonomyName": "Protocols and Standards",
+              "PercentOfOverall": 4,
+              "PercentOfParent": 8,
+              "Skills": [
+                {
+                  "Id": "003463",
+                  "Name": "NIST",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "004467",
+                  "Name": "PCI",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "198",
+              "SubTaxonomyName": "Network",
+              "PercentOfOverall": 3,
+              "PercentOfParent": 7,
+              "Skills": [
+                {
+                  "Id": "085031",
+                  "Name": "Active Directory",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 104
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "013162",
+                  "Name": "Citrix",
+                  "FoundIn": [
+                    {
+                      "SectionType": "HOBBIES"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "024595",
+                  "Name": "Remote Access",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  }
+                },
+                {
+                  "Id": "026285",
+                  "Name": "Vmware",
+                  "FoundIn": [
+                    {
+                      "SectionType": "HOBBIES"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "2008-12-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "347",
+              "SubTaxonomyName": "Telephony",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 2,
+              "Skills": [
+                {
+                  "Id": "026599",
+                  "Name": "KEY Systems",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "718",
+              "SubTaxonomyName": "Distributed Systems",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "7180005",
+                  "Name": "IAAS",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  }
+                },
+                {
+                  "Id": "7180008",
+                  "Name": "Large-Scale",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  }
+                },
+                {
+                  "Id": "7180009",
+                  "Name": "Virtualization",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "204",
+              "SubTaxonomyName": "Programming",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "013446",
+                  "Name": "Client/Server",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  }
+                },
+                {
+                  "Id": "027080",
+                  "Name": "MCSE",
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "HOBBIES"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "022594",
+                  "Name": "Structured Software",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "008213",
+                      "Name": "Software Development",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 24
+                      },
+                      "LastUsed": {
+                        "Value": "2009-12-31"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 24
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2009-12-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "251",
+              "SubTaxonomyName": "Config Deploy Upgrade Migrate",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "022159",
+                  "Name": "Change Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "020238",
+                  "Name": "ITIL",
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "HOBBIES"
+                    },
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "554",
+              "SubTaxonomyName": "Business Intelligence",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "5540951",
+                  "Name": "Microsoft Sharepoint",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "554095101",
+                      "Name": "Sharepoint",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 24
+                      },
+                      "LastUsed": {
+                        "Value": "2009-12-31"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 24
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2009-12-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "196",
+              "SubTaxonomyName": "Internet",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "022195",
+                  "Name": "Sharepoint",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "193",
+              "SubTaxonomyName": "Database",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "025538",
+                  "Name": "Progress",
+                  "FoundIn": [
+                    {
+                      "SectionType": "HOBBIES"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "201",
+              "SubTaxonomyName": "Architecture",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "016667",
+                  "Name": "Enterprise Architecture",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "194",
+              "SubTaxonomyName": "Help Desk",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "007803",
+                  "Name": "Server Support",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "555",
+              "SubTaxonomyName": "Enterprise Storage",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "5551169",
+                  "Name": "Netapp",
+                  "FoundIn": [
+                    {
+                      "SectionType": "HOBBIES"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  }
+                },
+                {
+                  "Id": "5551171",
+                  "Name": "Network Attached Storage",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "555117101",
+                      "Name": "NAS",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-4"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 24
+                      },
+                      "LastUsed": {
+                        "Value": "2006-12-31"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 24
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2006-12-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "12",
+          "Name": "Legal",
+          "PercentOfOverall": 11,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "727",
+              "SubTaxonomyName": "Corporate",
+              "PercentOfOverall": 6,
+              "PercentOfParent": 55,
+              "Skills": [
+                {
+                  "Id": "7270003",
+                  "Name": "Governance",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 128
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "395",
+              "SubTaxonomyName": "Intellectual Property",
+              "PercentOfOverall": 5,
+              "PercentOfParent": 45,
+              "Skills": [
+                {
+                  "Id": "004332",
+                  "Name": "Patents",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "98",
+          "Name": "Security",
+          "PercentOfOverall": 8,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "466",
+              "SubTaxonomyName": "Financial, Accounting and Processes",
+              "PercentOfOverall": 7,
+              "PercentOfParent": 81,
+              "Skills": [
+                {
+                  "Id": "026004",
+                  "Name": "Sarbanes-Oxley (Sox)",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "007442",
+                      "Name": "Sarbanes Oxley",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-5"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 36
+                      },
+                      "LastUsed": {
+                        "Value": "2005-12-31"
+                      }
+                    },
+                    {
+                      "Id": "007443",
+                      "Name": "SOX",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 92
+                      },
+                      "LastUsed": {
+                        "Value": "2016-09-12"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 128
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 128
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "007685",
+                  "Name": "Security Design",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "007692",
+                  "Name": "Security Infrastructure",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "2008-12-31"
+                  }
+                },
+                {
+                  "Id": "007694",
+                  "Name": "Security Plan",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "463",
+              "SubTaxonomyName": "IT",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 18,
+              "Skills": [
+                {
+                  "Id": "019777",
+                  "Name": "Information Security",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "025783",
+                  "Name": "Network Security",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "464",
+              "SubTaxonomyName": "Disaster",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "023065",
+                  "Name": "Disaster Recovery",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2008-12-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "5",
+          "Name": "Engineering",
+          "PercentOfOverall": 8,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "307",
+              "SubTaxonomyName": "General Engineering",
+              "PercentOfOverall": 5,
+              "PercentOfParent": 60,
+              "Skills": [
+                {
+                  "Id": "022232",
+                  "Name": "Steering",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "142",
+              "SubTaxonomyName": "Plant",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 12,
+              "Skills": [
+                {
+                  "Id": "080825",
+                  "Name": "Control Systems",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "266",
+              "SubTaxonomyName": "Circuits",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 12,
+              "Skills": [
+                {
+                  "Id": "080621",
+                  "Name": "Control Systems",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "308",
+              "SubTaxonomyName": "Power Engineering",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 12,
+              "Skills": [
+                {
+                  "Id": "080355",
+                  "Name": "Control Systems",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "139",
+              "SubTaxonomyName": "Network",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 4,
+              "Skills": [
+                {
+                  "Id": "025782",
+                  "Name": "Network Security",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "146",
+              "SubTaxonomyName": "Telecom",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "022168",
+                  "Name": "Telecommunications",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "34",
+          "Name": "Business Operations and General Business",
+          "PercentOfOverall": 5,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "437",
+              "SubTaxonomyName": "General Skills and Activities",
+              "PercentOfOverall": 5,
+              "PercentOfParent": 89,
+              "Skills": [
+                {
+                  "Id": "020733",
+                  "Name": "Liaison",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 116
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "436",
+              "SubTaxonomyName": "Management Activities or Functions",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 11,
+              "Skills": [
+                {
+                  "Id": "024511",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "012977",
+                  "Name": "Change Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                },
+                {
+                  "Id": "017857",
+                  "Name": "Forecasting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "003875",
+                  "Name": "Operations",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "7",
+          "Name": "Finance",
+          "PercentOfOverall": 5,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "708",
+              "SubTaxonomyName": "Procurement",
+              "PercentOfOverall": 5,
+              "PercentOfParent": 90,
+              "Skills": [
+                {
+                  "Id": "7000075",
+                  "Name": "SOW",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "709",
+              "SubTaxonomyName": "Global Security",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 8,
+              "Skills": [
+                {
+                  "Id": "7000106",
+                  "Name": "Corporate Security",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "2008-12-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "245",
+              "SubTaxonomyName": "Compliance",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "023164",
+                  "Name": "Forecasting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "023034",
+                  "Name": "Strategic Planning",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "705",
+              "SubTaxonomyName": "Accounting",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "7000315",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "7000318",
+                  "Name": "Forecasting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "32",
+          "Name": "Degreed Accounting",
+          "PercentOfOverall": 5,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "942",
+              "SubTaxonomyName": "Auditing",
+              "PercentOfOverall": 5,
+              "PercentOfParent": 93,
+              "Skills": [
+                {
+                  "Id": "005584",
+                  "Name": "Audit",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "005789",
+                      "Name": "Audits",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-5"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 128
+                      },
+                      "LastUsed": {
+                        "Value": "2016-09-12"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 128
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 128
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "962",
+              "SubTaxonomyName": "Reporting",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 7,
+              "Skills": [
+                {
+                  "Id": "022891",
+                  "Name": "Budget",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  }
+                },
+                {
+                  "Id": "012135",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "256",
+              "SubTaxonomyName": "Other",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "023163",
+                  "Name": "Forecasting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "16",
+          "Name": "Telecommunications",
+          "PercentOfOverall": 3,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "319",
+              "SubTaxonomyName": "Hardware",
+              "PercentOfOverall": 2,
+              "PercentOfParent": 85,
+              "Skills": [
+                {
+                  "Id": "026600",
+                  "Name": "KEY Systems",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "318",
+              "SubTaxonomyName": "Network",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 11,
+              "Skills": [
+                {
+                  "Id": "025781",
+                  "Name": "Network Security",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "317",
+              "SubTaxonomyName": "Standards, Protocols, Technologies",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 2,
+              "Skills": [
+                {
+                  "Id": "027081",
+                  "Name": "MCSE",
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "HOBBIES"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "022166",
+                  "Name": "Telecommunications",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "323",
+              "SubTaxonomyName": "Skilled",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 2,
+              "Skills": [
+                {
+                  "Id": "022284",
+                  "Name": "Telecommunication",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "2005-12-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "9",
+          "Name": "Human Resources",
+          "PercentOfOverall": 2,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "581",
+              "SubTaxonomyName": "Organization Development",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 50,
+              "Skills": [
+                {
+                  "Id": "9000213",
+                  "Name": "Change Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "579",
+              "SubTaxonomyName": "HR Management",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 50,
+              "Skills": [
+                {
+                  "Id": "9000169",
+                  "Name": "Change Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "188",
+              "SubTaxonomyName": "Management",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "025514",
+                  "Name": "Executive Support",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "6",
+          "Name": "Environmental",
+          "PercentOfOverall": 1,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "328",
+              "SubTaxonomyName": "Testing, Assessments, and Monitoring",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "022805",
+                  "Name": "Risk Assessments",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "92",
+          "Name": "Knowledge and Learning Management",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "903",
+              "SubTaxonomyName": "General Knowledge and Learning Management",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "200052",
+                  "Name": "Mentor",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "200051",
+                  "Name": "Mentoring",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "2008-12-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "13",
+          "Name": "Manufacturing",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "207",
+              "SubTaxonomyName": "Process Control",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 67,
+              "Skills": [
+                {
+                  "Id": "022458",
+                  "Name": "Control Systems",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "208",
+              "SubTaxonomyName": "Planning",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 33,
+              "Skills": [
+                {
+                  "Id": "022739",
+                  "Name": "Scheduling",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "27",
+          "Name": "Light Technical/Trades/Skilled Labor",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "287",
+              "SubTaxonomyName": "Machine Shop",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 67,
+              "Skills": [
+                {
+                  "Id": "022459",
+                  "Name": "Control Systems",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 92
+                  },
+                  "LastUsed": {
+                    "Value": "2016-09-12"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "286",
+              "SubTaxonomyName": "Carpentry and Painting",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 33,
+              "Skills": [
+                {
+                  "Id": "004273",
+                  "Name": "Painting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "HOBBIES"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "89",
+          "Name": "Bookkeeping, Office Management",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "533",
+              "SubTaxonomyName": "Bookeeping Tasks",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "012120",
+                  "Name": "Budget",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  }
+                },
+                {
+                  "Id": "012132",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "29",
+          "Name": "Hardware Engineering",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "713",
+              "SubTaxonomyName": "EMC / SI",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "5000006",
+                  "Name": "EMC",
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "HOBBIES"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "80",
+          "Name": "General Management",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "517",
+              "SubTaxonomyName": "People Oriented",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 98,
+              "Skills": [
+                {
+                  "Id": "021625",
+                  "Name": "Mentor",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "009221",
+                  "Name": "Team Building",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "516",
+              "SubTaxonomyName": "Budget Related",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 2,
+              "Skills": [
+                {
+                  "Id": "012134",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "31",
+          "Name": "Written Communications",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "429",
+              "SubTaxonomyName": "Specs and Documentation",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "022620",
+                  "Name": "Documentation",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "46",
+          "Name": "Call Center or Help Desk or Customer Service",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "129",
+              "SubTaxonomyName": "Help Desk",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "023156",
+                  "Name": "Help Desk",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "2005-12-31"
+                  }
+                },
+                {
+                  "Id": "023946",
+                  "Name": "Helpdesk",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "20",
+          "Name": "Sales",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "105",
+              "SubTaxonomyName": "General",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 78,
+              "Skills": [
+                {
+                  "Id": "023757",
+                  "Name": "Business Development",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "102",
+              "SubTaxonomyName": "Direct Sales",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 22,
+              "Skills": [
+                {
+                  "Id": "022167",
+                  "Name": "Telecommunications",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "71",
+          "Name": "Strategy and Planning",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "502",
+              "SubTaxonomyName": "Planning and Estimating",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "012137",
+                  "Name": "Budgeting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "017858",
+                  "Name": "Forecasting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                },
+                {
+                  "Id": "008685",
+                  "Name": "Strategic Planning",
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "1",
+          "Name": "Administrative or Clerical",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "112",
+              "SubTaxonomyName": "Messages and Contact",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 60,
+              "Skills": [
+                {
+                  "Id": "023155",
+                  "Name": "Help Desk",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "2005-12-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "113",
+              "SubTaxonomyName": "Admin",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 40,
+              "Skills": [
+                {
+                  "Id": "025513",
+                  "Name": "Executive Support",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Certifications": [
+    {
+      "Name": "V.3 Certified, MALC Certified",
+      "MatchedFromList": false,
+      "IsVariation": false
+    },
+    {
+      "Name": "ESX/Virtual Center Certified",
+      "MatchedFromList": false,
+      "IsVariation": false
+    },
+    {
+      "Name": "Network Appliance Certified",
+      "MatchedFromList": false,
+      "IsVariation": false
+    },
+    {
+      "Name": "Certified Administrator",
+      "MatchedFromList": true,
+      "IsVariation": false
+    },
+    {
+      "Name": "ITIL (MALC) Certified",
+      "MatchedFromList": false,
+      "IsVariation": false
+    },
+    {
+      "Name": "MALC",
+      "MatchedFromList": false,
+      "IsVariation": true
+    },
+    {
+      "Name": "Certified MCSE",
+      "MatchedFromList": false,
+      "IsVariation": false
+    },
+    {
+      "Name": "EMC Certified",
+      "MatchedFromList": false,
+      "IsVariation": false
+    },
+    {
+      "Name": "CISSP",
+      "MatchedFromList": true,
+      "IsVariation": false
+    },
+    {
+      "Name": "MCSE",
+      "MatchedFromList": true,
+      "IsVariation": true
+    },
+    {
+      "Name": "CNL",
+      "MatchedFromList": true,
+      "IsVariation": false
+    }
+  ],
+  "LanguageCompetencies": [
+    {
+      "Language": "English",
+      "LanguageCode": "en",
+      "FoundInContext": "[RESUME_LANGUAGE]"
+    }
+  ],
+  "QualificationsSummary": "Core Competencies\n* Enterprise Architecture\t  * Program & Project Management   * Cybersecurity\n* Strategic Planning\t* Budgeting and Forecasting\t* Leader/Mentor\n* IT Security Design & Governance   * Team Building & Direction\t* ITIL Methodology",
+  "Hobbies": "Microsoft: Certified MCSE\nCitrix: Certified Administrator\nITIL: V.3 Certified, MALC Certified\nVMWare: ESX/Virtual Center Certified - VCP\nNetApp: Network Appliance Certified\nEMC: EMC Certified\n(ISC)2: CISSP (In Progress) (2016)\nCeH (In Progress) (2016)\n\n\nPhotography, Fishing, Painting and Hiking",
+  "Patents": "Continuously lead innovative efforts to success, including the development of technologies that resulted in two new patents for UPR in industrial networking and network security",
+  "ResumeMetadata": {
+    "FoundSections": [
+      {
+        "FirstLineNumber": 7,
+        "LastLineNumber": 12,
+        "SectionType": "SKILLS",
+        "HeaderTextFound": "Core Competencies"
+      },
+      {
+        "FirstLineNumber": 13,
+        "LastLineNumber": 19,
+        "SectionType": "SUMMARY",
+        "HeaderTextFound": "Selected Highlights"
+      },
+      {
+        "FirstLineNumber": 20,
+        "LastLineNumber": 76,
+        "SectionType": "WORK HISTORY",
+        "HeaderTextFound": "Professional Experience"
+      },
+      {
+        "FirstLineNumber": 77,
+        "LastLineNumber": 80,
+        "SectionType": "CERTIFICATIONS",
+        "HeaderTextFound": "Additional Credentials"
+      },
+      {
+        "FirstLineNumber": 81,
+        "LastLineNumber": 95,
+        "SectionType": "HOBBIES",
+        "HeaderTextFound": "Interests"
+      },
+      {
+        "FirstLineNumber": 96,
+        "LastLineNumber": 96,
+        "SectionType": "REFERENCES",
+        "HeaderTextFound": "References"
+      }
+    ],
+    "ResumeQuality": [
+      {
+        "Level": "Fatal Problems Found",
+        "Findings": [
+          {
+            "QualityCode": "414",
+            "Message": "We found no EDUCATION HISTORY for the candidate. A resume should always include an education history section."
+          }
+        ]
+      },
+      {
+        "Level": "Data Missing",
+        "Findings": [
+          {
+            "QualityCode": "213",
+            "Message": "A street level address was not found in the contact information. A full contact address should always be included in a resume as it allows for location based searches."
+          }
+        ]
+      },
+      {
+        "Level": "Suggested Improvements",
+        "Findings": [
+          {
+            "QualityCode": "111",
+            "Message": "Your resume includes a References section. References should NEVER be included in a resume."
+          },
+          {
+            "QualityCode": "112",
+            "Message": "The following section was identified as a skills section type: 'Core Competencies'. Skills should not be in a separate section, but instead, each skill should be included in the descriptions of work history or education. THIS IS INCREDIBLY IMPORTANT FOR AI MATCHING ALGORITHMS"
+          },
+          {
+            "QualityCode": "151",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "REFERENCES",
+                "Id": "5"
+              }
+            ],
+            "Message": "Every section should have a clear, unambiguous, commonly-used header on a separate line directly above the content associated with it."
+          }
+        ]
+      }
+    ],
+    "ReservedData": {
+      "Phones": [
+        "407-385-0814"
+      ],
+      "Names": [
+        "MARK A. CONDE",
+        "MARK A. CONDE   407-385-0814 • me@markconde.com"
+      ],
+      "EmailAddresses": [
+        "me@markconde.com"
+      ],
+      "Urls": [
+        "REALTrans.com"
+      ]
+    },
+    "PlainText": "MARK A. CONDE   407-385-0814 • me@markconde.com\n\n\nProven IT Leader •  Infrastructure architect•  Solutions driven\n\nA highly motivated and results-oriented IT professional with over 20 years in the Information Technology field. More than 15 years were in a management role. A proven track record of delivering many projects on time and within established budgets while adhering to project specifications. Innovative and effective team leader/mentor who always drives to bring out the best in employees. Exceptional ability to manage multiple, complex activities while working within strict deadlines, ensuring all technical solutions successfully meet business goals and needs.\n\nCore Competencies\n* Enterprise Architecture\t  * Program & Project Management   * Cybersecurity\n* Strategic Planning\t* Budgeting and Forecasting\t* Leader/Mentor\n* IT Security Design & Governance   * Team Building & Direction\t* ITIL Methodology\n\n\nSelected Highlights\n* Team Leader: Directed, motivated and organized effective project teams.\n* Experienced Project Manager: Proven ability to meet deadlines in a dynamic environment. Extensive experience in operations, budgeting, planning, documentation, tracking and scheduling.\n* Solutions-Driven IT Professional: More than fifteen years of experience designing, delivering and managing large-scale, enterprise infrastructures.\n* Client-Oriented: Dedicated to building productive working relationship with the business partners. Committed to adopting new technologies/methodologies to create customized, cutting-edge and enduring solutions to meet business goals.\n* ITIL (MALC) Certified: Certified in foundations and all core competencies of ITIL.\n\nProfessional Experience\nUniversal Parks and Resorts  • Orlando, FL • 2009 - Present\nSenior Manager - IT Architecture\n* Directly responsible for the design, implementation and on-going management of the industrial networks and security-infrastructure of several major attractions and show-systems worldwide including the Wizarding World of Harry Potter and Transformers. Provide effective leadership, vision and direction of the industrial control systems cyber security risk-management team.\n* Lead on numerous projects, this would include spearheading the redesign and reconstruction of UPR's core infrastructures including active directory, email, cloud, e-commerce infrastructures and other key systems.\n* Overseeing the 'Ride and Show' IT group for Universal Parks and Resorts (UPR) worldwide; responsibilities for this role include designing and managing the infrastructure (servers, network, security, audits, etc.) for these environments.\n* Defining resource allocation to support domestic and international projects and initiatives, conducting risk assessments/audits (PCI and NIST compliance) and developing information security plan reviews. This function requires 24x7x365 availability since this group supports all current and upcoming initiatives.\n* Act as technical liaison to senior management at international locations.\n* Currently responsible for leading design efforts for two upcoming parks located in Beijing and Moscow.\n* Continuously lead innovative efforts to success, including the development of technologies that resulted in two new patents for UPR in industrial networking and network security.\n* Serve on the Governance, Process Review, DR/BC Management, PMO, Change Management and Steering   committees. Manage key aspects of strategic and tactical planning for Security, Compliance, Risk and Business Continuity departments, developing organizational structure and chartered business groups dedicated to PCI, SOX and NIST requirements.\n* Managed external vendors and outsourced development teams to achieve project success.\n* Consulted with company functional departments and industry experts to build consensus on design goals and priorities.\n* Established cloud infrastructure for UPR's software platforms.\n* Worked with other company executives to establish strategic plan for future technology investments.\n* Accurately estimated project costs, and managed scope with comprehensive statements of work (SOW), and change control methodologies.\n* Contribute and recommend new IT/Governance strategies which reduce IT corporate cost plans and saved over $1 million in revenues after release.\n\nSunGard Higher Education • Orlando, FL • 2008 - 2009\nSenior Infrastructure Architect\n* Designed and oversaw the construction of a large-scale active directory and SharePoint infrastructure to accommodate a user-base of 270,000 students across various campuses. Ensured all project elements were completed on time, within budget and adhered to strict project guidelines.\n* Supervised and managed the reconfiguring of SGHE remote access protocols and virtual-hosting solutions to support the campuses, resulting in optimal service with minimal interruption.\n* Developed security guidelines and processes for numerous colleges.\n* Designed and implemented Infrastructure as a Service (IaaS) environment for cloud applications serving clients across the US and Latin America.\n* Collaborated closely with the software development team and other development and Operations teams within IT with a focus on enterprise design versus implementation. Assisted in the development of a long term vision and strategy regarding virtualization and storage.\n\nHard Rock Café International  • Orlando, FL • 2006 - 2008\nEnterprise Infrastructure Architect/Consultant\n* Collaborated extensively with Hard Rock Café's (HRC) Senior IT management on various high-profile projects and provided assistance in the development/construction of HRC's corporate-systems disaster recovery plan and development of the HRC corporate security infrastructure.\n* Successfully implemented a VMware-based virtual environment and reconstructed HRC's storage environment which improved storage efficiency by 45%.\n* Audited and managed corporate systems for security and licensing concerns.\n* Provided mentoring to members of HRC's IT team.\n\nFDN Telecommunications  • Orlando, FL • 2005 - 2006\nDirector of Corporate Networks\n* Directed and supervised several technology groups including Client/Server Support, Security, Executive Support, Network Services and Helpdesk.\n* Maintained and managed licensing for all corporate systems.\n* Consistently displayed strong financial expertise while managing an operating budget of over $3M, a capital budget of $1.7M and FDN's general IT budget of over $5M.\n* Directed the planning and implementation of process and technical controls specifically designed to mitigate the risk to critical business functions affecting security breaches, weak business practices and disasters. Overall efforts resulted in a 41% reduction in data loss, compromise or unauthorized access within the first year with estimated annual savings of $1M.\n* Oversaw the construction of a large scale NetApp-based SAN/NAS environment and over 300 server infrastructures including large VMware based cloud environment, delivering all project milestones within timeline and budget and in compliance with company requirements.\n\n\nCNL  • Orlando, FL • 2003 - 2005\nDirector of IT\n* Directed a number of teams that provided support for the seven companies comprising CNL, including the Help Desk, Support Network, Telecommunication and Server Support. Oversaw CNL's IT budget and expenditures valued at over $7M.\n* Responsible for addressing all internal and external audits of the governance organization, including Sarbanes Oxley reviews, annual control self-assessments and controls issues resolution.\n* Personally developed and implemented CNL's disaster recovery and business-continuity plan development projects.\n\nOcwen Technology Xchange  • Orlando, FL • 2002 - 2003\nSenior Manager - Infrastructure\n* Supervised server and network teams, each consisting of 20 members, in both Orlando, Florida and India.\n* Oversaw support for Ocwen's e-commerce website, REALTrans.com with numerous corporate clients integrated into backend.\n* Analyzed and provided solutions for a variety of network and server-related technologies. Developed and implemented site enhancements and provided support to client community.\n* Significantly increased client base and company revenues through business development activities and industry contacts.\n* Technology liaison between clients, sales, quality and other teams: ensured a high level of service able to communicate progress between all parties.\n* Analyzed, defined and documented detailed specs for new and existing applications in compliance with client methodologies.\n\nAdditional Credentials\nCertifications/Training\n\n\nInterests\n\nMicrosoft: Certified MCSE\nCitrix: Certified Administrator\nITIL: V.3 Certified, MALC Certified\nVMWare: ESX/Virtual Center Certified - VCP\nNetApp: Network Appliance Certified\nEMC: EMC Certified\n(ISC)2: CISSP (In Progress) (2016)\nCeH (In Progress) (2016)\n\n\nPhotography, Fishing, Painting and Hiking\n\n\nReferences: Available Upon Request\n• • •",
+    "DocumentLanguage": "en",
+    "DocumentCulture": "en-US",
+    "ParserSettings": "Coverage.MilitaryHistoryAndSecurityCredentials = True; Coverage.PatentsPublicationsAndSpeakingEvents = True; Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = US; Culture.Language = English; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = False; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2016-09-12",
+    "SovrenSignature": [
+      "12L///////8="
+    ]
+  }
+}

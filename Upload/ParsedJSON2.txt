@@ -1,0 +1,1261 @@
+{
+   
+   "Resume" : {
+      "StructuredResume" : {
+         "ContactMethod" : {
+            "InternetEmailAddress_main" : "me@markconde.com",
+            "PostalAddress_main" : {
+               "Municipality" : "Orlando",
+               "Region" : "FL",
+               "CountryCode" : "US"
+            },
+            "Telephone_mobile" : "+1 407 385-0814"
+         },
+         "ExecutiveSummary" : "PROVEN IT LEADER *  INFRASTRUCTURE ARCHITECT*  SOLUTIONS DRIVEN\nA highly motivated and results-oriented IT professional with over 20 years in the Information Technology field. More than 15 years were in a management role. A proven track record of delivering many projects on time and within established budgets while adhering to project specifications. Innovative and effective team leader/mentor who always drives to bring out the best in employees. Exceptional ability to manage multiple, complex activities while working within strict deadlines, ensuring all technical solutions successfully meet business goals and needs.\n",
+         "PersonName" : {
+            "FormattedName" : "Mark A. Conde",
+            "FamilyName" : "Conde",
+            "GivenName" : "Mark",
+            "MiddleName" : [
+               "A."
+            ],
+            "sex" : "Male"
+         },
+         "RevisionDate" : "2016-09-12",
+         "Hobbies" : "INTERESTS\nMicrosoft:   Certified MCSE\nCitrix:   Certified Administrator\nITIL:   V.3 Certified, MALC Certified\nVMWare:   ESX/Virtual Center Certified - VCP\nNetApp:   Network Appliance Certified\n",
+         "lang" : "en",
+         "Competency" : [
+            {
+               "skillLevel" : 100,
+               "skillName" : "the design",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "the design"
+               ]
+            },
+            {
+               "skillLevel" : 97,
+               "skillName" : "Audit",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Audit",
+                  "audits"
+               ]
+            },
+            {
+               "skillLevel" : 95,
+               "skillName" : "BC Management",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "BC Management"
+               ]
+            },
+            {
+               "skillLevel" : 95,
+               "skillName" : "Business Continuity",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Business Continuity"
+               ]
+            },
+            {
+               "skillLevel" : 95,
+               "skillName" : "Manage key aspects",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Manage key aspects"
+               ]
+            },
+            {
+               "skillLevel" : 95,
+               "skillName" : "Project Management Office",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Project Management Office",
+                  "PMO,"
+               ]
+            },
+            {
+               "skillLevel" : 95,
+               "skillName" : "Strategic Planning",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Strategic Planning",
+                  "strategic plan"
+               ]
+            },
+            {
+               "skillLevel" : 95,
+               "skillName" : "leading design efforts",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "leading design efforts"
+               ]
+            },
+            {
+               "skillLevel" : 95,
+               "skillName" : "strategic and tactical planning",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "strategic and tactical planning"
+               ]
+            },
+            {
+               "skillLevel" : 95,
+               "skillName" : "technical liaison",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "technical liaison"
+               ]
+            },
+            {
+               "skillLevel" : 25,
+               "skillName" : "External Audit",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2005",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "External Audit",
+                  "external audits"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "Sarbanes-Oxley",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2005",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Sarbanes-Oxley"
+               ]
+            },
+            {
+               "skillLevel" : 24,
+               "skillName" : "managed corporate systems",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2008",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "managed corporate systems"
+               ]
+            },
+            {
+               "skillLevel" : 23,
+               "skillName" : "Mentoring",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2008",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Mentoring"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "planning and implementation of process and technical controls",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "planning and implementation of process and technical controls"
+               ]
+            },
+            {
+               "skillLevel" : 21,
+               "skillName" : "Budgets & Budgeting > Within Budget",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "lastUsed" : "2009",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Budgets & Budgeting > Within Budget",
+                  "within budget"
+               ]
+            },
+            {
+               "skillLevel" : 21,
+               "skillName" : "Business Processes",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Business Processes",
+                  "business functions"
+               ]
+            },
+            {
+               "skillLevel" : 21,
+               "skillName" : "Technology liaison",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2003",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Technology liaison"
+               ]
+            },
+            {
+               "skillLevel" : 20,
+               "skillName" : "Communication Skills",
+               "description" : "Skill",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2003",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Communication Skills",
+                  "able to communicate"
+               ]
+            },
+            {
+               "skillLevel" : 20,
+               "skillName" : "managed the reconfiguring",
+               "description" : "Skill",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2009",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "managed the reconfiguring"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Budgets & Budgeting",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Budgets & Budgeting",
+                  "budgets",
+                  "Budgeting"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Business Objectives",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Business Objectives",
+                  "business goals"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Enterprise Architecture",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Enterprise Architecture"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Forecasting",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "accountancy"
+               },
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Forecasting"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Meeting Deadlines",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Meeting Deadlines",
+                  "within strict deadlines",
+                  "meet deadlines"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Project Team Skills",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "Project Team Skills",
+                  "project teams"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "manage multiple, complex activities",
+               "description" : "Skill",
+               "skillAliasArray" : [
+                  "manage multiple, complex activities"
+               ]
+            },
+            {
+               "skillLevel" : 99,
+               "skillName" : "management of the industrial networks and security-infrastructure of several major attractions and show-systems",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "management of the industrial networks and security-infrastructure of several major attractions and show-systems"
+               ]
+            },
+            {
+               "skillLevel" : 98,
+               "skillName" : "Active Directory",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 96,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Active Directory"
+               ]
+            },
+            {
+               "skillLevel" : 97,
+               "skillName" : "eCommerce",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 96,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "eCommerce"
+               ]
+            },
+            {
+               "skillLevel" : 95,
+               "skillName" : "Network Security",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it > security"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Network Security"
+               ]
+            },
+            {
+               "skillLevel" : 26,
+               "skillName" : "VMware",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 36,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2008",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "VMware"
+               ]
+            },
+            {
+               "skillLevel" : 25,
+               "skillName" : "Senior IT management",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2008",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Senior IT management"
+               ]
+            },
+            {
+               "skillLevel" : 25,
+               "skillName" : "Server Support",
+               "description" : "Skill > IT",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2005",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Server Support"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Back End",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2003",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Back End"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Client/Server",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Support",
+                  "Client/Server",
+                  "Client/Server Support"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Microsoft SharePoint",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2009",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Microsoft SharePoint",
+                  "SharePoint"
+               ]
+            },
+            {
+               "skillLevel" : 20,
+               "skillName" : "Infrastructure as a Service",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2009",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Infrastructure as a Service",
+                  "(IaaS)"
+               ]
+            },
+            {
+               "skillLevel" : 20,
+               "skillName" : "Network Appliance",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it > hardware"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Network Appliance",
+                  "NetApp"
+               ]
+            },
+            {
+               "skillLevel" : 20,
+               "skillName" : "SAN",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "SAN"
+               ]
+            },
+            {
+               "skillLevel" : 19,
+               "skillName" : "Network Attached Storage",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Network Attached Storage",
+                  "NAS"
+               ]
+            },
+            {
+               "skillLevel" : 18,
+               "skillName" : "Virtualization",
+               "description" : "Skill > IT",
+               "auth" : true,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2009",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Virtualization"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Citrix Winframe",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Citrix Winframe",
+                  "Citrix"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "IT Security",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it > security"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Design",
+                  "IT Security",
+                  "Cybersecurity",
+                  "IT Security Design"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "ITIL",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "ITIL"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "ITIL Methodology",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "ITIL Methodology"
+               ]
+            },
+            {
+               "skillUsed" : {
+                  "value" : 20,
+                  "type" : "Years"
+               },
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Information Technology",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Information Technology",
+                  "IT professional",
+                  "over 20 years in the Information Technology"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "MALC",
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "MALC",
+                  "(MALC)"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 13,
+               "skillName" : "Specifications",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Skill > IT",
+               "skillAliasArray" : [
+                  "Specifications"
+               ]
+            },
+            {
+               "skillLevel" : 100,
+               "skillName" : "Senior Manager - IT Architecture",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 84,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2016",
+               "skillProficiency" : "EXCELLENT",
+               "skillAliasArray" : [
+                  "Senior Manager - IT Architecture"
+               ]
+            },
+            {
+               "skillLevel" : 25,
+               "skillName" : "Consultant",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2008",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Consultant"
+               ]
+            },
+            {
+               "skillLevel" : 25,
+               "skillName" : "Director of IT",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2005",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Director of IT"
+               ]
+            },
+            {
+               "skillLevel" : 25,
+               "skillName" : "Enterprise Infrastructure Architect",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 24,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2008",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Enterprise Infrastructure Architect"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Director of Corporate Networks",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "banking-finance"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Director of Corporate Networks"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Executive Support, Network Services and Helpdesk",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "customer-service"
+               },
+               "lastUsed" : "2006",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Executive Support, Network Services and Helpdesk"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Senior Infrastructure Architect",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "lastUsed" : "2009",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Senior Infrastructure Architect"
+               ]
+            },
+            {
+               "skillLevel" : 22,
+               "skillName" : "Senior Manager - Infrastructure",
+               "description" : "Held Position",
+               "auth" : false,
+               "skillUsed" : {
+                  "value" : 12,
+                  "type" : "Months"
+               },
+               "lastUsed" : "2003",
+               "skillProficiency" : "BASIC",
+               "skillAliasArray" : [
+                  "Senior Manager - Infrastructure"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "INFRASTRUCTURE ARCHITECT",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Held Position",
+               "skillAliasArray" : [
+                  "INFRASTRUCTURE ARCHITECT"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "IT Professional",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Held Position",
+               "skillAliasArray" : [
+                  "IT Professional"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "Program & Project Management",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "mngm-consult"
+               },
+               "description" : "Held Position",
+               "skillAliasArray" : [
+                  "Program & Project Management"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "Project Manager",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "it"
+               },
+               "description" : "Held Position",
+               "skillAliasArray" : [
+                  "Project Manager"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "mentor",
+               "description" : "Held Position",
+               "skillAliasArray" : [
+                  "mentor"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 13,
+               "skillName" : "team leader",
+               "description" : "Held Position",
+               "skillAliasArray" : [
+                  "team leader"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 82,
+               "skillName" : "Certificate",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "certification"
+               },
+               "description" : "Degree/Qualification > Professional",
+               "skillAliasArray" : [
+                  "Certificate",
+                  "MALC Certified"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 82,
+               "skillName" : "Certified Administrator",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "certification"
+               },
+               "description" : "Degree/Qualification > Professional",
+               "skillAliasArray" : [
+                  "Certified Administrator"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 82,
+               "skillName" : "Certified MCSE",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "certification"
+               },
+               "description" : "Degree/Qualification > Professional",
+               "skillAliasArray" : [
+                  "Certified MCSE"
+               ]
+            },
+            {
+               "auth" : false,
+               "skillLevel" : 82,
+               "skillName" : "EMC Certified",
+               "TaxonomyId" : {
+                  "idOwner" : "DAXTRA",
+                  "description" : "certification"
+               },
+               "description" : "Degree/Qualification > Professional",
+               "skillAliasArray" : [
+                  "EMC Certified"
+               ]
+            },
+            {
+               "auth" : true,
+               "skillLevel" : 100,
+               "skillName" : "industry~it",
+               "skillCount" : 4,
+               "description" : "Industry"
+            }
+         ],
+         "EmploymentHistory" : [
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "Present",
+               "MonthsOfWork" : 84,
+               "LocationSummary" : {
+                  "Municipality" : "Orlando",
+                  "Region" : "FL",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "Universal Parks and Resorts",
+               "Title" : [
+                  "Senior Manager - IT Architecture"
+               ],
+               "OrgName" : "Universal Parks and Resorts",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-management-mid",
+               "StartDate" : "2009",
+               "Description" : "*    Directly responsible for the design, implementation and on-going management of the industrial networks and security-infrastructure of several major attractions and show-systems worldwide including the Wizarding World of Harry Potter and Transformers. Provide effective leadership, vision and direction of the industrial control systems cyber security risk-management team.\n    *    Lead on numerous projects, this would include spearheading the redesign and reconstruction of UPR's core infrastructures including active directory, email, cloud, e-commerce infrastructures and other key systems.\n    *    Overseeing the `Ride and Show' IT group for Universal Parks and Resorts (UPR) worldwide; responsibilities for this role include designing and managing the infrastructure (servers, network, security, audits, etc.) for these environments.\n    *    Defining resource allocation to support domestic and international projects and initiatives, conducting risk assessments/audits (PCI and NIST compliance) and developing information security plan reviews. This function requires 24x7x365 availability since this group supports all current and upcoming initiatives.\n    *    Act as technical liaison to senior management at international locations.\n    *    Currently responsible for leading design efforts for two upcoming parks located in Beijing and Moscow.\n    *    Continuously lead innovative efforts to success, including the development of technologies that resulted in two new patents for UPR in industrial networking and network security.\n    *    Serve on the Governance, Process Review, DR/BC Management, PMO, Change Management and Steering    committees. Manage key aspects of strategic and tactical planning for Security, Compliance, Risk and Business Continuity departments, developing organizational structure and chartered business groups dedicated to PCI, SOX and NIST requirements.\n    *    Managed external vendors and outsourced development teams to achieve project success.\n    *    Consulted with company functional departments and industry experts to build consensus on design goals and priorities.\n    *    Established cloud infrastructure for UPR's software platforms.\n    *    Worked with other company executives to establish strategic plan for future technology investments.\n    *    Accurately estimated project costs, and managed scope with comprehensive statements of work (SOW), and change control methodologies.\n    *    Contribute and recommend new IT/Governance strategies which reduce IT corporate cost plans and saved over $1 million in revenues after release."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2009",
+               "MonthsOfWork" : 12,
+               "LocationSummary" : {
+                  "Municipality" : "Orlando",
+                  "Region" : "FL",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "SunGard Higher Education",
+               "Title" : [
+                  "Senior Infrastructure Architect"
+               ],
+               "OrgName" : "SunGard Higher Education",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "it",
+               "StartDate" : "2008",
+               "Description" : "*    Designed and oversaw the construction of a large-scale active directory and SharePoint infrastructure to accommodate a user-base of 270,000 students across various campuses. Ensured all project elements were completed on time, within budget and adhered to strict project guidelines.\n    *    Supervised and managed the reconfiguring of SGHE remote access protocols and virtual-hosting solutions to support the campuses, resulting in optimal service with minimal interruption.\n    *    Developed security guidelines and processes for numerous colleges.\n    *    Designed and implemented Infrastructure as a Service (IaaS) environment for cloud applications serving clients across the US and Latin America.\n    *    Collaborated closely with the software development team and other development and Operations teams within IT with a focus on enterprise design versus implementation. Assisted in the development of a long term vision and strategy regarding virtualization and storage."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2008",
+               "MonthsOfWork" : 24,
+               "LocationSummary" : {
+                  "Municipality" : "Orlando",
+                  "Region" : "FL",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "Hard Rock Café International",
+               "Title" : [
+                  "Enterprise Infrastructure Architect",
+                  "Consultant"
+               ],
+               "OrgName" : "Hard Rock Café International",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-nonmanager-low",
+               "StartDate" : "2006",
+               "Description" : "*    Collaborated extensively with Hard Rock Café's (HRC) Senior IT management on various high-profile projects and provided assistance in the development/construction of HRC's corporate-systems disaster recovery plan and development of the HRC corporate security infrastructure.\n    *    Successfully implemented a VMware-based virtual environment and reconstructed HRC's storage environment which improved storage efficiency by 45%.\n    *    Audited and managed corporate systems for security and licensing concerns.\n    *    Provided mentoring to members of HRC's IT team."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2006",
+               "MonthsOfWork" : 12,
+               "LocationSummary" : {
+                  "Municipality" : "Orlando",
+                  "Region" : "FL",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "FDN Telecommunications",
+               "Title" : [
+                  "Director of Corporate Networks"
+               ],
+               "OrgName" : "FDN Telecommunications",
+               "PositionType" : "PERMANENT",
+               "JobGrade" : "joblevel-management-mid",
+               "StartDate" : "2005",
+               "Description" : "*    Directed and supervised several technology groups including Client/Server Support, Security, Executive Support, Network Services and Helpdesk.\n    *    Maintained and managed licensing for all corporate systems.\n    *    Consistently displayed strong financial expertise while managing an operating budget of over $3M, a capital budget of $1.7M and FDN's general IT budget of over $5M.\n    *    Directed the planning and implementation of process and technical controls specifically designed to mitigate the risk to critical business functions affecting security breaches, weak business practices and disasters. Overall efforts resulted in a 41% reduction in data loss, compromise or unauthorized access within the first year with estimated annual savings of $1M.\n    *    Oversaw the construction of a large scale NetApp-based SAN/NAS environment and over 300 server infrastructures including large VMware based cloud environment, delivering all project milestones within timeline and budget and in compliance with company requirements."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2005",
+               "MonthsOfWork" : 24,
+               "LocationSummary" : {
+                  "Municipality" : "Orlando",
+                  "Region" : "FL",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "CNL",
+               "Title" : [
+                  "Director of IT"
+               ],
+               "OrgName" : "CNL",
+               "PositionType" : "PERMANENT",
+               "JobArea" : "it",
+               "JobGrade" : "joblevel-management-mid",
+               "StartDate" : "2003",
+               "Description" : "*    Directed a number of teams that provided support for the seven companies comprising CNL, including the Help Desk, Support Network, Telecommunication and Server Support. Oversaw CNL's IT budget and expenditures valued at over $7M.\n    *    Responsible for addressing all internal and external audits of the governance organization, including Sarbanes Oxley reviews, annual control self-assessments and controls issues resolution.\n    *    Personally developed and implemented CNL's disaster recovery and business-continuity plan development projects."
+            },
+            {
+               "employerOrgType" : "soleEmployer",
+               "EndDate" : "2003",
+               "MonthsOfWork" : 12,
+               "LocationSummary" : {
+                  "Municipality" : "Orlando",
+                  "Region" : "FL",
+                  "CountryCode" : "US"
+               },
+               "EmployerOrgName" : "Ocwen Technology Xchange",
+               "Title" : [
+                  "Senior Manager - Infrastructure"
+               ],
+               "OrgName" : "Ocwen Technology Xchange",
+               "PositionType" : "PERMANENT",
+               "InternetDomainName" : "REALTrans.com",
+               "JobArea" : "senior",
+               "JobGrade" : "joblevel-management-mid",
+               "Description" : "*    Supervised server and network teams, each consisting of 20 members, in both Orlando, Florida and India.\n    *    Oversaw support for Ocwen's e-commerce website, REALTrans.com with numerous corporate clients integrated into backend.\n    *    Analyzed and provided solutions for a variety of network and server-related technologies. Developed and implemented site enhancements and provided support to client community.\n    *    Significantly increased client base and company revenues through business development activities and industry contacts.\n    *    Technology liaison between clients, sales, quality and other teams: ensured a high level of service able to communicate progress between all parties.\n    *    Analyzed, defined and documented detailed specs for new and existing applications in compliance with client methodologies.",
+               "StartDate" : "2002"
+            }
+         ],
+         "EducationHistory" : [
+            {
+               "schoolType" : "TRAINING",
+               "Degree" : {
+                  "degreeType" : "professional",
+                  "DegreeName" : "EMC Certified",
+                  "DegreeDate" : "2016"
+               },
+               "SchoolName" : "EMC"
+            }
+         ]
+      },
+      "src" : "DAXTRA-CVX schema:2.0.39 release:0.30.0.73466 rdate:2021-06-22",
+      "ExperienceSummary" : {
+         "HighestEducationalLevel" : "certification",
+         "TotalYearsOfManagementWorkExperience" : 11,
+         "TotalYearsOfMidLevelManagementWorkExperience" : 11,
+         "TotalMonthsOfWorkExperience" : 168,
+         "TotalMonthsOfMidLevelManagementWorkExperience" : 132,
+         "ExecutiveBrief" : "Mark A. Conde is a resident of Orlando, FL, US. He has been working in the IT occupational sector for more than 14 years. Currently he is employed as a Senior Manager - It Architecture at Universal Parks and Resorts. Mark has extensive knowledge of management of the industrial networks and security-infrastructure of several major attractions and show-systems, Active Directory, eCommerce, Network Security. Mark has an extensive management experience (11 years) with exposure to executive/middle management positions.",
+         "TotalMonthsOfManagementWorkExperience" : 132,
+         "TotalYearsOfWorkExperience" : 14,
+         "ManagementRecord" : "Currently since 2009 this candidate had experience at an executive/middle management level working as a Senior Manager - IT Architecture at Universal Parks and Resorts.\nSince 2005, for a total duration of 12 months, this candidate had experience at an executive/middle management level working as a Director of Corporate Networks at FDN Telecommunications.\nSince 2003, for a total duration of 24 months, this candidate had experience at an executive/middle management level working as a Director of IT at CNL.\nSince 2002, for a total duration of 12 months, this candidate had experience at an executive/middle management level working as a Senior Manager - Infrastructure at Ocwen Technology Xchange.\n"
+      },
+      "FileStruct" : {
+         "attachment" : [
+            {
+               "conv" : "yes",
+               "lang" : "EN",
+               "doc_type" : "cv",
+               "fname" : "0458066903657109",
+               "content" : "/tmp/soap_796891578045813",
+               "ftype" : "docx"
+            }
+         ],
+         "filename" : "/tmp/soap_796891578045813"
+      },
+      "TextResume" : "\n\n{{DOCUMENT_DATESTAMP}} 2016-09-12 {{END_DOCUMENT_DATESTAMP}}\nMARK A. CONDE\n407-385-0814 * me@markconde.com\n\nPROVEN IT LEADER *  INFRASTRUCTURE ARCHITECT*  SOLUTIONS DRIVEN\n\nA highly motivated and results-oriented IT professional with over 20 years in the Information Technology field. More than 15 years were in a management role. A proven track record of delivering many projects on time and within established budgets while adhering to project specifications. Innovative and effective team leader/mentor who always drives to bring out the best in employees. Exceptional ability to manage multiple, complex activities while working within strict deadlines, ensuring all technical solutions successfully meet business goals and needs.\n\nCORE COMPETENCIES ,\n*    Enterprise Architecture                    *    Program & Project Management        *    Cybersecurity\n*    Strategic Planning                         *    Budgeting and Forecasting               *    Leader/Mentor\n*    IT Security Design & Governance        *    Team Building & Direction           *    ITIL Methodology\n\nSELECTED HIGHLIGHTS\n*    Team Leader: Directed, motivated and organized effective project teams.\n*    Experienced Project Manager: Proven ability to meet deadlines in a dynamic environment. Extensive experience in operations, budgeting, planning, documentation, tracking and scheduling.\n*    Solutions-Driven IT Professional: More than fifteen years of experience designing, delivering and managing large-scale, enterprise infrastructures.\n*    Client-Oriented: Dedicated to building productive working relationship with the business partners. Committed to adopting new technologies/methodologies to create customized, cutting-edge and enduring solutions to meet business goals.\n*    ITIL (MALC) Certified: Certified in foundations and all core competencies of ITIL.\n\nPROFESSIONAL EXPERIENCE ,\nUniversal Parks and Resorts  * Orlando, FL * 2009 - Present\nSenior Manager - IT Architecture\n    *    Directly responsible for the design, implementation and on-going management of the industrial networks and security-infrastructure of several major attractions and show-systems worldwide including the Wizarding World of Harry Potter and Transformers. Provide effective leadership, vision and direction of the industrial control systems cyber security risk-management team.\n    *    Lead on numerous projects, this would include spearheading the redesign and reconstruction of UPR's core infrastructures including active directory, email, cloud, e-commerce infrastructures and other key systems.\n    *    Overseeing the `Ride and Show' IT group for Universal Parks and Resorts (UPR) worldwide; responsibilities for this role include designing and managing the infrastructure (servers, network, security, audits, etc.) for these environments.\n    *    Defining resource allocation to support domestic and international projects and initiatives, conducting risk assessments/audits (PCI and NIST compliance) and developing information security plan reviews. This function requires 24x7x365 availability since this group supports all current and upcoming initiatives.\n    *    Act as technical liaison to senior management at international locations.\n    *    Currently responsible for leading design efforts for two upcoming parks located in Beijing and Moscow.\n    *    Continuously lead innovative efforts to success, including the development of technologies that resulted in two new patents for UPR in industrial networking and network security.\n    *    Serve on the Governance, Process Review, DR/BC Management, PMO, Change Management and Steering   committees. Manage key aspects of strategic and tactical planning for Security, Compliance, Risk and Business Continuity departments, developing organizational structure and chartered business groups dedicated to PCI, SOX and NIST requirements.\n    *    Managed external vendors and outsourced development teams to achieve project success.\n    *    Consulted with company functional departments and industry experts to build consensus on design goals and priorities.\n    *    Established cloud infrastructure for UPR's software platforms.\n    *    Worked with other company executives to establish strategic plan for future technology investments.\n    *    Accurately estimated project costs, and managed scope with comprehensive statements of work (SOW), and change control methodologies.\n    *    Contribute and recommend new IT/Governance strategies which reduce IT corporate cost plans and saved over $1 million in revenues after release.\n\nSunGard Higher Education * Orlando, FL * 2008 - 2009\nSenior Infrastructure Architect\n    *    Designed and oversaw the construction of a large-scale active directory and SharePoint infrastructure to accommodate a user-base of 270,000 students across various campuses. Ensured all project elements were completed on time, within budget and adhered to strict project guidelines.\n    *    Supervised and managed the reconfiguring of SGHE remote access protocols and virtual-hosting solutions to support the campuses, resulting in optimal service with minimal interruption.\n    *    Developed security guidelines and processes for numerous colleges.\n    *    Designed and implemented Infrastructure as a Service (IaaS) environment for cloud applications serving clients across the US and Latin America.\n    *    Collaborated closely with the software development team and other development and Operations teams within IT with a focus on enterprise design versus implementation. Assisted in the development of a long term vision and strategy regarding virtualization and storage.\n\n        Hard Rock Café International  * Orlando, FL * 2006 - 2008\n        Enterprise Infrastructure Architect/Consultant\n    *    Collaborated extensively with Hard Rock Café's (HRC) Senior IT management on various high-profile projects and provided assistance in the development/construction of HRC's corporate-systems disaster recovery plan and development of the HRC corporate security infrastructure.\n    *    Successfully implemented a VMware-based virtual environment and reconstructed HRC's storage environment which improved storage efficiency by 45%.\n    *    Audited and managed corporate systems for security and licensing concerns.\n    *    Provided mentoring to members of HRC's IT team.\n\n        FDN Telecommunications  * Orlando, FL * 2005 - 2006\n        Director of Corporate Networks\n    *    Directed and supervised several technology groups including Client/Server Support, Security, Executive Support, Network Services and Helpdesk.\n    *    Maintained and managed licensing for all corporate systems.\n    *    Consistently displayed strong financial expertise while managing an operating budget of over $3M, a capital budget of $1.7M and FDN's general IT budget of over $5M.\n    *    Directed the planning and implementation of process and technical controls specifically designed to mitigate the risk to critical business functions affecting security breaches, weak business practices and disasters. Overall efforts resulted in a 41% reduction in data loss, compromise or unauthorized access within the first year with estimated annual savings of $1M.\n    *    Oversaw the construction of a large scale NetApp-based SAN/NAS environment and over 300 server infrastructures including large VMware based cloud environment, delivering all project milestones within timeline and budget and in compliance with company requirements.\n\n\n\n\n\n\n\n\n        CNL  * Orlando, FL * 2003 - 2005\n        Director of IT\n    *    Directed a number of teams that provided support for the seven companies comprising CNL, including the Help Desk, Support Network, Telecommunication and Server Support. Oversaw CNL's IT budget and expenditures valued at over $7M.\n    *    Responsible for addressing all internal and external audits of the governance organization, including Sarbanes Oxley reviews, annual control self-assessments and controls issues resolution.\n    *    Personally developed and implemented CNL's disaster recovery and business-continuity plan development projects.\n\n        Ocwen Technology Xchange  * Orlando, FL * 2002 - 2003\n        Senior Manager - Infrastructure\n    *    Supervised server and network teams, each consisting of 20 members, in both Orlando, Florida and India.\n    *    Oversaw support for Ocwen's e-commerce website, REALTrans.com with numerous corporate clients integrated into backend.\n    *    Analyzed and provided solutions for a variety of network and server-related technologies. Developed and implemented site enhancements and provided support to client community.\n    *    Significantly increased client base and company revenues through business development activities and industry contacts.\n    *    Technology liaison between clients, sales, quality and other teams: ensured a high level of service able to communicate progress between all parties.\n    *    Analyzed, defined and documented detailed specs for new and existing applications in compliance with client methodologies.\n\nADDITIONAL CREDENTIALS\nCERTIFICATIONS/TRAINING\n\n\n\n\n\n\n\n\n\nINTERESTS\nMicrosoft:   Certified MCSE\nCitrix:   Certified Administrator\nITIL:   V.3 Certified, MALC Certified\nVMWare:   ESX/Virtual Center Certified - VCP\nNetApp:   Network Appliance Certified\nEMC:   EMC Certified\n(ISC)2:  CISSP (In Progress) (2016)\nCeH (In Progress) (2016)\n\n\nPhotography, Fishing, Painting and Hiking\n\n__TR_NEWLINE__\nReferences: Available Upon Request\n* * *\n\n",
+      "ParserInfo" : {
+         "ConverterRelease" : "0.23.1.72872",
+         "ParserConfiguration" : "{max_len=30000} {tel_flag=} {send_zip=} {fast_conv=} {DEF_LOCAL=} {sdate=0} {no_email_body=0} {do_clever_zoning=0} {keep_zone_span=0} {keep_span=1} {complex=0} {accept_langs=} {not_accept_langs=} {prefer_lang_cv=} {pers_only=0} {projects_off=0} {tree_search_on=0} {all_skills=0} {turbo=0} {known_layouts_only=0} {split_language=0} {picture=0} {picture_inline=0} {debug=0} {ocr_allowed=1} {max_pages=8} {geo_allowed=0} {geo_service=daxtra} {name_space=0} {charset=} {hrxml_upgrade_edu_hist=0}{hrxml_add_languages_section=1}{spool=} {docID=} {user=TitanTech} ",
+         "ParserRelease" : "0.30.0.73466",
+         "ParserReleaseDate" : "2021-06-22",
+         "ConverterReleaseDate" : "2021-04-29",
+         "ParserSchema" : "2.0.39"
+      }
+   }
+}

@@ -1,0 +1,3574 @@
+{
+  "ContactInformation": {
+    "CandidateName": {
+      "FormattedName": "Narayan V Shyam",
+      "GivenName": "Narayan",
+      "MiddleName": "V",
+      "FamilyName": "Shyam"
+    },
+    "Telephones": [
+      {
+        "Raw": "(201) 220-9656",
+        "Normalized": "+1 201-220-9656",
+        "InternationalCountryCode": "1",
+        "AreaCityCode": "201",
+        "SubscriberNumber": "220-9656"
+      },
+      {
+        "Raw": "(908) 704-1910",
+        "Normalized": "+1 908-704-1910",
+        "InternationalCountryCode": "1",
+        "AreaCityCode": "908",
+        "SubscriberNumber": "704-1910"
+      }
+    ],
+    "EmailAddresses": [
+      "vijinara1@gmail.com"
+    ],
+    "Location": {
+      "CountryCode": "US",
+      "PostalCode": "19087",
+      "Regions": [
+        "PA"
+      ],
+      "Municipality": "Wayne",
+      "StreetAddressLines": [
+        "49 Rampart Drive"
+      ]
+    },
+    "WebAddresses": [
+      {
+        "Address": "@narayan_v_shyam_1234",
+        "Type": "Unknown"
+      }
+    ]
+  },
+  "PersonalAttributes": {
+    "DateOfBirth": {
+      "Date": "0001-01-01",
+      "IsCurrentDate": false,
+      "FoundYear": false,
+      "FoundMonth": false,
+      "FoundDay": false
+    }
+  },
+  "Education": {
+    "HighestDegree": {
+      "Name": {
+        "Raw": "Bachelor of Science in Mechanical Engineering",
+        "Normalized": "BSc"
+      },
+      "Type": "bachelors"
+    },
+    "EducationDetails": [
+      {
+        "Id": "DEG-3",
+        "Text": "Diploma in Systems Analysis and Data Processing\nAnnamalai University, India (1993)\n\nTechnology Proficiency\nLanguages: ABAP,BEX Analyzer, COBOL, UNIX Scripts, SQL, 4GL, Visual Basic\nSystems: MS Windows, UNIX, DBOS, OS/MVS\nTools: MS Project, Visio, Flow, MS Office Suite, ER Diagram Tools, HPQC, Test Director, SAP Tools, HP Service Center, PDoc\nSoftware: SAP ECC, ABAP, LSMW, BW, COGNOS, PL/SQL, Developer 2000, COBOL, UNIX, PowerBuilder, Informatica, Datastage Ariba\nDatabases: ORACLE, Informix, SQL Server",
+        "SchoolName": {
+          "Raw": "Annamalai University",
+          "Normalized": "Annamalai University"
+        },
+        "SchoolType": "university",
+        "Degree": {
+          "Name": {
+            "Raw": "Diploma in Systems Analysis and Data Processing",
+            "Normalized": "unspecified"
+          },
+          "Type": "professional"
+        },
+        "Majors": [
+          "Technology Proficiency"
+        ],
+        "LastEducationDate": {
+          "Date": "1993-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        }
+      },
+      {
+        "Id": "DEG-2",
+        "Text": "Diploma in Business Management\nPune University, India (1989)",
+        "SchoolName": {
+          "Raw": "Pune University",
+          "Normalized": "University of Pune"
+        },
+        "SchoolType": "university",
+        "Location": {
+          "CountryCode": "IN",
+          "Regions": [
+            "MAHARASHTRA"
+          ],
+          "Municipality": "Pune"
+        },
+        "Degree": {
+          "Name": {
+            "Raw": "Diploma in Business Management",
+            "Normalized": "unspecified"
+          },
+          "Type": "professional"
+        },
+        "Majors": [
+          "Business Management"
+        ],
+        "LastEducationDate": {
+          "Date": "1989-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        }
+      },
+      {
+        "Id": "DEG-1",
+        "Text": "Bachelor of Science in Mechanical Engineering\nRegional Engineering College, India (1984)",
+        "SchoolName": {
+          "Raw": "Regional Engineering College",
+          "Normalized": "Regional Engineering College"
+        },
+        "SchoolType": "university",
+        "Degree": {
+          "Name": {
+            "Raw": "Bachelor of Science in Mechanical Engineering",
+            "Normalized": "BSc"
+          },
+          "Type": "bachelors"
+        },
+        "Majors": [
+          "Mechanical Engineering"
+        ],
+        "LastEducationDate": {
+          "Date": "1984-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        }
+      }
+    ]
+  },
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "Narayan V Shyam is experienced in the management of:  Information Technology (Project Management; ERP and CRM). Narayan V Shyam has 37 years of work experience, with 25 years of management experience, including a mid-level position.",
+      "MonthsOfWorkExperience": 442,
+      "MonthsOfManagementExperience": 296,
+      "ExecutiveType": "GENERAL",
+      "AverageMonthsPerEmployer": 63,
+      "FulltimeDirectHirePredictiveIndex": 85,
+      "ManagementStory": "Current position is a low-level management role: SAP Project Manager\nStarting on 7/1/2014, the candidate held the following low-level management position for 7 years and 7 months:\n\tTitle: SAP Project Manager for AmeriGas/ComTec Consulting\nStarting on 11/1/2013, the candidate held the following low-level management position for 6 months:\n\tTitle: SAP Implementation Project Manager for TBB/Xtreme Consulting\nStarting on 4/1/2012, the candidate held the following low-level management position for 16 months:\n\tTitle: Solutions Delivery Manager/Project Manager for Pfizer, TEK Systems\nStarting on 11/1/2004, the candidate held the following low-level management position for 7 years and 6 months:\n\tTitle: Solutions Delivery Manager/Project Manager - AIG/Munich Re/Catlin for MSG Systems\nStarting on 9/1/2002, the candidate held the following low-level management position for 2 years and 2 months:\n\tTitle: BI Applications Lead / Manager for AVAYA, INC\nStarting on 10/1/1996, the candidate held the following low-level management position for 5 years and 9 months:\n\tTitle: SAP Lead Consultant for Rapidigm",
+      "CurrentManagementLevel": "low-level",
+      "ManagementScore": 50
+    },
+    "Positions": [
+      {
+        "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "AmeriGas/ComTec Consulting",
+            "Normalized": "AmeriGas/ComTec Consulting"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "PA"
+            ],
+            "Municipality": "King of Prussia"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": true,
+        "JobTitle": {
+          "Raw": "SAP Project Manager",
+          "Normalized": "SAP Project Manager",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2014-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2021-12-28",
+          "IsCurrentDate": true,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "NumberEmployeesSupervised": {
+          "Value": 25
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Project Management",
+        "JobLevel": "Senior Manager (more than 5 years management experience)",
+        "TaxonomyPercentage": 46,
+        "Description": "➢ Responsibilities included full accountability of SAP implementation (Master Data, SD, MM and FI) for 75 US Districts spans across all regions, managing project team of 25 people, worth $15M\n➢ Prepared the Project Plan, Status Reporting and presented to the Senior Management\n➢ Led the On-Line experience team in extending the Customer Portals to these new Districts\n➢ Coordinated all efforts in organizing Process Sessions, Data Validations/Cleansing, Data Migration from 4 Legacy Systems, Training, Cutover & Site Readiness Tasks in liaison with Master Data, Process, Business Intelligence (BI), Security and Field Management Teams"
+      },
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "TBB/Xtreme Consulting",
+            "Normalized": "TBB/Xtreme Consulting"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "NC"
+            ],
+            "Municipality": "Greensboro"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "SAP Implementation Project Manager",
+          "Normalized": "SAP Implementation Project Manager",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2013-11-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2014-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "NumberEmployeesSupervised": {
+          "Value": 20
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "ERP and CRM",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 55,
+        "Description": "➢ Led Business Groups and Consulting Partner team of 20 people to provide strategy, guidance and PMO Support for Business Deliverables to implement SAP in Sales, Logistics and Manufacturing areas (SD/MM/WM/PP/APO/VMS/FI-CO/CRM).\n➢ Prepared the Business Group Plan and presented the Status Report to Steering Committee\n➢ Responsibilities included Leadership for Process Workshops, RICEF tracking, Defining Testing Strategy and Execution, Guidance to Data Migration Activities, Coordinated Training Preparation and Security Activities"
+      },
+      {
+        "Id": "POS-3",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Pfizer",
+            "Normalized": "Pfizer"
+          },
+          "OtherFoundName": {
+            "Raw": "TEK Systems",
+            "Normalized": "TEK Systems"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "PA"
+            ],
+            "Municipality": "Collegeville"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Solutions Delivery Manager/Project Manager",
+          "Normalized": "Solutions Delivery Manager/Project Manager",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2012-04-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2013-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "NumberEmployeesSupervised": {
+          "Value": 20
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Config Deploy Upgrade Migrate",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 28,
+        "Description": "Key Achievements:\n➢ Given full Accountability to implement Global Request to Pay - Health Care Compliance to many European Markets in multiple business segments including Procurement, Finance using ECC, Ariba and BI Solutions\n➢ Led a cross functional team of 20 people from different locations globally in Organizing Solution Workshops and Weekly Deployment Meetings, Presented the Business Process, Communicated plan and Status Reports, Identified the Training needs. Coordinated all Integration/Business Verification Testing Efforts, Cutover and Go-Live Activities and Hyper care support\n➢ Led the implementation of Third Party Portal Project to capture the HCP Expenses through External Portal Applications to improve the Business Verification Processes\n➢ Coordinated all Change Management Activities for Solution enhancements for global sites by extensively coordinating with Business, ERP, Validation, Compliance groups using HP Service Center as part of COE\n➢ Business Analysis of Project Approvals, Vendor Management, Indirect Procurement for different business transactions in Ariba and SAP Purchase Orders (MM), Payment transactions through Ariba epay and SAP Finance (FI), BW Monitoring and Trend Analysis reports\n➢ Set up SAP Configurations and created Integration Test Plans/Scripts and Executed using HPQC Tool."
+      },
+      {
+        "Id": "POS-4",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "MSG Systems",
+            "Normalized": "MSG Systems"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "NJ"
+            ],
+            "Municipality": "Princeton"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Solutions Delivery Manager/Project Manager - AIG/Munich Re/Catlin",
+          "Normalized": "Solutions Delivery Manager/Project Manager AIG/Munich Re/Catlin",
+          "Probability": "Confident",
+          "Variations": [
+            "Solutions Delivery Manager/Project Manager"
+          ]
+        },
+        "StartDate": {
+          "Date": "2004-11-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2012-03-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "NumberEmployeesSupervised": {
+          "Value": 15
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Database",
+        "JobLevel": "Senior Manager (more than 5 years management experience)",
+        "TaxonomyPercentage": 56,
+        "Description": "Key Achievements:\n➢ Credited for streamlining Project Plan and defined approaches for the Business Blueprinting in coordination with Business and Technical Streams for AIG SAP- FS-RI and FS-CD Global implementations\n➢ Spearheaded all efforts to effectively implement SAP FS-RI/FS-CD solution for Munich Re, valued $10M; Identified Scope; Prepared Project Plan and Status Reporting; Issue Management; Business Stake holder relationship Management; Led a cross functional team of 15 people both onshore and offshore in global Design Workshops, Data Migrations from 7 legacy systems, Testing, Defect Management and Go-Live\n➢ Given full budget responsibility for implementing SAP FS-RI and BW Solutions for Catlin, Valued at $2M\n➢ Identified the Legacy Reporting Structures in Oracle and KPIs in COGNOS and provided strategies to implement in the new SAP/ BW Architecture by coordinating with Data and Business Teams\n➢ Performed Requirement Gathering, Business Analysis, Process and Data Mappings from Legacy, Setup SAP Configuration Objects and Integration Testing."
+      },
+      {
+        "Id": "POS-5",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "AVAYA, INC",
+            "Normalized": "AVAYA"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "NJ"
+            ],
+            "Municipality": "Basking Ridge"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "BI Applications Lead / Manager",
+          "Normalized": "BI Applications Lead Manager",
+          "Probability": "Confident",
+          "Variations": [
+            "BI Applications Lead",
+            "Manager"
+          ]
+        },
+        "StartDate": {
+          "Date": "2002-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2004-10-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Programming",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 27,
+        "Description": "Key Achievements:\n➢ Led Global Management Reporting Group (COE), Established and enhanced relationship with business stakeholders and outsourced IBM partner, Led cross-functional teams up to 15 members\n➢ Credited in enhancing and expanding the Business Intelligence Program, providing sales and marketing, SCM, financials (FI-CO), contracts, and corporate management teams\n➢ Conceptualized and spearheaded all efforts to establish a Centralized Help Desk Organization for SAP BW, appropriately supporting more than 1,500 users globally.\n➢ Directed the technical upgrade of SAP BW from 2.1 to 3.0, improving overall system performance\n➢ Proposed Enterprise Role Based Security structure to meet SOX regulatory compliance.\n➢ Performed Requirement Analysis, Design and Financial Reconciliations, Created BEx Queries/Reports for end users and Guided the development team to deliver BW Object: Info Providers, DSO, Cubes"
+      },
+      {
+        "Id": "POS-6",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Rapidigm",
+            "Normalized": "Rapidigm"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "SD"
+            ],
+            "Municipality": "Cash"
+          }
+        },
+        "IsSelfEmployed": true,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "SAP Lead Consultant",
+          "Normalized": "SAP Lead Consultant",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1996-10-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2002-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "ERP and CRM",
+        "JobLevel": "Senior Manager (more than 5 years management experience)",
+        "TaxonomyPercentage": 57,
+        "Description": "MM/FI-CO/PP/QM) Modules, coordinating the blueprint, functional design and RICEF delivery efforts for Lennox, Sanyo, Siemens, Reynolds & Reynolds\n➢ Directed all efforts to re-organize Business structures to implement the SAP Profit Center Accounting for Harmon Kardon\n➢ Conceptualized and presented the process improvement strategy to effectively deploy the SCM to improve the operational efficiency and customer satisfaction by consolidating SAP MM/SD/FI-CO business processes\n➢ Coordinated the COE activities including the migration of Material Valuation System from the Moving Average to Standard Cost Methods\n➢ Performed Requirement Analysis, \"As-Is\" and \"To-Be\" process design, setup configuration objects for MM, SD and FI-CO, Hands-On development in Interfaces, Reporting, Data Migrations, Enhancements using ABAP, BAPI, BDC, LSMW, EDI, SMART FORMS, IMG tools."
+      },
+      {
+        "Id": "POS-7",
+        "Employer": {
+          "Name": {
+            "Probability": "Probable",
+            "Raw": "W R Grace",
+            "Normalized": "W R Grace"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "1984-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1996-09-30",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Supply Chain and Logistics",
+        "TaxonomyPercentage": 0,
+        "Description": "Nexgen SI/L&T/Rallis  - Multiple Locations\tAug 1984-Sep 1996\nKey Achievements & Solutions:\n➢ Spearheaded all efforts to implement the SCM and Shop Floor Automation strategies to reduce the inventory levels by 50% and increased the Production output by 90% for Manufacturing companies to improve operations efficiency"
+      }
+    ]
+  },
+  "SkillsData": [
+    {
+      "Root": "Sovren",
+      "Taxonomies": [
+        {
+          "Id": "10",
+          "Name": "Information Technology",
+          "PercentOfOverall": 54,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "199",
+              "SubTaxonomyName": "Project Management",
+              "PercentOfOverall": 23,
+              "PercentOfParent": 42,
+              "Skills": [
+                {
+                  "Id": "005052",
+                  "Name": "PMO",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 6
+                  },
+                  "LastUsed": {
+                    "Value": "2014-05-01"
+                  }
+                },
+                {
+                  "Id": "022909",
+                  "Name": "Project Manager",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 201
+                  },
+                  "LastUsed": {
+                    "Value": "2021-12-28"
+                  }
+                },
+                {
+                  "Id": "024323",
+                  "Name": "Project Plan",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 179
+                  },
+                  "LastUsed": {
+                    "Value": "2021-12-28"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "195",
+              "SubTaxonomyName": "ERP and CRM",
+              "PercentOfOverall": 17,
+              "PercentOfParent": 31,
+              "Skills": [
+                {
+                  "Id": "026645",
+                  "Name": "ABAP",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                },
+                {
+                  "Id": "010304",
+                  "Name": "BAPI",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                },
+                {
+                  "Id": "014101",
+                  "Name": "CRM",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 6
+                  },
+                  "LastUsed": {
+                    "Value": "2014-05-01"
+                  }
+                },
+                {
+                  "Id": "016891",
+                  "Name": "ERP",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                },
+                {
+                  "Id": "019770",
+                  "Name": "Informatica",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "007436",
+                  "Name": "SAP",
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    },
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 296
+                  },
+                  "LastUsed": {
+                    "Value": "2021-12-28"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "193",
+              "SubTaxonomyName": "Database",
+              "PercentOfOverall": 6,
+              "PercentOfParent": 11,
+              "Skills": [
+                {
+                  "Id": "014990",
+                  "Name": "Data Migration",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 96
+                  },
+                  "LastUsed": {
+                    "Value": "2021-12-28"
+                  }
+                },
+                {
+                  "Id": "025871",
+                  "Name": "Informix",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "023733",
+                  "Name": "MS SQL Server",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "008483",
+                      "Name": "SQL Server",
+                      "FoundIn": [
+                        {
+                          "SectionType": "EDUCATION",
+                          "Id": "DEG-3"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "LastUsed": {
+                        "Value": "1993-01-01"
+                      }
+                    }
+                  ],
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "031048",
+                  "Name": "Oracle",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 89
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                },
+                {
+                  "Id": "004871",
+                  "Name": "PL/SQL",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "008481",
+                  "Name": "SQL",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "553",
+              "SubTaxonomyName": "Big Data",
+              "PercentOfOverall": 6,
+              "PercentOfParent": 10,
+              "Skills": [
+                {
+                  "Id": "5530953",
+                  "Name": "Data Migration",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 96
+                  },
+                  "LastUsed": {
+                    "Value": "2021-12-28"
+                  }
+                },
+                {
+                  "Id": "5530736",
+                  "Name": "Datastage",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "5530983",
+                  "Name": "Enterprise Resource Planning",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "5530984",
+                      "Name": "ERP",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 16
+                      },
+                      "LastUsed": {
+                        "Value": "2013-08-01"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 16
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                },
+                {
+                  "Id": "5530776",
+                  "Name": "Informatica",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "251",
+              "SubTaxonomyName": "Config Deploy Upgrade Migrate",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 2,
+              "Skills": [
+                {
+                  "Id": "022159",
+                  "Name": "Change Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                },
+                {
+                  "Id": "023631",
+                  "Name": "Deployment",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                },
+                {
+                  "Id": "002468",
+                  "Name": "Migrations",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 158
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                },
+                {
+                  "Id": "007546",
+                  "Name": "SCM",
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 241
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "200",
+              "SubTaxonomyName": "QA and QC",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "019950",
+                  "Name": "Integration Testing",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 89
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                },
+                {
+                  "Id": "006191",
+                  "Name": "QM",
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "197",
+              "SubTaxonomyName": "Mainframe",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "024882",
+                  "Name": "Cobol",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "003234",
+                  "Name": "MVS",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "010680",
+                  "Name": "VMS",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 6
+                  },
+                  "LastUsed": {
+                    "Value": "2014-05-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "204",
+              "SubTaxonomyName": "Programming",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "024398",
+                  "Name": "Developer 2000",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "022952",
+                  "Name": "MS Project",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "024876",
+                  "Name": "Powerbuilder",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "022962",
+                  "Name": "Requirement Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 95
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                },
+                {
+                  "Id": "023133",
+                  "Name": "Systems Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "022692",
+                  "Name": "Visio",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "022210",
+                  "Name": "Visual Basic",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "253",
+              "SubTaxonomyName": "Protocols and Standards",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "015875",
+                  "Name": "EDI",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "201",
+              "SubTaxonomyName": "Architecture",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "006830",
+                  "Name": "Requirement Gathering",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 89
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "348",
+              "SubTaxonomyName": "Service Providers",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "081179",
+                  "Name": "Ariba",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "196",
+              "SubTaxonomyName": "Internet",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "081199",
+                  "Name": "Ariba",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "554",
+              "SubTaxonomyName": "Business Intelligence",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "5540909",
+                  "Name": "Cognos",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 89
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                },
+                {
+                  "Id": "5540928",
+                  "Name": "Informatica",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "5540950",
+                  "Name": "Microsoft Project",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "554095002",
+                      "Name": "MS Project",
+                      "FoundIn": [
+                        {
+                          "SectionType": "EDUCATION",
+                          "Id": "DEG-3"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "LastUsed": {
+                        "Value": "1993-01-01"
+                      }
+                    }
+                  ],
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "198",
+              "SubTaxonomyName": "Network",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "026619",
+                  "Name": "CODA",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "013759",
+                      "Name": "Cognos",
+                      "FoundIn": [
+                        {
+                          "SectionType": "EDUCATION",
+                          "Id": "DEG-3"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-4"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 89
+                      },
+                      "LastUsed": {
+                        "Value": "2012-03-31"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 89
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 89
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "347",
+              "SubTaxonomyName": "Telephony",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "008496",
+                  "Name": "Avaya",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "556",
+              "SubTaxonomyName": "Privacy and Data Security",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "5551251",
+                  "Name": "Sarbanes Oxley",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "5551252",
+                      "Name": "SOX",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-5"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 26
+                      },
+                      "LastUsed": {
+                        "Value": "2004-10-31"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 26
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 26
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "203",
+              "SubTaxonomyName": "UNIX and LINUX",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "01026309",
+                  "Name": "UNIX",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "351",
+              "SubTaxonomyName": "Multimedia",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "022137",
+                  "Name": "MS Office",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "345",
+              "SubTaxonomyName": "Middleware and Integration",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "015054",
+                  "Name": "Datastage",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "34",
+          "Name": "Business Operations and General Business",
+          "PercentOfOverall": 13,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "437",
+              "SubTaxonomyName": "General Skills and Activities",
+              "PercentOfOverall": 11,
+              "PercentOfParent": 88,
+              "Skills": [
+                {
+                  "Id": "022274",
+                  "Name": "Contracts",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 26
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                },
+                {
+                  "Id": "020733",
+                  "Name": "Liaison",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 90
+                  },
+                  "LastUsed": {
+                    "Value": "2021-12-28"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "436",
+              "SubTaxonomyName": "Management Activities or Functions",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 12,
+              "Skills": [
+                {
+                  "Id": "012210",
+                  "Name": "Business Intelligence",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 116
+                  },
+                  "LastUsed": {
+                    "Value": "2021-12-28"
+                  }
+                },
+                {
+                  "Id": "012977",
+                  "Name": "Change Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                },
+                {
+                  "Id": "003875",
+                  "Name": "Operations",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 146
+                  },
+                  "LastUsed": {
+                    "Value": "1996-09-30"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "14",
+          "Name": "Marketing",
+          "PercentOfOverall": 12,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "588",
+              "SubTaxonomyName": "Data & Analytics",
+              "PercentOfOverall": 12,
+              "PercentOfParent": 99,
+              "Skills": [
+                {
+                  "Id": "1400080",
+                  "Name": "Business Intelligence",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "Variations": [
+                    {
+                      "Id": "1400081",
+                      "Name": "BI",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-5"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 132
+                      },
+                      "LastUsed": {
+                        "Value": "2021-12-28"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 132
+                  },
+                  "LastUsed": {
+                    "Value": "2021-12-28"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 132
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2021-12-28"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "249",
+              "SubTaxonomyName": "General",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "021241",
+                  "Name": "Marketing",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 26
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "589",
+              "SubTaxonomyName": "Business Planning",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "1400092",
+                  "Name": "Business Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1989-01-01"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "80",
+          "Name": "General Management",
+          "PercentOfOverall": 6,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "519",
+              "SubTaxonomyName": "Management and Management Tasks",
+              "PercentOfOverall": 6,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "012212",
+                  "Name": "Business Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1989-01-01"
+                  }
+                },
+                {
+                  "Id": "025675",
+                  "Name": "Field Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 90
+                  },
+                  "LastUsed": {
+                    "Value": "2021-12-28"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "7",
+          "Name": "Finance",
+          "PercentOfOverall": 5,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "237",
+              "SubTaxonomyName": "Operations",
+              "PercentOfOverall": 4,
+              "PercentOfParent": 74,
+              "Skills": [
+                {
+                  "Id": "7000125",
+                  "Name": "Business Intelligence",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 116
+                  },
+                  "LastUsed": {
+                    "Value": "2021-12-28"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "243",
+              "SubTaxonomyName": "Other",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 9,
+              "Skills": [
+                {
+                  "Id": "023147",
+                  "Name": "Finance",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "246",
+              "SubTaxonomyName": "Treasury",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 8,
+              "Skills": [
+                {
+                  "Id": "012194",
+                  "Name": "Business Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 105
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "709",
+              "SubTaxonomyName": "Global Security",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 3,
+              "Skills": [
+                {
+                  "Id": "7000101",
+                  "Name": "Vendor Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "708",
+              "SubTaxonomyName": "Procurement",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 3,
+              "Skills": [
+                {
+                  "Id": "7000088",
+                  "Name": "Vendor Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "705",
+              "SubTaxonomyName": "Accounting",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 2,
+              "Skills": [
+                {
+                  "Id": "7000310",
+                  "Name": "Standard Cost",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "235",
+              "SubTaxonomyName": "Financial Planning & Analysis",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "006625",
+                  "Name": "Reconciliations",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 26
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "6",
+          "Name": "Environmental",
+          "PercentOfOverall": 3,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "333",
+              "SubTaxonomyName": "General",
+              "PercentOfOverall": 3,
+              "PercentOfParent": 96,
+              "Skills": [
+                {
+                  "Id": "025674",
+                  "Name": "Field Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 90
+                  },
+                  "LastUsed": {
+                    "Value": "2021-12-28"
+                  }
+                },
+                {
+                  "Id": "020217",
+                  "Name": "Issue Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 89
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "332",
+              "SubTaxonomyName": "Remediation, Mitigation, Cleanup, Removal",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 4,
+              "Skills": [
+                {
+                  "Id": "027058",
+                  "Name": "RI/FS",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 89
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "97",
+          "Name": "Supply Chain and Logistics",
+          "PercentOfOverall": 2,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "458",
+              "SubTaxonomyName": "Purchasing",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 61,
+              "Skills": [
+                {
+                  "Id": "7270001",
+                  "Name": "Procurement",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                },
+                {
+                  "Id": "006083",
+                  "Name": "Purchase Orders",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                },
+                {
+                  "Id": "010474",
+                  "Name": "Vendor Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "460",
+              "SubTaxonomyName": "Logistics",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 24,
+              "Skills": [
+                {
+                  "Id": "016892",
+                  "Name": "ERP",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                },
+                {
+                  "Id": "022309",
+                  "Name": "Logistics",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 6
+                  },
+                  "LastUsed": {
+                    "Value": "2014-05-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "459",
+              "SubTaxonomyName": "Inventory",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 15,
+              "Skills": [
+                {
+                  "Id": "020086",
+                  "Name": "Inventory",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 146
+                  },
+                  "LastUsed": {
+                    "Value": "1996-09-30"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "461",
+              "SubTaxonomyName": "Supply Chain",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "014311",
+                  "Name": "Contracts",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 26
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "71",
+          "Name": "Strategy and Planning",
+          "PercentOfOverall": 1,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "876",
+              "SubTaxonomyName": "Workflow and Processes",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "024469",
+                  "Name": "Business Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 105
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                },
+                {
+                  "Id": "080809",
+                  "Name": "Process Design",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                },
+                {
+                  "Id": "005521",
+                  "Name": "Process Improvement",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "5",
+          "Name": "Engineering",
+          "PercentOfOverall": 1,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "307",
+              "SubTaxonomyName": "General Engineering",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 63,
+              "Skills": [
+                {
+                  "Id": "020302",
+                  "Name": "Analyzer",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                },
+                {
+                  "Id": "080417",
+                  "Name": "Blueprint",
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                },
+                {
+                  "Id": "022232",
+                  "Name": "Steering",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 6
+                  },
+                  "LastUsed": {
+                    "Value": "2014-05-01"
+                  }
+                },
+                {
+                  "Id": "024205",
+                  "Name": "Test Plans",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "144",
+              "SubTaxonomyName": "Computer Hardware",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 24,
+              "Skills": [
+                {
+                  "Id": "080720",
+                  "Name": "Siemens",
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "264",
+              "SubTaxonomyName": "Techniques",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 6,
+              "Skills": [
+                {
+                  "Id": "080629",
+                  "Name": "Blueprint",
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "136",
+              "SubTaxonomyName": "Environmental",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 6,
+              "Skills": [
+                {
+                  "Id": "027057",
+                  "Name": "RI/FS",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 89
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "263",
+              "SubTaxonomyName": "Other",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "Skills": [
+                {
+                  "Id": "009106",
+                  "Name": "Systems Analysis",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "20",
+          "Name": "Sales",
+          "PercentOfOverall": 1,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "105",
+              "SubTaxonomyName": "General",
+              "PercentOfOverall": 1,
+              "PercentOfParent": 70
+            },
+            {
+              "SubTaxonomyId": "104",
+              "SubTaxonomyName": "Account Management",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 30,
+              "Skills": [
+                {
+                  "Id": "006721",
+                  "Name": "Relationship Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 89
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "9",
+          "Name": "Human Resources",
+          "PercentOfOverall": 1,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "583",
+              "SubTaxonomyName": "Talent Sourcing",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 33,
+              "Skills": [
+                {
+                  "Id": "9000267",
+                  "Name": "Customer Relationship Management",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "9000268",
+                      "Name": "CRM",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 6
+                      },
+                      "LastUsed": {
+                        "Value": "2014-05-01"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 6
+                  },
+                  "LastUsed": {
+                    "Value": "2014-05-01"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 6
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2014-05-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "581",
+              "SubTaxonomyName": "Organization Development",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 22,
+              "Skills": [
+                {
+                  "Id": "9000213",
+                  "Name": "Change Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "579",
+              "SubTaxonomyName": "HR Management",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 22,
+              "Skills": [
+                {
+                  "Id": "9000169",
+                  "Name": "Change Management",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "574",
+              "SubTaxonomyName": "Diversity & Inclusion",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 22,
+              "Skills": [
+                {
+                  "Id": "9000074",
+                  "Name": "Employee Resource Group",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "9000075",
+                      "Name": "ERP",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 16
+                      },
+                      "LastUsed": {
+                        "Value": "2013-08-01"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 16
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "32",
+          "Name": "Degreed Accounting",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "962",
+              "SubTaxonomyName": "Reporting",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 45,
+              "Skills": [
+                {
+                  "Id": "022891",
+                  "Name": "Budget",
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 158
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                },
+                {
+                  "Id": "017494",
+                  "Name": "Financials",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 26
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "950",
+              "SubTaxonomyName": "CPA",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 16,
+              "Skills": [
+                {
+                  "Id": "7000058",
+                  "Name": "Accounting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "944",
+              "SubTaxonomyName": "Bookkeeping",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 16,
+              "Skills": [
+                {
+                  "Id": "022499",
+                  "Name": "Accounting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "952",
+              "SubTaxonomyName": "Cost Accounting",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 12,
+              "Skills": [
+                {
+                  "Id": "008553",
+                  "Name": "Standard Cost",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "257",
+              "SubTaxonomyName": "Reconciliations",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 10,
+              "Skills": [
+                {
+                  "Id": "023971",
+                  "Name": "Reconciliations",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 26
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "72",
+          "Name": "Installation, Maintenance, Repair",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "452",
+              "SubTaxonomyName": "General Repair",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "007804",
+                  "Name": "Service Center",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "27",
+          "Name": "Light Technical/Trades/Skilled Labor",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "287",
+              "SubTaxonomyName": "Machine Shop",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 94,
+              "Skills": [
+                {
+                  "Id": "007947",
+                  "Name": "Shop Floor",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 146
+                  },
+                  "LastUsed": {
+                    "Value": "1996-09-30"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "293",
+              "SubTaxonomyName": "Other",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 6,
+              "Skills": [
+                {
+                  "Id": "025419",
+                  "Name": "Blueprint",
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "44",
+          "Name": "Petrochemical",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "441",
+              "SubTaxonomyName": "Drilling",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "003754",
+                  "Name": "Offshore",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 89
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "46",
+          "Name": "Call Center or Help Desk or Customer Service",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "128",
+              "SubTaxonomyName": "Call Center",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 54,
+              "Skills": [
+                {
+                  "Id": "024146",
+                  "Name": "Avaya",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "ExistsInText": true
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "129",
+              "SubTaxonomyName": "Help Desk",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 46,
+              "Skills": [
+                {
+                  "Id": "023156",
+                  "Name": "Help Desk",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 26
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "16",
+          "Name": "Telecommunications",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "317",
+              "SubTaxonomyName": "Standards, Protocols, Technologies",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 66,
+              "Skills": [
+                {
+                  "Id": "015718",
+                  "Name": "DSO",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 26
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "323",
+              "SubTaxonomyName": "Skilled",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 34,
+              "Skills": [
+                {
+                  "Id": "009453",
+                  "Name": "Test Plans",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "69",
+          "Name": "QA and QC",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "446",
+              "SubTaxonomyName": "Techniques",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "023252",
+                  "Name": "Process Design",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                },
+                {
+                  "Id": "009451",
+                  "Name": "Test Plans",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2013-08-01"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "86",
+          "Name": "Government",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "524",
+              "SubTaxonomyName": "Regulatory",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "006698",
+                  "Name": "Regulatory Compliance",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 26
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "89",
+          "Name": "Bookkeeping, Office Management",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "533",
+              "SubTaxonomyName": "Bookeeping Tasks",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "005856",
+                  "Name": "Accounting",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                },
+                {
+                  "Id": "012120",
+                  "Name": "Budget",
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 158
+                  },
+                  "LastUsed": {
+                    "Value": "2012-03-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "29",
+          "Name": "Hardware Engineering",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "733",
+              "SubTaxonomyName": "Mechanical Engineering",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "5000203",
+                  "Name": "Mechanical Engineering",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-1"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1984-01-01"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "22",
+          "Name": "Construction Non-Laborer",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "389",
+              "SubTaxonomyName": "General Tasks and Equipment",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 56,
+              "Skills": [
+                {
+                  "Id": "025418",
+                  "Name": "Blueprint",
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2002-07-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "394",
+              "SubTaxonomyName": "Office, Admin and Clerical",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 44,
+              "Skills": [
+                {
+                  "Id": "022273",
+                  "Name": "Contracts",
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "MonthsExperience": {
+                    "Value": 26
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "98",
+          "Name": "Security",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "466",
+              "SubTaxonomyName": "Financial, Accounting and Processes",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "Skills": [
+                {
+                  "Id": "026004",
+                  "Name": "Sarbanes-Oxley (Sox)",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "007443",
+                      "Name": "SOX",
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-5"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "MonthsExperience": {
+                        "Value": 26
+                      },
+                      "LastUsed": {
+                        "Value": "2004-10-31"
+                      }
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 26
+                  },
+                  "LastUsed": {
+                    "Value": "2004-10-31"
+                  },
+                  "ChildrenMonthsExperience": {
+                    "Value": 26
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2004-10-31"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "0",
+          "Name": "Common End-user Software",
+          "PercentOfOverall": 0,
+          "SubTaxonomies": [
+            {
+              "SubTaxonomyId": "229",
+              "SubTaxonomyName": "Visual",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "024751",
+                  "Name": "Visio",
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-3"
+                    }
+                  ],
+                  "ExistsInText": true,
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "230",
+              "SubTaxonomyName": "Planning and Analysis",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "024342",
+                  "Name": "Microsoft Project",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "022951",
+                      "Name": "MS Project",
+                      "FoundIn": [
+                        {
+                          "SectionType": "EDUCATION",
+                          "Id": "DEG-3"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "LastUsed": {
+                        "Value": "1993-01-01"
+                      }
+                    }
+                  ],
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                }
+              ]
+            },
+            {
+              "SubTaxonomyId": "108",
+              "SubTaxonomyName": "Core Office",
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "Skills": [
+                {
+                  "Id": "024467",
+                  "Name": "Microsoft Office",
+                  "ExistsInText": false,
+                  "Variations": [
+                    {
+                      "Id": "022136",
+                      "Name": "MS Office",
+                      "FoundIn": [
+                        {
+                          "SectionType": "EDUCATION",
+                          "Id": "DEG-3"
+                        }
+                      ],
+                      "ExistsInText": true,
+                      "LastUsed": {
+                        "Value": "1993-01-01"
+                      }
+                    }
+                  ],
+                  "LastUsed": {
+                    "Value": "1993-01-01"
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1993-01-01"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Certifications": [
+    {
+      "Name": "Technology Proficiency",
+      "MatchedFromList": false,
+      "IsVariation": false
+    }
+  ],
+  "LanguageCompetencies": [
+    {
+      "Language": "English",
+      "LanguageCode": "en",
+      "FoundInContext": "[RESUME_LANGUAGE]"
+    }
+  ],
+  "Achievements": [
+    "Highly accomplished professional offering 20+ years of documented achievements in",
+    "Key Achievements & Solutions",
+    "Recognized for consistently delivering projects on-time, within budget and with high customer satisfaction for SAP Financial, SCM and Order to Cash (SD/MM/FI-CO/PP/QM) Modules, coordinating the blueprint, functional design and RICEF delivery efforts for Lennox, Sanyo, Siemens, Reynolds & Reynolds"
+  ],
+  "ResumeMetadata": {
+    "FoundSections": [
+      {
+        "FirstLineNumber": 35,
+        "LastLineNumber": 92,
+        "SectionType": "WORK HISTORY",
+        "HeaderTextFound": "Professional Experience"
+      },
+      {
+        "FirstLineNumber": 93,
+        "LastLineNumber": 107,
+        "SectionType": "EDUCATION",
+        "HeaderTextFound": "Education & Credentials"
+      }
+    ],
+    "ResumeQuality": [
+      {
+        "Level": "Data Missing",
+        "Findings": [
+          {
+            "QualityCode": "221",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-7"
+              }
+            ],
+            "Message": "Every position in a resume should have a job title."
+          }
+        ]
+      },
+      {
+        "Level": "Suggested Improvements",
+        "Findings": [
+          {
+            "QualityCode": "161",
+            "Message": "High school (or lower) education should not be included on resumes that contain higher-level education."
+          },
+          {
+            "QualityCode": "133",
+            "Message": "Multiple phone numbers were found in the contact information. Only one phone number ( a mobile number) should be included in a resume."
+          }
+        ]
+      }
+    ],
+    "ReservedData": {
+      "Phones": [
+        "Mobile: (201) 220-9656",
+        "(201) 220-9656",
+        "Home: (908) 704-1910",
+        "(908) 704-1910"
+      ],
+      "Names": [
+        "narayanShyam",
+        "Narayan V Shyam",
+        "Shyam •\n•.•.•.•.•.•.•.•.•.•.•.•\n\n\nNarayan",
+        "•.•.•.•.•.•.•.•.•.•.•.•",
+        "Narayan V Shyam •"
+      ],
+      "EmailAddresses": [
+        "vijinara1@gmail.com"
+      ],
+      "OtherData": [
+        "49 Rampart Drive"
+      ]
+    },
+    "PlainText": "Narayan V Shyam •\n•.•.•.•.•.•.•.•.•.•.•.•\n\n\nNarayan V Shyam\n49 Rampart Drive • Wayne, PA 19087\nMobile: (201) 220-9656 • Home: (908) 704-1910 • vijinara1@gmail.com•\n\nSenior Technology & Business Manager\nSolutions Design & Delivery\n\nHighly accomplished professional offering 20+ years of documented achievements in:\nBusiness Process Analysis & Redesign -- Project Planning & Charter\nStandard Methodologies -- Business Relationship -- Team Leadership\nBest Practices & Continuous Improvement -- Offshore Strategies -- Customer & Vendor Relations\nExtensive qualifications in partnering with business stakeholders, partners and teams to guide the design and delivery of innovative technology, business and operational strategies to increase efficiency and capability. Provide vision and dedicated leadership for key technologies, including 18 years in SAP, Business Intelligence, interfaces and analytics. Organized, take-charge professional with exceptional follow-through abilities and detail-orientation; able to plan and oversee multiple projects from conception to successful conclusion. Good communicator and team leader with strong motivational skills and ability to build, produce and succeed. I am ready to relocate to any location.\nSalary desired is between $110K-$125K\nMy communication skills are excellent.\nFacebook ID: narayanShyam\nTwitter ID: @narayan_v_shyam_1234\nI have my Defence Background Checked positive.\nI am a H1B candidate, Indian.\n\nHighlights of my Experience:\n• Around 10 years of Project Management experience in Partnering with Business stakeholders, Development Partners to Identify needs, Present Methodology (ASAP, AGILE), Project Planning, Status Reporting, Issue Management. Organized Design workshops, Coordinated Development, Testing and Go-Live, Managed team size of 15-20 people with Project Values up to $15M\n• 18 Years of SAP Implementation and Continuous Improvement (COE) Projects in SCM, Order to Cash, Request to Pay, Business Intelligence and Finance business areas (MM, SD, FI, BI, QM, PP, FS-RI)\n• Involved in 6 Full life cycle SAP/BI implementation, from Conceptualization to Cutover in Functional and Technical streams for Pfizer, Harmon Kardon, Siemens, Sanyo, Reynolds & Reynolds, Munich Re\n• Led both Business and Technical teams of 20 People to implement Request to Pay - HCC for Pfizer for multiple European Plants and Markets\n• Managed all efforts to Implement the SAP Financial Solutions for Munich Re, partnering with Process and Data teams (15 People)\n• Spearheaded all efforts to streamline the COE -Global Business Intelligence Program for Avaya, Inc. partnering with Finance, Sales and Services, SCM business areas\n• Conceptualized and Presented the Process improvement strategies to effectively deploy and measure the SCM efficiency by consolidating Order to Cash and Procure to Pay processes for Harmon Kardon\n• Designed and coordinated all efforts to integrate the Legacy Demand to Build and SCM and Sales and Distribution Applications for Sanyo Corporation\n• Provided Business Leadership in implementing SCM, Demand to Build Strategies to reduce the Materials inventory by 50% and doubling the shop floor production output for a Manufacturing company\n• Business Integration experience in Manufacturing, Pharmaceutical, Oil and Gas, Financial Services and Consumer Industries\n• Hands-on experience in Requirement Analysis, \"As-Is\" and \"To-Be\" Process Mapping, Configuration, Data Management including Analysis/Cleansing, Development of: Reports, Data Migrations, Interfaces and Enhancements in multiple platforms - SAP, BI, Oracle, ETL and COBOL\nProfessional Experience\nAmeriGas/ComTec Consulting - King of Prussia, PA\tJul 2014-Current\nSAP Project Manager\n➢ Responsibilities included full accountability of SAP implementation (Master Data, SD, MM and FI) for 75 US Districts spans across all regions, managing project team of 25 people, worth $15M\n➢ Prepared the Project Plan, Status Reporting and presented to the Senior Management\n➢ Led the On-Line experience team in extending the Customer Portals to these new Districts\n➢ Coordinated all efforts in organizing Process Sessions, Data Validations/Cleansing, Data Migration from 4 Legacy Systems, Training, Cutover & Site Readiness Tasks in liaison with Master Data, Process, Business Intelligence (BI), Security and Field Management Teams\n\nTBB/Xtreme Consulting - Greensboro, NC\tNov 2013-May 2014\nSAP Implementation Project Manager\n➢ Led Business Groups and Consulting Partner team of 20 people to provide strategy, guidance and PMO Support for Business Deliverables to implement SAP in Sales, Logistics and Manufacturing areas (SD/MM/WM/PP/APO/VMS/FI-CO/CRM).\n➢ Prepared the Business Group Plan and presented the Status Report to Steering Committee\n➢ Responsibilities included Leadership for Process Workshops, RICEF tracking, Defining Testing Strategy and Execution, Guidance to Data Migration Activities, Coordinated Training Preparation and Security Activities\n\nPfizer/TEK Systems  - Collegeville, PA\tApr 2012-Aug 2013\nSolutions Delivery Manager/Project Manager\nKey Achievements:\n➢ Given full Accountability to implement Global Request to Pay - Health Care Compliance to many European Markets in multiple business segments including Procurement, Finance using ECC, Ariba and BI Solutions\n➢ Led a cross functional team of 20 people from different locations globally in Organizing Solution Workshops and Weekly Deployment Meetings, Presented the Business Process, Communicated plan and Status Reports, Identified the Training needs. Coordinated all Integration/Business Verification Testing Efforts, Cutover and Go-Live Activities and Hyper care support\n➢ Led the implementation of Third Party Portal Project to capture the HCP Expenses through External Portal Applications to improve the Business Verification Processes\n➢ Coordinated all Change Management Activities for Solution enhancements for global sites by extensively coordinating with Business, ERP, Validation, Compliance groups using HP Service Center as part of COE\n➢ Business Analysis of Project Approvals, Vendor Management, Indirect Procurement for different business transactions in Ariba and SAP Purchase Orders (MM), Payment transactions through Ariba epay and SAP Finance (FI), BW Monitoring and Trend Analysis reports\n➢ Set up SAP Configurations and created Integration Test Plans/Scripts and Executed using HPQC Tool.\n\nMSG Systems  - Princeton, NJ\tNov 2004-Mar 2012\nSolutions Delivery Manager/Project Manager - AIG/Munich Re/Catlin\nKey Achievements:\n➢ Credited for streamlining Project Plan and defined approaches for the Business Blueprinting in coordination with Business and Technical Streams for AIG SAP- FS-RI and FS-CD Global implementations\n➢ Spearheaded all efforts to effectively implement SAP FS-RI/FS-CD solution for Munich Re, valued $10M; Identified Scope; Prepared Project Plan and Status Reporting; Issue Management; Business Stake holder relationship Management; Led a cross functional team of 15 people both onshore and offshore in global Design Workshops, Data Migrations from 7 legacy systems, Testing, Defect Management and Go-Live\n➢ Given full budget responsibility for implementing SAP FS-RI and BW Solutions for Catlin, Valued at $2M\n➢ Identified the Legacy Reporting Structures in Oracle and KPIs in COGNOS and provided strategies to implement in the new SAP/ BW Architecture by coordinating with Data and Business Teams\n➢ Performed Requirement Gathering, Business Analysis, Process and Data Mappings from Legacy, Setup SAP Configuration Objects and Integration Testing.\n\nAVAYA, INC. - Basking Ridge, NJ\tSep 2002-Oct 2004\nBI Applications Lead / Manager\nKey Achievements:\n➢ Led Global Management Reporting Group (COE), Established and enhanced relationship with business stakeholders and outsourced IBM partner, Led cross-functional teams up to 15 members\n➢ Credited in enhancing and expanding the Business Intelligence Program, providing sales and marketing, SCM, financials (FI-CO), contracts, and corporate management teams\n➢ Conceptualized and spearheaded all efforts to establish a Centralized Help Desk Organization for SAP BW, appropriately supporting more than 1,500 users globally.\n➢ Directed the technical upgrade of SAP BW from 2.1 to 3.0, improving overall system performance\n➢ Proposed Enterprise Role Based Security structure to meet SOX regulatory compliance.\n➢ Performed Requirement Analysis, Design and Financial Reconciliations, Created BEx Queries/Reports for end users and Guided the development team to deliver BW Object: Info Providers, DSO, Cubes\n\n\nRapidigm  - Multiple Locations\tOct 1996-Jul 2002\nSAP Lead Consultant - Harman Kardon/Lennox/Siemens/Sanyo/Rey&Rey\nKey Achievements & Solutions:\n➢ Recognized for consistently delivering projects on-time, within budget and with high customer satisfaction for SAP Financial, SCM and Order to Cash (SD/MM/FI-CO/PP/QM) Modules, coordinating the blueprint, functional design and RICEF delivery efforts for Lennox, Sanyo, Siemens, Reynolds & Reynolds\n➢ Directed all efforts to re-organize Business structures to implement the SAP Profit Center Accounting for Harmon Kardon\n➢ Conceptualized and presented the process improvement strategy to effectively deploy the SCM to improve the operational efficiency and customer satisfaction by consolidating SAP MM/SD/FI-CO business processes\n➢ Coordinated the COE activities including the migration of Material Valuation System from the Moving Average to Standard Cost Methods\n➢ Performed Requirement Analysis, \"As-Is\" and \"To-Be\" process design, setup configuration objects for MM, SD and FI-CO, Hands-On development in Interfaces, Reporting, Data Migrations, Enhancements using ABAP, BAPI, BDC, LSMW, EDI, SMART FORMS, IMG tools.\n\nW R Grace/Nexgen SI/L&T/Rallis  - Multiple Locations\tAug 1984-Sep 1996\nKey Achievements & Solutions:\n➢ Spearheaded all efforts to implement the SCM and Shop Floor Automation strategies to reduce the inventory levels by 50% and increased the Production output by 90% for Manufacturing companies to improve operations efficiency\n\n\nEducation & Credentials\nBachelor of Science in Mechanical Engineering\nRegional Engineering College, India (1984)\nDiploma in Business Management\nPune University, India (1989)\nDiploma in Systems Analysis and Data Processing\nAnnamalai University, India (1993)\n\nTechnology Proficiency\n\nLanguages: ABAP,BEX Analyzer, COBOL, UNIX Scripts, SQL, 4GL, Visual Basic\nSystems: MS Windows, UNIX, DBOS, OS/MVS\nTools: MS Project, Visio, Flow, MS Office Suite, ER Diagram Tools, HPQC, Test Director, SAP Tools, HP Service Center, PDoc\nSoftware: SAP ECC, ABAP, LSMW, BW, COGNOS, PL/SQL, Developer 2000, COBOL, UNIX, PowerBuilder, Informatica, Datastage Ariba\nDatabases: ORACLE, Informix, SQL Server",
+    "DocumentLanguage": "en",
+    "DocumentCulture": "en-US",
+    "ParserSettings": "Coverage.MilitaryHistoryAndSecurityCredentials = True; Coverage.PatentsPublicationsAndSpeakingEvents = True; Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = US; Culture.Language = English; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = False; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2021-12-28",
+    "SovrenSignature": [
+      "pogFAAAAAAA="
+    ]
+  }
+}
