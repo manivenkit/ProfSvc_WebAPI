@@ -15,7 +15,7 @@
 
 #region Using
 
-using Sovren;
+//using Sovren;
 
 #endregion
 
@@ -649,7 +649,7 @@ public class CandidatesController : ControllerBase
             //_streamWriter.Close();
             //_fs1.Close();
         }
-        catch (SovrenException)
+        catch //(SovrenException)
         {
             //
         }
