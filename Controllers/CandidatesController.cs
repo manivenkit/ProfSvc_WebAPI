@@ -196,7 +196,7 @@ public class CandidatesController : ControllerBase
         int _ratingFirst = 0;
         bool _mpcFirst = false;
         string _ratingComments = "", _mpcComments = "";
-        if (!_ratingComments.NullOrWhiteSpace())
+        if (!_candRating.NullOrWhiteSpace())
         {
             CandidateRating _ratingFirstCandidate = _rating.FirstOrDefault();
             if (_ratingFirstCandidate != null)
@@ -206,7 +206,7 @@ public class CandidatesController : ControllerBase
             }
         }
 
-        if (!_mpcComments.NullOrWhiteSpace())
+        if (!_candMPC.NullOrWhiteSpace())
         {
             CandidateMPC _mpcFirstCandidate = _mpc.FirstOrDefault();
             if (_mpcFirstCandidate != null)
