@@ -64,9 +64,9 @@ public class CandidatesController : ControllerBase
         string _candRating = "", _candMPC = "";
 
         using SqlCommand _command = new("GetDetailCandidate", _connection)
-                                    {
-                                        CommandType = CommandType.StoredProcedure
-                                    };
+        {
+            CommandType = CommandType.StoredProcedure
+        };
         _command.Int("@CandidateID", candidateID);
 
         _connection.Open();
@@ -135,9 +135,10 @@ public class CandidatesController : ControllerBase
             string[] _ratingArray = _candRating.Split('?');
             _rating.AddRange(_ratingArray
                             .Select(str => new
-                                           {
-                                               _str = str, _innerArray = str.Split('^')
-                                           })
+                            {
+                                _str = str,
+                                _innerArray = str.Split('^')
+                            })
                             .Where(t => t._innerArray.Length == 4)
                             .Select(t => new CandidateRating(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToByte(),
                                                              t._innerArray[3])));
@@ -184,9 +185,10 @@ public class CandidatesController : ControllerBase
         string[] _mpcArray = _candMPC.Split('?');
         _mpc.AddRange(_mpcArray
                      .Select(str => new
-                                    {
-                                        _str = str, _innerArray = str.Split('^')
-                                    })
+                     {
+                         _str = str,
+                         _innerArray = str.Split('^')
+                     })
                      .Where(t => t._innerArray.Length == 4)
                      .Select(t => new CandidateMPC(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToBoolean(),
                                                    t._innerArray[3])));
@@ -284,9 +286,9 @@ public class CandidatesController : ControllerBase
         using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
         List<Candidates> _candidates = new();
         using SqlCommand _command = new("GetGridCandidates", _connection)
-                                    {
-                                        CommandType = CommandType.StoredProcedure
-                                    };
+        {
+            CommandType = CommandType.StoredProcedure
+        };
         _command.Int("@Count", count);
         _command.Int("@Page", page);
         _command.Int("@SortRow", sortRow);
@@ -424,9 +426,9 @@ public class CandidatesController : ControllerBase
         try
         {
             using SqlCommand _command = new("SaveCandidate", _con)
-                                        {
-                                            CommandType = CommandType.StoredProcedure
-                                        };
+            {
+                CommandType = CommandType.StoredProcedure
+            };
             _command.Int("@CandidateId", ratingMPC.ID);
             _command.TinyInt("@Rating", ratingMPC.Rating);
             _command.Varchar("@Notes", 255, ratingMPC.RatingComments);
@@ -448,9 +450,10 @@ public class CandidatesController : ControllerBase
                 string[] _ratingArray = _ratingValue.Split('?');
                 _rating.AddRange(_ratingArray
                                 .Select(str => new
-                                               {
-                                                   _str = str, _innerArray = str.Split('^')
-                                               })
+                                {
+                                    _str = str,
+                                    _innerArray = str.Split('^')
+                                })
                                 .Where(t => t._innerArray.Length == 4)
                                 .Select(t => new CandidateRating(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToByte(),
                                                                  t._innerArray[3])));
@@ -486,15 +489,19 @@ public class CandidatesController : ControllerBase
     [HttpPost("SaveCandidate")]
     public ActionResult<int> SaveCandidate(CandidateDetails candidateDetails)
     {
+        if (candidateDetails == null)
+        {
+            return -1;
+        }
         using SqlConnection _con = new(_config.GetConnectionString("DBConnect"));
         _con.Open();
         int _returnCode = 0;
         try
         {
             using SqlCommand _command = new("SaveCandidate", _con)
-                                        {
-                                            CommandType = CommandType.StoredProcedure
-                                        };
+            {
+                CommandType = CommandType.StoredProcedure
+            };
             _command.Int("@ID", candidateDetails.CandidateID, true);
             _command.Varchar("@FirstName", 50, candidateDetails.FirstName);
             _command.Varchar("@MiddleName", 50, candidateDetails.MiddleName);
@@ -924,6 +931,70 @@ public class CandidatesController : ControllerBase
             Response.HttpContext.Features.Get<IHttpResponseFeature>()!.ReasonPhrase = "File removed successfully";
             Response.HttpContext.Features.Get<IHttpResponseFeature>()!.ReasonPhrase = e.Message;
         }
+    }
+
+    [HttpPost("[action]")]
+    public Dictionary<string, object> SaveMPC(CandidateRatingMPC mpc, string user)
+    {
+        string _mpcNotes = "";
+        List<CandidateMPC> _mpc = new();
+        if (mpc != null)
+        {
+            using SqlConnection _con = new(_config.GetConnectionString("DBConnect"));
+            _con.Open();
+            try
+            {
+                using SqlCommand _command = new("ChangeMPC", _con)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                _command.Int("@ID", mpc.ID, true);
+                _command.Bit("@MPC", mpc.MPC);
+                _command.Varchar("@From", 10, user);
+                _mpcNotes = _command.ExecuteScalar().ToString();
+            }
+            catch
+            {
+            }
+            _con.Close();
+
+            string[] _mpcArray = _mpcNotes.Split('?');
+            _mpc.AddRange(_mpcArray
+                         .Select(str => new
+                         {
+                             _str = str,
+                             _innerArray = str.Split('^')
+                         })
+                         .Where(t => t._innerArray.Length == 4)
+                         .Select(t => new CandidateMPC(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToBoolean(),
+                                                       t._innerArray[3])));
+
+            _mpc = _mpc.OrderByDescending(x => x.Date).ToList();
+            bool _mpcFirst = false;
+            string _mpcComments = "";
+
+            if (!_mpcNotes.NullOrWhiteSpace())
+            {
+                CandidateMPC _mpcFirstCandidate = _mpc.FirstOrDefault();
+                if (_mpcFirstCandidate != null)
+                {
+                    _mpcFirst = _mpcFirstCandidate.MPC;
+                    _mpcComments = _mpcFirstCandidate.Comments;
+                }
+            }
+            mpc.MPC = _mpcFirst;
+            mpc.MPCComments = _mpcComments;
+        }
+
+        return new Dictionary<string, object>
+                    {
+                        {
+                            "MPCList", _mpc
+                        },
+                        {
+                            "FirstMPC", mpc
+                        }
+                    };
     }
 
     #endregion
