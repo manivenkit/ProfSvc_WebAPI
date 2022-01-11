@@ -236,7 +236,7 @@ public static partial class Extensions
                          });
 
     /// <summary>
-    ///     Generates a SQLParameter of type Varchar.
+    ///     Generates a SQLParameter of type Varchar with a value of DBNull.
     /// </summary>
     /// <param name="t"> SqlParameterCollection </param>
     /// <param name="name"> The name of the parameter. </param>

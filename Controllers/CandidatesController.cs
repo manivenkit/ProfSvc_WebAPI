@@ -402,79 +402,6 @@ public class CandidatesController : ControllerBase
     }
 
     /// <summary>
-    ///     (An Action that handles HTTP POST requests) saves a rating.
-    /// </summary>
-    /// <remarks>
-    ///     Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily, 03-01-2022.
-    /// </remarks>
-    /// <param name="ratingMPC">
-    ///     .
-    /// </param>
-    /// <param name="user">
-    ///     (Optional)
-    /// </param>
-    /// <returns>
-    ///     An ActionResult&lt;Dictionary&lt;string,object&gt;&gt;
-    /// </returns>
-    [HttpPost("[action]")]
-    public ActionResult<Dictionary<string, object>> SaveRating(CandidateRatingMPC ratingMPC, string user = "ADMIN")
-    {
-        using SqlConnection _con = new(_config.GetConnectionString("DBConnect"));
-        _con.Open();
-
-        List<CandidateRating> _rating = new();
-        try
-        {
-            using SqlCommand _command = new("SaveCandidate", _con)
-            {
-                CommandType = CommandType.StoredProcedure
-            };
-            _command.Int("@CandidateId", ratingMPC.ID);
-            _command.TinyInt("@Rating", ratingMPC.Rating);
-            _command.Varchar("@Notes", 255, ratingMPC.RatingComments);
-            _command.Varchar("@From", 10, user);
-            using SqlDataReader _reader = _command.ExecuteReader();
-
-            string _ratingValue = "";
-            if (_reader.HasRows)
-            {
-                _reader.Read();
-                _ratingValue = _reader.NString(0);
-            }
-
-            _reader.Close();
-
-            //Candidate Rating
-            if (!_ratingValue.NullOrWhiteSpace())
-            {
-                string[] _ratingArray = _ratingValue.Split('?');
-                _rating.AddRange(_ratingArray
-                                .Select(str => new
-                                {
-                                    _str = str,
-                                    _innerArray = str.Split('^')
-                                })
-                                .Where(t => t._innerArray.Length == 4)
-                                .Select(t => new CandidateRating(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToByte(),
-                                                                 t._innerArray[3])));
-
-                _rating = _rating.OrderByDescending(x => x.Date).ToList();
-            }
-        }
-        catch (SqlException)
-        {
-            //
-        }
-
-        return new Dictionary<string, object>
-               {
-                   {
-                       "Rating", _rating
-                   }
-               };
-    }
-
-    /// <summary>
     ///     Saves the AdminList object.
     /// </summary>
     /// <remarks>
@@ -933,8 +860,8 @@ public class CandidatesController : ControllerBase
         }
     }
 
-    [HttpPost("[action]")]
-    public Dictionary<string, object> SaveMPC(CandidateRatingMPC mpc, string user)
+    [HttpPost("SaveMPC")]
+    public ActionResult<Dictionary<string, object>> SaveMPC(CandidateRatingMPC mpc, [FromQuery] string user)
     {
         string _mpcNotes = "";
         List<CandidateMPC> _mpc = new();
@@ -948,13 +875,15 @@ public class CandidatesController : ControllerBase
                 {
                     CommandType = CommandType.StoredProcedure
                 };
-                _command.Int("@ID", mpc.ID, true);
+                _command.Int("@CandidateId", mpc.ID);
                 _command.Bit("@MPC", mpc.MPC);
-                _command.Varchar("@From", 10, user);
+                _command.Varchar("@Notes", -1, mpc.MPCComments);
+                _command.Varchar("@From", 10, "JOLLY");
                 _mpcNotes = _command.ExecuteScalar().ToString();
             }
             catch
             {
+                //
             }
             _con.Close();
 
@@ -966,8 +895,7 @@ public class CandidatesController : ControllerBase
                              _innerArray = str.Split('^')
                          })
                          .Where(t => t._innerArray.Length == 4)
-                         .Select(t => new CandidateMPC(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToBoolean(),
-                                                       t._innerArray[3])));
+                         .Select(t => new CandidateMPC(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToBoolean(), t._innerArray[3])));
 
             _mpc = _mpc.OrderByDescending(x => x.Date).ToList();
             bool _mpcFirst = false;
@@ -993,6 +921,71 @@ public class CandidatesController : ControllerBase
                         },
                         {
                             "FirstMPC", mpc
+                        }
+                    };
+    }
+
+    [HttpPost("[action]")]
+    public ActionResult<Dictionary<string, object>> SaveRating(CandidateRatingMPC rating, [FromQuery] string user)
+    {
+        string _ratingNotes = "";
+        List<CandidateRating> _rating = new();
+        if (rating != null)
+        {
+            using SqlConnection _con = new(_config.GetConnectionString("DBConnect"));
+            _con.Open();
+            try
+            {
+                using SqlCommand _command = new("ChangeRating", _con)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                _command.Int("@CandidateId", rating.ID);
+                _command.TinyInt("@Rating", rating.Rating);
+                _command.Varchar("@Notes", -1, rating.RatingComments);
+                _command.Varchar("@From", 10, "JOLLY");
+                _ratingNotes = _command.ExecuteScalar().ToString();
+            }
+            catch
+            {
+                //
+            }
+            _con.Close();
+
+            string[] _ratingArray = _ratingNotes.Split('?');
+            _rating.AddRange(_ratingArray
+                         .Select(str => new
+                         {
+                             _str = str,
+                             _innerArray = str.Split('^')
+                         })
+                         .Where(t => t._innerArray.Length == 4)
+                         .Select(t => new CandidateRating(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToByte(), t._innerArray[3])));
+
+            _rating = _rating.OrderByDescending(x => x.Date).ToList();
+            int _ratingFirst = 0;
+            string _ratingComments = "";
+
+            if (!_ratingNotes.NullOrWhiteSpace())
+            {
+                CandidateRating _ratingFirstCandidate = _rating.FirstOrDefault();
+                if (_ratingFirstCandidate != null)
+                {
+                    _ratingFirst = _ratingFirstCandidate.Rating;
+                    _ratingComments = _ratingFirstCandidate.Comments;
+                }
+            }
+            rating.Rating = _ratingFirst;
+            rating.RatingComments = _ratingComments;
+        }
+
+        return new Dictionary<string, object>
+                    {
+                        {
+                            "RatingList", _rating
+                        },
+                        {
+                            "FirstRating", rating
                         }
                     };
     }
