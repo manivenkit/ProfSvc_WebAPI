@@ -26,8 +26,8 @@
     <ItemGroup>
         <PackageReference Include="Blazored.LocalStorage" Version="4.1.5" />
         <PackageReference Include="Microsoft.Data.SqlClient" Version="4.0.0" />
-        <PackageReference Include="Radzen.Blazor" Version="3.14.1" />
-        <PackageReference Include="RestSharp" Version="107.0.2" />
+        <PackageReference Include="Radzen.Blazor" Version="3.14.2" />
+        <PackageReference Include="RestSharp" Version="107.0.3" />
         <PackageReference Include="Syncfusion.Blazor" Version="19.4.0.42" />
     </ItemGroup>
 

@@ -57,7 +57,7 @@ public class CandidatesController : ControllerBase
     #region Methods
 
     [HttpGet("GetCandidateDetails")]
-    public ActionResult<Dictionary<string, object>> GetCandidateDetails([FromQuery] int candidateID)
+    public async Task<ActionResult<Dictionary<string, object>>> GetCandidateDetails([FromQuery] int candidateID)
     {
         using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
         CandidateDetails _candidate = null;
@@ -70,7 +70,7 @@ public class CandidatesController : ControllerBase
         _command.Int("@CandidateID", candidateID);
 
         _connection.Open();
-        using SqlDataReader _reader = _command.ExecuteReader();
+        using SqlDataReader _reader = await _command.ExecuteReaderAsync();
         if (_reader.HasRows) //Candidate Details
         {
             _reader.Read();
@@ -109,7 +109,7 @@ public class CandidatesController : ControllerBase
             _education.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetString(4),
                                _reader.GetString(5), _reader.GetString(6)));
         }
-
+        ;
         _reader.NextResult(); //Experience
         List<CandidateExperience> _experience = new();
         while (_reader.Read())
