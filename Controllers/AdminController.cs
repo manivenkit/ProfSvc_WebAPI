@@ -480,7 +480,7 @@ public class AdminController : ControllerBase
     /// <param name="adminList">Object of type AdminList.</param>
     /// <returns></returns>
     [HttpPost("SaveAdminList")]
-    public ActionResult<string> SaveAdminList(string methodName, string parameterName, bool containDescription, bool isString, AdminList adminList)
+    public ActionResult<string> SaveAdminList([FromQuery]string methodName, [FromQuery]string parameterName, [FromQuery]bool containDescription, [FromQuery]bool isString, [FromBody]AdminList adminList)
     {
         using SqlConnection _con = new(_config.GetConnectionString("DBConnect"));
         _con.Open();
