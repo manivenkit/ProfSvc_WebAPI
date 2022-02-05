@@ -7,70 +7,187 @@
 // Project:             ProfSvc_WebAPI
 // File Name:           CandidatesController.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
-// Created On:          11-18-2021 21:39
-// Last Updated On:     01-04-2022 16:11
+// Created On:          01-26-2022 19:30
+// Last Updated On:     02-05-2022 19:49
 // *****************************************/
-
-#endregion
-
-#region Using
-
-//using Sovren;
 
 #endregion
 
 namespace ProfSvc_WebAPI.Controllers;
 
-/// <summary>   A controller for handling candidates. </summary>
-/// <remarks>   Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily, 03-01-2022. </remarks>
 [ApiController, Route("api/[controller]")]
 public class CandidatesController : ControllerBase
 {
-    #region Constructors
-
-    /// <summary>   Constructor. </summary>
-    /// <remarks>   Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily, 03-01-2022. </remarks>
-    /// <param name="configuration">    The configuration. </param>
-    /// <param name="env">              The environment. </param>
+    /// <summary>
+    /// </summary>
+    /// <param name="configuration"></param>
+    /// <param name="env"></param>
     public CandidatesController(IConfiguration configuration, IWebHostEnvironment env)
     {
         _config = configuration;
         _hostingEnvironment = env;
     }
 
-    #endregion
-
-    #region Fields
-
-    /// <summary>
-    ///     (Immutable) the configuration.
-    /// </summary>
     private readonly IConfiguration _config;
 
-    /// <summary>
-    ///     (Immutable) the hosting environment.
-    /// </summary>
     private readonly IWebHostEnvironment _hostingEnvironment;
 
-    #endregion
+    /// <summary>
+    /// </summary>
+    /// <param name="uploadFiles"></param>
+    [HttpPost("[action]")]
+    public void CancelParseResume(IList<IFormFile> uploadFiles)
+    {
+        try
+        {
+            string filename = _hostingEnvironment.ContentRootPath + $@"\{uploadFiles[0].FileName}";
+            if (System.IO.File.Exists(filename))
+            {
+                System.IO.File.Delete(filename);
+            }
+        }
+        catch (Exception e)
+        {
+            Response.Clear();
+            Response.StatusCode = 200;
+            Response.HttpContext.Features.Get<IHttpResponseFeature>()!.ReasonPhrase = "File removed successfully";
+            Response.HttpContext.Features.Get<IHttpResponseFeature>()!.ReasonPhrase = e.Message;
+        }
+    }
 
-    #region Methods
+    /// <summary>
+    /// </summary>
+    /// <param name="id"></param>
+    /// <param name="user"></param>
+    /// <returns></returns>
+    [HttpPost("DeleteEducation")]
+    public async Task<Dictionary<string, object>> DeleteEducation([FromQuery] int id, [FromQuery] int candidateID, [FromQuery] string user)
+    {
+        await Task.Delay(1);
+        List<CandidateEducation> _education = new();
+        if (id == 0)
+        {
+            return new()
+                   {
+                       {
+                           "Education", _education
+                       }
+                   };
+        }
 
+        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        try
+        {
+            await using SqlCommand _command = new("DeleteCandidateEducation", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("Id", id);
+            _command.Int("candidateId", candidateID);
+            _command.Varchar("User", 10, user);
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _education.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetString(4),
+                                       _reader.GetString(5), _reader.GetString(6)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        await _connection.CloseAsync();
+
+        return new()
+               {
+                   {
+                       "Education", _education
+                   }
+               };
+    }
+
+    /// <summary>
+    /// </summary>
+    /// <param name="id"></param>
+    /// <param name="user"></param>
+    /// <returns></returns>
+    [HttpPost("DeleteSkill")]
+    public async Task<Dictionary<string, object>> DeleteSkill([FromQuery] int id, [FromQuery] string user)
+    {
+        await Task.Delay(1);
+        List<CandidateSkills> _skills = new();
+        if (id == 0)
+        {
+            return new()
+                   {
+                       {
+                           "Skills", _skills
+                       }
+                   };
+        }
+
+        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        try
+        {
+            await using SqlCommand _command = new("DeleteCandidateSkill", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("Id", id);
+            _command.Varchar("User", 10, user);
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _skills.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetInt16(2), _reader.GetInt16(3), _reader.GetString(4)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        await _connection.CloseAsync();
+
+        return new()
+               {
+                   {
+                       "Skills", _skills
+                   }
+               };
+    }
+
+    /// <summary>
+    /// </summary>
+    /// <param name="candidateID"></param>
+    /// <returns></returns>
     [HttpGet("GetCandidateDetails")]
     public async Task<ActionResult<Dictionary<string, object>>> GetCandidateDetails([FromQuery] int candidateID)
     {
-        using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
         CandidateDetails _candidate = null;
         string _candRating = "", _candMPC = "";
 
-        using SqlCommand _command = new("GetDetailCandidate", _connection)
-        {
-            CommandType = CommandType.StoredProcedure
-        };
+        await using SqlCommand _command = new("GetDetailCandidate", _connection)
+                                          {
+                                              CommandType = CommandType.StoredProcedure
+                                          };
         _command.Int("@CandidateID", candidateID);
 
-        _connection.Open();
-        using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+        await _connection.OpenAsync();
+        await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
         if (_reader.HasRows) //Candidate Details
         {
             _reader.Read();
@@ -109,7 +226,7 @@ public class CandidatesController : ControllerBase
             _education.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetString(4),
                                _reader.GetString(5), _reader.GetString(6)));
         }
-        ;
+
         _reader.NextResult(); //Experience
         List<CandidateExperience> _experience = new();
         while (_reader.Read())
@@ -128,6 +245,10 @@ public class CandidatesController : ControllerBase
                               _reader.GetString(15), _reader.GetInt32(16)));
         }
 
+        await _reader.CloseAsync();
+
+        await _connection.CloseAsync();
+
         //Candidate Rating
         List<CandidateRating> _rating = new();
         if (!_candRating.NullOrWhiteSpace())
@@ -135,10 +256,10 @@ public class CandidatesController : ControllerBase
             string[] _ratingArray = _candRating.Split('?');
             _rating.AddRange(_ratingArray
                             .Select(str => new
-                            {
-                                _str = str,
-                                _innerArray = str.Split('^')
-                            })
+                                           {
+                                               _str = str,
+                                               _innerArray = str.Split('^')
+                                           })
                             .Where(t => t._innerArray.Length == 4)
                             .Select(t => new CandidateRating(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToByte(),
                                                              t._innerArray[3])));
@@ -185,10 +306,10 @@ public class CandidatesController : ControllerBase
         string[] _mpcArray = _candMPC.Split('?');
         _mpc.AddRange(_mpcArray
                      .Select(str => new
-                     {
-                         _str = str,
-                         _innerArray = str.Split('^')
-                     })
+                                    {
+                                        _str = str,
+                                        _innerArray = str.Split('^')
+                                    })
                      .Where(t => t._innerArray.Length == 4)
                      .Select(t => new CandidateMPC(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToBoolean(),
                                                    t._innerArray[3])));
@@ -253,42 +374,24 @@ public class CandidatesController : ControllerBase
     }
 
     /// <summary>
-    ///     Gets the Grid Candidates List.
     /// </summary>
-    /// <remarks>
-    ///     Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily, 03-01-2022.
-    /// </remarks>
-    /// <param name="count">
-    ///     (Optional)
-    /// </param>
-    /// <param name="page">
-    ///     (Optional)
-    /// </param>
-    /// <param name="sortRow">
-    ///     (Optional)
-    /// </param>
-    /// <param name="sortOrder">
-    ///     (Optional)
-    /// </param>
-    /// <param name="getStates">
-    ///     (Optional)
-    /// </param>
-    /// <param name="name">
-    ///     (Optional)
-    /// </param>
-    /// <returns>
-    ///     JSON containing JobOptions object and Count.
-    /// </returns>
+    /// <param name="count"></param>
+    /// <param name="page"></param>
+    /// <param name="sortRow"></param>
+    /// <param name="sortOrder"></param>
+    /// <param name="getStates"></param>
+    /// <param name="name"></param>
+    /// <returns></returns>
     [HttpGet("GetGridCandidates")]
-    public ActionResult<Dictionary<string, object>> GetGridCandidates(int count = 25, int page = 1, int sortRow = 1, int sortOrder = 0, bool getStates = false,
-                                                                      string name = "")
+    public async Task<Dictionary<string, object>> GetGridCandidates(int count = 25, int page = 1, int sortRow = 1, int sortOrder = 0, bool getStates = false,
+                                                                    string name = "")
     {
-        using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
         List<Candidates> _candidates = new();
-        using SqlCommand _command = new("GetGridCandidates", _connection)
-        {
-            CommandType = CommandType.StoredProcedure
-        };
+        await using SqlCommand _command = new("GetGridCandidates", _connection)
+                                          {
+                                              CommandType = CommandType.StoredProcedure
+                                          };
         _command.Int("@Count", count);
         _command.Int("@Page", page);
         _command.Int("@SortRow", sortRow);
@@ -296,8 +399,8 @@ public class CandidatesController : ControllerBase
         _command.Bit("@GetStates", getStates);
         _command.Varchar("@Name", 255, name);
 
-        _connection.Open();
-        using SqlDataReader _reader = _command.ExecuteReader();
+        await _connection.OpenAsync();
+        await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
 
         _reader.Read();
         int _count = _reader.GetInt32(0);
@@ -372,7 +475,11 @@ public class CandidatesController : ControllerBase
             }
         }
 
-        return new Dictionary<string, object>
+        await _reader.CloseAsync();
+
+        await _connection.CloseAsync();
+
+        return new()
                {
                    {
                        "Candidates", _candidates
@@ -402,110 +509,8 @@ public class CandidatesController : ControllerBase
     }
 
     /// <summary>
-    ///     Saves the AdminList object.
     /// </summary>
-    /// <remarks>
-    ///     Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily, 03-01-2022.
-    /// </remarks>
-    /// <param name="candidateDetails">
-    ///     Object of type AdminList.
-    /// </param>
-    /// <returns>
-    ///     An ActionResult&lt;int&gt;
-    /// </returns>
-    [HttpPost("SaveCandidate")]
-    public ActionResult<int> SaveCandidate(CandidateDetails candidateDetails)
-    {
-        if (candidateDetails == null)
-        {
-            return -1;
-        }
-        using SqlConnection _con = new(_config.GetConnectionString("DBConnect"));
-        _con.Open();
-        int _returnCode = 0;
-        try
-        {
-            using SqlCommand _command = new("SaveCandidate", _con)
-            {
-                CommandType = CommandType.StoredProcedure
-            };
-            _command.Int("@ID", candidateDetails.CandidateID, true);
-            _command.Varchar("@FirstName", 50, candidateDetails.FirstName);
-            _command.Varchar("@MiddleName", 50, candidateDetails.MiddleName);
-            _command.Varchar("@LastName", 50, candidateDetails.LastName);
-            _command.Varchar("@Title", 50, candidateDetails.Title);
-            _command.Int("@Eligibility", candidateDetails.EligibilityID);
-            _command.Decimal("@HourlyRate", 6, 2, candidateDetails.HourlyRate);
-            _command.Decimal("@HourlyRateHigh", 6, 2, candidateDetails.HourlyRateHigh);
-            _command.Decimal("@SalaryLow", 9, 2, candidateDetails.SalaryLow);
-            _command.Decimal("@SalaryHigh", 9, 2, candidateDetails.SalaryHigh);
-            _command.Int("@Experience", candidateDetails.ExperienceID);
-            _command.Bit("@Relocate", candidateDetails.Relocate);
-            _command.Varchar("@JobOptions", 50, candidateDetails.JobOptions);
-            _command.Char("@Communication", 1, candidateDetails.Communication);
-            _command.Varchar("@TextResume", -1, candidateDetails.TextResume);
-            _command.Varchar("@OriginalResume", 255, candidateDetails.OriginalResume);   //TODO:
-            _command.Varchar("@FormattedResume", 255, candidateDetails.FormattedResume); //TODO:
-            _command.Varchar("@Keywords", 500, candidateDetails.Keywords);
-            _command.Varchar("@Status", 3, "AVL");
-            _command.UniqueIdentifier("@OriginalFileID", DBNull.Value);
-            _command.UniqueIdentifier("@FormattedFileID", DBNull.Value);
-            _command.Varchar("@Address1", 255, candidateDetails.Address1);
-            _command.Varchar("@Address2", 255, candidateDetails.Address2);
-            _command.Varchar("@City", 50, candidateDetails.City);
-            _command.Int("@StateID", candidateDetails.StateID);
-            _command.Varchar("@ZipCode", 20, candidateDetails.ZipCode);
-            _command.Varchar("@Email", 255, candidateDetails.Email);
-            _command.Varchar("@Phone1", 15, candidateDetails.Phone1);
-            _command.Varchar("@Phone2", 15, candidateDetails.Phone2);
-            _command.Varchar("@Phone3", 15, candidateDetails.Phone3);
-            _command.SmallInt("@Phone3Ext", candidateDetails.PhoneExt.ToInt16());
-            _command.VarcharD("@OriginalFileType", 10);      //TODO:
-            _command.VarcharD("@OriginalContentType", 255);  //TODO:
-            _command.VarcharD("@FormattedFileType", 10);     //TODO:
-            _command.VarcharD("@FormattedContentType", 255); //TODO:
-            _command.Varchar("@LinkedIn", 255, candidateDetails.LinkedIn);
-            _command.Varchar("@Facebook", 255, candidateDetails.Facebook);
-            _command.Varchar("@Twitter", 255, candidateDetails.Twitter);
-            _command.Varchar("@Google", 255, candidateDetails.GooglePlus);
-            _command.Bit("@Refer", candidateDetails.Refer);                                 //TODO:
-            _command.Varchar("@ReferAccountMgr", 10, candidateDetails.ReferAccountManager); //TODO:
-            _command.Varchar("@TaxTerm", 10, candidateDetails.TaxTerm);
-            _command.Bit("@Background", candidateDetails.Background);
-            _command.Varchar("@Summary", -1, candidateDetails.Summary);
-            _command.Varchar("@Objective", -1, "");
-            _command.Bit("@EEO", candidateDetails.Eeo);
-            _command.Varchar("@EEOFile", 255, candidateDetails.EeoFile);
-            _command.VarcharD("@EEOFileType", 10);     //TODO:
-            _command.VarcharD("@EEOContentType", 255); //TODO:
-            _command.Varchar("@RelocNotes", 200, candidateDetails.RelocationNotes);
-            _command.Varchar("@SecurityClearanceNotes", 200, candidateDetails.SecurityNotes);
-            _command.Varchar("@User", 10, "ADMIN");
-
-            using SqlDataReader _reader = _command.ExecuteReader();
-
-            _reader.Read();
-            if (_reader.HasRows)
-            {
-                _returnCode = _reader.GetInt32(0);
-            }
-        }
-        catch
-        {
-            // ignored
-        }
-
-        return _returnCode;
-    }
-
-    /// <summary>
-    ///     (An Action that handles HTTP POST requests) parse resume.
-    /// </summary>
-    /// <remarks>
-    ///     Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily, 03-01-2022.
-    /// </remarks>
     [HttpPost("[action]")]
-    //public void ParseResume(IList<IFormFile> chunkFile, IList<IFormFile> UploadFiles)
     public void ParseResume()
     {
         /*
@@ -801,7 +806,11 @@ public class CandidatesController : ControllerBase
         _tableSkills.Columns.Add("Skill", typeof(string));
         _tableSkills.Columns.Add("LastUsed", typeof(int));
         _tableSkills.Columns.Add("Month", typeof(int));
-        if (_skillsToken != null)
+        if (_skillsToken == null)
+        {
+            return;
+        }
+
         {
             for (int i = 0; i < _skillsToken.Count(); i++)
             {
@@ -832,163 +841,385 @@ public class CandidatesController : ControllerBase
     }
 
     /// <summary>
-    ///     (An Action that handles HTTP POST requests) cancel parse resume.
     /// </summary>
-    /// <remarks>
-    ///     Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily, 03-01-2022.
-    /// </remarks>
-    /// <param name="uploadFiles">
-    ///     .
-    /// </param>
-    [HttpPost("[action]")]
-    public void CancelParseResume(IList<IFormFile> uploadFiles)
+    /// <param name="candidateDetails"></param>
+    /// <returns></returns>
+    [HttpPost("SaveCandidate")]
+    public async Task<int> SaveCandidate(CandidateDetails candidateDetails)
     {
+        if (candidateDetails == null)
+        {
+            return -1;
+        }
+
+        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        int _returnCode = 0;
         try
         {
-            string filename = _hostingEnvironment.ContentRootPath + $@"\{uploadFiles[0].FileName}";
-            if (System.IO.File.Exists(filename))
+            await using SqlCommand _command = new("SaveCandidate", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("@ID", candidateDetails.CandidateID, true);
+            _command.Varchar("@FirstName", 50, candidateDetails.FirstName);
+            _command.Varchar("@MiddleName", 50, candidateDetails.MiddleName);
+            _command.Varchar("@LastName", 50, candidateDetails.LastName);
+            _command.Varchar("@Title", 50, candidateDetails.Title);
+            _command.Int("@Eligibility", candidateDetails.EligibilityID);
+            _command.Decimal("@HourlyRate", 6, 2, candidateDetails.HourlyRate);
+            _command.Decimal("@HourlyRateHigh", 6, 2, candidateDetails.HourlyRateHigh);
+            _command.Decimal("@SalaryLow", 9, 2, candidateDetails.SalaryLow);
+            _command.Decimal("@SalaryHigh", 9, 2, candidateDetails.SalaryHigh);
+            _command.Int("@Experience", candidateDetails.ExperienceID);
+            _command.Bit("@Relocate", candidateDetails.Relocate);
+            _command.Varchar("@JobOptions", 50, candidateDetails.JobOptions);
+            _command.Char("@Communication", 1, candidateDetails.Communication);
+            _command.Varchar("@TextResume", -1, candidateDetails.TextResume);
+            _command.Varchar("@OriginalResume", 255, candidateDetails.OriginalResume);   //TODO:
+            _command.Varchar("@FormattedResume", 255, candidateDetails.FormattedResume); //TODO:
+            _command.Varchar("@Keywords", 500, candidateDetails.Keywords);
+            _command.Varchar("@Status", 3, "AVL");
+            _command.UniqueIdentifier("@OriginalFileID", DBNull.Value);
+            _command.UniqueIdentifier("@FormattedFileID", DBNull.Value);
+            _command.Varchar("@Address1", 255, candidateDetails.Address1);
+            _command.Varchar("@Address2", 255, candidateDetails.Address2);
+            _command.Varchar("@City", 50, candidateDetails.City);
+            _command.Int("@StateID", candidateDetails.StateID);
+            _command.Varchar("@ZipCode", 20, candidateDetails.ZipCode);
+            _command.Varchar("@Email", 255, candidateDetails.Email);
+            _command.Varchar("@Phone1", 15, candidateDetails.Phone1);
+            _command.Varchar("@Phone2", 15, candidateDetails.Phone2);
+            _command.Varchar("@Phone3", 15, candidateDetails.Phone3);
+            _command.SmallInt("@Phone3Ext", candidateDetails.PhoneExt.ToInt16());
+            _command.VarcharD("@OriginalFileType", 10);      //TODO:
+            _command.VarcharD("@OriginalContentType", 255);  //TODO:
+            _command.VarcharD("@FormattedFileType", 10);     //TODO:
+            _command.VarcharD("@FormattedContentType", 255); //TODO:
+            _command.Varchar("@LinkedIn", 255, candidateDetails.LinkedIn);
+            _command.Varchar("@Facebook", 255, candidateDetails.Facebook);
+            _command.Varchar("@Twitter", 255, candidateDetails.Twitter);
+            _command.Varchar("@Google", 255, candidateDetails.GooglePlus);
+            _command.Bit("@Refer", candidateDetails.Refer);                                 //TODO:
+            _command.Varchar("@ReferAccountMgr", 10, candidateDetails.ReferAccountManager); //TODO:
+            _command.Varchar("@TaxTerm", 10, candidateDetails.TaxTerm);
+            _command.Bit("@Background", candidateDetails.Background);
+            _command.Varchar("@Summary", -1, candidateDetails.Summary);
+            _command.Varchar("@Objective", -1, "");
+            _command.Bit("@EEO", candidateDetails.Eeo);
+            _command.Varchar("@EEOFile", 255, candidateDetails.EeoFile);
+            _command.VarcharD("@EEOFileType", 10);     //TODO:
+            _command.VarcharD("@EEOContentType", 255); //TODO:
+            _command.Varchar("@RelocNotes", 200, candidateDetails.RelocationNotes);
+            _command.Varchar("@SecurityClearanceNotes", 200, candidateDetails.SecurityNotes);
+            _command.Varchar("@User", 10, "ADMIN");
+
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+
+            _reader.Read();
+            if (_reader.HasRows)
             {
-                System.IO.File.Delete(filename);
+                _returnCode = _reader.GetInt32(0);
             }
+
+            await _reader.CloseAsync();
         }
-        catch (Exception e)
+        catch
         {
-            Response.Clear();
-            Response.StatusCode = 200;
-            Response.HttpContext.Features.Get<IHttpResponseFeature>()!.ReasonPhrase = "File removed successfully";
-            Response.HttpContext.Features.Get<IHttpResponseFeature>()!.ReasonPhrase = e.Message;
+            // ignored
         }
+
+        await _connection.CloseAsync();
+
+        return _returnCode;
     }
 
+    /// <summary>
+    /// </summary>
+    /// <param name="education"></param>
+    /// <param name="candidateID"></param>
+    /// <param name="user"></param>
+    /// <returns></returns>
+    [HttpPost("SaveEducation")]
+    public async Task<Dictionary<string, object>> SaveEducation(CandidateEducation education, [FromQuery] int candidateID, [FromQuery] string user)
+    {
+        await Task.Delay(1);
+        List<CandidateEducation> _education = new();
+        if (education == null)
+        {
+            return new()
+                   {
+                       {
+                           "Education", _education
+                       }
+                   };
+        }
+
+        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        try
+        {
+            await using SqlCommand _command = new("SaveEducation", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("Id", education.ID);
+            _command.Int("CandidateID", candidateID);
+            _command.Varchar("Degree", 100, education.Degree);
+            _command.Varchar("College", 255, education.College);
+            _command.Varchar("State", 100, education.State);
+            _command.Varchar("Country", 100, education.Country);
+            _command.Varchar("Year", 10, education.Year);
+            _command.Varchar("User", 10, user);
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _education.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetString(4),
+                                       _reader.GetString(5), _reader.GetString(6)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        await _connection.CloseAsync();
+
+        return new()
+               {
+                   {
+                       "Education", _education
+                   }
+               };
+    }
+
+    /// <summary>
+    /// </summary>
+    /// <param name="mpc"></param>
+    /// <param name="user"></param>
+    /// <returns></returns>
     [HttpPost("SaveMPC")]
-    public ActionResult<Dictionary<string, object>> SaveMPC(CandidateRatingMPC mpc, [FromQuery] string user)
+    public async Task<Dictionary<string, object>> SaveMPC(CandidateRatingMPC mpc, [FromQuery] string user)
     {
         string _mpcNotes = "";
         List<CandidateMPC> _mpc = new();
-        if (mpc != null)
+        if (mpc == null)
         {
-            using SqlConnection _con = new(_config.GetConnectionString("DBConnect"));
-            _con.Open();
-            try
-            {
-                using SqlCommand _command = new("ChangeMPC", _con)
-                {
-                    CommandType = CommandType.StoredProcedure
-                };
-                _command.Int("@CandidateId", mpc.ID);
-                _command.Bit("@MPC", mpc.MPC);
-                _command.Varchar("@Notes", -1, mpc.MPCComments);
-                _command.Varchar("@From", 10, "JOLLY");
-                _mpcNotes = _command.ExecuteScalar().ToString();
-            }
-            catch
-            {
-                //
-            }
-            _con.Close();
-
-            string[] _mpcArray = _mpcNotes.Split('?');
-            _mpc.AddRange(_mpcArray
-                         .Select(str => new
-                         {
-                             _str = str,
-                             _innerArray = str.Split('^')
-                         })
-                         .Where(t => t._innerArray.Length == 4)
-                         .Select(t => new CandidateMPC(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToBoolean(), t._innerArray[3])));
-
-            _mpc = _mpc.OrderByDescending(x => x.Date).ToList();
-            bool _mpcFirst = false;
-            string _mpcComments = "";
-
-            if (!_mpcNotes.NullOrWhiteSpace())
-            {
-                CandidateMPC _mpcFirstCandidate = _mpc.FirstOrDefault();
-                if (_mpcFirstCandidate != null)
-                {
-                    _mpcFirst = _mpcFirstCandidate.MPC;
-                    _mpcComments = _mpcFirstCandidate.Comments;
-                }
-            }
-            mpc.MPC = _mpcFirst;
-            mpc.MPCComments = _mpcComments;
+            return new()
+                   {
+                       {
+                           "MPCList", _mpc
+                       },
+                       {
+                           "FirstMPC", null
+                       }
+                   };
         }
 
-        return new Dictionary<string, object>
-                    {
-                        {
-                            "MPCList", _mpc
-                        },
-                        {
-                            "FirstMPC", mpc
-                        }
-                    };
+        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        try
+        {
+            await using SqlCommand _command = new("ChangeMPC", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("@CandidateId", mpc.ID);
+            _command.Bit("@MPC", mpc.MPC);
+            _command.Varchar("@Notes", -1, mpc.MPCComments);
+            _command.Varchar("@From", 10, user);
+            _mpcNotes = _command.ExecuteScalar().ToString();
+        }
+        catch
+        {
+            //
+        }
+
+        await _connection.CloseAsync();
+
+        string[] _mpcArray = _mpcNotes?.Split('?');
+        _mpc.AddRange((_mpcArray ?? Array.Empty<string>())
+                     .Select(str => new
+                                    {
+                                        _str = str,
+                                        _innerArray = str.Split('^')
+                                    })
+                     .Where(t => t._innerArray.Length == 4)
+                     .Select(t => new CandidateMPC(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToBoolean(), t._innerArray[3])));
+
+        _mpc = _mpc.OrderByDescending(x => x.Date).ToList();
+        bool _mpcFirst = false;
+        string _mpcComments = "";
+
+        if (!_mpcNotes.NullOrWhiteSpace())
+        {
+            CandidateMPC _mpcFirstCandidate = _mpc.FirstOrDefault();
+            if (_mpcFirstCandidate != null)
+            {
+                _mpcFirst = _mpcFirstCandidate.MPC;
+                _mpcComments = _mpcFirstCandidate.Comments;
+            }
+        }
+
+        mpc.MPC = _mpcFirst;
+        mpc.MPCComments = _mpcComments;
+
+        return new()
+               {
+                   {
+                       "MPCList", _mpc
+                   },
+                   {
+                       "FirstMPC", mpc
+                   }
+               };
     }
 
+    /// <summary>
+    /// </summary>
+    /// <param name="rating"></param>
+    /// <param name="user"></param>
+    /// <returns></returns>
     [HttpPost("[action]")]
-    public ActionResult<Dictionary<string, object>> SaveRating(CandidateRatingMPC rating, [FromQuery] string user)
+    public async Task<Dictionary<string, object>> SaveRating(CandidateRatingMPC rating, [FromQuery] string user)
     {
         string _ratingNotes = "";
         List<CandidateRating> _rating = new();
-        if (rating != null)
+        if (rating == null)
         {
-            using SqlConnection _con = new(_config.GetConnectionString("DBConnect"));
-            _con.Open();
-            try
-            {
-                using SqlCommand _command = new("ChangeRating", _con)
-                {
-                    CommandType = CommandType.StoredProcedure
-                };
-                _command.Int("@CandidateId", rating.ID);
-                _command.TinyInt("@Rating", rating.Rating);
-                _command.Varchar("@Notes", -1, rating.RatingComments);
-                _command.Varchar("@From", 10, "JOLLY");
-                _ratingNotes = _command.ExecuteScalar().ToString();
-            }
-            catch
-            {
-                //
-            }
-            _con.Close();
-
-            string[] _ratingArray = _ratingNotes.Split('?');
-            _rating.AddRange(_ratingArray
-                         .Select(str => new
-                         {
-                             _str = str,
-                             _innerArray = str.Split('^')
-                         })
-                         .Where(t => t._innerArray.Length == 4)
-                         .Select(t => new CandidateRating(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToByte(), t._innerArray[3])));
-
-            _rating = _rating.OrderByDescending(x => x.Date).ToList();
-            int _ratingFirst = 0;
-            string _ratingComments = "";
-
-            if (!_ratingNotes.NullOrWhiteSpace())
-            {
-                CandidateRating _ratingFirstCandidate = _rating.FirstOrDefault();
-                if (_ratingFirstCandidate != null)
-                {
-                    _ratingFirst = _ratingFirstCandidate.Rating;
-                    _ratingComments = _ratingFirstCandidate.Comments;
-                }
-            }
-            rating.Rating = _ratingFirst;
-            rating.RatingComments = _ratingComments;
+            return new()
+                   {
+                       {
+                           "RatingList", _rating
+                       },
+                       {
+                           "FirstRating", null
+                       }
+                   };
         }
 
-        return new Dictionary<string, object>
-                    {
-                        {
-                            "RatingList", _rating
-                        },
-                        {
-                            "FirstRating", rating
-                        }
-                    };
+        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        try
+        {
+            await using SqlCommand _command = new("ChangeRating", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("@CandidateId", rating.ID);
+            _command.TinyInt("@Rating", rating.Rating);
+            _command.Varchar("@Notes", -1, rating.RatingComments);
+            _command.Varchar("@From", 10, user);
+            _ratingNotes = _command.ExecuteScalar().ToString();
+        }
+        catch
+        {
+            //
+        }
+
+        await _connection.CloseAsync();
+
+        string[] _ratingArray = _ratingNotes?.Split('?');
+        _rating.AddRange((_ratingArray ?? Array.Empty<string>())
+                        .Select(str => new
+                                       {
+                                           _str = str,
+                                           _innerArray = str.Split('^')
+                                       })
+                        .Where(t => t._innerArray.Length == 4)
+                        .Select(t => new CandidateRating(t._innerArray[0].ToDateTime(), t._innerArray[1], t._innerArray[2].ToByte(), t._innerArray[3])));
+
+        _rating = _rating.OrderByDescending(x => x.Date).ToList();
+        int _ratingFirst = 0;
+        string _ratingComments = "";
+
+        if (!_ratingNotes.NullOrWhiteSpace())
+        {
+            CandidateRating _ratingFirstCandidate = _rating.FirstOrDefault();
+            if (_ratingFirstCandidate != null)
+            {
+                _ratingFirst = _ratingFirstCandidate.Rating;
+                _ratingComments = _ratingFirstCandidate.Comments;
+            }
+        }
+
+        rating.Rating = _ratingFirst;
+        rating.RatingComments = _ratingComments;
+
+        return new()
+               {
+                   {
+                       "RatingList", _rating
+                   },
+                   {
+                       "FirstRating", rating
+                   }
+               };
     }
 
-    #endregion
+    /// <summary>
+    /// </summary>
+    /// <param name="skill"></param>
+    /// <param name="candidateID"></param>
+    /// <param name="user"></param>
+    /// <returns></returns>
+    [HttpPost("SaveSkill")]
+    public async Task<Dictionary<string, object>> SaveSkill(CandidateSkills skill, [FromQuery] int candidateID, [FromQuery] string user)
+    {
+        await Task.Delay(1);
+        List<CandidateSkills> _skills = new();
+        if (skill == null)
+        {
+            return new()
+                   {
+                       {
+                           "Skills", _skills
+                       }
+                   };
+        }
+
+        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        try
+        {
+            await using SqlCommand _command = new("SaveSkill", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("EntitySkillId", skill.ID);
+            _command.Varchar("Skill", 100, skill.Skill);
+            _command.Int("CandidateID", candidateID);
+            _command.SmallInt("LastUsed", skill.LastUsed);
+            _command.SmallInt("ExpMonth", skill.ExpMonth);
+            _command.Varchar("User", 10, user);
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _skills.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetInt16(2), _reader.GetInt16(3), _reader.GetString(4)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        await _connection.CloseAsync();
+
+        return new()
+               {
+                   {
+                       "Skills", _skills
+                   }
+               };
+    }
 }

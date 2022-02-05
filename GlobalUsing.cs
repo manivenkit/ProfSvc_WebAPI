@@ -7,8 +7,8 @@
 // Project:             ProfSvc_WebAPI
 // File Name:           GlobalUsing.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
-// Created On:          11-24-2021 14:49
-// Last Updated On:     01-04-2022 16:12
+// Created On:          01-26-2022 19:30
+// Last Updated On:     02-04-2022 15:59
 // *****************************************/
 
 #endregion
@@ -30,7 +30,9 @@ global using Microsoft.AspNetCore.Mvc.RazorPages;
 global using Microsoft.Data.SqlClient;
 
 global using ProfSvc_WebAPI.Code;
-global using ProfSvc_WebAPI.Data;
+global using ProfSvc_WebAPI;
+
+global using ProfSvc_Classes;
 
 global using Microsoft.AspNetCore.Http.Features;
 

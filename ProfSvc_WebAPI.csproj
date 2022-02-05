@@ -6,6 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <LangVersion>preview</LangVersion>
         <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+        <AnalysisLevel>none</AnalysisLevel>
+        <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -26,9 +28,13 @@
     <ItemGroup>
         <PackageReference Include="Blazored.LocalStorage" Version="4.1.5" />
         <PackageReference Include="Microsoft.Data.SqlClient" Version="4.0.1" />
-        <PackageReference Include="Radzen.Blazor" Version="3.14.7" />
-        <PackageReference Include="RestSharp" Version="107.1.2" />
-        <PackageReference Include="Syncfusion.Blazor" Version="19.4.0.47" />
+        <PackageReference Include="Radzen.Blazor" Version="3.14.9" />
+        <PackageReference Include="RestSharp" Version="107.2.0" />
+        <PackageReference Include="Syncfusion.Blazor" Version="19.4.0.48" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ProfSvc_Classes\ProfSvc_Classes.csproj" />
     </ItemGroup>
 
     <ItemGroup>
@@ -36,5 +42,13 @@
         <HintPath>..\Ref\Sovren.SDK.dll</HintPath>
       </Reference>
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Data\" />
+    </ItemGroup>
+
+    <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+      <Exec Command="taskkill /f /im &quot;w3wp.exe&quot; 2&gt;nul 1&gt;nul&#xD;&#xA;exit 0" />
+    </Target>
 
 </Project>

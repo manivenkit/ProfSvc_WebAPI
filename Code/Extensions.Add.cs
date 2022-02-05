@@ -17,6 +17,10 @@ namespace ProfSvc_WebAPI.Code;
 
 public static partial class Extensions
 {
+    private static string AppendAtRateChar(this string s)
+    {
+        return s.StartsWith('@') ? s : "@" + s;
+    }
     #region Properties
 
     /// <summary>
@@ -27,7 +31,7 @@ public static partial class Extensions
     /// <param name="value"> The value to be assigned to the parameter. </param>
     /// <param name="output"> Should the Parameter Direction b InputOutput or Input. </param>
     /// <returns> SQLParameter of type Int </returns>
-    public static SqlParameter Int(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name, SqlDbType.Int)
+    public static SqlParameter Int(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name.AppendAtRateChar(), SqlDbType.Int)
                                                                                                                           {
                                                                                                                               Value = value,
                                                                                                                               Direction =
@@ -43,7 +47,7 @@ public static partial class Extensions
     /// <param name="name"> The name of the parameter. </param>
     /// <param name="value"> The value to be assigned to the parameter. </param>
     /// <returns> SQLParameter of type Xml </returns>
-    public static SqlParameter Xml(this SqlCommand t, string name, object value) => t.Parameters.Add(new(name, SqlDbType.Xml)
+    public static SqlParameter Xml(this SqlCommand t, string name, object value) => t.Parameters.Add(new(name.AppendAtRateChar(), SqlDbType.Xml)
                                                                                                      {
                                                                                                          Value = value
                                                                                                      });
@@ -57,7 +61,7 @@ public static partial class Extensions
     /// <param name="value"> The value to be assigned to the parameter. </param>
     /// <param name="output"> Should the Parameter Direction b InputOutput or Input. </param>
     /// <returns> SQLParameter of type Binary </returns>
-    public static void Binary(this SqlCommand t, string name, int size, object value, bool output = false) => t.Parameters.Add(new(name, SqlDbType.Binary, size)
+    public static void Binary(this SqlCommand t, string name, int size, object value, bool output = false) => t.Parameters.Add(new(name.AppendAtRateChar(), SqlDbType.Binary, size)
                                                                                                                                {
                                                                                                                                    Value = value,
                                                                                                                                    Direction =
@@ -76,7 +80,7 @@ public static partial class Extensions
     /// <param name="value"> The value to be assigned to the parameter. </param>
     /// <param name="output"> Should the Parameter Direction b InputOutput or Input. </param>
     /// <returns> SQLParameter of type Bit </returns>
-    public static void Bit(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name, SqlDbType.Bit)
+    public static void Bit(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name.AppendAtRateChar(), SqlDbType.Bit)
                                                                                                                   {
                                                                                                                       Value = value,
                                                                                                                       Direction =
@@ -96,7 +100,7 @@ public static partial class Extensions
     /// <param name="output"> Should the Parameter Direction b InputOutput or Input. </param>
     /// <returns> SQLParameter of type Char </returns>
     public static void Char(this SqlCommand t, string name, int size, object value, bool isNType = true,
-                            bool output = false) => t.Parameters.Add(new(name, isNType ? SqlDbType.NChar : SqlDbType.Char, size)
+                            bool output = false) => t.Parameters.Add(new(name.AppendAtRateChar(), isNType ? SqlDbType.NChar : SqlDbType.Char, size)
                                                                      {
                                                                          Value = value,
                                                                          Direction = output ? ParameterDirection.InputOutput : ParameterDirection.Input
@@ -110,7 +114,7 @@ public static partial class Extensions
     /// <param name="value"> The value to be assigned to the parameter. </param>
     /// <param name="output"> Should the Parameter Direction be InputOutput or Input. </param>
     /// <returns> SQLParameter of type Date </returns>
-    public static void Date(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name, SqlDbType.Date)
+    public static void Date(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name.AppendAtRateChar(), SqlDbType.Date)
                                                                                                                    {
                                                                                                                        Value = value,
                                                                                                                        Direction =
@@ -127,7 +131,7 @@ public static partial class Extensions
     /// <param name="value"> The value to be assigned to the parameter. </param>
     /// <param name="output"> Should the Parameter Direction b InputOutput or Input. </param>
     /// <returns> SQLParameter of type DateTime </returns>
-    public static void DateTime(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name, SqlDbType.DateTime)
+    public static void DateTime(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name.AppendAtRateChar(), SqlDbType.DateTime)
                                                                                                                        {
                                                                                                                            Value = value,
                                                                                                                            Direction =
@@ -147,7 +151,7 @@ public static partial class Extensions
     /// <param name="output"> Should the Parameter Direction b InputOutput or Input. </param>
     /// <returns> SQLParameter of type DateTime </returns>
     public static void Decimal(this SqlCommand t, string name, byte precision, byte scale, object value, bool output = false) =>
-        t.Parameters.Add(new(name, SqlDbType.Decimal)
+        t.Parameters.Add(new(name.AppendAtRateChar(), SqlDbType.Decimal)
                          {
                              Value = value, Direction = output ? ParameterDirection.InputOutput : ParameterDirection.Input, Precision = precision,
                              Scale = scale
@@ -161,7 +165,7 @@ public static partial class Extensions
     /// <param name="value"> The value to be assigned to the parameter. </param>
     /// <param name="output"> Should the Parameter Direction b InputOutput or Input. </param>
     /// <returns> SQLParameter of type SmallDateTime </returns>
-    public static void SmallDateTime(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name, SqlDbType.SmallDateTime)
+    public static void SmallDateTime(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name.AppendAtRateChar(), SqlDbType.SmallDateTime)
                                                                                                                             {
                                                                                                                                 Value = value,
                                                                                                                                 Direction =
@@ -179,7 +183,7 @@ public static partial class Extensions
     /// <param name="value"> The value to be assigned to the parameter. </param>
     /// <param name="output"> Should the Parameter Direction b InputOutput or Input. </param>
     /// <returns> SQLParameter of type SmallInt </returns>
-    public static void SmallInt(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name, SqlDbType.SmallInt)
+    public static void SmallInt(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name.AppendAtRateChar(), SqlDbType.SmallInt)
                                                                                                                        {
                                                                                                                            Value = value,
                                                                                                                            Direction =
@@ -196,7 +200,7 @@ public static partial class Extensions
     /// <param name="value"> The value to be assigned to the parameter. </param>
     /// <param name="output"> Should the Parameter Direction b InputOutput or Input. </param>
     /// <returns> SQLParameter of type Tinyint </returns>
-    public static void TinyInt(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name, SqlDbType.TinyInt)
+    public static void TinyInt(this SqlCommand t, string name, object value, bool output = false) => t.Parameters.Add(new(name.AppendAtRateChar(), SqlDbType.TinyInt)
                                                                                                                       {
                                                                                                                           Value = value,
                                                                                                                           Direction =
@@ -214,7 +218,7 @@ public static partial class Extensions
     /// <param name="output"> Should the Parameter Direction b InputOutput or Input. </param>
     /// <returns> SQLParameter of type UniqueIdentifier </returns>
     public static void UniqueIdentifier(this SqlCommand t, string name, object value, bool output = false) =>
-        t.Parameters.Add(new(name, SqlDbType.UniqueIdentifier)
+        t.Parameters.Add(new(name.AppendAtRateChar(), SqlDbType.UniqueIdentifier)
                          {
                              Value = value, Direction = output ? ParameterDirection.InputOutput : ParameterDirection.Input
                          });
@@ -230,7 +234,7 @@ public static partial class Extensions
     /// <param name="output"> Should the Parameter Direction b InputOutput or Input. </param>
     /// <returns> SQLParameter of type Varchar </returns>
     public static void Varchar(this SqlCommand t, string name, int size, object value, bool isNType = true, bool output = false) =>
-        t.Parameters.Add(new(name, isNType ? SqlDbType.NVarChar : SqlDbType.VarChar, size)
+        t.Parameters.Add(new(name.AppendAtRateChar(), isNType ? SqlDbType.NVarChar : SqlDbType.VarChar, size)
                          {
                              Value = value, Direction = output ? ParameterDirection.InputOutput : ParameterDirection.Input
                          });
@@ -245,7 +249,7 @@ public static partial class Extensions
     /// <param name="output"> Should the Parameter Direction b InputOutput or Input. </param>
     /// <returns> SQLParameter of type Varchar </returns>
     public static void VarcharD(this SqlCommand t, string name, int size, bool isNType = true, bool output = false) =>
-        t.Parameters.Add(new(name, isNType ? SqlDbType.NVarChar : SqlDbType.VarChar, size)
+        t.Parameters.Add(new(name.AppendAtRateChar(), isNType ? SqlDbType.NVarChar : SqlDbType.VarChar, size)
                          {
                              Value = DBNull.Value, Direction = output ? ParameterDirection.InputOutput : ParameterDirection.Input
                          });
