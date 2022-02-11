@@ -58,6 +58,7 @@ public class CandidatesController : ControllerBase
     /// <summary>
     /// </summary>
     /// <param name="id"></param>
+    /// <param name="candidateID"></param>
     /// <param name="user"></param>
     /// <returns></returns>
     [HttpPost("DeleteEducation")]
@@ -109,6 +110,65 @@ public class CandidatesController : ControllerBase
                {
                    {
                        "Education", _education
+                   }
+               };
+    }
+
+    /// <summary>
+    /// </summary>
+    /// <param name="id"></param>
+    /// <param name="candidateID"></param>
+    /// <param name="user"></param>
+    /// <returns></returns>
+    [HttpPost("DeleteExperience")]
+    public async Task<Dictionary<string, object>> DeleteExperience([FromQuery] int id, [FromQuery] int candidateID, [FromQuery] string user)
+    {
+        await Task.Delay(1);
+        List<CandidateExperience> _experiences = new();
+        if (id == 0)
+        {
+            return new()
+                   {
+                       {
+                           "Experience", _experiences
+                       }
+                   };
+        }
+
+        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        try
+        {
+            await using SqlCommand _command = new("DeleteCandidateExperience", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("Id", id);
+            _command.Int("candidateId", candidateID);
+            _command.Varchar("User", 10, user);
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _experiences.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetString(4),
+                                         _reader.GetString(5), _reader.GetString(6), _reader.GetString(7)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        await _connection.CloseAsync();
+
+        return new()
+               {
+                   {
+                       "Experience", _experiences
                    }
                };
     }
@@ -932,6 +992,71 @@ public class CandidatesController : ControllerBase
         await _connection.CloseAsync();
 
         return _returnCode;
+    }
+
+    /// <summary>
+    /// </summary>
+    /// <param name="experience"></param>
+    /// <param name="candidateID"></param>
+    /// <param name="user"></param>
+    /// <returns></returns>
+    [HttpPost("SaveExperience")]
+    public async Task<Dictionary<string, object>> SaveExperience(CandidateExperience experience, [FromQuery] int candidateID, [FromQuery] string user)
+    {
+        await Task.Delay(1);
+        List<CandidateExperience> _experiences = new();
+        if (experience == null)
+        {
+            return new()
+                   {
+                       {
+                           "Experience", _experiences
+                       }
+                   };
+        }
+
+        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        try
+        {
+            await using SqlCommand _command = new("SaveExperience", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("Id", experience.ID);
+            _command.Int("CandidateID", candidateID);
+            _command.Varchar("Employer", 100, experience.Employer);
+            _command.Varchar("Start", 10, experience.Start);
+            _command.Varchar("End", 10, experience.End);
+            _command.Varchar("Location", 100, experience.Location);
+            _command.Varchar("Description", 1000, experience.Description);
+            _command.Varchar("Title", 1000, experience.Title);
+            _command.Varchar("User", 10, user);
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _experiences.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetString(4),
+                                       _reader.GetString(5), _reader.GetString(6), _reader.GetString(7)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        await _connection.CloseAsync();
+
+        return new()
+               {
+                   {
+                       "Experience", _experiences
+                   }
+               };
     }
 
     /// <summary>
