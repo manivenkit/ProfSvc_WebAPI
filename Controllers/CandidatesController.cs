@@ -24,11 +24,11 @@ public class CandidatesController : ControllerBase
     /// <param name="env"></param>
     public CandidatesController(IConfiguration configuration, IWebHostEnvironment env)
     {
-        _config = configuration;
+        _configuration = configuration;
         _hostingEnvironment = env;
     }
 
-    private readonly IConfiguration _config;
+    private readonly IConfiguration _configuration;
 
     private readonly IWebHostEnvironment _hostingEnvironment;
 
@@ -76,7 +76,7 @@ public class CandidatesController : ControllerBase
                    };
         }
 
-        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         await _connection.OpenAsync();
         try
         {
@@ -135,7 +135,7 @@ public class CandidatesController : ControllerBase
                    };
         }
 
-        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         await _connection.OpenAsync();
         try
         {
@@ -193,7 +193,7 @@ public class CandidatesController : ControllerBase
                    };
         }
 
-        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         await _connection.OpenAsync();
         try
         {
@@ -236,7 +236,7 @@ public class CandidatesController : ControllerBase
     [HttpGet("GetCandidateDetails")]
     public async Task<ActionResult<Dictionary<string, object>>> GetCandidateDetails([FromQuery] int candidateID)
     {
-        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         CandidateDetails _candidate = null;
         string _candRating = "", _candMPC = "";
 
@@ -446,7 +446,7 @@ public class CandidatesController : ControllerBase
     public async Task<Dictionary<string, object>> GetGridCandidates(int count = 25, int page = 1, int sortRow = 1, int sortOrder = 0, bool getStates = false,
                                                                     string name = "")
     {
-        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         List<Candidates> _candidates = new();
         await using SqlCommand _command = new("GetGridCandidates", _connection)
                                           {
@@ -912,7 +912,7 @@ public class CandidatesController : ControllerBase
             return -1;
         }
 
-        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         await _connection.OpenAsync();
         int _returnCode = 0;
         try
@@ -1015,7 +1015,7 @@ public class CandidatesController : ControllerBase
                    };
         }
 
-        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         await _connection.OpenAsync();
         try
         {
@@ -1080,7 +1080,7 @@ public class CandidatesController : ControllerBase
                    };
         }
 
-        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         await _connection.OpenAsync();
         try
         {
@@ -1146,7 +1146,7 @@ public class CandidatesController : ControllerBase
                    };
         }
 
-        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         await _connection.OpenAsync();
         try
         {
@@ -1228,7 +1228,7 @@ public class CandidatesController : ControllerBase
                    };
         }
 
-        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         await _connection.OpenAsync();
         try
         {
@@ -1308,7 +1308,7 @@ public class CandidatesController : ControllerBase
                    };
         }
 
-        await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         await _connection.OpenAsync();
         try
         {
