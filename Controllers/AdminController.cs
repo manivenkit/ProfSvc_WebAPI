@@ -8,7 +8,7 @@
 // File Name:           AdminController.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          01-26-2022 19:30
-// Last Updated On:     02-04-2022 19:45
+// Last Updated On:     02-18-2022 15:49
 // *****************************************/
 
 #endregion
@@ -152,10 +152,10 @@ public class AdminController : ControllerBase
     public async Task<Dictionary<string, object>> GetCache()
     {
         await using SqlConnection _connection = new(_config.GetConnectionString("DBConnect"));
-        List<State> _states = new();
+        List<IntValues> _states = new();
         List<IntValues> _eligibility = new();
-        List<JobOption> _jobOptions = new();
-        List<IntValues> _taxTerms = new();
+        List<KeyValues> _jobOptions = new();
+        List<KeyValues> _taxTerms = new();
         List<IntValues> _skills = new();
         List<IntValues> _experience = new();
         List<Template> _templates = new();
@@ -172,6 +172,7 @@ public class AdminController : ControllerBase
         List<IntValues> _leadStatus = new();
         List<CommissionConfigurator> _commissionConfigurators = new();
         List<VariableCommission> _variableCommissions = new();
+        List<Workflow> _workflows = new();
         await using SqlCommand _command = new("SetCacheTables", _connection)
                                           {
                                               CommandType = CommandType.StoredProcedure
@@ -183,7 +184,7 @@ public class AdminController : ControllerBase
         {
             while (_reader.Read())
             {
-                _states.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2)));
+                _states.Add(new(_reader.GetInt32(0), _reader.GetString(1)));
             }
         }
 
@@ -201,9 +202,7 @@ public class AdminController : ControllerBase
         {
             while (_reader.Read())
             {
-                _jobOptions.Add(new(_reader.GetString(0), _reader.GetString(1), _reader.GetString(9), "", _reader.GetBoolean(2), _reader.GetBoolean(3),
-                                    _reader.GetBoolean(4), _reader.GetString(5), _reader.GetBoolean(6), _reader.GetBoolean(7), _reader.GetBoolean(8), _reader.GetBoolean(12),
-                                    _reader.GetString(10), _reader.GetString(11), _reader.GetDecimal(14), _reader.GetBoolean(13)));
+                _jobOptions.Add(new(_reader.GetString(0), _reader.GetString(1)));
             }
         }
 
@@ -212,7 +211,7 @@ public class AdminController : ControllerBase
         {
             while (_reader.Read())
             {
-                _taxTerms.Add(new(_reader.GetInt32(0), _reader.GetString(1)));
+                _taxTerms.Add(new(_reader.GetString(0), _reader.GetString(1)));
             }
         }
 
@@ -257,7 +256,7 @@ public class AdminController : ControllerBase
         {
             while (_reader.Read())
             {
-                _statusCodes.Add(new(_reader.GetInt32(6), _reader.GetString(0), _reader.GetString(1), _reader.NString(2), _reader.GetString(2),
+                _statusCodes.Add(new(_reader.GetInt32(6), _reader.GetString(0), _reader.GetString(1), _reader.NString(2), _reader.GetString(3),
                                      _reader.GetBoolean(4), _reader.GetBoolean(5)));
             }
         }
@@ -356,13 +355,23 @@ public class AdminController : ControllerBase
         }
 
         _reader.NextResult();
-        // ReSharper disable once InvertIf
         if (_reader.HasRows) //Variable Commission
         {
             while (_reader.Read())
             {
-                _variableCommissions.Add(new(_reader.GetInt32(0), _reader.GetInt16(1), _reader.GetInt16(2), _reader.GetByte(3), _reader.GetByte(4),
+                _variableCommissions.Add(new(_reader.GetInt32(0), _reader.GetInt16(1), _reader.GetByte(2), _reader.GetByte(3), _reader.GetByte(4),
                                              _reader.GetByte(5)));
+            }
+        }
+
+        _reader.NextResult();
+        // ReSharper disable once InvertIf
+        if (_reader.HasRows) //Workflow
+        {
+            while (_reader.Read())
+            {
+                _workflows.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.NString(2), _reader.GetBoolean(3), _reader.GetString(4),
+                                   _reader.GetBoolean(5), _reader.GetBoolean(6)));
             }
         }
 
@@ -427,6 +436,9 @@ public class AdminController : ControllerBase
                    },
                    {
                        "VariableCommissions", _variableCommissions
+                   },
+                   {
+                       "Workflow", _workflows
                    }
                };
     }

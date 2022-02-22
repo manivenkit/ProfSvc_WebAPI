@@ -8,7 +8,7 @@
 // File Name:           CandidatesController.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          01-26-2022 19:30
-// Last Updated On:     02-05-2022 19:49
+// Last Updated On:     02-21-2022 16:16
 // *****************************************/
 
 #endregion
@@ -176,10 +176,69 @@ public class CandidatesController : ControllerBase
     /// <summary>
     /// </summary>
     /// <param name="id"></param>
+    /// <param name="candidateID"></param>
+    /// <param name="user"></param>
+    /// <returns></returns>
+    [HttpPost("DeleteNotes")]
+    public async Task<Dictionary<string, object>> DeleteNotes([FromQuery] int id, [FromQuery] int candidateID, [FromQuery] string user)
+    {
+        await Task.Delay(1);
+        List<CandidateNotes> _notes = new();
+        if (id == 0)
+        {
+            return new()
+                   {
+                       {
+                           "Notes", _notes
+                       }
+                   };
+        }
+
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        try
+        {
+            await using SqlCommand _command = new("DeleteCandidateNotes", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("Id", id);
+            _command.Int("candidateId", candidateID);
+            _command.Varchar("User", 10, user);
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _notes.Add(new(_reader.GetInt32(0), _reader.GetDateTime(1), _reader.GetString(2), _reader.GetString(3)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        await _connection.CloseAsync();
+
+        return new()
+               {
+                   {
+                       "Notes", _notes
+                   }
+               };
+    }
+
+    /// <summary>
+    /// </summary>
+    /// <param name="id"></param>
+    /// <param name="candidateID"></param>
     /// <param name="user"></param>
     /// <returns></returns>
     [HttpPost("DeleteSkill")]
-    public async Task<Dictionary<string, object>> DeleteSkill([FromQuery] int id, [FromQuery] string user)
+    public async Task<Dictionary<string, object>> DeleteSkill([FromQuery] int id, [FromQuery] int candidateID, [FromQuery] string user)
     {
         await Task.Delay(1);
         List<CandidateSkills> _skills = new();
@@ -202,6 +261,7 @@ public class CandidatesController : ControllerBase
                                                   CommandType = CommandType.StoredProcedure
                                               };
             _command.Int("Id", id);
+            _command.Int("candidateId", candidateID);
             _command.Varchar("User", 10, user);
             await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
             if (_reader.HasRows)
@@ -302,7 +362,9 @@ public class CandidatesController : ControllerBase
             _activity.Add(new(_reader.GetString(0), _reader.GetDateTime(1), _reader.GetString(2), _reader.GetInt32(3), _reader.GetInt32(4),
                               _reader.GetString(5), _reader.GetString(6), _reader.GetInt32(7), _reader.GetBoolean(8), _reader.GetString(9),
                               _reader.GetString(10), _reader.GetString(11), _reader.GetBoolean(12), _reader.GetString(13), _reader.GetInt32(14),
-                              _reader.GetString(15), _reader.GetInt32(16)));
+                              _reader.GetString(15), _reader.GetInt32(16), _reader.GetString(17), _reader.GetBoolean(18),
+                              _reader.NDateTime(19), _reader.GetString(20), _reader.NString(21), _reader.NString(22),
+                              _reader.GetBoolean(23)));
         }
 
         await _reader.CloseAsync();
@@ -439,12 +501,10 @@ public class CandidatesController : ControllerBase
     /// <param name="page"></param>
     /// <param name="sortRow"></param>
     /// <param name="sortOrder"></param>
-    /// <param name="getStates"></param>
     /// <param name="name"></param>
     /// <returns></returns>
     [HttpGet("GetGridCandidates")]
-    public async Task<Dictionary<string, object>> GetGridCandidates(int count = 25, int page = 1, int sortRow = 1, int sortOrder = 0, bool getStates = false,
-                                                                    string name = "")
+    public async Task<Dictionary<string, object>> GetGridCandidates(int count = 25, int page = 1, int sortRow = 1, int sortOrder = 0, string name = "")
     {
         await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         List<Candidates> _candidates = new();
@@ -456,7 +516,6 @@ public class CandidatesController : ControllerBase
         _command.Int("@Page", page);
         _command.Int("@SortRow", sortRow);
         _command.TinyInt("@SortOrder", sortOrder);
-        _command.Bit("@GetStates", getStates);
         _command.Varchar("@Name", 255, name);
 
         await _connection.OpenAsync();
@@ -474,67 +533,6 @@ public class CandidatesController : ControllerBase
                                 _reader.GetBoolean(10)));
         }
 
-        List<IntValues> _states = new();
-        List<IntValues> _eligibility = new();
-        List<IntValues> _experience = new();
-        List<KeyValues> _taxTerms = new();
-        List<KeyValues> _jobOptions = new();
-        List<KeyValues> _statusCodes = new();
-
-        _reader.NextResult();
-        if (_reader.HasRows)
-        {
-            while (_reader.Read())
-            {
-                _states.Add(new(_reader.GetInt32(0), _reader.GetString(1)));
-            }
-        }
-
-        _reader.NextResult();
-        if (_reader.HasRows)
-        {
-            while (_reader.Read())
-            {
-                _eligibility.Add(new(_reader.GetInt32(0), _reader.GetString(1)));
-            }
-        }
-
-        _reader.NextResult();
-        if (_reader.HasRows)
-        {
-            while (_reader.Read())
-            {
-                _experience.Add(new(_reader.GetInt32(0), _reader.GetString(1)));
-            }
-        }
-
-        _reader.NextResult();
-        if (_reader.HasRows)
-        {
-            while (_reader.Read())
-            {
-                _taxTerms.Add(new(_reader.GetString(0), _reader.GetString(1)));
-            }
-        }
-
-        _reader.NextResult();
-        if (_reader.HasRows)
-        {
-            while (_reader.Read())
-            {
-                _jobOptions.Add(new(_reader.GetString(0), _reader.GetString(1)));
-            }
-        }
-
-        _reader.NextResult();
-        if (_reader.HasRows)
-        {
-            while (_reader.Read())
-            {
-                _statusCodes.Add(new(_reader.GetString(0), _reader.GetString(1)));
-            }
-        }
-
         await _reader.CloseAsync();
 
         await _connection.CloseAsync();
@@ -546,24 +544,6 @@ public class CandidatesController : ControllerBase
                    },
                    {
                        "Count", _count
-                   },
-                   {
-                       "States", _states
-                   },
-                   {
-                       "Eligibility", _eligibility
-                   },
-                   {
-                       "Experience", _experience
-                   },
-                   {
-                       "TaxTerms", _taxTerms
-                   },
-                   {
-                       "JobOptions", _jobOptions
-                   },
-                   {
-                       "StatusCodes", _statusCodes
                    }
                };
     }
@@ -996,21 +976,22 @@ public class CandidatesController : ControllerBase
 
     /// <summary>
     /// </summary>
-    /// <param name="experience"></param>
+    /// <param name="activity"></param>
     /// <param name="candidateID"></param>
     /// <param name="user"></param>
+    /// <param name="roleID"></param>
     /// <returns></returns>
-    [HttpPost("SaveExperience")]
-    public async Task<Dictionary<string, object>> SaveExperience(CandidateExperience experience, [FromQuery] int candidateID, [FromQuery] string user)
+    [HttpPost("SaveCandidateActivity")]
+    public async Task<Dictionary<string, object>> SaveCandidateActivity(CandidateActivity activity, [FromQuery] int candidateID, [FromQuery] string user, [FromQuery] string roleID = "RS")
     {
         await Task.Delay(1);
-        List<CandidateExperience> _experiences = new();
-        if (experience == null)
+        List<CandidateActivity> _activities = new();
+        if (activity == null)
         {
             return new()
                    {
                        {
-                           "Experience", _experiences
+                           "Activity", _activities
                        }
                    };
         }
@@ -1019,26 +1000,35 @@ public class CandidatesController : ControllerBase
         await _connection.OpenAsync();
         try
         {
-            await using SqlCommand _command = new("SaveExperience", _connection)
+            await using SqlCommand _command = new("SaveCandidateActivity", _connection)
                                               {
                                                   CommandType = CommandType.StoredProcedure
                                               };
-            _command.Int("Id", experience.ID);
+            _command.Int("SubmissionId", activity.ID);
             _command.Int("CandidateID", candidateID);
-            _command.Varchar("Employer", 100, experience.Employer);
-            _command.Varchar("Start", 10, experience.Start);
-            _command.Varchar("End", 10, experience.End);
-            _command.Varchar("Location", 100, experience.Location);
-            _command.Varchar("Description", 1000, experience.Description);
-            _command.Varchar("Title", 1000, experience.Title);
+            _command.Int("RequisitionID", activity.RequisitionID);
+            _command.Varchar("Notes", 1000, activity.Notes);
+            _command.Char("Status", 3, activity.NewStatusCode);
             _command.Varchar("User", 10, user);
+            _command.Bit("ShowCalendar", activity.ShowCalendar);
+            _command.Date("DateTime", activity.DateTimeInterview == DateTime.MinValue ? DBNull.Value : activity.DateTimeInterview);
+            _command.Char("Type", 1, activity.TypeOfInterview);
+            _command.Varchar("PhoneNumber", 20, activity.PhoneNumber);
+            _command.Varchar("InterviewDetails", 2000, activity.InterviewDetails);
+            _command.Bit("UpdateSchedule", false);
+            _command.Bit("CandScreen", true);
+            _command.Char("RoleID", 2, roleID);
             await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
             if (_reader.HasRows)
             {
                 while (_reader.Read())
                 {
-                    _experiences.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetString(4),
-                                       _reader.GetString(5), _reader.GetString(6), _reader.GetString(7)));
+                    _activities.Add(new(_reader.GetString(0), _reader.GetDateTime(1), _reader.GetString(2), _reader.GetInt32(3), _reader.GetInt32(4),
+                                        _reader.GetString(5), _reader.GetString(6), _reader.GetInt32(7), _reader.GetBoolean(8), _reader.GetString(9),
+                                        _reader.GetString(10), _reader.GetString(11), _reader.GetBoolean(12), _reader.GetString(13), _reader.GetInt32(14),
+                                        _reader.GetString(15), _reader.GetInt32(16), _reader.GetString(17), _reader.GetBoolean(18),
+                                        _reader.NDateTime(19), _reader.GetString(20), _reader.NString(21), _reader.NString(22),
+                                        _reader.GetBoolean(23)));
                 }
             }
 
@@ -1054,7 +1044,71 @@ public class CandidatesController : ControllerBase
         return new()
                {
                    {
-                       "Experience", _experiences
+                       "Activity", _activities
+                   }
+               };
+    }
+
+    /// <summary>
+    /// </summary>
+    /// <param name="submissionID"></param>
+    /// <param name="user"></param>
+    /// <param name="roleID"></param>
+    /// <returns></returns>
+    [HttpPost("UndoCandidateActivity")]
+    public async Task<Dictionary<string, object>> UndoCandidateActivity(int submissionID, [FromQuery] string user, [FromQuery] string roleID = "RS")
+    {
+        await Task.Delay(1);
+        List<CandidateActivity> _activities = new();
+        if (submissionID == 0)
+        {
+            return new()
+                   {
+                       {
+                           "Activity", null
+                       }
+                   };
+        }
+
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        try
+        {
+            await using SqlCommand _command = new("UndoCandidateActivity", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("Id", submissionID);
+            _command.Varchar("User", 10, user);
+            _command.Bit("CandScreen", true);
+            _command.Char("RoleID", 2, roleID);
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _activities.Add(new(_reader.GetString(0), _reader.GetDateTime(1), _reader.GetString(2), _reader.GetInt32(3), _reader.GetInt32(4),
+                                        _reader.GetString(5), _reader.GetString(6), _reader.GetInt32(7), _reader.GetBoolean(8), _reader.GetString(9),
+                                        _reader.GetString(10), _reader.GetString(11), _reader.GetBoolean(12), _reader.GetString(13), _reader.GetInt32(14),
+                                        _reader.GetString(15), _reader.GetInt32(16), _reader.GetString(17), _reader.GetBoolean(18),
+                                        _reader.NDateTime(19), _reader.GetString(20), _reader.NString(21), _reader.NString(22),
+                                        _reader.GetBoolean(23)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        await _connection.CloseAsync();
+
+        return new()
+               {
+                   {
+                       "Activity", _activities
                    }
                };
     }
@@ -1119,6 +1173,71 @@ public class CandidatesController : ControllerBase
                {
                    {
                        "Education", _education
+                   }
+               };
+    }
+
+    /// <summary>
+    /// </summary>
+    /// <param name="experience"></param>
+    /// <param name="candidateID"></param>
+    /// <param name="user"></param>
+    /// <returns></returns>
+    [HttpPost("SaveExperience")]
+    public async Task<Dictionary<string, object>> SaveExperience(CandidateExperience experience, [FromQuery] int candidateID, [FromQuery] string user)
+    {
+        await Task.Delay(1);
+        List<CandidateExperience> _experiences = new();
+        if (experience == null)
+        {
+            return new()
+                   {
+                       {
+                           "Experience", _experiences
+                       }
+                   };
+        }
+
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        try
+        {
+            await using SqlCommand _command = new("SaveExperience", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("Id", experience.ID);
+            _command.Int("CandidateID", candidateID);
+            _command.Varchar("Employer", 100, experience.Employer);
+            _command.Varchar("Start", 10, experience.Start);
+            _command.Varchar("End", 10, experience.End);
+            _command.Varchar("Location", 100, experience.Location);
+            _command.Varchar("Description", 1000, experience.Description);
+            _command.Varchar("Title", 1000, experience.Title);
+            _command.Varchar("User", 10, user);
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _experiences.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetString(4),
+                                         _reader.GetString(5), _reader.GetString(6), _reader.GetString(7)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        await _connection.CloseAsync();
+
+        return new()
+               {
+                   {
+                       "Experience", _experiences
                    }
                };
     }

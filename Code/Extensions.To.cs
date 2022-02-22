@@ -86,7 +86,7 @@ public static partial class Extensions
 																				   out DateTime _outDate) ? _outDate : System.DateTime.MinValue;
 
 	/// <summary>
-	///     Checks for Null value and returns a replacement value if null or the actual int value for the Reader.
+	///     Checks for Null value and returns a replacement value if null or the actual decimal value for the Reader.
 	/// </summary>
 	/// <param name="read"> SqlDataReader. </param>
 	/// <param name="index"> Zero-based column ordinal. </param>
@@ -94,6 +94,16 @@ public static partial class Extensions
 	/// <returns> Decimal </returns>
 	public static decimal NDecimal(this SqlDataReader read, int index, decimal nullReplaceValue = 0) =>
         read.IsDBNull(index) ? nullReplaceValue : read.GetDecimal(index);
+
+	/// <summary>
+	///     Checks for Null value and returns a replacement value if null or the actual DateTime value for the Reader.
+	/// </summary>
+	/// <param name="read"> SqlDataReader. </param>
+	/// <param name="index"> Zero-based column ordinal. </param>
+	/// <param name="nullReplaceValue"> Value to be used in case of null value. </param>
+	/// <returns> DateTime </returns>
+	public static DateTime NDateTime(this SqlDataReader read, int index, DateTime nullReplaceValue = default) =>
+        read.IsDBNull(index) ? nullReplaceValue : read.GetDateTime(index);
 
 	/// <summary>
 	///     Checks for Null value and returns a replacement value if null or the actual int value for the Reader.
