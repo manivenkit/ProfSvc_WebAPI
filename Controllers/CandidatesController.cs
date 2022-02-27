@@ -367,6 +367,16 @@ public class CandidatesController : ControllerBase
                               _reader.GetBoolean(23)));
         }
 
+        _reader.NextResult(); //Managers
+
+        _reader.NextResult(); //Documents
+        List<CandidateDocument> _documents = new();
+        while (_reader.Read())
+        {
+            _documents.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.NDateTime(4) + " [" + _reader.NString(5) + "]", 
+                               _reader.GetString(6), _reader.GetString(7)));
+        }
+
         await _reader.CloseAsync();
 
         await _connection.CloseAsync();
@@ -421,6 +431,9 @@ public class CandidatesController : ControllerBase
                        },
                        {
                            "RatingMPC", null
+                       },
+                       {
+                           "Document", _documents
                        }
                    };
         }
@@ -491,6 +504,9 @@ public class CandidatesController : ControllerBase
                    },
                    {
                        "RatingMPC", _ratingMPC
+                   },
+                   {
+                       "Document", _documents
                    }
                };
     }
