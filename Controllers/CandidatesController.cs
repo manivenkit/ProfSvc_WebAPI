@@ -8,14 +8,14 @@
 // File Name:           CandidatesController.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          01-26-2022 19:30
-// Last Updated On:     02-21-2022 16:16
+// Last Updated On:     03-18-2022 20:59
 // *****************************************/
 
 #endregion
 
 namespace ProfSvc_WebAPI.Controllers;
 
-[ApiController, Route("api/[controller]")]
+[ApiController, Route("api/[controller]/[action]")]
 public class CandidatesController : ControllerBase
 {
     /// <summary>
@@ -35,7 +35,7 @@ public class CandidatesController : ControllerBase
     /// <summary>
     /// </summary>
     /// <param name="uploadFiles"></param>
-    [HttpPost("[action]")]
+    [HttpPost]
     public void CancelParseResume(IList<IFormFile> uploadFiles)
     {
         try
@@ -57,11 +57,56 @@ public class CandidatesController : ControllerBase
 
     /// <summary>
     /// </summary>
+    /// <param name="documentID"></param>
+    /// <param name="user"></param>
+    /// <returns></returns>
+    [HttpPost]
+    public async Task<Dictionary<string, object>> DeleteCandidateDocument([FromQuery] int documentID, [FromQuery] string user)
+    {
+        await Task.Delay(1);
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        List<CandidateDocument> _documents = new();
+        try
+        {
+            await using SqlCommand _command = new("DeleteCandidateDocument", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("CandidateDocumentId", documentID);
+            _command.Varchar("User", 10, user);
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _documents.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), $"{_reader.NDateTime(4)} [{_reader.NString(5)}]",
+                                       _reader.GetString(6), _reader.GetString(7), _reader.GetInt32(8)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        return new()
+               {
+                   {
+                       "Document", _documents
+                   }
+               };
+    }
+
+    /// <summary>
+    /// </summary>
     /// <param name="id"></param>
     /// <param name="candidateID"></param>
     /// <param name="user"></param>
     /// <returns></returns>
-    [HttpPost("DeleteEducation")]
+    [HttpPost]
     public async Task<Dictionary<string, object>> DeleteEducation([FromQuery] int id, [FromQuery] int candidateID, [FromQuery] string user)
     {
         await Task.Delay(1);
@@ -120,7 +165,7 @@ public class CandidatesController : ControllerBase
     /// <param name="candidateID"></param>
     /// <param name="user"></param>
     /// <returns></returns>
-    [HttpPost("DeleteExperience")]
+    [HttpPost]
     public async Task<Dictionary<string, object>> DeleteExperience([FromQuery] int id, [FromQuery] int candidateID, [FromQuery] string user)
     {
         await Task.Delay(1);
@@ -179,7 +224,7 @@ public class CandidatesController : ControllerBase
     /// <param name="candidateID"></param>
     /// <param name="user"></param>
     /// <returns></returns>
-    [HttpPost("DeleteNotes")]
+    [HttpPost]
     public async Task<Dictionary<string, object>> DeleteNotes([FromQuery] int id, [FromQuery] int candidateID, [FromQuery] string user)
     {
         await Task.Delay(1);
@@ -237,7 +282,7 @@ public class CandidatesController : ControllerBase
     /// <param name="candidateID"></param>
     /// <param name="user"></param>
     /// <returns></returns>
-    [HttpPost("DeleteSkill")]
+    [HttpPost]
     public async Task<Dictionary<string, object>> DeleteSkill([FromQuery] int id, [FromQuery] int candidateID, [FromQuery] string user)
     {
         await Task.Delay(1);
@@ -293,7 +338,7 @@ public class CandidatesController : ControllerBase
     /// </summary>
     /// <param name="candidateID"></param>
     /// <returns></returns>
-    [HttpGet("GetCandidateDetails")]
+    [HttpGet]
     public async Task<ActionResult<Dictionary<string, object>>> GetCandidateDetails([FromQuery] int candidateID)
     {
         await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
@@ -373,8 +418,8 @@ public class CandidatesController : ControllerBase
         List<CandidateDocument> _documents = new();
         while (_reader.Read())
         {
-            _documents.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.NDateTime(4) + " [" + _reader.NString(5) + "]", 
-                               _reader.GetString(6), _reader.GetString(7)));
+            _documents.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), $"{_reader.NDateTime(4)} [{_reader.NString(5)}]",
+                               _reader.GetString(6), _reader.GetString(7), _reader.GetInt32(8)));
         }
 
         await _reader.CloseAsync();
@@ -513,14 +558,10 @@ public class CandidatesController : ControllerBase
 
     /// <summary>
     /// </summary>
-    /// <param name="count"></param>
-    /// <param name="page"></param>
-    /// <param name="sortRow"></param>
-    /// <param name="sortOrder"></param>
-    /// <param name="name"></param>
+    /// <param name="searchModel"></param>
     /// <returns></returns>
-    [HttpGet("GetGridCandidates")]
-    public async Task<Dictionary<string, object>> GetGridCandidates(int count = 25, int page = 1, int sortRow = 1, int sortOrder = 0, string name = "")
+    [HttpGet]
+    public async Task<Dictionary<string, object>> GetGridCandidates([FromBody] CandidateSearch searchModel)
     {
         await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
         List<Candidates> _candidates = new();
@@ -528,11 +569,25 @@ public class CandidatesController : ControllerBase
                                           {
                                               CommandType = CommandType.StoredProcedure
                                           };
-        _command.Int("@Count", count);
-        _command.Int("@Page", page);
-        _command.Int("@SortRow", sortRow);
-        _command.TinyInt("@SortOrder", sortOrder);
-        _command.Varchar("@Name", 255, name);
+        _command.Int("Count", searchModel.ItemCount);
+        _command.Int("Page", searchModel.Page);
+        _command.Int("SortRow", searchModel.SortField);
+        _command.TinyInt("SortOrder", searchModel.SortDirection);
+        _command.Varchar("Name", 255, searchModel.Name);
+        _command.Bit("MyCandidates", searchModel.MyCandidates);
+        _command.Bit("IncludeAdmin", searchModel.IncludeAdmin);
+        _command.Varchar("Keywords", 2000, searchModel.Keywords);
+        _command.Varchar("Skill", 2000, searchModel.Skills);
+        _command.Bit("SearchState", !searchModel.CityZip);
+        _command.Varchar("City", 30, searchModel.CityName);
+        _command.Varchar("State", 1000, searchModel.StateID);
+        _command.Int("Proximity", searchModel.Proximity);
+        _command.TinyInt("ProximityUnit", searchModel.ProximityUnit);
+        _command.Varchar("Eligibility", 10, searchModel.Eligibility);
+        _command.Varchar("Reloc", 10, searchModel.Relocate);
+        _command.Varchar("JobOptions", 10, searchModel.JobOptions);
+        //_command.Varchar("Communications",10, searchModel.Communication);
+        _command.Varchar("Security", 10, searchModel.SecurityClearance);
 
         await _connection.OpenAsync();
         await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
@@ -566,7 +621,7 @@ public class CandidatesController : ControllerBase
 
     /// <summary>
     /// </summary>
-    [HttpPost("[action]")]
+    [HttpPost]
     public void ParseResume()
     {
         /*
@@ -900,7 +955,7 @@ public class CandidatesController : ControllerBase
     /// </summary>
     /// <param name="candidateDetails"></param>
     /// <returns></returns>
-    [HttpPost("SaveCandidate")]
+    [HttpPost]
     public async Task<int> SaveCandidate(CandidateDetails candidateDetails)
     {
         if (candidateDetails == null)
@@ -997,7 +1052,7 @@ public class CandidatesController : ControllerBase
     /// <param name="user"></param>
     /// <param name="roleID"></param>
     /// <returns></returns>
-    [HttpPost("SaveCandidateActivity")]
+    [HttpPost]
     public async Task<Dictionary<string, object>> SaveCandidateActivity(CandidateActivity activity, [FromQuery] int candidateID, [FromQuery] string user, [FromQuery] string roleID = "RS")
     {
         await Task.Delay(1);
@@ -1067,75 +1122,11 @@ public class CandidatesController : ControllerBase
 
     /// <summary>
     /// </summary>
-    /// <param name="submissionID"></param>
-    /// <param name="user"></param>
-    /// <param name="roleID"></param>
-    /// <returns></returns>
-    [HttpPost("UndoCandidateActivity")]
-    public async Task<Dictionary<string, object>> UndoCandidateActivity(int submissionID, [FromQuery] string user, [FromQuery] string roleID = "RS")
-    {
-        await Task.Delay(1);
-        List<CandidateActivity> _activities = new();
-        if (submissionID == 0)
-        {
-            return new()
-                   {
-                       {
-                           "Activity", null
-                       }
-                   };
-        }
-
-        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
-        await _connection.OpenAsync();
-        try
-        {
-            await using SqlCommand _command = new("UndoCandidateActivity", _connection)
-                                              {
-                                                  CommandType = CommandType.StoredProcedure
-                                              };
-            _command.Int("Id", submissionID);
-            _command.Varchar("User", 10, user);
-            _command.Bit("CandScreen", true);
-            _command.Char("RoleID", 2, roleID);
-            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
-            if (_reader.HasRows)
-            {
-                while (_reader.Read())
-                {
-                    _activities.Add(new(_reader.GetString(0), _reader.GetDateTime(1), _reader.GetString(2), _reader.GetInt32(3), _reader.GetInt32(4),
-                                        _reader.GetString(5), _reader.GetString(6), _reader.GetInt32(7), _reader.GetBoolean(8), _reader.GetString(9),
-                                        _reader.GetString(10), _reader.GetString(11), _reader.GetBoolean(12), _reader.GetString(13), _reader.GetInt32(14),
-                                        _reader.GetString(15), _reader.GetInt32(16), _reader.GetString(17), _reader.GetBoolean(18),
-                                        _reader.NDateTime(19), _reader.GetString(20), _reader.NString(21), _reader.NString(22),
-                                        _reader.GetBoolean(23)));
-                }
-            }
-
-            await _reader.CloseAsync();
-        }
-        catch
-        {
-            //
-        }
-
-        await _connection.CloseAsync();
-
-        return new()
-               {
-                   {
-                       "Activity", _activities
-                   }
-               };
-    }
-
-    /// <summary>
-    /// </summary>
     /// <param name="education"></param>
     /// <param name="candidateID"></param>
     /// <param name="user"></param>
     /// <returns></returns>
-    [HttpPost("SaveEducation")]
+    [HttpPost]
     public async Task<Dictionary<string, object>> SaveEducation(CandidateEducation education, [FromQuery] int candidateID, [FromQuery] string user)
     {
         await Task.Delay(1);
@@ -1199,7 +1190,7 @@ public class CandidatesController : ControllerBase
     /// <param name="candidateID"></param>
     /// <param name="user"></param>
     /// <returns></returns>
-    [HttpPost("SaveExperience")]
+    [HttpPost]
     public async Task<Dictionary<string, object>> SaveExperience(CandidateExperience experience, [FromQuery] int candidateID, [FromQuery] string user)
     {
         await Task.Delay(1);
@@ -1263,7 +1254,7 @@ public class CandidatesController : ControllerBase
     /// <param name="mpc"></param>
     /// <param name="user"></param>
     /// <returns></returns>
-    [HttpPost("SaveMPC")]
+    [HttpPost]
     public async Task<Dictionary<string, object>> SaveMPC(CandidateRatingMPC mpc, [FromQuery] string user)
     {
         string _mpcNotes = "";
@@ -1345,7 +1336,7 @@ public class CandidatesController : ControllerBase
     /// <param name="rating"></param>
     /// <param name="user"></param>
     /// <returns></returns>
-    [HttpPost("[action]")]
+    [HttpPost]
     public async Task<Dictionary<string, object>> SaveRating(CandidateRatingMPC rating, [FromQuery] string user)
     {
         string _ratingNotes = "";
@@ -1428,7 +1419,7 @@ public class CandidatesController : ControllerBase
     /// <param name="candidateID"></param>
     /// <param name="user"></param>
     /// <returns></returns>
-    [HttpPost("SaveSkill")]
+    [HttpPost]
     public async Task<Dictionary<string, object>> SaveSkill(CandidateSkills skill, [FromQuery] int candidateID, [FromQuery] string user)
     {
         await Task.Delay(1);
@@ -1479,6 +1470,136 @@ public class CandidatesController : ControllerBase
                {
                    {
                        "Skills", _skills
+                   }
+               };
+    }
+
+    /// <summary>
+    /// </summary>
+    /// <param name="submissionID"></param>
+    /// <param name="user"></param>
+    /// <param name="roleID"></param>
+    /// <returns></returns>
+    [HttpPost]
+    public async Task<Dictionary<string, object>> UndoCandidateActivity(int submissionID, [FromQuery] string user, [FromQuery] string roleID = "RS")
+    {
+        await Task.Delay(1);
+        List<CandidateActivity> _activities = new();
+        if (submissionID == 0)
+        {
+            return new()
+                   {
+                       {
+                           "Activity", null
+                       }
+                   };
+        }
+
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        try
+        {
+            await using SqlCommand _command = new("UndoCandidateActivity", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("Id", submissionID);
+            _command.Varchar("User", 10, user);
+            _command.Bit("CandScreen", true);
+            _command.Char("RoleID", 2, roleID);
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _activities.Add(new(_reader.GetString(0), _reader.GetDateTime(1), _reader.GetString(2), _reader.GetInt32(3), _reader.GetInt32(4),
+                                        _reader.GetString(5), _reader.GetString(6), _reader.GetInt32(7), _reader.GetBoolean(8), _reader.GetString(9),
+                                        _reader.GetString(10), _reader.GetString(11), _reader.GetBoolean(12), _reader.GetString(13), _reader.GetInt32(14),
+                                        _reader.GetString(15), _reader.GetInt32(16), _reader.GetString(17), _reader.GetBoolean(18),
+                                        _reader.NDateTime(19), _reader.GetString(20), _reader.NString(21), _reader.NString(22),
+                                        _reader.GetBoolean(23)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        await _connection.CloseAsync();
+
+        return new()
+               {
+                   {
+                       "Activity", _activities
+                   }
+               };
+    }
+
+    /// <summary>
+    /// </summary>
+    [HttpPost]
+    public async Task<Dictionary<string, object>> UploadDocument()
+    {
+        await Task.Delay(1);
+        string _fileName = Request.Form.Files[0].FileName;
+        string _candidateID = Request.Form["candidateID"].ToString();
+        string _mime = Request.Form.Files[0].ContentDisposition;
+        string _internalFileName = Guid.NewGuid().ToString("N");
+        string _destinationFileName = Path.Combine(Request.Form["path"].ToString(), "Uploads", "Candidate", _candidateID, _internalFileName);
+
+        await using MemoryStream _stream = new();
+        await using FileStream _fs = System.IO.File.Open(_destinationFileName, FileMode.OpenOrCreate, FileAccess.Write);
+        try
+        {
+            await Request.Form.Files[0].CopyToAsync(_fs);
+            _fs.Flush();
+            _fs.Close();
+        }
+        catch
+        {
+            _fs.Close();
+        }
+
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        List<CandidateDocument> _documents = new();
+        try
+        {
+            await using SqlCommand _command = new("SaveCandidateDocuments", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("CandidateId", _candidateID);
+            _command.Varchar("DocumentName", 255, Request.Form["name"].ToString());
+            _command.Varchar("DocumentLocation", 255, _fileName);
+            _command.Varchar("DocumentNotes", 2000, Request.Form["notes"].ToString());
+            _command.Varchar("InternalFileName", 50, _internalFileName);
+            _command.Int("DocumentType", Request.Form["type"].ToInt32());
+            _command.Varchar("DocsUser", 10, Request.Form["user"].ToString());
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _documents.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), $"{_reader.NDateTime(4)} [{_reader.NString(5)}]",
+                                       _reader.GetString(6), _reader.GetString(7), _reader.GetInt32(8)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        return new()
+               {
+                   {
+                       "Document", _documents
                    }
                };
     }

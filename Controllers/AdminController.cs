@@ -173,6 +173,7 @@ public class AdminController : ControllerBase
         List<CommissionConfigurator> _commissionConfigurators = new();
         List<VariableCommission> _variableCommissions = new();
         List<Workflow> _workflows = new();
+        List<IntValues> _documentTypes = new();
         await using SqlCommand _command = new("SetCacheTables", _connection)
                                           {
                                               CommandType = CommandType.StoredProcedure
@@ -375,6 +376,15 @@ public class AdminController : ControllerBase
             }
         }
 
+        _reader.NextResult();
+        if (_reader.HasRows) //Document Types
+        {
+            while (_reader.Read())
+            {
+                _documentTypes.Add(new(_reader.GetInt32(0), _reader.GetString(1)));
+            }
+        }
+
         return new()
                {
                    {
@@ -439,6 +449,9 @@ public class AdminController : ControllerBase
                    },
                    {
                        "Workflow", _workflows
+                   },
+                   {
+                       "DocumentTypes", _documentTypes
                    }
                };
     }
