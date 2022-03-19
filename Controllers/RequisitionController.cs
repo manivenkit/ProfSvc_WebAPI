@@ -8,7 +8,7 @@
 // File Name:           RequisitionController.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          03-18-2022 20:58
-// Last Updated On:     03-19-2022 16:11
+// Last Updated On:     03-19-2022 20:28
 // *****************************************/
 
 #endregion
@@ -73,7 +73,8 @@ public class RequisitionController : ControllerBase
         while (_reader.Read())
         {
             _requisitions.Add(new(_reader.GetInt32(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetString(4), _reader.GetString(5),
-                                  _reader.GetString(6) + " [" + _reader.GetString(7) + "]", _reader.GetString(8), _reader.GetString(9), GetPriority(_reader.GetByte(10)),
+                                  _reader.GetDateTime(6).ToString("d") + " [" + _reader.GetString(7) + "]", _reader.GetDateTime(8).ToString("d"), _reader.GetString(9),
+                                  GetPriority(_reader.GetByte(10)),
                                   _reader.GetBoolean(11), _reader.GetBoolean(12), _reader.GetBoolean(13), _reader.GetString(14), _reader.GetString(15)));
         }
 
