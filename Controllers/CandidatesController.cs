@@ -8,8 +8,18 @@
 // File Name:           CandidatesController.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          01-26-2022 19:30
-// Last Updated On:     03-18-2022 20:59
+// Last Updated On:     03-26-2022 20:07
 // *****************************************/
+
+#endregion
+
+#region Using
+
+using Sovren;
+using Sovren.Models;
+using Sovren.Models.API.Parsing;
+using Sovren.Models.Resume.ContactInfo;
+using Sovren.Models.Resume.Skills;
 
 #endregion
 
@@ -665,7 +675,7 @@ public class CandidatesController : ControllerBase
          return;*/
 
         // SOVREN
-        /*string _name = Request.Form["filename"].ToString();
+        string _name = Request.Form["filename"].ToString();
         string _filename = _hostingEnvironment.ContentRootPath + $@"Upload\{_name}";
 
         using MemoryStream _stream = new();
@@ -685,19 +695,20 @@ public class CandidatesController : ControllerBase
         SovrenClient _clientSovren = new("40288999", "xKxv4d/+q7Pb15JWHSmVoWh0w49k1teWHWbsFa4i", DataCenter.US);
         Document _doc = new(_stream.ToArray(), DateTime.Today);
 
-        ParseRequest _parseRequest = new(_doc, new());*/
+        ParseRequest _parseRequest = new(_doc, new());
 
+        ParseResumeResponse _parseResume = null;
         try
         {
-            //Task<ParseResumeResponse> _parseResumeTask = _clientSovren.ParseResume(_parseRequest);
-            //ParseResumeResponse _parseResume = _parseResumeTask.Result;
-            //_parseResume.EasyAccess().SaveResumeJsonToFile(@"C:\Projects\ProfSvc_WebAPI\Upload\ParsedJSON4_Sovren.txt",true, false);
-            //using FileStream _fs1 = System.IO.File.Open(@"C:\Projects\ProfSvc_WebAPI\Upload\ParsedJSON4_Sovren.txt", FileMode.Create, FileAccess.Write);
-            //using StreamWriter _streamWriter = new(_fs1);
-            //_streamWriter.WriteLine(_sovrenJson);
-            //_streamWriter.Flush();
-            //_streamWriter.Close();
-            //_fs1.Close();
+            Task<ParseResumeResponse> _parseResumeTask = _clientSovren.ParseResume(_parseRequest);
+            _parseResume = _parseResumeTask.Result;
+            _parseResume.EasyAccess().SaveResumeJsonToFile(_filename + ".json", true, false);
+            /*using FileStream _fs1 = System.IO.File.Open(_filename + ".json", FileMode.Create, FileAccess.Write);
+            using StreamWriter _streamWriter = new(_fs1);
+            _streamWriter.WriteLine(_sovrenJson);
+            _streamWriter.Flush();
+            _streamWriter.Close();
+            _fs1.Close();*/
         }
         catch //(SovrenException)
         {
@@ -706,248 +717,386 @@ public class CandidatesController : ControllerBase
 
         //return;
 
-        using FileStream _fs = System.IO.File.Open(@"C:\Projects\ProfSvc_WebAPI\Upload\ParsedJSON3.txt", FileMode.OpenOrCreate, FileAccess.Read);
-        using StreamReader _streamReader = new(_fs);
-        string _jsonFile = _streamReader.ReadToEnd();
-        _streamReader.Close();
-        _fs.Close();
-
-        JObject _parsedData = JObject.Parse(_jsonFile);
-        JToken _personToken = _parsedData.SelectToken("Resume.StructuredResume.PersonName");
-        string _firstName, _lastName, _middleName, _emailAddress, _phoneMain, _altPhone, _address1, _city, _state, _zipCode;
-        if (_personToken != null)
+        if (_parseResume != null)
         {
-            if (_personToken["GivenName"] != null)
+            /*using FileStream _fs1 = System.IO.File.Open(_filename + ".json", FileMode.OpenOrCreate, FileAccess.Read);
+            using StreamReader _streamReader = new(_fs1);
+            string _jsonFile = _streamReader.ReadToEnd();
+            _streamReader.Close();
+            _fs.Close();
+    
+            JObject _parsedData = JObject.Parse(_jsonFile);
+            JToken _personToken = _parsedData.SelectToken("Resume.StructuredResume.PersonName");*/
+            ParseResumeResponseExtensions _parseData = _parseResume.EasyAccess();
+            string _firstName, _lastName, _middleName, _emailAddress, _phoneMain, _altPhone, _address1, _address2, _city, _state, _zipCode;
+            if (_parseData.GetCandidateName() != null)
             {
-                _firstName = _personToken["GivenName"].ToString();
+                PersonName _candidateName = _parseData.GetCandidateName();
+                _firstName = _candidateName.GivenName;
+                _middleName = _candidateName.MiddleName;
+                _lastName = _candidateName.FamilyName;
             }
 
-            if (_personToken["MiddleName"]?[0] != null)
+            /*JToken _contactToken = _parsedData.SelectToken("Resume.StructuredResume.ContactMethod");
+            Regex _pattern = new("[^0-9]");*/
+
+            if (_parseData.GetContactInfo() != null)
             {
-                _middleName = _personToken["MiddleName"][0].ToString();
-            }
-
-            if (_personToken["FamilyName"] != null)
-            {
-                _lastName = _personToken["FamilyName"].ToString();
-            }
-        }
-
-        JToken _contactToken = _parsedData.SelectToken("Resume.StructuredResume.ContactMethod");
-        Regex _pattern = new("[^0-9]");
-
-        if (_contactToken != null)
-        {
-            if (_contactToken["InternetEmailAddress_main"] != null)
-            {
-                _emailAddress = _contactToken["InternetEmailAddress_main"].ToString();
-            }
-
-            if (_contactToken["Telephone_mobile"] != null)
-            {
-                _phoneMain = _pattern.Replace(_contactToken["Telephone_mobile"]!.ToString(), "");
-                if (_phoneMain.Length > 10)
+                ContactInformation _contactInfo = _parseData.GetContactInfo();
+                if (_contactInfo.EmailAddresses.Count > 0)
                 {
-                    _phoneMain = _phoneMain[^10..];
-                }
-            }
-
-            if (_contactToken["Telephone_home"] != null || _contactToken["Telephone_work"] != null || _contactToken["Telephone_alt"] != null ||
-                _contactToken["Telephone_work"] != null)
-            {
-                _altPhone = _contactToken!["Telephone_home"] == null
-                                ? _contactToken["Telephone_work"] == null
-                                      ? _contactToken["Telephone_alt"] == null ? "" : _pattern.Replace(_contactToken["Telephone_alt"].ToString(), "")
-                                      : _pattern.Replace(_contactToken["Telephone_work"].ToString(), "")
-                                : _pattern.Replace(_contactToken["Telephone_home"].ToString(), "");
-                if (_altPhone.Length > 10)
-                {
-                    _altPhone = _altPhone[^10..];
-                }
-            }
-
-            JToken _addressToken = _contactToken["PostalAddress_main"];
-            if (_addressToken != null)
-            {
-                if (_addressToken["AddressLine"] != null)
-                {
-                    _address1 = _addressToken["AddressLine"].ToString();
+                    _emailAddress = _contactInfo.EmailAddresses[0];
                 }
 
-                if (_addressToken["Municipality"] != null)
+                if (_contactInfo.Telephones.Count > 0)
                 {
-                    _city = _addressToken["Municipality"].ToString();
+                    _phoneMain = $"({_contactInfo.Telephones[0].AreaCityCode}) {_contactInfo.Telephones[0].SubscriberNumber}";
                 }
 
-                if (_addressToken["Region"] != null)
+                if (_contactInfo.Telephones.Count > 1)
                 {
-                    _state = _addressToken["Region"].ToString();
+                    _altPhone = $"({_contactInfo.Telephones[1].AreaCityCode}) {_contactInfo.Telephones[1].SubscriberNumber}";
                 }
 
-                if (_addressToken["PostalCode"] != null)
+                if (_contactInfo.Location != null)
                 {
-                    _zipCode = _addressToken["PostalCode"].ToString();
-                }
-            }
-        }
-
-        JToken _educationToken = _parsedData.SelectToken("Resume.StructuredResume.EducationHistory");
-        DataTable _tableEducation = new();
-        _tableEducation.Columns.Add("Degree", typeof(string));
-        _tableEducation.Columns.Add("College", typeof(string));
-        _tableEducation.Columns.Add("State", typeof(string));
-        _tableEducation.Columns.Add("Country", typeof(string));
-        _tableEducation.Columns.Add("Year", typeof(string));
-        if (_educationToken != null)
-        {
-            for (int i = 0; i < _educationToken.Count(); i++)
-            {
-                JToken _forToken = _educationToken[i];
-                DataRow _dr = _tableEducation.NewRow();
-                if (_forToken == null)
-                {
-                    continue;
-                }
-
-                if (_forToken["Degree"]?["DegreeName"] != null)
-                {
-                    _dr["Degree"] = _forToken["Degree"]["DegreeName"].ToString();
-                }
-
-                if (_forToken["SchoolName"] != null)
-                {
-                    _dr["College"] = _forToken["SchoolName"].ToString();
-                }
-
-                if (_forToken["LocationSummary"]?["Region"] != null)
-                {
-                    _dr["State"] = _forToken["LocationSummary"]["Region"].ToString();
-                }
-
-                if (_forToken["LocationSummary"]?["CountryCode"] != null)
-                {
-                    _dr["Country"] = _forToken["LocationSummary"]["CountryCode"].ToString();
-                }
-
-                if (_forToken["Degree"]?["DegreeDate"] != null)
-                {
-                    _dr["Year"] = _forToken["Degree"]["DegreeDate"].ToString();
-                }
-
-                _tableEducation.Rows.Add(_dr);
-            }
-        }
-
-        JToken _employmentToken = _parsedData.SelectToken("Resume.StructuredResume.EmploymentHistory");
-        DataTable _tableEmployer = new();
-        _tableEmployer.Columns.Add("Employer", typeof(string));
-        _tableEmployer.Columns.Add("Start", typeof(string));
-        _tableEmployer.Columns.Add("End", typeof(string));
-        _tableEmployer.Columns.Add("Location", typeof(string));
-        _tableEmployer.Columns.Add("Title", typeof(string));
-        _tableEmployer.Columns.Add("Description", typeof(string));
-        if (_employmentToken != null)
-        {
-            for (int i = 0; i < _employmentToken.Count(); i++)
-            {
-                JToken _forToken = _employmentToken[i];
-                DataRow _dr = _tableEmployer.NewRow();
-                if (_forToken == null)
-                {
-                    continue;
-                }
-
-                if (_forToken["OrgName"] != null)
-                {
-                    _dr["Employer"] = _forToken["OrgName"].ToString();
-                }
-
-                if (_forToken["StartDate"] != null)
-                {
-                    _dr["Start"] = _forToken["StartDate"].ToString();
-                }
-
-                if (_forToken["EndDate"] != null)
-                {
-                    _dr["End"] = _forToken["EndDate"].ToString();
-                }
-
-                if (_forToken["LocationSummary"] != null)
-                {
-                    string _location = "";
-                    if (_forToken["LocationSummary"]["Municipality"] != null)
+                    Location _location = _contactInfo.Location;
+                    if (_location.StreetAddressLines.Count > 0)
                     {
-                        _location += ", " + _forToken["LocationSummary"]["Municipality"];
+                        _address1 = _location.StreetAddressLines[0];
                     }
 
-                    if (_forToken["LocationSummary"]["Region"] != null)
+                    if (_location.StreetAddressLines.Count > 1)
                     {
-                        _location += ", " + _forToken["LocationSummary"]["Region"];
+                        _address2 = _location.StreetAddressLines[0];
                     }
 
-                    if (_forToken["LocationSummary"]["CountryCode"] != null)
+                    _city = _location.Municipality;
+                    if (_location.Regions.Count > 0)
                     {
-                        _location += ", " + _forToken["LocationSummary"]["CountryCode"];
+                        _state = _location.Regions[0];
                     }
 
-                    if (_location != "")
-                    {
-                        _location = _location[2..];
-                    }
-
-                    _dr["Location"] = _location;
+                    _zipCode = _location.PostalCode;
                 }
 
-                if (_forToken["Title"]?[0] != null)
+                /*if (_contactToken["Telephone_mobile"] != null)
                 {
-                    _dr["Title"] = _forToken["Title"][0].ToString();
-                }
-
-                if (_forToken["Description"] != null)
-                {
-                    _dr["Description"] = _forToken["Description"].ToString();
-                }
-
-                _tableEmployer.Rows.Add(_dr);
-            }
-        }
-
-        JToken _skillsToken = _parsedData.SelectToken("Resume.StructuredResume.Competency");
-        DataTable _tableSkills = new();
-        _tableSkills.Columns.Add("Skill", typeof(string));
-        _tableSkills.Columns.Add("LastUsed", typeof(int));
-        _tableSkills.Columns.Add("Month", typeof(int));
-        if (_skillsToken == null)
-        {
-            return;
-        }
-
-        {
-            for (int i = 0; i < _skillsToken.Count(); i++)
-            {
-                JToken _forToken = _skillsToken[i];
-                DataRow _dr = _tableSkills.NewRow();
-                if (_forToken != null)
-                {
-                    if (_forToken["skillName"] != null)
+                    _phoneMain = _pattern.Replace(_contactToken["Telephone_mobile"]!.ToString(), "");
+                    if (_phoneMain.Length > 10)
                     {
-                        _dr["Skill"] = _forToken["skillName"].ToString();
-                    }
-
-                    if (_forToken["lastUsed"] != null)
-                    {
-                        _dr["LastUsed"] = _forToken["lastUsed"].ToInt32();
-                    }
-
-                    if (_forToken["skillUsed"]?["type"] != null && _forToken["skillUsed"]["value"] != null)
-                    {
-                        _dr["LastUsed"] = _forToken["skillUsed"]["type"].ToString() != "Months" ? _forToken["skillUsed"]["value"].ToInt32() * 12
-                                              : _forToken["skillUsed"]["value"].ToInt32();
+                        _phoneMain = _phoneMain[^10..];
                     }
                 }
 
-                _tableSkills.Rows.Add(_dr);
+                if (_contactToken["Telephone_home"] != null || _contactToken["Telephone_work"] != null || _contactToken["Telephone_alt"] != null ||
+                    _contactToken["Telephone_work"] != null)
+                {
+                    _altPhone = _contactToken!["Telephone_home"] == null
+                                    ? _contactToken["Telephone_work"] == null
+                                          ? _contactToken["Telephone_alt"] == null ? "" : _pattern.Replace(_contactToken["Telephone_alt"].ToString(), "")
+                                          : _pattern.Replace(_contactToken["Telephone_work"].ToString(), "")
+                                    : _pattern.Replace(_contactToken["Telephone_home"].ToString(), "");
+                    if (_altPhone.Length > 10)
+                    {
+                        _altPhone = _altPhone[^10..];
+                    }
+                }*/
+
+                /*JToken _addressToken = _contactToken["PostalAddress_main"];
+                if (_addressToken != null)
+                {
+                    if (_addressToken["AddressLine"] != null)
+                    {
+                        _address1 = _addressToken["AddressLine"].ToString();
+                    }
+
+                    if (_addressToken["Municipality"] != null)
+                    {
+                        _city = _addressToken["Municipality"].ToString();
+                    }
+
+                    if (_addressToken["Region"] != null)
+                    {
+                        _state = _addressToken["Region"].ToString();
+                    }
+
+                    if (_addressToken["PostalCode"] != null)
+                    {
+                        _zipCode = _addressToken["PostalCode"].ToString();
+                    }
+                }*/
             }
+
+            //int _countEducation = _parseData.GetNumberOfEducations();
+            DataTable _tableEducation = new();
+            _tableEducation.Columns.Add("Degree", typeof(string));
+            _tableEducation.Columns.Add("College", typeof(string));
+            _tableEducation.Columns.Add("State", typeof(string));
+            _tableEducation.Columns.Add("Country", typeof(string));
+            _tableEducation.Columns.Add("Year", typeof(string));
+
+            //_parseResume.
+            _parseResume.Value.ResumeData?.Education?.EducationDetails?.ForEach(education =>
+                                                                                {
+                                                                                    DataRow _dr = _tableEducation.NewRow();
+                                                                                    if (education == null)
+                                                                                    {
+                                                                                        return;
+                                                                                    }
+
+                                                                                    _dr["Degree"] = education.Degree?.Name?.Normalized ?? string.Empty;
+                                                                                    _dr["College"] = education.SchoolName?.Normalized ?? string.Empty;
+                                                                                    if (education.Location?.Regions?.Count > 0)
+                                                                                    {
+                                                                                        _dr["State"] = education.Location.Regions[0];
+                                                                                    }
+
+                                                                                    _dr["Country"] = education.Location?.CountryCode ?? string.Empty;
+                                                                                    _dr["Year"] = education.LastEducationDate?.Date.Year.ToString() ?? string.Empty;
+                                                                                    _tableEducation.Rows.Add(_dr);
+                                                                                });
+
+            DataTable _tableEmployer = new();
+            _tableEmployer.Columns.Add("Employer", typeof(string));
+            _tableEmployer.Columns.Add("Start", typeof(string));
+            _tableEmployer.Columns.Add("End", typeof(string));
+            _tableEmployer.Columns.Add("Location", typeof(string));
+            _tableEmployer.Columns.Add("Title", typeof(string));
+            _tableEmployer.Columns.Add("Description", typeof(string));
+
+            _parseResume.Value.ResumeData?.EmploymentHistory?.Positions.ForEach(position =>
+                                                                                {
+                                                                                    DataRow _dr = _tableEmployer.NewRow();
+                                                                                    if (position != null)
+                                                                                    {
+                                                                                        _dr["Employer"] = position.Employer?.Name?.Normalized ?? string.Empty;
+
+                                                                                        _dr["Start"] = position.StartDate?.Date.ToString("d") ?? string.Empty;
+                                                                                        _dr["End"] = position.EndDate?.Date.ToString("d") ?? string.Empty;
+
+                                                                                        string _location = "";
+                                                                                        if (position.Employer?.Location != null)
+                                                                                        {
+                                                                                            Location _positionLocation = position.Employer?.Location;
+                                                                                            if (_positionLocation != null)
+                                                                                            {
+                                                                                                _location += ", " + _positionLocation.Municipality;
+                                                                                                if (_positionLocation.Regions.Any())
+                                                                                                {
+                                                                                                    _location += ", " + _positionLocation.Regions.FirstOrDefault();
+                                                                                                }
+
+                                                                                                _location += ", " + _positionLocation.CountryCode;
+                                                                                            }
+
+                                                                                            if (_location != "")
+                                                                                            {
+                                                                                                _location = _location[2..];
+                                                                                            }
+                                                                                        }
+
+                                                                                        _dr["Location"] = _location;
+                                                                                        _dr["Title"] = position.JobTitle?.Normalized ?? string.Empty;
+                                                                                        _dr["Description"] = position.Description;
+                                                                                    }
+
+                                                                                    _tableEmployer.Rows.Add(_dr);
+                                                                                });
+
+            DataTable _tableSkills = new();
+            _tableSkills.Columns.Add("Skill", typeof(string));
+            _tableSkills.Columns.Add("LastUsed", typeof(int));
+            _tableSkills.Columns.Add("Month", typeof(int));
+
+            List<ResumeTaxonomyRoot> _skillsData = _parseResume.Value.ResumeData?.SkillsData;
+
+            _skillsData?.ForEach(skills =>
+                                 {
+                                     if (skills == null)
+                                     {
+                                         return;
+                                     }
+
+                                     List<ResumeTaxonomy> _taxonomies = skills.Taxonomies;
+                                     if (_taxonomies.Any())
+                                     {
+                                         _taxonomies.ForEach(taxonomy =>
+                                                             {
+                                                                 List<ResumeSubTaxonomy> _subTaxonomies = taxonomy.SubTaxonomies;
+                                                                 if (_subTaxonomies.Any())
+                                                                 {
+                                                                     _subTaxonomies.ForEach(subTaxonomy =>
+                                                                                            {
+                                                                                                if (subTaxonomy == null)
+                                                                                                {
+                                                                                                    return;
+                                                                                                }
+
+                                                                                                List<ResumeSkill> _skills = subTaxonomy.Skills;
+                                                                                                if (_skills.Any())
+                                                                                                {
+                                                                                                    _skills.ForEach(skill =>
+                                                                                                                    {
+                                                                                                                        DataRow _dr = _tableSkills.NewRow();
+                                                                                                                        _dr["Skill"] = skill.Name;
+                                                                                                                        _dr["LastUsed"] = skill.LastUsed.Value.Year.ToString();
+                                                                                                                        _dr["Month"] = skill.MonthsExperience.Value.ToString();
+                                                                                                                        _tableSkills.Rows.Add(_dr);
+                                                                                                                    });
+                                                                                                }
+                                                                                            });
+                                                                 }
+                                                             });
+                                     }
+                                 });
+
+            /*for (int i = 1; i <= _countEducation; i++)
+            {
+                EducationDetails _education = _parseData.GetNthEducation1Based(i);
+            }
+            JToken _educationToken = _parsedData.SelectToken("Resume.StructuredResume.EducationHistory");
+            if (_educationToken != null)
+            {
+                for (int i = 0; i < _educationToken.Count(); i++)
+                {
+                    JToken _forToken = _educationToken[i];
+                    DataRow _dr = _tableEducation.NewRow();
+                    if (_forToken == null)
+                    {
+                        continue;
+                    }
+
+                    if (_forToken["Degree"]?["DegreeName"] != null)
+                    {
+                        _dr["Degree"] = _forToken["Degree"]["DegreeName"].ToString();
+                    }
+
+                    if (_forToken["SchoolName"] != null)
+                    {
+                        _dr["College"] = _forToken["SchoolName"].ToString();
+                    }
+
+                    if (_forToken["LocationSummary"]?["Region"] != null)
+                    {
+                        _dr["State"] = _forToken["LocationSummary"]["Region"].ToString();
+                    }
+
+                    if (_forToken["LocationSummary"]?["CountryCode"] != null)
+                    {
+                        _dr["Country"] = _forToken["LocationSummary"]["CountryCode"].ToString();
+                    }
+
+                    if (_forToken["Degree"]?["DegreeDate"] != null)
+                    {
+                        _dr["Year"] = _forToken["Degree"]["DegreeDate"].ToString();
+                    }
+
+                    _tableEducation.Rows.Add(_dr);
+                }
+            }*/
+
+            //int _countExperience = _parseData.GetNumberOfPositions();
+            //JToken _employmentToken = _parsedData.SelectToken("Resume.StructuredResume.EmploymentHistory");
+            /*if (_employmentToken != null)
+            {
+                for (int i = 0; i < _employmentToken.Count(); i++)
+                {
+                    JToken _forToken = _employmentToken[i];
+                    DataRow _dr = _tableEmployer.NewRow();
+                    if (_forToken == null)
+                    {
+                        continue;
+                    }
+
+                    if (_forToken["OrgName"] != null)
+                    {
+                        _dr["Employer"] = _forToken["OrgName"].ToString();
+                    }
+
+                    if (_forToken["StartDate"] != null)
+                    {
+                        _dr["Start"] = _forToken["StartDate"].ToString();
+                    }
+
+                    if (_forToken["EndDate"] != null)
+                    {
+                        _dr["End"] = _forToken["EndDate"].ToString();
+                    }
+
+                    if (_forToken["LocationSummary"] != null)
+                    {
+                        string _location = "";
+                        if (_forToken["LocationSummary"]["Municipality"] != null)
+                        {
+                            _location += ", " + _forToken["LocationSummary"]["Municipality"];
+                        }
+
+                        if (_forToken["LocationSummary"]["Region"] != null)
+                        {
+                            _location += ", " + _forToken["LocationSummary"]["Region"];
+                        }
+
+                        if (_forToken["LocationSummary"]["CountryCode"] != null)
+                        {
+                            _location += ", " + _forToken["LocationSummary"]["CountryCode"];
+                        }
+
+                        if (_location != "")
+                        {
+                            _location = _location[2..];
+                        }
+
+                        _dr["Location"] = _location;
+                    }
+
+                    if (_forToken["Title"]?[0] != null)
+                    {
+                        _dr["Title"] = _forToken["Title"][0].ToString();
+                    }
+
+                    if (_forToken["Description"] != null)
+                    {
+                        _dr["Description"] = _forToken["Description"].ToString();
+                    }
+
+                    _tableEmployer.Rows.Add(_dr);
+                }
+            }*/
+
+            //JToken _skillsToken = _parsedData.SelectToken("Resume.StructuredResume.Competency");
+            /*if (_skillsToken == null)
+            {
+                return;
+            }
+
+            {
+                for (int i = 0; i < _skillsToken.Count(); i++)
+                {
+                    JToken _forToken = _skillsToken[i];
+                    DataRow _dr = _tableSkills.NewRow();
+                    if (_forToken != null)
+                    {
+                        if (_forToken["skillName"] != null)
+                        {
+                            _dr["Skill"] = _forToken["skillName"].ToString();
+                        }
+
+                        if (_forToken["lastUsed"] != null)
+                        {
+                            _dr["LastUsed"] = _forToken["lastUsed"].ToInt32();
+                        }
+
+                        if (_forToken["skillUsed"]?["type"] != null && _forToken["skillUsed"]["value"] != null)
+                        {
+                            _dr["LastUsed"] = _forToken["skillUsed"]["type"].ToString() != "Months" ? _forToken["skillUsed"]["value"].ToInt32() * 12
+                                                  : _forToken["skillUsed"]["value"].ToInt32();
+                        }
+                    }
+
+                    _tableSkills.Rows.Add(_dr);
+                }
+            }*/
         }
     }
 
