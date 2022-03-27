@@ -8,7 +8,7 @@
 // File Name:           CandidatesController.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          01-26-2022 19:30
-// Last Updated On:     03-26-2022 20:07
+// Last Updated On:     03-26-2022 20:30
 // *****************************************/
 
 #endregion
@@ -729,6 +729,7 @@ public class CandidatesController : ControllerBase
             JToken _personToken = _parsedData.SelectToken("Resume.StructuredResume.PersonName");*/
             ParseResumeResponseExtensions _parseData = _parseResume.EasyAccess();
             string _firstName, _lastName, _middleName, _emailAddress, _phoneMain, _altPhone, _address1, _address2, _city, _state, _zipCode;
+            string _experienceSummary;
             if (_parseData.GetCandidateName() != null)
             {
                 PersonName _candidateName = _parseData.GetCandidateName();
@@ -779,56 +780,10 @@ public class CandidatesController : ControllerBase
 
                     _zipCode = _location.PostalCode;
                 }
-
-                /*if (_contactToken["Telephone_mobile"] != null)
-                {
-                    _phoneMain = _pattern.Replace(_contactToken["Telephone_mobile"]!.ToString(), "");
-                    if (_phoneMain.Length > 10)
-                    {
-                        _phoneMain = _phoneMain[^10..];
-                    }
-                }
-
-                if (_contactToken["Telephone_home"] != null || _contactToken["Telephone_work"] != null || _contactToken["Telephone_alt"] != null ||
-                    _contactToken["Telephone_work"] != null)
-                {
-                    _altPhone = _contactToken!["Telephone_home"] == null
-                                    ? _contactToken["Telephone_work"] == null
-                                          ? _contactToken["Telephone_alt"] == null ? "" : _pattern.Replace(_contactToken["Telephone_alt"].ToString(), "")
-                                          : _pattern.Replace(_contactToken["Telephone_work"].ToString(), "")
-                                    : _pattern.Replace(_contactToken["Telephone_home"].ToString(), "");
-                    if (_altPhone.Length > 10)
-                    {
-                        _altPhone = _altPhone[^10..];
-                    }
-                }*/
-
-                /*JToken _addressToken = _contactToken["PostalAddress_main"];
-                if (_addressToken != null)
-                {
-                    if (_addressToken["AddressLine"] != null)
-                    {
-                        _address1 = _addressToken["AddressLine"].ToString();
-                    }
-
-                    if (_addressToken["Municipality"] != null)
-                    {
-                        _city = _addressToken["Municipality"].ToString();
-                    }
-
-                    if (_addressToken["Region"] != null)
-                    {
-                        _state = _addressToken["Region"].ToString();
-                    }
-
-                    if (_addressToken["PostalCode"] != null)
-                    {
-                        _zipCode = _addressToken["PostalCode"].ToString();
-                    }
-                }*/
             }
 
-            //int _countEducation = _parseData.GetNumberOfEducations();
+            _experienceSummary = _parseResume.Value.ResumeData.ProfessionalSummary;
+            
             DataTable _tableEducation = new();
             _tableEducation.Columns.Add("Degree", typeof(string));
             _tableEducation.Columns.Add("College", typeof(string));
@@ -865,44 +820,44 @@ public class CandidatesController : ControllerBase
             _tableEmployer.Columns.Add("Title", typeof(string));
             _tableEmployer.Columns.Add("Description", typeof(string));
 
-            _parseResume.Value.ResumeData?.EmploymentHistory?.Positions.ForEach(position =>
-                                                                                {
-                                                                                    DataRow _dr = _tableEmployer.NewRow();
-                                                                                    if (position != null)
-                                                                                    {
-                                                                                        _dr["Employer"] = position.Employer?.Name?.Normalized ?? string.Empty;
+            _parseResume.Value.ResumeData?.EmploymentHistory?.Positions?.ForEach(position =>
+                                                                                 {
+                                                                                     DataRow _dr = _tableEmployer.NewRow();
+                                                                                     if (position != null)
+                                                                                     {
+                                                                                         _dr["Employer"] = position.Employer?.Name?.Normalized ?? string.Empty;
 
-                                                                                        _dr["Start"] = position.StartDate?.Date.ToString("d") ?? string.Empty;
-                                                                                        _dr["End"] = position.EndDate?.Date.ToString("d") ?? string.Empty;
+                                                                                         _dr["Start"] = position.StartDate?.Date.ToString("d") ?? string.Empty;
+                                                                                         _dr["End"] = position.EndDate?.Date.ToString("d") ?? string.Empty;
 
-                                                                                        string _location = "";
-                                                                                        if (position.Employer?.Location != null)
-                                                                                        {
-                                                                                            Location _positionLocation = position.Employer?.Location;
-                                                                                            if (_positionLocation != null)
-                                                                                            {
-                                                                                                _location += ", " + _positionLocation.Municipality;
-                                                                                                if (_positionLocation.Regions.Any())
-                                                                                                {
-                                                                                                    _location += ", " + _positionLocation.Regions.FirstOrDefault();
-                                                                                                }
+                                                                                         string _location = "";
+                                                                                         if (position.Employer?.Location != null)
+                                                                                         {
+                                                                                             Location _positionLocation = position.Employer?.Location;
+                                                                                             if (_positionLocation != null)
+                                                                                             {
+                                                                                                 _location += ", " + _positionLocation.Municipality;
+                                                                                                 if (_positionLocation.Regions.Any())
+                                                                                                 {
+                                                                                                     _location += ", " + _positionLocation.Regions.FirstOrDefault();
+                                                                                                 }
 
-                                                                                                _location += ", " + _positionLocation.CountryCode;
-                                                                                            }
+                                                                                                 _location += ", " + _positionLocation.CountryCode;
+                                                                                             }
 
-                                                                                            if (_location != "")
-                                                                                            {
-                                                                                                _location = _location[2..];
-                                                                                            }
-                                                                                        }
+                                                                                             if (_location != "")
+                                                                                             {
+                                                                                                 _location = _location[2..];
+                                                                                             }
+                                                                                         }
 
-                                                                                        _dr["Location"] = _location;
-                                                                                        _dr["Title"] = position.JobTitle?.Normalized ?? string.Empty;
-                                                                                        _dr["Description"] = position.Description;
-                                                                                    }
+                                                                                         _dr["Location"] = _location;
+                                                                                         _dr["Title"] = position.JobTitle?.Normalized ?? string.Empty;
+                                                                                         _dr["Description"] = position.Description;
+                                                                                     }
 
-                                                                                    _tableEmployer.Rows.Add(_dr);
-                                                                                });
+                                                                                     _tableEmployer.Rows.Add(_dr);
+                                                                                 });
 
             DataTable _tableSkills = new();
             _tableSkills.Columns.Add("Skill", typeof(string));
@@ -950,153 +905,6 @@ public class CandidatesController : ControllerBase
                                                              });
                                      }
                                  });
-
-            /*for (int i = 1; i <= _countEducation; i++)
-            {
-                EducationDetails _education = _parseData.GetNthEducation1Based(i);
-            }
-            JToken _educationToken = _parsedData.SelectToken("Resume.StructuredResume.EducationHistory");
-            if (_educationToken != null)
-            {
-                for (int i = 0; i < _educationToken.Count(); i++)
-                {
-                    JToken _forToken = _educationToken[i];
-                    DataRow _dr = _tableEducation.NewRow();
-                    if (_forToken == null)
-                    {
-                        continue;
-                    }
-
-                    if (_forToken["Degree"]?["DegreeName"] != null)
-                    {
-                        _dr["Degree"] = _forToken["Degree"]["DegreeName"].ToString();
-                    }
-
-                    if (_forToken["SchoolName"] != null)
-                    {
-                        _dr["College"] = _forToken["SchoolName"].ToString();
-                    }
-
-                    if (_forToken["LocationSummary"]?["Region"] != null)
-                    {
-                        _dr["State"] = _forToken["LocationSummary"]["Region"].ToString();
-                    }
-
-                    if (_forToken["LocationSummary"]?["CountryCode"] != null)
-                    {
-                        _dr["Country"] = _forToken["LocationSummary"]["CountryCode"].ToString();
-                    }
-
-                    if (_forToken["Degree"]?["DegreeDate"] != null)
-                    {
-                        _dr["Year"] = _forToken["Degree"]["DegreeDate"].ToString();
-                    }
-
-                    _tableEducation.Rows.Add(_dr);
-                }
-            }*/
-
-            //int _countExperience = _parseData.GetNumberOfPositions();
-            //JToken _employmentToken = _parsedData.SelectToken("Resume.StructuredResume.EmploymentHistory");
-            /*if (_employmentToken != null)
-            {
-                for (int i = 0; i < _employmentToken.Count(); i++)
-                {
-                    JToken _forToken = _employmentToken[i];
-                    DataRow _dr = _tableEmployer.NewRow();
-                    if (_forToken == null)
-                    {
-                        continue;
-                    }
-
-                    if (_forToken["OrgName"] != null)
-                    {
-                        _dr["Employer"] = _forToken["OrgName"].ToString();
-                    }
-
-                    if (_forToken["StartDate"] != null)
-                    {
-                        _dr["Start"] = _forToken["StartDate"].ToString();
-                    }
-
-                    if (_forToken["EndDate"] != null)
-                    {
-                        _dr["End"] = _forToken["EndDate"].ToString();
-                    }
-
-                    if (_forToken["LocationSummary"] != null)
-                    {
-                        string _location = "";
-                        if (_forToken["LocationSummary"]["Municipality"] != null)
-                        {
-                            _location += ", " + _forToken["LocationSummary"]["Municipality"];
-                        }
-
-                        if (_forToken["LocationSummary"]["Region"] != null)
-                        {
-                            _location += ", " + _forToken["LocationSummary"]["Region"];
-                        }
-
-                        if (_forToken["LocationSummary"]["CountryCode"] != null)
-                        {
-                            _location += ", " + _forToken["LocationSummary"]["CountryCode"];
-                        }
-
-                        if (_location != "")
-                        {
-                            _location = _location[2..];
-                        }
-
-                        _dr["Location"] = _location;
-                    }
-
-                    if (_forToken["Title"]?[0] != null)
-                    {
-                        _dr["Title"] = _forToken["Title"][0].ToString();
-                    }
-
-                    if (_forToken["Description"] != null)
-                    {
-                        _dr["Description"] = _forToken["Description"].ToString();
-                    }
-
-                    _tableEmployer.Rows.Add(_dr);
-                }
-            }*/
-
-            //JToken _skillsToken = _parsedData.SelectToken("Resume.StructuredResume.Competency");
-            /*if (_skillsToken == null)
-            {
-                return;
-            }
-
-            {
-                for (int i = 0; i < _skillsToken.Count(); i++)
-                {
-                    JToken _forToken = _skillsToken[i];
-                    DataRow _dr = _tableSkills.NewRow();
-                    if (_forToken != null)
-                    {
-                        if (_forToken["skillName"] != null)
-                        {
-                            _dr["Skill"] = _forToken["skillName"].ToString();
-                        }
-
-                        if (_forToken["lastUsed"] != null)
-                        {
-                            _dr["LastUsed"] = _forToken["lastUsed"].ToInt32();
-                        }
-
-                        if (_forToken["skillUsed"]?["type"] != null && _forToken["skillUsed"]["value"] != null)
-                        {
-                            _dr["LastUsed"] = _forToken["skillUsed"]["type"].ToString() != "Months" ? _forToken["skillUsed"]["value"].ToInt32() * 12
-                                                  : _forToken["skillUsed"]["value"].ToInt32();
-                        }
-                    }
-
-                    _tableSkills.Rows.Add(_dr);
-                }
-            }*/
         }
     }
 
