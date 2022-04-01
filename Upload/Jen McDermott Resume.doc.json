@@ -1,0 +1,1210 @@
+﻿{
+  "ContactInformation": {
+    "CandidateName": {
+      "FormattedName": "Jennifer McDermott",
+      "GivenName": "Jennifer",
+      "FamilyName": "McDermott"
+    },
+    "Telephones": [
+      {
+        "InternationalCountryCode": "1",
+        "AreaCityCode": "215",
+        "SubscriberNumber": "205-4658",
+        "Raw": "(215) 205 4658",
+        "Normalized": "+1 215-205-4658"
+      }
+    ],
+    "EmailAddresses": [
+      "jenlmcdermott@yahoo.com"
+    ]
+  },
+  "ProfessionalSummary": "Project Management\t\tOperational Efficiency\t\t\tSelf Directed\nWorkflow Optimization\t\tEffective Communication\t\tEnergetic Presentations\n\n\n◆ Focused, goal and detail oriented with excellent communication and correspondence skills\n◆ Very productive; a time management and organizational specialist\n◆ Personable, articulate and professional with all levels of associates\n◆ Ethical, dedicated, self-directed initiative and general business savvy\n◆ Enthusiastic and willing to assume increased responsibility - a quick learner\n◆ Solutions minded; willing to step in to analyze and tackle challenging situations\n◆ Able to coordinate and prioritize multiple responsibilities with deadline sensitivity",
+  "Education": {
+    "HighestDegree": {
+      "Name": {
+        "Raw": "Bachelors in Psychology",
+        "Normalized": "bachelors"
+      },
+      "Type": "bachelors"
+    },
+    "EducationDetails": [
+      {
+        "Id": "DEG-1",
+        "Text": "and Professional Experiences\n\n◆ Training and Development Courses from\tLangevin Learning Services\n◦ How Adults Learn- Certificate\n◦ Making Your Training Stick-Certificate\n◦ Training 101-Certificate\n\n\n◆ Chestnut Hill College",
+        "SchoolName": {
+          "Raw": "Chestnut Hill College",
+          "Normalized": "Chestnut Hill College"
+        },
+        "SchoolType": "college",
+        "Degree": {
+          "Name": {
+            "Raw": "Certificate",
+            "Normalized": "certification"
+          },
+          "Type": "certification"
+        }
+      },
+      {
+        "Id": "DEG-2",
+        "Text": "◦ Bachelors in Psychology",
+        "SchoolType": "UNSPECIFIED",
+        "Degree": {
+          "Name": {
+            "Raw": "Bachelors in Psychology",
+            "Normalized": "bachelors"
+          },
+          "Type": "bachelors"
+        },
+        "Majors": [
+          "Psychology"
+        ]
+      }
+    ]
+  },
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "Jennifer McDermott is experienced in:  Personal Attributes (Attitude; Aptitudes); and Information Technology (Network). Jennifer McDermott has 6 years of work experience.",
+      "MonthsOfWorkExperience": 72,
+      "MonthsOfManagementExperience": 0,
+      "ExecutiveType": "NONE",
+      "AverageMonthsPerEmployer": 24,
+      "FulltimeDirectHirePredictiveIndex": 50,
+      "ManagementStory": "",
+      "CurrentManagementLevel": "",
+      "ManagementScore": 0
+    },
+    "Positions": [
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Wyeth Pharmaceuticals",
+            "Normalized": "Wyeth Pharmaceuticals"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Technical Training Coordinator",
+          "Normalized": "Technical Training Coordinator",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2006-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2009-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Human Resources",
+        "SubTaxonomyName": "Learning & Development",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 33,
+        "Description": "Contract\n◆ Work as an administrator in SumTotal LMS\n◆ Build activity structures and links for academy, groups and special curricula within SumTotal\n◆ Manage the LMS catalog including audiences and instructors\n◆ Support and review communication documents for learning activities\n◆ Marketed all required product training courses to pharmaceutical representatives nationwide\n◆ Conducted research and analysis and prepared reports outlining results using Excel\n◆ Work closely with subject matter experts, instructional designers, training coordinators and sales teams to ensure delivery expectations were met\n◆ Independently led work sessions to plan and implement live and web based training sessions"
+      },
+      {
+        "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Probable",
+            "Raw": "CMiC LMS",
+            "Normalized": "CMiC LMS"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Training Specialist",
+          "Normalized": "Training Specialist",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2009-10-06",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": true
+        },
+        "EndDate": {
+          "Date": "2009-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Human Resources",
+        "SubTaxonomyName": "Learning & Development",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 50,
+        "Description": "2009\nAmerican Infrastructure\n◆ Work as an administrator in CMiC LMS\n◆ Helped to implement CMiC for all internal employees as well as provide upgrades\n◆ Design, developed and created\n◆  super user and end user training documentations\n◆ Support the office with administrative duties\n◆ Train internal employees on using CMiC LMS\n◆ Work closely with other team members to ensure learning activities as a whole are delivered accurately"
+      },
+      {
+        "Id": "POS-3",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "GMAC Mortgage",
+            "Normalized": "GMAC Mortgage"
+          }
+        },
+        "RelatedToByCompanyName": [
+          "POS-4"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Trainer - Employee Leadership and Development",
+          "Normalized": "Trainer Employee Leadership and Development",
+          "Probability": "Confident",
+          "Variations": [
+            "Trainer"
+          ]
+        },
+        "StartDate": {
+          "Date": "2005-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2006-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Sales",
+        "SubTaxonomyName": "General",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 39,
+        "Description": "◆ Design and develop live and/or recorded web based training curriculum under short deadlines to effectively communicate time sensitive mortgage banking concepts, policies and procedures to   a remote sales and management team\n◆ Develop and train leadership training classes to regional and district managers\n◆ Manage the continuing education process flow for all retail sales professionals\n◆ Effectively communicate and report progress to senior and executive management\n◆ Coach and mentor new employees who joined our team\n◆ Use ADDIE model to complete projects"
+      },
+      {
+        "Id": "POS-4",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "GMAC Mortgage",
+            "Normalized": "GMAC Mortgage"
+          }
+        },
+        "RelatedToByCompanyName": [
+          "POS-3"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Training Coordinator",
+          "Normalized": "Training Coordinator",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2004-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2005-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Supply Chain and Logistics",
+        "SubTaxonomyName": "Logistics",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 38,
+        "Description": "◆ Managed the coordination and distribution of training curriculum for over 400 annual training sessions\n◆ Completed cost benefit analysis of shipping and distribution methods to reduce the annual cost of shipping by 35%\n◆ Administered pre-class set-up procedures for all training sessions including: scheduling, materials, course registration, new hire welcome information and adherence to company prerequisites, policies and procedures\n◆ Developed national training communications\n◆ Cultivated mutually beneficial vendor relationships in alignment with national objectives to meet department and corporate goals"
+      }
+    ]
+  },
+  "SkillsData": [
+    {
+      "Root": "Sovren",
+      "Taxonomies": [
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Id": "007739",
+                  "Name": "Self Motivated",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "007738",
+                      "Name": "Self Directed",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "007740",
+                  "Name": "Self-Directed",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 16,
+              "PercentOfParent": 60,
+              "SubTaxonomyId": "528",
+              "SubTaxonomyName": "Attitude"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "031025",
+                  "Name": "Articulate",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "031014",
+                  "Name": "Detail Oriented",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 10,
+              "PercentOfParent": 40,
+              "SubTaxonomyId": "532",
+              "SubTaxonomyName": "Aptitudes"
+            }
+          ],
+          "Id": "90",
+          "Name": "Personal Attributes",
+          "PercentOfOverall": 26
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    }
+                  ],
+                  "Id": "013162",
+                  "Name": "Citrix",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "023294",
+                  "Name": "Optimization",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 10,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "198",
+              "SubTaxonomyName": "Network"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 60
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "024402",
+                  "Name": "WEB Based",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 5,
+              "PercentOfParent": 25,
+              "SubTaxonomyId": "196",
+              "SubTaxonomyName": "Internet"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    }
+                  ],
+                  "Id": "004536",
+                  "Name": "Peoplesoft",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 5,
+              "PercentOfParent": 25,
+              "SubTaxonomyId": "195",
+              "SubTaxonomyName": "ERP and CRM"
+            }
+          ],
+          "Id": "10",
+          "Name": "Information Technology",
+          "PercentOfOverall": 21
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "030018",
+                  "Name": "Retail",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "030648",
+                  "Name": "Retail Sales",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "030794",
+                  "Name": "Sales Professionals",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "022734",
+                  "Name": "Time Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 13,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "105",
+              "SubTaxonomyName": "General"
+            }
+          ],
+          "Id": "20",
+          "Name": "Sales",
+          "PercentOfOverall": 13
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "018252",
+                  "Name": "General Business",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2005-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "022445",
+                  "Name": "Shipping",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "016848",
+                  "Name": "Time Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 8,
+              "PercentOfParent": 93,
+              "SubTaxonomyId": "437",
+              "SubTaxonomyName": "General Skills and Activities"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "004037",
+                  "Name": "Time Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 7,
+              "SubTaxonomyId": "436",
+              "SubTaxonomyName": "Management Activities or Functions"
+            }
+          ],
+          "Id": "34",
+          "Name": "Business Operations and General Business",
+          "PercentOfOverall": 9
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "555155108",
+                  "Name": "Project Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 5,
+              "PercentOfParent": 71,
+              "SubTaxonomyId": "519",
+              "SubTaxonomyName": "Management and Management Tasks"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "021625",
+                  "Name": "Mentor",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 29,
+              "SubTaxonomyId": "517",
+              "SubTaxonomyName": "People Oriented"
+            }
+          ],
+          "Id": "80",
+          "Name": "General Management",
+          "PercentOfOverall": 7
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "005515",
+                  "Name": "Process Flow",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "024213",
+                  "Name": "Workflow",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 6,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "876",
+              "SubTaxonomyName": "Workflow and Processes"
+            }
+          ],
+          "Id": "71",
+          "Name": "Strategy and Planning",
+          "PercentOfOverall": 6
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "023772",
+                  "Name": "Correspondence",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 5,
+              "PercentOfParent": 91,
+              "SubTaxonomyId": "109",
+              "SubTaxonomyName": "Document-centric"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "002726",
+                  "Name": "Mortgage Banking",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 9,
+              "SubTaxonomyId": "114",
+              "SubTaxonomyName": "Closing and Processing"
+            }
+          ],
+          "Id": "1",
+          "Name": "Administrative or Clerical",
+          "PercentOfOverall": 6
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 48
+                      },
+                      "LastUsed": {
+                        "Value": "2009-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "9000194",
+                      "Name": "LMS",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 48
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2009-12-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  },
+                  "Id": "9000193",
+                  "Name": "Learning Management System",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 4,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "580",
+              "SubTaxonomyName": "Learning & Development"
+            }
+          ],
+          "Id": "9",
+          "Name": "Human Resources",
+          "PercentOfOverall": 4
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2005-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "022739",
+                  "Name": "Scheduling",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 67,
+              "SubTaxonomyId": "208",
+              "SubTaxonomyName": "Planning"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "023431",
+                  "Name": "Process Flow",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 33,
+              "SubTaxonomyId": "207",
+              "SubTaxonomyName": "Process Control"
+            }
+          ],
+          "Id": "13",
+          "Name": "Manufacturing",
+          "PercentOfOverall": 3
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 24
+                      },
+                      "LastUsed": {
+                        "Value": "2006-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "002722",
+                      "Name": "Mortgage",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 24
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "Id": "080236",
+                  "Name": "Loans",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 67,
+              "SubTaxonomyId": "233",
+              "SubTaxonomyName": "Mortgage"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "023217",
+                  "Name": "Mortgage Banking",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 33,
+              "SubTaxonomyId": "241",
+              "SubTaxonomyName": "Management"
+            }
+          ],
+          "Id": "7",
+          "Name": "Finance",
+          "PercentOfOverall": 3
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 24
+                      },
+                      "LastUsed": {
+                        "Value": "2006-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "1400216",
+                      "Name": "Retail",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 24
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-12-31"
+                  },
+                  "Id": "1400215",
+                  "Name": "Retail Marketing",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "226",
+              "SubTaxonomyName": "Channel Management"
+            }
+          ],
+          "Id": "14",
+          "Name": "Marketing",
+          "PercentOfOverall": 1
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 3
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "016263",
+                  "Name": "END User Training",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "361",
+              "SubTaxonomyName": "Other"
+            }
+          ],
+          "Id": "64",
+          "Name": "Training",
+          "PercentOfOverall": 1
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                        }
+                      ],
+                      "Id": "0120992",
+                      "Name": "Adobe Acrobat",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    }
+                  ],
+                  "Id": "012099",
+                  "Name": "Acrobat",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "2009-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "022841",
+                  "Name": "Excel",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    }
+                  ],
+                  "Id": "020928",
+                  "Name": "Lotus Notes",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    }
+                  ],
+                  "Id": "024467",
+                  "Name": "Microsoft Office",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "108",
+              "SubTaxonomyName": "Core Office"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "024345",
+                  "Name": "Microsoft Windows",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS"
+                    }
+                  ],
+                  "Id": "003502",
+                  "Name": "Novell",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "299",
+              "SubTaxonomyName": "Operating Systems"
+            }
+          ],
+          "Id": "0",
+          "Name": "Common End-user Software",
+          "PercentOfOverall": 0
+        }
+      ]
+    }
+  ],
+  "Certifications": [
+    {
+      "Name": "Making Your Training Stick-Certificate",
+      "MatchedFromList": false,
+      "IsVariation": false
+    },
+    {
+      "Name": "How Adults Learn- Certificate",
+      "MatchedFromList": false,
+      "IsVariation": false
+    },
+    {
+      "Name": "Smith System Driver Training",
+      "MatchedFromList": false,
+      "IsVariation": false
+    },
+    {
+      "Name": "Training 101-Certificate",
+      "MatchedFromList": false,
+      "IsVariation": false
+    },
+    {
+      "Name": "Collaborative Way",
+      "MatchedFromList": false,
+      "IsVariation": false
+    }
+  ],
+  "LanguageCompetencies": [
+    {
+      "Language": "English",
+      "LanguageCode": "en",
+      "FoundInContext": "[RESUME_LANGUAGE]"
+    }
+  ],
+  "Achievements": [
+    "Professional and independent travel throughout the U.S, Canada, Europe",
+    "Technical Applications",
+    "Pedagogue",
+    "Novell Group Wise",
+    "Lotus Notes",
+    "Adobe Acrobat Pro",
+    "Citrix",
+    "Web-Ex",
+    "Microsoft Office Suite",
+    "Peoplesoft LMS",
+    "Sum Total LMS"
+  ],
+  "QualificationsSummary": "Operating Systems: Macintosh and Microsoft Windows",
+  "ResumeMetadata": {
+    "FoundSections": [
+      {
+        "FirstLineNumber": 5,
+        "LastLineNumber": 19,
+        "SectionType": "SUMMARY",
+        "HeaderTextFound": "Professional Strengths"
+      },
+      {
+        "FirstLineNumber": 20,
+        "LastLineNumber": 60,
+        "SectionType": "WORK HISTORY",
+        "HeaderTextFound": "Professional Experience"
+      },
+      {
+        "FirstLineNumber": 61,
+        "LastLineNumber": 72,
+        "SectionType": "EDUCATION",
+        "HeaderTextFound": "Education"
+      },
+      {
+        "FirstLineNumber": 73,
+        "LastLineNumber": 76,
+        "SectionType": "CERTIFICATIONS",
+        "HeaderTextFound": "Additional Certifications"
+      },
+      {
+        "FirstLineNumber": 77,
+        "LastLineNumber": 97,
+        "SectionType": "PERSONAL INTERESTS AND ACCOMPLISHMENTS",
+        "HeaderTextFound": "Travel Experience"
+      },
+      {
+        "FirstLineNumber": 98,
+        "LastLineNumber": 98,
+        "SectionType": "SKILLS",
+        "HeaderTextFound": "Operating Systems"
+      }
+    ],
+    "ResumeQuality": [
+      {
+        "Level": "Data Missing",
+        "Findings": [
+          {
+            "QualityCode": "213",
+            "Message": "A street level address was not found in the contact information. A full contact address should always be included in a resume as it allows for location based searches."
+          },
+          {
+            "QualityCode": "226",
+            "Message": "We found no work history positions within the past year. A resume should include work history information, including time off, for the most recent year."
+          },
+          {
+            "QualityCode": "232",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "DEG-2"
+              }
+            ],
+            "Message": "Every degree in a resume should be associated with a school."
+          }
+        ]
+      },
+      {
+        "Level": "Suggested Improvements",
+        "Findings": [
+          {
+            "QualityCode": "161",
+            "Message": "High school (or lower) education should not be included on resumes that contain higher-level education."
+          },
+          {
+            "QualityCode": "112",
+            "Message": "The following section was identified as a skills section type: 'Operating Systems'. Skills should not be in a separate section, but instead, each skill should be included in the descriptions of work history or education. THIS IS INCREDIBLY IMPORTANT FOR AI MATCHING ALGORITHMS"
+          },
+          {
+            "QualityCode": "151",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "EDUCATION",
+                "Id": "2"
+              },
+              {
+                "SectionType": "SKILLS",
+                "Id": "5"
+              }
+            ],
+            "Message": "Every section should have a clear, unambiguous, commonly-used header on a separate line directly above the content associated with it."
+          }
+        ]
+      }
+    ],
+    "ReservedData": {
+      "Phones": [
+        "(215) 205 4658"
+      ],
+      "Names": [
+        "Jennifer McDermott"
+      ],
+      "EmailAddresses": [
+        "jenlmcdermott@yahoo.com"
+      ]
+    },
+    "PlainText": "(215) 205 4658 ◆ jenlmcdermott@yahoo.com\nJennifer McDermott\n•.•.•.•.•.•.•.•.•.•.•.•\n\nProfessional Strengths\n\nProject Management\t\tOperational Efficiency\t\t\tSelf Directed\nWorkflow Optimization\t\tEffective Communication\t\tEnergetic Presentations\n\n\n◆ Focused, goal and detail oriented with excellent communication and correspondence skills\n◆ Very productive; a time management and organizational specialist\n◆ Personable, articulate and professional with all levels of associates\n◆ Ethical, dedicated, self-directed initiative and general business savvy\n◆ Enthusiastic and willing to assume increased responsibility - a quick learner\n◆ Solutions minded; willing to step in to analyze and tackle challenging situations\n◆ Able to coordinate and prioritize multiple responsibilities with deadline sensitivity\n\n\nProfessional Experience\n\nTraining Specialist\t2009-October 6, 2009\nAmerican Infrastructure\n◆ Work as an administrator in CMiC LMS\n◆ Helped to implement CMiC for all internal employees as well as provide upgrades\n◆ Design, developed and created\n◆  super user and end user training documentations\n◆ Support the office with administrative duties\n◆ Train internal employees on using CMiC LMS\n◆ Work closely with other team members to ensure learning activities as a whole are delivered accurately\n\nTechnical Training Coordinator\t2006-2009\nWyeth Pharmaceuticals- Contract\n◆ Work as an administrator in SumTotal LMS\n◆ Build activity structures and links for academy, groups and special curricula within SumTotal\n◆ Manage the LMS catalog including audiences and instructors\n◆ Support and review communication documents for learning activities\n◆ Marketed all required product training courses to pharmaceutical representatives nationwide\n◆ Conducted research and analysis and prepared reports outlining results using Excel\n◆ Work closely with subject matter experts, instructional designers, training coordinators and sales teams to ensure delivery expectations were met\n◆ Independently led work sessions to plan and implement live and web based training sessions\n\nTrainer - Employee Leadership and Development\t2005-2006\nGMAC Mortgage\n◆ Design and develop live and/or recorded web based training curriculum under short deadlines to effectively communicate time sensitive mortgage banking concepts, policies and procedures to   a remote sales and management team\n◆ Develop and train leadership training classes to regional and district managers\n◆ Manage the continuing education process flow for all retail sales professionals\n◆ Effectively communicate and report progress to senior and executive management\n◆ Coach and mentor new employees who joined our team\n◆ Use ADDIE model to complete projects\n\nTraining Coordinator\t2004-2005\nGMAC Mortgage\n\n◆ Managed the coordination and distribution of training curriculum for over 400 annual training sessions\n◆ Completed cost benefit analysis of shipping and distribution methods to reduce the annual cost of shipping by 35%\n◆ Administered pre-class set-up procedures for all training sessions including: scheduling, materials, course registration, new hire welcome information and adherence to company prerequisites, policies and procedures\n◆ Developed national training communications\n◆ Cultivated mutually beneficial vendor relationships in alignment with national objectives to meet department and corporate goals\n\nEducation and Professional Experiences\n\n◆ Training and Development Courses from\tLangevin Learning Services\n◦ How Adults Learn- Certificate\n◦ Making Your Training Stick-Certificate\n◦ Training 101-Certificate\n\n\n◆ Chestnut Hill College\n◦ Bachelors in Psychology\n\n\nAdditional Certifications\n◆ Smith System Driver Training\n◆ Collaborative Way\n\nTravel Experience\n\n◆ Professional and independent travel throughout the U.S, Canada, Europe\n\n\nTechnical Applications\n◆ Pedagogue\n◆ Novell Group Wise\n◆ Lotus Notes\n\n\n◆ Adobe Acrobat Pro\n◆ Citrix\n◆ Web-Ex\n\n\n◆ Microsoft Office Suite\n◆ Peoplesoft LMS\n◆ Sum Total LMS\n\n\nOperating Systems: Macintosh and Microsoft Windows",
+    "DocumentLanguage": "en",
+    "DocumentCulture": "en-US",
+    "ParserSettings": "Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = US; Culture.Language = English; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = False; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2022-03-30"
+  }
+}

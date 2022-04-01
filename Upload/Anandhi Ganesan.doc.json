@@ -1,0 +1,5182 @@
+﻿{
+  "ContactInformation": {
+    "CandidateName": {
+      "FormattedName": "Anandhi Ganesan",
+      "GivenName": "Anandhi",
+      "FamilyName": "Ganesan"
+    },
+    "Telephones": [
+      {
+        "InternationalCountryCode": "1",
+        "AreaCityCode": "888",
+        "SubscriberNumber": "766-9254",
+        "Raw": "1-888-766-9254",
+        "Normalized": "1-888-766-9254"
+      }
+    ]
+  },
+  "ProfessionalSummary": "• 10+ Years of excellent experience in Software Life Cycle Development in system analysis, design, web development, testing and maintenance of applications.\n• Experienced in MS CRM Dynamics 4.0, CRM SDK, DMM(Data Migration Manager) Developer  Plug-in  and custom workflows Cast Iron Integration system, NET Framework (3.5/2.0) (WCF/WPF) in both Web and Window Forms using ASP.NET, ADO.NET, VB.NET, MS VS.NET 3.x ,C#, Web Services, XML and SOAP. Experienced with Visual Basic (6.0/5.0), Classic ASP, XML, XSL, XSLT, DHTML, Visual Interdev 6.0, Visual Source Safe 6.0, VBScript, JavaScript, IIS 5.0, Crystal Reports, MTS.\n• Experience with OOD, .NET, SOAP, Web Services, WSDL, Design experience, Object Oriented Programming, developing n-tier web applications with Microsoft .Net technology.\n• Experience designing and implementing core framework components and reusable libraries. Smart Client Programming, Microsoft Applications Blocks/Enterprise Libraries\n• Experience in business analysis and Project Management methodologies and a solid understanding of UAT, Data Modeling, Business Process Modeling, Change Request.\n• Expert in data access to MS SQL Server 2000/2005. Have good working knowledge and experience with custom SQL Scripts, Stored Procedures for SQL Server,Triggers, SSRS.\n• Have a strong understanding of the .NET development platform, object-oriented design concepts, and the ability to apply these tools to design, implement, and support solutions based on requirements\n• Experience in Data modeling, Data Design, Normalization, Data migration projects involving SQL Server.\n• Production support experience with Working knowledge of software quality assurance practices, Strong in data analysis using PL/SQL in Oracle (8i, 8.0/7.3), SQL Server (2000/7.0) and MS-Access DB\n• Hard-working team player with excellent communication skills.\n• Ability to handle multiple tasks and solve complex problems.\n• Strong understanding of database structures, theories, principles, and practices.\n• Developed technical documentations.\n• Very strong analytical and problem solving techniques, presentation skills and timely deliverance with proven team player/leadership qualities.",
+  "Education": {
+    "HighestDegree": {
+      "Name": {
+        "Raw": "B.S.",
+        "Normalized": "BSc"
+      },
+      "Type": "bachelors"
+    },
+    "EducationDetails": [
+      {
+        "Id": "DEG-1",
+        "Text": "• B.S. Computer Science",
+        "SchoolType": "UNSPECIFIED",
+        "Degree": {
+          "Name": {
+            "Raw": "B.S.",
+            "Normalized": "BSc"
+          },
+          "Type": "bachelors"
+        },
+        "Majors": [
+          "Computer Science"
+        ]
+      }
+    ]
+  },
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "Anandhi Ganesan is experienced in:  Information Technology (Programming; Internet; Cloud Computing; Database). Anandhi Ganesan has 20 years of work experience, with 14 years of management experience, including a low-level position.",
+      "MonthsOfWorkExperience": 240,
+      "MonthsOfManagementExperience": 164,
+      "ExecutiveType": "NONE",
+      "AverageMonthsPerEmployer": 60,
+      "FulltimeDirectHirePredictiveIndex": 37,
+      "ManagementStory": "The following management-related items were found:\r\n• Liaised with clients and team leader through SDLC through Production Support.\r\n\nCurrent position is a low-level management role: Lead MS CRM Consultant/ Application Designer\nStarting on 8/1/2008, the candidate held the following low-level management position for 13 years and 10 months:\n\tTitle: Lead MS CRM Consultant/ Application Designer for DGN Inc",
+      "CurrentManagementLevel": "low-level",
+      "ManagementScore": 12
+    },
+    "Positions": [
+      {
+        "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "DGN Inc",
+            "Normalized": "DGN"
+          }
+        },
+        "IsSelfEmployed": true,
+        "IsCurrent": true,
+        "JobTitle": {
+          "Raw": "Lead MS CRM Consultant/ Application Designer",
+          "Normalized": "Lead MS CRM Consultant Application Designer",
+          "Probability": "Confident",
+          "Variations": [
+            "Lead MS CRM Consultant",
+            "Application Designer"
+          ]
+        },
+        "StartDate": {
+          "Date": "2008-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2022-03-29",
+          "IsCurrentDate": true,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Programming",
+        "JobLevel": "Senior Manager (more than 5 years management experience)",
+        "TaxonomyPercentage": 77,
+        "Description": "Axygen Scientific is a Bio-Technology company a leading manufacturer of the highest quality laboratory consumables for researchers in the pharmaceutical, biotech, and academia communities worldwide.\n\n• As a MS CRM subject matter expert, worked with non-technical users to understand the business requirements, Presented design and implementation approaches to colleagues and management.\n• Implemented Microsoft CRM Dynamics and Web applications Development Projects.\n• Managed the complete Microsoft CRM Dynamics project implementation. As a business analyst and lead developer, managed CRM process mappings, Designed workflow, Set up Admin roles, Developed CRM customizations and report developments.\n• Migrated Salesforce data to Microsoft CRM dynamics.\n• Interacted with Business Process Owners to define and evaluate enhancements for the CRM modules.\n• Integrated MS Dynamics CRM 4.0 with other software applications to streamline and automate business practices.\n• Interacting with users to troubleshoot and/or enhance database features and functionality\n• Implemented standard MS CRM functions and MS CRM Customization to Support  user requirements from Sales, Quoting, and Customer service and management departments to track and save all data daily and for data analysis.\n• Used Data Migration Manager(DMM) for the migration of data into Microsoft CRM Dynamics.\n• Customized Microsoft Dynamics CRM deployments with custom entities, form scripting, custom plug-ins, and custom workflow assemblies.\n• Developed CRM access roles and security functions, Created CRM user accounts, security settings and permissions within the CRM environment.\n• Developed CRM views and reports for daily and analyzing process by using Microsoft Filter View and Microsoft SQL Reporting Service.\n• Designed and developed custom data-driven C# .NET assemblies, callouts and plug-ins integrations of Microsoft CRM with external software systems.\n• Deployed and scheduled Reports using SSRS to generate all daily, weekly, monthly and quarterly Reports including current status.\n• Responsible  in configuration of report server and report manager scheduling, giving permissions to different level of users in SQL Server Reporting Services (SSRS).\n• Integrated Sharepoint in the  Dynamics CRM application to store related documents and link to the documents on Dynamics CRM forms.\n• Managed full project lifecycle, and designed and executed test scenarios and test scripts.\n• Integrated Web sites, applications, and processes with CRM data using Web Services, WSDL, CRM API.\n• Used Cast Iron Integration system to Get and Post web details using Microsoft CRM Dynamics.\n• Administered the Content Management System(CMS) for complete Product information.\n• Involved in web and application support working on emergency bug fixes.\n• Trained Customer Support and Users to use the Content Management System CMS.\n• Interfaced with customer advocates for determining project scope and gathering requirements\n\n\nEnvironment: Microsoft CRM Dynamics 4.0, Cast Iron System, DMM(Data Migration Manager), CRM SDK, CMS ASP.NET, VB.NET, .NET Framework 2.0, MS VS .NET 3.x,C#, ,Share Point Server, Test Director, CSS, XML, AJAX, XSLT, JavaScript, VBScript, nUnit, Crystal Reports, HTML, T SQL, SQL Server 2005, Windows XP."
+      },
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Serenity Infotech",
+            "Normalized": "Serenity Infotech"
+          }
+        },
+        "IsSelfEmployed": true,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "MS CRM Consultant /Business Analyst",
+          "Normalized": "MS CRM Consultant Business Analyst",
+          "Probability": "Confident",
+          "Variations": [
+            "MS CRM Consultant",
+            "Business Analyst"
+          ]
+        },
+        "StartDate": {
+          "Date": "2008-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2008-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Programming",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 74,
+        "Description": "• Designed, developed, and delivered full production applications based on requirements analysis and prototype applications for various clients.\n• Worked with non-technical users to understand the business requirements, effectively communicated with user community to troubleshoot technical issues.\n• Presented design and implementation approaches to colleagues and management.\n• Set up Microsoft CRM Environments and demonstrate them to potential prospects.\n• Gathered end-users' business requirements and translate them into CRM Application functions with perform gap analysis design to complete the clients' business requirements.\n• Created and developed Microsoft Dynamics CRM Custom parts  workflow, data migration, email integration, new web forms.\n• Performed  business requirements gathering needs and translated into Microsoft Dynamics CRM functions.\n• Customized CRM reports to specific business requirements need by using SSRS.\n• Strong experience using MS CRM SDK Tool, Data Migration for Microsoft Dynamics CRM (DMM) Data Migraton Manager.\n• Provide end-users' training for CRM system with post deployment support.\n• Developed MS CRM plug in and work flow assembly to support sales, accounting, and customer services business process for system integrator client.\n• Integrated other web application with MS CRM by using IFrame and MS CRM Web Services.\n\nEnvironment: Microsoft CRM Dynamics 3.0, Cast Iron System, DMM(Data Migration Manager), CRM SDK, CMS Classic ASP, ASP.NET, VB.NET,C# .NET Framework 2.0, Visual Basic 6.0, Visual Studio 2003 IDE, XML, JavaScript, JQuery, VBScript, Crystal Reports, HTML, MS Access, Oracle 10g, Transact SQL, SQL Server, Windows 2000"
+      },
+      {
+        "Id": "POS-3",
+        "Employer": {
+          "Name": {
+            "Probability": "Probable",
+            "Raw": "GDL(Georgia Department of Labour)",
+            "Normalized": "GDL Georgia Department of Labour"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Web Application Developer",
+          "Normalized": "Web Application Developer",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2005-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2007-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Programming",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 85,
+        "Description": "Designed, developed, and delivered full production applications based on requirements analysis and prototype applications for various clients, including  GDL(Georgia Department of Labour), SOUTHERN POWER.\n• Involved in full software life cycle development, including working with a team of business analyst and programmer to develop/enhance different  modules.\n• Involved in Data Access Layer using VB.NET\n• Built secure functionality using ASP.NET forms authentication\n• Involved in creating stored procedure to support client request in SQL Server 2005\n• Used SQL utility to run T-SQL statements and script file\n• Experience in Image editing using Adobe Photoshop and Adobe Flash for Front end Graphic design.\n• Developed reusable and optimized .NET components using VB.NET.\n• Developed Custom Controls and User Controls using VB.NET.\n• Created and Written reports using SSRS.\n• Was involved in writing Unit tests leveraging nUnit for  module test environment.\n• Was involved in optimizing query performance.\n• Provided support for existing application  in the system.\n• Liaised with clients and team leader through SDLC through Production Support.\n• Using Crystal Reports, developed production reports for all patient on a scheduled basis on the web\n• Involved in doing builds in both Development and Testing Server\n• Involved in writing technical specs for upcoming projects\n• Involved in web and application  support working on emergency bug fixes\n• Involved in QA testing support and Production rollout, production support for Maintenance applications\n\nEnvironment: Classic ASP, ASP.NET, VB.NET,C# .NET Framework 2.0, Visual Basic 6.0, Enfocus, NUnit, PitStop6.1, Visual Studio 2003 IDE, Adobe Acrobat, Adobe Flash, Adobe Photoshop, TestDirector, DCOM, XML, JavaScript, JQuery, VBScript, Crystal Reports, HTML, MS Access, Oracle 10g, Transact SQL, SQL Server 2000, Windows 2000"
+      },
+      {
+        "Id": "POS-4",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "3i People",
+            "Normalized": "3i People"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "GA"
+            ],
+            "Municipality": "Atlanta"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Web Application Developer",
+          "Normalized": "Web Application Developer",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2001-03-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2004-04-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Programming",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 90,
+        "Description": "Responsibilities\n• Involved in full software life cycle development, including working with a team of business analyst and programmer to develop/enhance modules like workflow, assessment, admin info and report.\n• Interfaced with customer advocates for determining project scope and gathering requirements\n• Created system architecture and design using the UML Analysis Model and Design Model\n• Involved in Analysis of requirements documents; creating UML data models; development of user interfaces, middle-tier business objects and database processes; testing of all business systems.\n• Used UML for all the documentation like use-cases, Class diagrams, sequence diagrams and State Charts.\n• Built system requirements, designed database and system flow; programmed in Classic ASP and fully tested.\n• The web-based front-end is written in classic ASP, client-side in JavaScript.\n• Added new database tables and front end pages, developed several security functions to comply with patient information. Stored procedures were used in the ASP code for all database.\n• Designed and Developed ASP.Net UI screens for requesting and reviewing/approving the products ASP.NET, VB.NET\n• Used ASP.NET input validation controls for client side validation on the web pages\n• All data transfers (Requests/Retrievals) comply with XML Schemes and XML namespaces\n• Used ASP.Net Web Server controls like Data Grid, Repeater to display the records multicolumn grid. Customized the data grid column by implementing Hyperlink Column to pass multiple queries to new page\n• Generated XML from SQL to implement dynamic page for the application using ADO.NET\n• Involved in processing XML data using XSL to transform into different XML formats as per the design requirement.\n• Created web services to generate event notification using XML and SOAP\n• Developed reusable and optimized .NET components using VB.NET\n• Developed Custom Controls and User Controls using VB.NET\n• Data Access Layer was built using C#\n• Implemented Data Access layer using ADO.NET to Communicate with the Oracle Database.\n• Implemented Form Based Security for the application and access is based on roles\n• Client query Systems developed on .net object\n• Based on Query class accessed Database to retrieve the response.\n• Used T-SQL, Created and managing schema objects such as tables, views, procedures, triggers and maintained Referential Integrity\n• Three tier architecture which includes communication between presentation layer and Data layer is done through COM+ objects using Visual Basic 6.0\n• Using Crystal Reports, developed production reports for all patient on a scheduled basis on the web\n• Co-ordinate with offshore people in India to develop new projects\n• Involved in doing builds in both Development and Testing Server\n• Involved in writing technical specs for upcoming projects\n• Involved in web and application  support working on emergency bug fixes\n• Testing/Production support for each version release\n\nEnvironment: Classic ASP, VB.Net, C# 2.0, ASP.Net, ADO.Net, MS Access, Visual Basic 6.0, XML, XSL, XSLT, HTML, COM+, DCOM, SOAP, Mercury Test Director, JavaScript, VBScript, Crystal Reports, T-SQL, SQL, Oracle, Windows 2000"
+      }
+    ]
+  },
+  "SkillsData": [
+    {
+      "Root": "Sovren",
+      "Taxonomies": [
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 39
+                      },
+                      "LastUsed": {
+                        "Value": "2008-08-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "010645",
+                      "Name": "Visual Studio",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 39
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 240
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "023039",
+                  "Name": ".NET",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "021194",
+                  "Name": "API",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "021803",
+                  "Name": "Applications Development",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 240
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "012275",
+                  "Name": "C#",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "022339",
+                  "Name": "Content Management",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "015257",
+                  "Name": "Design Patterns",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "024398",
+                  "Name": "Developer 2000",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "018626",
+                  "Name": "GUI",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "Id": "002904",
+                      "Name": "MS Index Server",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "024356",
+                  "Name": "Index Server",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 240
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "025394",
+                  "Name": "Javascript",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 39
+                      },
+                      "LastUsed": {
+                        "Value": "2008-08-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "339048",
+                      "Name": "Jquery",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 39
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 39
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "Id": "0253941",
+                  "Name": "Javascript Frameworks and Libraries",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 203
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "027135",
+                      "Name": ".Net Framework 2.0",
+                      "ExistsInText": true
+                    },
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "021807",
+                      "Name": "Microsoft .Net",
+                      "ExistsInText": true
+                    },
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "3391136",
+                      "Name": "WCF",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 203
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 203
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "Id": "026107",
+                  "Name": "MS .NET",
+                  "ExistsInText": false
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "022453",
+                  "Name": "Object Oriented",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "003618",
+                  "Name": "Object Oriented Programming",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "023329",
+                  "Name": "Object-Oriented",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "026218",
+                  "Name": "Pascal",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "004736",
+                  "Name": "PHP",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "024873",
+                  "Name": "Scripting",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 240
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "010435",
+                  "Name": "VB.NET",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 240
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "010438",
+                  "Name": "Vbscript",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 76
+                      },
+                      "LastUsed": {
+                        "Value": "2008-08-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-4"
+                        }
+                      ],
+                      "Id": "0030541",
+                      "Name": "Visual Basic 6",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 76
+                      },
+                      "LastUsed": {
+                        "Value": "2008-08-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-4"
+                        }
+                      ],
+                      "Id": "023284",
+                      "Name": "Visual Basic 6.0",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 76
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "022210",
+                  "Name": "Visual Basic",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 240
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "011476",
+                  "Name": "XML",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "011494",
+                  "Name": "XSL",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 201
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "026875",
+                  "Name": "XSLT",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 26,
+              "PercentOfParent": 33,
+              "SubTaxonomyId": "204",
+              "SubTaxonomyName": "Programming"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "196001",
+                  "Name": "AJAX",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 240
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "004324",
+                  "Name": "ASP",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "014705",
+                  "Name": "CSS",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "015361",
+                  "Name": "DHTML",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "026624",
+                  "Name": "Dreamweaver",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 240
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "019115",
+                  "Name": "HTML",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "010623",
+                      "Name": "Visual Interdev",
+                      "ExistsInText": true
+                    },
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "010624",
+                      "Name": "Visual Interdev 6.0",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "022974",
+                  "Name": "Interdev",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "002902",
+                      "Name": "IIS",
+                      "ExistsInText": true
+                    },
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "027166",
+                      "Name": "IIS 5",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "022134",
+                  "Name": "Internet Information Services",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 240
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-4"
+                        }
+                      ],
+                      "Id": "004334",
+                      "Name": "ASP.NET",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 240
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 240
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "Id": "025409",
+                  "Name": "MS ASP",
+                  "ExistsInText": false
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "024268",
+                  "Name": "Search Engine",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "007860",
+                  "Name": "Share Point",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "022195",
+                  "Name": "Sharepoint",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 37
+                      },
+                      "LastUsed": {
+                        "Value": "2004-04-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-4"
+                        }
+                      ],
+                      "Id": "02440201",
+                      "Name": "WEB-Based",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 37
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "Id": "024402",
+                  "Name": "WEB Based",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "011021",
+                  "Name": "WEB Server",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 208
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "011022",
+                  "Name": "WEB Services",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "011309",
+                  "Name": "WML",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 16,
+              "PercentOfParent": 20,
+              "SubTaxonomyId": "196",
+              "SubTaxonomyName": "Internet"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 171
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "550035102",
+                      "Name": "Dynamics",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 171
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "027146",
+                      "Name": "Dynamics CRM",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 171
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "027221",
+                      "Name": "Microsoft Dynamics CRM",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 164
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "Id": "550035101",
+                      "Name": "MS Dynamics",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 164
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "Id": "027296",
+                      "Name": "MS Dynamics CRM",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 171
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 171
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "5500351",
+                  "Name": "Microsoft Dynamics",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 10,
+              "PercentOfParent": 13,
+              "SubTaxonomyId": "550",
+              "SubTaxonomyName": "Cloud Computing"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "013357",
+                  "Name": "ADO",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "014961",
+                  "Name": "Data Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 171
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "014990",
+                  "Name": "Data Migration",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 201
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "022486",
+                  "Name": "Database",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "01503802",
+                      "Name": "Data Modeling",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 37
+                      },
+                      "LastUsed": {
+                        "Value": "2004-04-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-4"
+                        }
+                      ],
+                      "Id": "01503804",
+                      "Name": "Data Models",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 37
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "Id": "026777",
+                  "Name": "Database Modeling",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 76
+                      },
+                      "LastUsed": {
+                        "Value": "2008-08-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-4"
+                        }
+                      ],
+                      "Id": "024531",
+                      "Name": "MS Access",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 76
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "Id": "021809",
+                  "Name": "Microsoft Access",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 37
+                      },
+                      "LastUsed": {
+                        "Value": "2004-04-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-4"
+                        }
+                      ],
+                      "Id": "013369",
+                      "Name": "ADO.NET",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 37
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "Id": "025411",
+                  "Name": "MS ADO",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "003032",
+                      "Name": "MS SQL Server 2000",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 203
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "008483",
+                      "Name": "SQL Server",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 32
+                      },
+                      "LastUsed": {
+                        "Value": "2007-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "008484",
+                      "Name": "SQL Server 2000",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 196
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "027175",
+                      "Name": "SQL Server 2005",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 203
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 203
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "023733",
+                  "Name": "MS SQL Server",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 39
+                      },
+                      "LastUsed": {
+                        "Value": "2008-08-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "031045",
+                      "Name": "Oracle 10G",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 39
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "031048",
+                  "Name": "Oracle",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "004871",
+                  "Name": "PL/SQL",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 240
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "008481",
+                  "Name": "SQL",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "008660",
+                  "Name": "Stored Procedure",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "008661",
+                  "Name": "Stored Procedures",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 10,
+              "PercentOfParent": 13,
+              "SubTaxonomyId": "193",
+              "SubTaxonomyName": "Database"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "Id": "554095102",
+                      "Name": "MS Sharepoint",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 164
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "Id": "554095101",
+                      "Name": "Sharepoint",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 164
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "Id": "5540951",
+                  "Name": "Microsoft Sharepoint",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 164
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "Id": "554095201",
+                      "Name": "SQL Server Reporting Services",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 164
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "Id": "5540952",
+                  "Name": "Microsoft SQL Server Reporting Services",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 203
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "554095401",
+                      "Name": "SSRS",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 203
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 203
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "Id": "5540954",
+                  "Name": "Microsoft SSRS",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "Id": "554095501",
+                      "Name": "Team Foundation Server",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "5540955",
+                  "Name": "Microsoft Team Foundation Server",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "5540990",
+                  "Name": "T-SQL",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 5,
+              "PercentOfParent": 6,
+              "SubTaxonomyId": "554",
+              "SubTaxonomyName": "Business Intelligence"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 171
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "5530932",
+                      "Name": "CMS",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 171
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 171
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "5530931",
+                  "Name": "Content Management System",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 171
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "5530953",
+                  "Name": "Data Migration",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 3,
+              "PercentOfParent": 4,
+              "SubTaxonomyId": "553",
+              "SubTaxonomyName": "Big Data"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 171
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "014101",
+                  "Name": "CRM",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 171
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "021841",
+                  "Name": "Microsoft CRM",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 3,
+              "SubTaxonomyId": "195",
+              "SubTaxonomyName": "ERP and CRM"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "018086",
+                  "Name": "GAP Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "024861",
+                  "Name": "Mercury",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 196
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "2000004",
+                  "Name": "Nunit",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "024372",
+                  "Name": "QA Testing",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "010065",
+                  "Name": "UAT",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "010255",
+                  "Name": "Unit Tests",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 3,
+              "SubTaxonomyId": "200",
+              "SubTaxonomyName": "QA and QC"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "018087",
+                  "Name": "GAP Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "005812",
+                  "Name": "Project Lifecycle",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 2,
+              "SubTaxonomyId": "199",
+              "SubTaxonomyName": "Project Management"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 171
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "013609",
+                  "Name": "CMS",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "342",
+              "SubTaxonomyName": "Workflow and Imaging"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 240
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "024116",
+                  "Name": "Crystal Reports",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "341",
+              "SubTaxonomyName": "Reporting"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "022676",
+                  "Name": "Analysis Design",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "024098",
+                  "Name": "Data Modeling",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "022707",
+                  "Name": "Life Cycle",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "003233",
+                  "Name": "MVC",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "024906",
+                  "Name": "N-Tier",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "003630",
+                  "Name": "Object-Oriented Design",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "003827",
+                  "Name": "OOD",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 39
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "022650",
+                  "Name": "Requirements Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "025956",
+                  "Name": "SDLC",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "008227",
+                  "Name": "Software Life Cycle",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "009078",
+                  "Name": "System Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "010148",
+                  "Name": "UML",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "024596",
+                  "Name": "USE Case",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "201",
+              "SubTaxonomyName": "Architecture"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "026108",
+                  "Name": "COM+",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "018004",
+                  "Name": "FTP",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "019117",
+                  "Name": "HTTP",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "008176",
+                  "Name": "SMTP",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "008187",
+                  "Name": "SOAP",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "009204",
+                  "Name": "TCP/IP",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "010780",
+                  "Name": "WAP",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "253",
+              "SubTaxonomyName": "Protocols and Standards"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "023487",
+                  "Name": "Customer Support",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "194",
+              "SubTaxonomyName": "Help Desk"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "7310026",
+                  "Name": "Design Patterns",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "Id": "7310032",
+                      "Name": "GUI",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "7310031",
+                  "Name": "Graphical User Interface",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "7310036",
+                  "Name": "Input Validation",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "Id": "7310043",
+                      "Name": "MVC",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "7310042",
+                  "Name": "Model-View-Controller",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 37
+                      },
+                      "LastUsed": {
+                        "Value": "2004-04-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-4"
+                        }
+                      ],
+                      "Id": "7310068",
+                      "Name": "UI",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 37
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "Id": "7310067",
+                  "Name": "User Interface",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "7310077",
+                      "Name": "WPF",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "7310076",
+                  "Name": "Windows Presentation Foundation",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "731",
+              "SubTaxonomyName": "User Interface"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "1980003",
+                  "Name": "TCP",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "1980004",
+                  "Name": "TCP/IP",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "1980006",
+                  "Name": "Telnet",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "198",
+              "SubTaxonomyName": "Network"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "023328",
+                  "Name": "JAVA",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "339001",
+                  "Name": "JSP",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "339",
+              "SubTaxonomyName": "Java"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "024882",
+                  "Name": "Cobol",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "197",
+              "SubTaxonomyName": "Mainframe"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "01026309",
+                  "Name": "UNIX",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "203",
+              "SubTaxonomyName": "UNIX and LINUX"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "3490027",
+                  "Name": "IIS",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "3490043",
+                  "Name": "TCP/IP",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "349",
+              "SubTaxonomyName": "Operations, Monitoring and Software Management"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "023631",
+                  "Name": "Deployment",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "025156",
+                  "Name": "Rollout",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "251",
+              "SubTaxonomyName": "Config Deploy Upgrade Migrate"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "005912",
+                  "Name": "Authentication",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "338",
+              "SubTaxonomyName": "Security"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "Id": "552057201",
+                      "Name": "MVC",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "5520572",
+                  "Name": "Model View Controller",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "552",
+              "SubTaxonomyName": "Mobile Applications"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "017649",
+                  "Name": "Flash",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "351",
+              "SubTaxonomyName": "Multimedia"
+            }
+          ],
+          "Id": "10",
+          "Name": "Information Technology",
+          "PercentOfOverall": 79
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "024469",
+                  "Name": "Business Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 7
+                      },
+                      "LastUsed": {
+                        "Value": "2008-08-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "012232",
+                      "Name": "Business Requirements Gathering",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 7
+                      },
+                      "LastUsed": {
+                        "Value": "2008-08-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "006835",
+                      "Name": "Requirements Gathering",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 7
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 171
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "022626",
+                  "Name": "Business Requirements",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "005533",
+                  "Name": "Process Modeling",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "011348",
+                  "Name": "Work Flow",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 208
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "024213",
+                  "Name": "Workflow",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 3,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "876",
+              "SubTaxonomyName": "Workflow and Processes"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "024100",
+                  "Name": "Data Modeling",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "501",
+              "SubTaxonomyName": "Modeling"
+            }
+          ],
+          "Id": "71",
+          "Name": "Strategy and Planning",
+          "PercentOfOverall": 3
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 171
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "022973",
+                  "Name": "Cast Iron",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 74,
+              "SubTaxonomyId": "284",
+              "SubTaxonomyName": "Welding Soldering Brazing Cutting"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 171
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "015530",
+                  "Name": "DMM",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 26,
+              "SubTaxonomyId": "293",
+              "SubTaxonomyName": "Other"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "022442",
+                  "Name": "Assembly",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "379",
+              "SubTaxonomyName": "Assembly"
+            }
+          ],
+          "Id": "27",
+          "Name": "Light Technical/Trades/Skilled Labor",
+          "PercentOfOverall": 3
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "021721",
+                  "Name": "Application Support",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 60,
+              "SubTaxonomyId": "129",
+              "SubTaxonomyName": "Help Desk"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "014744",
+                  "Name": "Customer Service",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "023488",
+                  "Name": "Customer Support",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 40,
+              "SubTaxonomyId": "130",
+              "SubTaxonomyName": "Customer Facing"
+            }
+          ],
+          "Id": "46",
+          "Name": "Call Center or Help Desk or Customer Service",
+          "PercentOfOverall": 3
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "1400032",
+                  "Name": "Subject Matter Expert",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 75,
+              "SubTaxonomyId": "586",
+              "SubTaxonomyName": "Technical Product Marketing"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 164
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "Id": "1400327",
+                      "Name": "Data Analysis",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 164
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "Id": "1400068",
+                  "Name": "Marketing Analysis",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 25,
+              "SubTaxonomyId": "588",
+              "SubTaxonomyName": "Data & Analytics"
+            }
+          ],
+          "Id": "14",
+          "Name": "Marketing",
+          "PercentOfOverall": 2
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "026956",
+                  "Name": "Quoting",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "105",
+              "SubTaxonomyName": "General"
+            }
+          ],
+          "Id": "20",
+          "Name": "Sales",
+          "PercentOfOverall": 2
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "006125",
+                  "Name": "QA",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "024371",
+                  "Name": "QA Testing",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "008241",
+                      "Name": "Software Quality Assurance",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "022250",
+                  "Name": "Quality Assurance",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "022241",
+                  "Name": "Test Scripts",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "941",
+              "SubTaxonomyName": "Other"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    }
+                  ],
+                  "Id": "008101",
+                  "Name": "SIX Sigma",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "445",
+              "SubTaxonomyName": "Standards"
+            }
+          ],
+          "Id": "69",
+          "Name": "QA and QC",
+          "PercentOfOverall": 2
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "022739",
+                  "Name": "Scheduling",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 99,
+              "SubTaxonomyId": "208",
+              "SubTaxonomyName": "Planning"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "022116",
+                  "Name": "Maintenance",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "364",
+              "SubTaxonomyName": "Equipment"
+            }
+          ],
+          "Id": "13",
+          "Name": "Manufacturing",
+          "PercentOfOverall": 2
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "022542",
+                  "Name": "Laboratory",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 59,
+              "SubTaxonomyId": "137",
+              "SubTaxonomyName": "Industrial"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 171
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "015529",
+                  "Name": "DMM",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 29,
+              "SubTaxonomyId": "310",
+              "SubTaxonomyName": "Software and Tools"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "020750",
+                  "Name": "Life Cycle",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "026958",
+                  "Name": "Quoting",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    }
+                  ],
+                  "Id": "008102",
+                  "Name": "SIX Sigma Certification",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 10,
+              "SubTaxonomyId": "307",
+              "SubTaxonomyName": "General Engineering"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "080777",
+                  "Name": "Assembly",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "026422",
+                  "Name": "Flash",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "144",
+              "SubTaxonomyName": "Computer Hardware"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "080944",
+                  "Name": "Analysis Design",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "134",
+              "SubTaxonomyName": "Design"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "080352",
+                  "Name": "Analysis Design",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "308",
+              "SubTaxonomyName": "Power Engineering"
+            }
+          ],
+          "Id": "5",
+          "Name": "Engineering",
+          "PercentOfOverall": 1
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 171
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "9000268",
+                      "Name": "CRM",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 171
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 171
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "Id": "9000267",
+                  "Name": "Customer Relationship Management",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "583",
+              "SubTaxonomyName": "Talent Sourcing"
+            }
+          ],
+          "Id": "9",
+          "Name": "Human Resources",
+          "PercentOfOverall": 1
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "026959",
+                  "Name": "Quoting",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 93,
+              "SubTaxonomyId": "239",
+              "SubTaxonomyName": "Trading"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "020748",
+                  "Name": "Life Cycle",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "CERTIFICATIONS"
+                        }
+                      ],
+                      "Id": "7000221",
+                      "Name": "SIX Sigma",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "7000128",
+                  "Name": "SIX-Sigma",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 5,
+              "SubTaxonomyId": "237",
+              "SubTaxonomyName": "Operations"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "012194",
+                  "Name": "Business Analysis",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 2,
+              "SubTaxonomyId": "246",
+              "SubTaxonomyName": "Treasury"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "024099",
+                  "Name": "Data Modeling",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "243",
+              "SubTaxonomyName": "Other"
+            }
+          ],
+          "Id": "7",
+          "Name": "Finance",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "022540",
+                  "Name": "Laboratory",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 99,
+              "SubTaxonomyId": "375",
+              "SubTaxonomyName": "Clinical"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "021649",
+                  "Name": "Mercury",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "377",
+              "SubTaxonomyName": "Chemical"
+            }
+          ],
+          "Id": "15",
+          "Name": "Scientific",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "023486",
+                  "Name": "Customer Support",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "113",
+              "SubTaxonomyName": "Admin"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 164
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "Id": "013326",
+                      "Name": "Customer Service",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 164
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "Id": "023735",
+                  "Name": "Customer Service Oriented",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "112",
+              "SubTaxonomyName": "Messages and Contact"
+            }
+          ],
+          "Id": "1",
+          "Name": "Administrative or Clerical",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "014960",
+                  "Name": "Data Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "014996",
+                  "Name": "Data Modeling",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "005482",
+                  "Name": "Problem Solving",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "026957",
+                  "Name": "Quoting",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "437",
+              "SubTaxonomyName": "General Skills and Activities"
+            }
+          ],
+          "Id": "34",
+          "Name": "Business Operations and General Business",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 164
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "Id": "006920",
+                      "Name": "Customer Service",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 164
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "Id": "022943",
+                  "Name": "Retail Sales",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "511",
+              "SubTaxonomyName": "Positions"
+            }
+          ],
+          "Id": "78",
+          "Name": "Retail",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "031018",
+                  "Name": "Excellent Communication Skills",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "005353",
+                  "Name": "Presentation Skills",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 67,
+              "SubTaxonomyId": "532",
+              "SubTaxonomyName": "Aptitudes"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "026529",
+                  "Name": "Team Player",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 33,
+              "SubTaxonomyId": "528",
+              "SubTaxonomyName": "Attitude"
+            }
+          ],
+          "Id": "90",
+          "Name": "Personal Attributes",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 69
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "022776",
+                  "Name": "Writing Technical",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 62,
+              "SubTaxonomyId": "430",
+              "SubTaxonomyName": "General"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "022620",
+                  "Name": "Documentation",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 38,
+              "SubTaxonomyId": "429",
+              "SubTaxonomyName": "Specs and Documentation"
+            }
+          ],
+          "Id": "31",
+          "Name": "Written Communications",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "026625",
+                  "Name": "Dreamweaver",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 32
+                      },
+                      "LastUsed": {
+                        "Value": "2007-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "013441",
+                      "Name": "Adobe Photoshop",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 32
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "025873",
+                  "Name": "Photoshop",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 97,
+              "SubTaxonomyId": "432",
+              "SubTaxonomyName": "Software"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "024422",
+                  "Name": "Graphic Design",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 3,
+              "SubTaxonomyId": "433",
+              "SubTaxonomyName": "Techniques and Activities"
+            }
+          ],
+          "Id": "33",
+          "Name": "Graphic Design",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "555155108",
+                  "Name": "Project Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "519",
+              "SubTaxonomyName": "Management and Management Tasks"
+            }
+          ],
+          "Id": "80",
+          "Name": "General Management",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 37
+                  },
+                  "LastUsed": {
+                    "Value": "2004-04-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "003754",
+                  "Name": "Offshore",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "441",
+              "SubTaxonomyName": "Drilling"
+            }
+          ],
+          "Id": "44",
+          "Name": "Petrochemical",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "200002",
+                  "Name": "Translate",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "200001",
+                  "Name": "Translated",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "901",
+              "SubTaxonomyName": "Translation"
+            }
+          ],
+          "Id": "91",
+          "Name": "Translations and Language Work",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "5570264",
+                  "Name": "Graphic Design",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 33,
+              "SubTaxonomyId": "569",
+              "SubTaxonomyName": "Graphic Design"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "5570095",
+                  "Name": "Graphic Design",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 33,
+              "SubTaxonomyId": "566",
+              "SubTaxonomyName": "Industrial Design"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "5570072",
+                  "Name": "Graphic Design",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 33,
+              "SubTaxonomyId": "564",
+              "SubTaxonomyName": "Motion Design"
+            }
+          ],
+          "Id": "93",
+          "Name": "User Experience",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "7000058",
+                  "Name": "Accounting",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "950",
+              "SubTaxonomyName": "CPA"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 7
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "022499",
+                  "Name": "Accounting",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "944",
+              "SubTaxonomyName": "Bookkeeping"
+            }
+          ],
+          "Id": "32",
+          "Name": "Degreed Accounting",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 76
+                      },
+                      "LastUsed": {
+                        "Value": "2008-08-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-4"
+                        }
+                      ],
+                      "Id": "011141",
+                      "Name": "Windows 2000",
+                      "ExistsInText": true
+                    },
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "Id": "011143",
+                      "Name": "Windows 2003",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 76
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2008-08-01"
+                  },
+                  "Id": "024345",
+                  "Name": "Microsoft Windows",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 164
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "022472",
+                  "Name": "Windows XP",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "299",
+              "SubTaxonomyName": "Operating Systems"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 240
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "014686",
+                  "Name": "Crystal Reports",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "228",
+              "SubTaxonomyName": "Data-centric"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 32
+                      },
+                      "LastUsed": {
+                        "Value": "2007-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "0120992",
+                      "Name": "Adobe Acrobat",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 32
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "012099",
+                  "Name": "Acrobat",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 32
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "004729",
+                  "Name": "Photoshop",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "108",
+              "SubTaxonomyName": "Core Office"
+            }
+          ],
+          "Id": "0",
+          "Name": "Common End-user Software",
+          "PercentOfOverall": 0
+        }
+      ]
+    }
+  ],
+  "LanguageCompetencies": [
+    {
+      "Language": "English",
+      "LanguageCode": "en",
+      "FoundInContext": "[RESUME_LANGUAGE]"
+    }
+  ],
+  "QualificationsSummary": "Skills\nMicrosoft CRM: MS CRM 4.0, MS CRM 3.0, MS CRM SDK, DMM(Data Migration Manager), Developer  Plug-in  and custom\tworkflows, IFrames, CRMwebservice, Cast Iron Integration system.\nWeb Technologies: ASP.NET, VB.NET, MS VS.NET 3.x, C#,.NET Framework(3.5/2.0), ASP, XML, XSL, XSLT, AJAX, CSS, HTML, DHTML, COM+, DCOM, JAVA, JSP, WAP, PHP, JQUERY, nUnit, WML, WWF\nGUI: Visual Basic (. NET/6.0/5.0), Team Foundation Server, Visual Studio 2005, Visual Interdev, Visual Source Safe 6.0, and Developer 2000,MS Sharepoint Server\nDatabases: SQL Server 2005/7.0, Oracle, and MS-Access\nWeb Server: IIS 5.0/6.0, MTS, Personal Web Server\nSearch Engine: MS Index Server\nTools: SQL Plus 3.0, PL/SQL, and TOAD\nData Modeling: UML Class, Sequence, Activity, Entity-Relationship and Use Case Diagrams\nDesign Patterns: Model-View-Controller (MVC), Singleton\n\nWeb Tools: Fireworks, Dreamweaver\nOperating System: Windows 2003 Server, Windows 2000 Server, Windows (XP, NT, 98, 95), and UNIX\nScripting Technologies: VBScript, JavaScript\nNetwork: HTTP/HTTPS, SMTP, FTP, Telnet, TCP/IP\nLanguages: C, MS-Cobol, and Pascal",
+  "ResumeMetadata": {
+    "FoundSections": [
+      {
+        "FirstLineNumber": 6,
+        "LastLineNumber": 21,
+        "SectionType": "SUMMARY",
+        "HeaderTextFound": "Summary"
+      },
+      {
+        "FirstLineNumber": 22,
+        "LastLineNumber": 38,
+        "SectionType": "SKILLS",
+        "HeaderTextFound": "Skills"
+      },
+      {
+        "FirstLineNumber": 39,
+        "LastLineNumber": 41,
+        "SectionType": "EDUCATION",
+        "HeaderTextFound": "Education"
+      },
+      {
+        "FirstLineNumber": 42,
+        "LastLineNumber": 44,
+        "SectionType": "CERTIFICATIONS",
+        "HeaderTextFound": "Certification"
+      },
+      {
+        "FirstLineNumber": 45,
+        "LastLineNumber": 161,
+        "SectionType": "WORK HISTORY",
+        "HeaderTextFound": "Professional Experiences"
+      }
+    ],
+    "ResumeQuality": [
+      {
+        "Level": "Data Missing",
+        "Findings": [
+          {
+            "QualityCode": "211",
+            "Message": "An email address was not found in the contact information. A resume should always include an email address."
+          },
+          {
+            "QualityCode": "213",
+            "Message": "A street level address was not found in the contact information. A full contact address should always be included in a resume as it allows for location based searches."
+          },
+          {
+            "QualityCode": "232",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "DEG-1"
+              }
+            ],
+            "Message": "Every degree in a resume should be associated with a school."
+          }
+        ]
+      },
+      {
+        "Level": "Suggested Improvements",
+        "Findings": [
+          {
+            "QualityCode": "112",
+            "Message": "The following section was identified as a skills section type: 'Skills'. Skills should not be in a separate section, but instead, each skill should be included in the descriptions of work history or education. THIS IS INCREDIBLY IMPORTANT FOR AI MATCHING ALGORITHMS"
+          }
+        ]
+      }
+    ],
+    "ReservedData": {
+      "Phones": [
+        "1-888-766-9254"
+      ],
+      "Names": [
+        "Anandhi Ganesan"
+      ]
+    },
+    "PlainText": "PRONTO SOLUTIONS LLC\nPROFESSIONAL SERVICES\t1-888-766-9254\n•.•.•.•.•.•.•.•.•.•.•.•\n\nAnandhi Ganesan\n\nSummary\n• 10+ Years of excellent experience in Software Life Cycle Development in system analysis, design, web development, testing and maintenance of applications.\n• Experienced in MS CRM Dynamics 4.0, CRM SDK, DMM(Data Migration Manager) Developer  Plug-in  and custom workflows Cast Iron Integration system, NET Framework (3.5/2.0) (WCF/WPF) in both Web and Window Forms using ASP.NET, ADO.NET, VB.NET, MS VS.NET 3.x ,C#, Web Services, XML and SOAP. Experienced with Visual Basic (6.0/5.0), Classic ASP, XML, XSL, XSLT, DHTML, Visual Interdev 6.0, Visual Source Safe 6.0, VBScript, JavaScript, IIS 5.0, Crystal Reports, MTS.\n• Experience with OOD, .NET, SOAP, Web Services, WSDL, Design experience, Object Oriented Programming, developing n-tier web applications with Microsoft .Net technology.\n• Experience designing and implementing core framework components and reusable libraries. Smart Client Programming, Microsoft Applications Blocks/Enterprise Libraries\n• Experience in business analysis and Project Management methodologies and a solid understanding of UAT, Data Modeling, Business Process Modeling, Change Request.\n• Expert in data access to MS SQL Server 2000/2005. Have good working knowledge and experience with custom SQL Scripts, Stored Procedures for SQL Server,Triggers, SSRS.\n• Have a strong understanding of the .NET development platform, object-oriented design concepts, and the ability to apply these tools to design, implement, and support solutions based on requirements\n• Experience in Data modeling, Data Design, Normalization, Data migration projects involving SQL Server.\n• Production support experience with Working knowledge of software quality assurance practices, Strong in data analysis using PL/SQL in Oracle (8i, 8.0/7.3), SQL Server (2000/7.0) and MS-Access DB\n• Hard-working team player with excellent communication skills.\n• Ability to handle multiple tasks and solve complex problems.\n• Strong understanding of database structures, theories, principles, and practices.\n• Developed technical documentations.\n• Very strong analytical and problem solving techniques, presentation skills and timely deliverance with proven team player/leadership qualities.\n\nSkills\nMicrosoft CRM: MS CRM 4.0, MS CRM 3.0, MS CRM SDK, DMM(Data Migration Manager), Developer  Plug-in  and custom\tworkflows, IFrames, CRMwebservice, Cast Iron Integration system.\nWeb Technologies: ASP.NET, VB.NET, MS VS.NET 3.x, C#,.NET Framework(3.5/2.0), ASP, XML, XSL, XSLT, AJAX, CSS, HTML, DHTML, COM+, DCOM, JAVA, JSP, WAP, PHP, JQUERY, nUnit, WML, WWF\nGUI: Visual Basic (. NET/6.0/5.0), Team Foundation Server, Visual Studio 2005, Visual Interdev, Visual Source Safe 6.0, and Developer 2000,MS Sharepoint Server\nDatabases: SQL Server 2005/7.0, Oracle, and MS-Access\nWeb Server: IIS 5.0/6.0, MTS, Personal Web Server\nSearch Engine: MS Index Server\nTools: SQL Plus 3.0, PL/SQL, and TOAD\nData Modeling: UML Class, Sequence, Activity, Entity-Relationship and Use Case Diagrams\nDesign Patterns: Model-View-Controller (MVC), Singleton\n\nWeb Tools: Fireworks, Dreamweaver\nOperating System: Windows 2003 Server, Windows 2000 Server, Windows (XP, NT, 98, 95), and UNIX\nScripting Technologies: VBScript, JavaScript\nNetwork: HTTP/HTTPS, SMTP, FTP, Telnet, TCP/IP\nLanguages: C, MS-Cobol, and Pascal\n\nEducation\n• B.S. Computer Science\n\nCertification\n• Six Sigma Certification.\n\nProfessional Experiences\n\n\nDGN Inc,  CA\tAug 2008 - Present\nLead MS CRM Consultant/ Application Designer\n\nAxygen Scientific is a Bio-Technology company a leading manufacturer of the highest quality laboratory consumables for researchers in the pharmaceutical, biotech, and academia communities worldwide.\n\n• As a MS CRM subject matter expert, worked with non-technical users to understand the business requirements, Presented design and implementation approaches to colleagues and management.\n• Implemented Microsoft CRM Dynamics and Web applications Development Projects.\n• Managed the complete Microsoft CRM Dynamics project implementation. As a business analyst and lead developer, managed CRM process mappings, Designed workflow, Set up Admin roles, Developed CRM customizations and report developments.\n• Migrated Salesforce data to Microsoft CRM dynamics.\n• Interacted with Business Process Owners to define and evaluate enhancements for the CRM modules.\n• Integrated MS Dynamics CRM 4.0 with other software applications to streamline and automate business practices.\n• Interacting with users to troubleshoot and/or enhance database features and functionality\n• Implemented standard MS CRM functions and MS CRM Customization to Support  user requirements from Sales, Quoting, and Customer service and management departments to track and save all data daily and for data analysis.\n• Used Data Migration Manager(DMM) for the migration of data into Microsoft CRM Dynamics.\n• Customized Microsoft Dynamics CRM deployments with custom entities, form scripting, custom plug-ins, and custom workflow assemblies.\n• Developed CRM access roles and security functions, Created CRM user accounts, security settings and permissions within the CRM environment.\n• Developed CRM views and reports for daily and analyzing process by using Microsoft Filter View and Microsoft SQL Reporting Service.\n• Designed and developed custom data-driven C# .NET assemblies, callouts and plug-ins integrations of Microsoft CRM with external software systems.\n• Deployed and scheduled Reports using SSRS to generate all daily, weekly, monthly and quarterly Reports including current status.\n• Responsible  in configuration of report server and report manager scheduling, giving permissions to different level of users in SQL Server Reporting Services (SSRS).\n• Integrated Sharepoint in the  Dynamics CRM application to store related documents and link to the documents on Dynamics CRM forms.\n• Managed full project lifecycle, and designed and executed test scenarios and test scripts.\n• Integrated Web sites, applications, and processes with CRM data using Web Services, WSDL, CRM API.\n• Used Cast Iron Integration system to Get and Post web details using Microsoft CRM Dynamics.\n• Administered the Content Management System(CMS) for complete Product information.\n• Involved in web and application support working on emergency bug fixes.\n• Trained Customer Support and Users to use the Content Management System CMS.\n• Interfaced with customer advocates for determining project scope and gathering requirements\n\n\nEnvironment: Microsoft CRM Dynamics 4.0, Cast Iron System, DMM(Data Migration Manager), CRM SDK, CMS ASP.NET, VB.NET, .NET Framework 2.0, MS VS .NET 3.x,C#, ,Share Point Server, Test Director, CSS, XML, AJAX, XSLT, JavaScript, VBScript, nUnit, Crystal Reports, HTML, T SQL, SQL Server 2005, Windows XP.\n\n\nSerenity Infotech, GA\tJan-2008 - Aug 2008\nMS CRM Consultant /Business Analyst\n\n• Designed, developed, and delivered full production applications based on requirements analysis and prototype applications for various clients.\n• Worked with non-technical users to understand the business requirements, effectively communicated with user community to troubleshoot technical issues.\n• Presented design and implementation approaches to colleagues and management.\n• Set up Microsoft CRM Environments and demonstrate them to potential prospects.\n• Gathered end-users' business requirements and translate them into CRM Application functions with perform gap analysis design to complete the clients' business requirements.\n• Created and developed Microsoft Dynamics CRM Custom parts  workflow, data migration, email integration, new web forms.\n• Performed  business requirements gathering needs and translated into Microsoft Dynamics CRM functions.\n• Customized CRM reports to specific business requirements need by using SSRS.\n• Strong experience using MS CRM SDK Tool, Data Migration for Microsoft Dynamics CRM (DMM) Data Migraton Manager.\n• Provide end-users' training for CRM system with post deployment support.\n• Developed MS CRM plug in and work flow assembly to support sales, accounting, and customer services business process for system integrator client.\n• Integrated other web application with MS CRM by using IFrame and MS CRM Web Services.\n\nEnvironment: Microsoft CRM Dynamics 3.0, Cast Iron System, DMM(Data Migration Manager), CRM SDK,  CMS Classic ASP, ASP.NET, VB.NET,C# .NET Framework 2.0, Visual Basic 6.0, Visual Studio 2003 IDE,  XML, JavaScript, JQuery, VBScript, Crystal Reports, HTML, MS Access, Oracle 10g, Transact SQL, SQL Server, Windows 2000\n\n\nBuilt-in Technologies, GA\tMay-2005 - Dec-2007\nWeb Application Developer\n\nDesigned, developed, and delivered full production applications based on requirements analysis and prototype applications for various clients, including  GDL(Georgia Department of Labour), SOUTHERN POWER.\n• Involved in full software life cycle development, including working with a team of business analyst and programmer to develop/enhance different  modules.\n• Involved in Data Access Layer using VB.NET\n• Built secure functionality using ASP.NET forms authentication\n• Involved in creating stored procedure to support client request in SQL Server 2005\n• Used SQL utility to run T-SQL statements and script file\n• Experience in Image editing using Adobe Photoshop and Adobe Flash for Front end Graphic design.\n• Developed reusable and optimized .NET components using VB.NET.\n• Developed Custom Controls and User Controls using VB.NET.\n• Created and Written reports using SSRS.\n• Was involved in writing Unit tests leveraging nUnit for  module test environment.\n• Was involved in optimizing query performance.\n• Provided support for existing application  in the system.\n• Liaised with clients and team leader through SDLC through Production Support.\n• Using Crystal Reports, developed production reports for all patient on a scheduled basis on the web\n• Involved in doing builds in both Development and Testing Server\n• Involved in writing technical specs for upcoming projects\n• Involved in web and application  support working on emergency bug fixes\n• Involved in QA testing support and Production rollout, production support for Maintenance applications\n\nEnvironment: Classic ASP, ASP.NET, VB.NET,C# .NET Framework 2.0, Visual Basic 6.0, Enfocus, NUnit, PitStop6.1, Visual Studio 2003 IDE, Adobe Acrobat, Adobe Flash, Adobe Photoshop, TestDirector, DCOM, XML, JavaScript, JQuery, VBScript, Crystal Reports, HTML, MS Access, Oracle 10g, Transact SQL, SQL Server 2000, Windows 2000\n\n\n3i People\tAtlanta, GA\nWeb Application Developer\t\t\tMar-2001 - Apr-2004\n\nResponsibilities\n• Involved in full software life cycle development, including working with a team of business analyst and programmer to develop/enhance modules like workflow, assessment, admin info and report.\n• Interfaced with customer advocates for determining project scope and gathering requirements\n• Created system architecture and design using the UML Analysis Model and Design Model\n• Involved in Analysis of requirements documents; creating UML data models; development of user interfaces, middle-tier business objects and database processes; testing of all business systems.\n• Used UML for all the documentation like use-cases, Class diagrams, sequence diagrams and State Charts.\n• Built system requirements, designed database and system flow; programmed in Classic ASP and fully tested.\n• The web-based front-end is written in classic ASP, client-side in JavaScript.\n• Added new database tables and front end pages, developed several security functions to comply with patient information. Stored procedures were used in the ASP code for all database.\n• Designed and Developed ASP.Net UI screens for requesting and reviewing/approving the products ASP.NET, VB.NET\n• Used ASP.NET input validation controls for client side validation on the web pages\n• All data transfers (Requests/Retrievals) comply with XML Schemes and XML namespaces\n• Used ASP.Net Web Server controls like Data Grid, Repeater to display the records multicolumn grid. Customized the data grid column by implementing Hyperlink Column to pass multiple queries to new page\n• Generated XML from SQL to implement dynamic page for the application using ADO.NET\n• Involved in processing XML data using XSL to transform into different XML formats as per the design requirement.\n• Created web services to generate event notification using XML and SOAP\n• Developed reusable and optimized .NET components using VB.NET\n• Developed Custom Controls and User Controls using VB.NET\n• Data Access Layer was built using C#\n• Implemented Data Access layer using ADO.NET to Communicate with the Oracle Database.\n• Implemented Form Based Security for the application and access is based on roles\n• Client query Systems developed on .net object\n• Based on Query class accessed Database to retrieve the response.\n• Used T-SQL, Created and managing schema objects such as tables, views, procedures, triggers and maintained Referential Integrity\n• Three tier architecture which includes communication between presentation layer and Data layer is done through COM+ objects using Visual Basic 6.0\n• Using Crystal Reports, developed production reports for all patient on a scheduled basis on the web\n• Co-ordinate with offshore people in India to develop new projects\n• Involved in doing builds in both Development and Testing Server\n• Involved in writing technical specs for upcoming projects\n• Involved in web and application  support working on emergency bug fixes\n• Testing/Production support for each version release\n\nEnvironment: Classic ASP, VB.Net, C# 2.0, ASP.Net, ADO.Net, MS Access, Visual Basic 6.0, XML, XSL, XSLT, HTML, COM+, DCOM, SOAP, Mercury Test Director, JavaScript, VBScript, Crystal Reports, T-SQL, SQL, Oracle, Windows 2000",
+    "DocumentLanguage": "en",
+    "DocumentCulture": "en-US",
+    "ParserSettings": "Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = US; Culture.Language = English; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = False; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2022-03-29"
+  }
+}

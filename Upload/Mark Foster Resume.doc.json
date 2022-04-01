@@ -1,0 +1,3161 @@
+﻿{
+  "ContactInformation": {
+    "CandidateName": {
+      "FormattedName": "Mark S. Foster",
+      "GivenName": "Mark",
+      "MiddleName": "S.",
+      "FamilyName": "Foster"
+    },
+    "Telephones": [
+      {
+        "InternationalCountryCode": "1",
+        "AreaCityCode": "847",
+        "SubscriberNumber": "791-6911",
+        "Raw": "847-791-6911",
+        "Normalized": "+1 847-791-6911"
+      }
+    ],
+    "EmailAddresses": [
+      "marksidfoster@gmail.com"
+    ],
+    "Location": {
+      "CountryCode": "US",
+      "PostalCode": "60657",
+      "Regions": [
+        "Illinois"
+      ],
+      "Municipality": "Chicago",
+      "StreetAddressLines": [
+        "1301 W. Fletcher St. #216"
+      ]
+    }
+  },
+  "ProfessionalSummary": "• Mark has over 9 years experience in SAP technologies ranging from SAP functional consultant in MM, PM, IM, Purchasing, light QM, MDM (Master Data Module) to Team Leader. Mark is 70% functional and 30% technical.\n\n• Has extensive SAP data management, configuration, data testing, inventory part number, pricing and tax coding expertise. Has implemented several SAP Master Data during SAP roll out and post configuration stages.\n\n• A team player, experienced in working in a diverse work place, with multi-tasking abilities.\n\n• Worked as a Business Analyst the past five years and an SAP Super User the previous four years.\n\n• Extremely skilful in data migration, data entry, data inspection and data integrity management.\n\n• Has worked in three SAP implementations and participated in all aspects of the full life cycle development.  He is very knowledgeable of the ASAP Methodology and the Blueprinting Phase.\n\n• Has been through full life cycle implementations and Go Live situations.  He excels under pressure and enjoys being challenged in a fast paced environment.\n\n• Has excellent communication skills, extensive client and end user interface and has experience training end users on SAP applications.",
+  "Education": {
+    "HighestDegree": {
+      "Name": {
+        "Raw": "Bachelor's Degree in Education",
+        "Normalized": "bachelors"
+      },
+      "Type": "bachelors"
+    },
+    "EducationDetails": [
+      {
+        "Id": "DEG-1",
+        "Text": "Bachelor's Degree in Education - Western Illinois University",
+        "SchoolName": {
+          "Raw": "Western Illinois University",
+          "Normalized": "Western Illinois University"
+        },
+        "SchoolType": "university",
+        "Degree": {
+          "Name": {
+            "Raw": "Bachelor's Degree in Education",
+            "Normalized": "bachelors"
+          },
+          "Type": "bachelors"
+        },
+        "Majors": [
+          "Education"
+        ]
+      }
+    ]
+  },
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "Mark S. Foster is experienced in:  Information Technology (ERP and CRM; Big Data; Database). Mark S. Foster has 42 years of work experience, with 11 years of management experience, including a mid-level position.",
+      "MonthsOfWorkExperience": 504,
+      "MonthsOfManagementExperience": 137,
+      "ExecutiveType": "GENERAL",
+      "AverageMonthsPerEmployer": 29,
+      "FulltimeDirectHirePredictiveIndex": 38,
+      "ManagementStory": "The following management-related items were found:\r\nPurchasing, light QM, MDM (Master Data Module) to Team Leader.\r\n\nStarting on 7/1/2001, the candidate held the following low-level management position for 5 years and 11 months:\n\tTitle: SAP Implementation Team  Leader and Master Data Management for Tetra Pak Inc\nStarting on 7/1/1997, the candidate held the following low-level management position for 9 months:\n\tTitle: Account Manager - Inside Sales for Quill Corporation\nStarting on 9/1/1992, the candidate held the following low-level management position for 5 years and 4 months:\n\tTitle: Ski Lift Supervisor for Keystone Ski Resort",
+      "CurrentManagementLevel": "",
+      "ManagementScore": 30
+    },
+    "Positions": [
+      {
+        "Id": "POS-12",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Integration International/Pepsi",
+            "Normalized": "Integration International/Pepsi"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "Illinois"
+            ],
+            "Municipality": "Chicago"
+          }
+        },
+        "IsSelfEmployed": true,
+        "IsCurrent": true,
+        "JobTitle": {
+          "Raw": "Data Analyst I/Consultant",
+          "Normalized": "Data Analyst I/Consultant",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2009-11-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2022-03-30",
+          "IsCurrentDate": true,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "TaxonomyName": "Manufacturing",
+        "SubTaxonomyName": "Equipment",
+        "JobLevel": "Low Level",
+        "TaxonomyPercentage": 45,
+        "Description": "Working on various SAP projects for new lines of products and existing products for Pepsi.  Creating, changing, deleting and updating Bills of Materials's, for all the Pepsi sites in North America.\n\n** Describe Role and accomplishments**\nSAP Modules Used MM (Material Maintenance) PP (Production Planning).\n*** NEED More Details**\nMention, SAP Environment (Versions, Modules worked etc"
+      },
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "SAP PP",
+            "Normalized": "SAP"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-3",
+          "POS-4",
+          "POS-6",
+          "POS-7",
+          "POS-5"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2010-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2010-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-3",
+        "Employer": {
+          "Name": {
+            "Raw": "SAP PP",
+            "Normalized": "SAP"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-2",
+          "POS-4",
+          "POS-6",
+          "POS-7",
+          "POS-5"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "SAP PM (Plant Maintenance)",
+          "Normalized": "SAP PM Plant Maintenance",
+          "Probability": "Confident",
+          "Variations": [
+            "SAP PM"
+          ]
+        },
+        "StartDate": {
+          "Date": "2010-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2010-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-4",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "SAP PP",
+            "Normalized": "SAP"
+          },
+          "OtherFoundName": {
+            "Raw": "SAP IM",
+            "Normalized": "SAP"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-2",
+          "POS-3",
+          "POS-6",
+          "POS-7",
+          "POS-5"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2010-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2010-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-6",
+        "Employer": {
+          "Name": {
+            "Probability": "Probable",
+            "Raw": "SAP PP",
+            "Normalized": "SAP"
+          },
+          "OtherFoundName": {
+            "Raw": "MDM",
+            "Normalized": "MDM"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-2",
+          "POS-3",
+          "POS-4",
+          "POS-7",
+          "POS-5"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2010-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2010-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "TaxonomyPercentage": 0,
+        "Description": "9 years\t2010   8/10\nSAP R3 4.6/4.7 ECC 6.0\t9 years\t2010   8/10"
+      },
+      {
+        "Id": "POS-7",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "SAP PP",
+            "Normalized": "SAP"
+          },
+          "OtherFoundName": {
+            "Raw": "MRP Lists",
+            "Normalized": "MRP Lists"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-2",
+          "POS-3",
+          "POS-4",
+          "POS-6",
+          "POS-5"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2010-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2010-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-5",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "SAP PP",
+            "Normalized": "SAP"
+          },
+          "OtherFoundName": {
+            "Raw": "SAP QM",
+            "Normalized": "SAP"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-2",
+          "POS-3",
+          "POS-4",
+          "POS-6",
+          "POS-7"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2010-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2010-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-8",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Physical Inventory",
+            "Normalized": "Physical Inventory"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2010-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2010-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-10",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Stock Transfers",
+            "Normalized": "Stock Transfers"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2010-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2010-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "TaxonomyName": "Supply Chain and Logistics",
+        "TaxonomyPercentage": 0,
+        "Description": "Scheduling Agreements\t Light\tOn & Off\t5/10"
+      },
+      {
+        "Id": "POS-11",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Handling Unit Management",
+            "Normalized": "Handling Unit Management"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2010-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2010-05-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "TaxonomyPercentage": 0,
+        "Description": "Project/Experience Synopsis:"
+      },
+      {
+        "Id": "POS-9",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Good Receipts",
+            "Normalized": "Good Receipts"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2006-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2010-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "TaxonomyPercentage": 0
+      },
+      {
+        "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Probable",
+            "Raw": "Steel Manufacturing, and Beverage Production and Packaging",
+            "Normalized": "Steel Manufacturing and Beverage Production and Packaging"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2010-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2010-01-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "TaxonomyPercentage": 0,
+        "Description": "SKILLS/EXPERIENCE SUMMARY:\nTechnical Skills: Years\tMost Recent   Year Skill Exercised   Self Rating (1-10)\nSAP MM (Material Master)\t9 years\t2010   8/10"
+      },
+      {
+        "Id": "POS-13",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Thyssenkrupp Stainless Steel",
+            "Normalized": "Thyssenkrupp Stainless Steel"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "Alabama"
+            ],
+            "Municipality": "Mobile"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Material Master Data Administrator/Spare Parts Administrator",
+          "Normalized": "Material Master Data Administrator/Spare Parts Administrator",
+          "Probability": "Confident",
+          "Variations": [
+            "Material Master Data Administrator",
+            "Spare Parts Administrator"
+          ]
+        },
+        "StartDate": {
+          "Date": "2008-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2009-10-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Installation, Maintenance, Repair",
+        "SubTaxonomyName": "General Repair",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 50,
+        "Description": "Material Master Data Administrator and Spare Parts Administrator  working in Mobile, Alabama and Chicago, Illinois. Part of a new SAP implementation for ThyssenKrupp Stainless Steel which is building a new plant in Calvert, Alabama. ThyssenKrupp is one of the leading steel manufacturers in the world.  SAP Modules Used MM (Material Maintenance) PM (Plant Maintenance).\n\n** Describe Role and accomplishments**\n*** NEED More Details**\nMention, SAP Environment (Versions, Modules worked etc"
+      },
+      {
+        "Id": "POS-14",
+        "Employer": {
+          "Name": {
+            "Probability": "Probable",
+            "Raw": "Oakbrook, Illinois",
+            "Normalized": "Oakbrook Illinois"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "Illinois"
+            ],
+            "Municipality": "May"
+          }
+        },
+        "IsSelfEmployed": true,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "SAP Consultant/SAP Analyst",
+          "Normalized": "SAP Consultant/SAP Analyst",
+          "Probability": "Confident",
+          "Variations": [
+            "SAP Consultant",
+            "SAP Analyst"
+          ]
+        },
+        "StartDate": {
+          "Date": "2007-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2008-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "TaxonomyName": "Installation, Maintenance, Repair",
+        "SubTaxonomyName": "General Repair",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 67,
+        "Description": "Interactive Business Systems\n\nSAP Consultant/SAP Analyst at Kraft Foods in Glenview, Illinois. Kraft is currently working on implementing SAP into all areas of their business. I am involved in Consulting and setting up parts and services for all of their plants in North America and Canada.  SAP Modules Used MM (Material Maintenance) PM (Plant Maintenance).\n\n** Describe Role and accomplishments**\n*** NEED More Details**\nMention, SAP Environment (Versions, Modules worked etc"
+      },
+      {
+        "Id": "POS-15",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Tetra Pak Inc",
+            "Normalized": "Tetra Pak"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "Illinois"
+            ],
+            "Municipality": "Vernon Hills"
+          }
+        },
+        "RelatedToByCompanyName": [
+          "POS-16"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Spare Parts Administrator",
+          "Normalized": "Spare Parts Administrator",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2001-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2007-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Big Data",
+        "JobLevel": "Low Level",
+        "TaxonomyPercentage": 43,
+        "Description": "Vernon Hills, Illinois\tMay 2001 to May 2007\nSAP Implementation Team and Master Data Management\n\n** Need to Describe more SAP role, Role in SAP implementations, SAP Master Data management, SAP modules used, Training etc   ***\n** This Info need to be more elaborate, ** TO SHOW HOW You got SAP experience, and How you used SAP knowledge for this role and progressed in 7 years**\n\nSpare Parts Administrator-Processing Division\nI was part of the SAP Implementation Team and Master Data Management team for North America, Canada and Mexico.  Responsibilities for the Implementation Team included Team Leader, Training of SAP and Implementation to different divisions within Tetra Pak.  Responsibilities include receiving technical inbound calls, faxes, and e-mails from client base across the United States and Canada..  Also, making outbound calls, building quotes, costs and invoicing for the client base.\nI have seven years of experience using SAP at Tetra Pak Inc. located in Vernon Hills, IL.  I am considered a \"Super User\" at Tetra Pak.  This means, I have had access to all the SAP codes.  I have been involved with working in the parts department (Processing Division).  Which includes ordering parts, tracking orders, invoicing, credits, returns, and working with the warehouse to maintain inventory and safety stock from Sweden and our outside vendors for the United States and Canada.  I also set up parts using MPG codes and HTS codes for importing and exporting parts from all over the world.  SAP Modules Used MM (Material Maintenance) PM (Plant Maintenance)."
+      },
+      {
+        "Id": "POS-16",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Tetra Pak Inc",
+            "Normalized": "Tetra Pak"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "IL"
+            ],
+            "Municipality": "Vernon Hills"
+          }
+        },
+        "RelatedToByCompanyName": [
+          "POS-15"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "SAP Implementation Team  Leader and Master Data Management",
+          "Normalized": "SAP Implementation Team Leader and Master Data Management",
+          "Probability": "Confident",
+          "Variations": [
+            "Leader and Master Data Management"
+          ]
+        },
+        "StartDate": {
+          "Date": "2001-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2007-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Supply Chain and Logistics",
+        "SubTaxonomyName": "Inventory",
+        "JobLevel": "Senior Manager (more than 5 years management experience)",
+        "TaxonomyPercentage": 37,
+        "Description": "Mr. Foster has seven years of experience using SAP at Tetra Pak Inc\n\nMark's  responsibilities started as a SAP Super User elevated to a SAP Configuration/Business Analyst, and eventually to a Team Leader.\n\nSAP Modules Used MM (Material Maintenance) & PM (Plant Maintenance).\nMark utilized all of the following within those to modules: IM (Inventory Management), Purchasing, PI Physical Inventory, Stock Transfers, MDM\n(Master Data Module), MRP Lists, and Shipping.\n\n\nIn addition, Mark led a team responsible for North America, Canada and Mexico. This included.\n\n* Training of SAP and Implementation to different divisions within Tetra Pak.\n\nResponsibilities include receiving technical inbound calls, faxes, and e-mails from client base across the United States and Canada..  Also, making outbound calls,\nbuilding quotes, costs and invoicing for the client base.\n\nI have had access to all the SAP codes.  I have been involved with working in the parts department (Processing Division).\n\nThis includes ordering parts, tracking orders, invoicing, credits, returns, and working with the  warehouse to maintain inventory and safety stock from Sweden and our outside vendors for the United States and Canada."
+      },
+      {
+        "Id": "POS-17",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Randstad",
+            "Normalized": "Randstad"
+          },
+          "OtherFoundName": {
+            "Raw": "Baxter Healthcare",
+            "Normalized": "Baxter Healthcare"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "Illinois"
+            ],
+            "Municipality": "Deerfield"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Tax Department Representative",
+          "Normalized": "Tax Department Representative",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2000-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2001-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0,
+        "Description": "Responsibilities included calling clients and Internet interactions to retrieve tax information."
+      },
+      {
+        "Id": "POS-18",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Wonderlic Inc",
+            "Normalized": "Wonderlic"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "Illinois"
+            ],
+            "Municipality": "Libertyville"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "PhonApp and WebApp Account Representative",
+          "Normalized": "PhonApp and WebApp Account Representative",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1999-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2000-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 0,
+        "Description": "Responsibilities included receiving and making client calls, writing, editing, and managing client base for over 500 accounts."
+      },
+      {
+        "Id": "POS-19",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "CM Healthcare Resources Inc",
+            "Normalized": "CM Healthcare Resources"
+          },
+          "OtherFoundName": {
+            "Raw": "Payroll Department",
+            "Normalized": "Payroll Department"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "Illinois"
+            ],
+            "Municipality": "Northbrook"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Data Entry Clerk",
+          "Normalized": "Data Entry Clerk",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1998-12-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1999-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Administrative or Clerical",
+        "SubTaxonomyName": "Accounting Related",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 50,
+        "Description": "(Payroll Department) - (Matthews Employment Inc.)\nResponsibilities included data entry, answering inbound calls and problem solving.  CM Healthcare is a subsidiary of Children's Memorial Medical Center."
+      },
+      {
+        "Id": "POS-20",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Motorola (MCSI)",
+            "Normalized": "Motorola MCSI"
+          },
+          "OtherFoundName": {
+            "Raw": "MCSI",
+            "Normalized": "MCSI"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "Illinois"
+            ],
+            "Municipality": "Libertyville"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Customer Service Representative - (Olsten Staffing Services)",
+          "Normalized": "Customer Service Representative Olsten Staffing Services",
+          "Probability": "Confident",
+          "Variations": [
+            "Customer Service Representative"
+          ]
+        },
+        "StartDate": {
+          "Date": "1998-04-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1998-12-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Telecommunications",
+        "SubTaxonomyName": "Wireless",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 36,
+        "Description": "Responsibilities included answering inbound calls, placing orders and problem solving.  MCSI is the cellular service division of Motorola."
+      },
+      {
+        "Id": "POS-21",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Quill Corporation",
+            "Normalized": "Quill"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "Illinois"
+            ],
+            "Municipality": "Lincolnshire"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Account Manager - Inside Sales",
+          "Normalized": "Account Manager Inside Sales",
+          "Probability": "Confident",
+          "Variations": [
+            "Account Manager",
+            "Inside Sales"
+          ]
+        },
+        "StartDate": {
+          "Date": "1997-07-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1998-03-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Sales",
+        "SubTaxonomyName": "General",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 50,
+        "Description": "Responsibilities included inside sales, placing office products orders for over 125 priority accounts.  Also, problem solving, checking stock and expediting orders."
+      },
+      {
+        "Id": "POS-22",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Keystone Ski Resort",
+            "Normalized": "Keystone Ski Resort"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "Colorado"
+            ],
+            "Municipality": "Keystone"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Ski Lift Supervisor",
+          "Normalized": "Ski Lift Supervisor",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1992-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1997-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Administrative or Clerical",
+        "SubTaxonomyName": "Messages and Contact",
+        "JobLevel": "Senior Manager (more than 5 years management experience)",
+        "TaxonomyPercentage": 67,
+        "Description": "Responsibilities included instructing new employees on the safety regulations, customer service and general rules of the resort pertaining to the ski area."
+      },
+      {
+        "Id": "POS-23",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "United Township High School",
+            "Normalized": "United Township High School"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "Illinois"
+            ],
+            "Municipality": "East Moline"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "1980-08-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1992-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "UNSPECIFIED",
+        "TaxonomyName": "Training",
+        "TaxonomyPercentage": 0,
+        "Description": "Responsibilities included teaching and coaching at the high school level."
+      }
+    ]
+  },
+  "SkillsData": [
+    {
+      "Root": "Sovren",
+      "Taxonomies": [
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 70
+                  },
+                  "LastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    }
+                  ],
+                  "Id": "002822",
+                  "Name": "MRP",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 7
+                      },
+                      "LastUsed": {
+                        "Value": "2010-08-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-6"
+                        }
+                      ],
+                      "Id": "006327",
+                      "Name": "R3",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 7
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2010-08-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 249
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-12"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-13"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-14"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "007436",
+                  "Name": "SAP",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 28,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "195",
+              "SubTaxonomyName": "ERP and CRM"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 149
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-12"
+                    }
+                  ],
+                  "Id": "5530939",
+                  "Name": "Data Analyst",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "5530950",
+                  "Name": "Data Integrity",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    }
+                  ],
+                  "Id": "5530951",
+                  "Name": "Data Management",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "5530953",
+                  "Name": "Data Migration",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 70
+                      },
+                      "LastUsed": {
+                        "Value": "2007-05-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-16"
+                        }
+                      ],
+                      "Id": "5531024",
+                      "Name": "MDM",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 70
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    }
+                  ],
+                  "Id": "5531023",
+                  "Name": "Master Data Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 13,
+              "PercentOfParent": 24,
+              "SubTaxonomyId": "553",
+              "SubTaxonomyName": "Big Data"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 149
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-12"
+                    }
+                  ],
+                  "Id": "014962",
+                  "Name": "Data Analyst",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "014985",
+                  "Name": "Data Integrity",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "014990",
+                  "Name": "Data Migration",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 12,
+              "PercentOfParent": 21,
+              "SubTaxonomyId": "193",
+              "SubTaxonomyName": "Database"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "018031",
+                      "Name": "Full Life Cycle Development",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "023180",
+                  "Name": "Full Life Cycle",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "022707",
+                  "Name": "Life Cycle",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "201",
+              "SubTaxonomyName": "Architecture"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "Id": "006191",
+                  "Name": "QM",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "200",
+              "SubTaxonomyName": "QA and QC"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    }
+                  ],
+                  "Id": "019116",
+                  "Name": "HTS",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "347",
+              "SubTaxonomyName": "Telephony"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "018480",
+                  "Name": "Go Live",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "351",
+              "SubTaxonomyName": "Multimedia"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "013739",
+                  "Name": "Coding",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "204",
+              "SubTaxonomyName": "Programming"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "7310067",
+                  "Name": "User Interface",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "731",
+              "SubTaxonomyName": "User Interface"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 8
+                      },
+                      "LastUsed": {
+                        "Value": "1998-12-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-20"
+                        }
+                      ],
+                      "Id": "002798",
+                      "Name": "Motorola",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 8
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1998-12-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 8
+                  },
+                  "LastUsed": {
+                    "Value": "1998-12-01"
+                  },
+                  "Id": "023875",
+                  "Name": "Vxworks",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "203",
+              "SubTaxonomyName": "UNIX and LINUX"
+            }
+          ],
+          "Id": "10",
+          "Name": "Information Technology",
+          "PercentOfOverall": 57
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 149
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-30"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-12"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "005685",
+                      "Name": "Production Planning",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 149
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "MonthsExperience": {
+                    "Value": 149
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    }
+                  ],
+                  "Id": "022740",
+                  "Name": "Scheduling",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 12,
+              "PercentOfParent": 86,
+              "SubTaxonomyId": "460",
+              "SubTaxonomyName": "Logistics"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 70
+                      },
+                      "LastUsed": {
+                        "Value": "2007-05-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-16"
+                        }
+                      ],
+                      "Id": "006085",
+                      "Name": "Purchasing",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 70
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 70
+                  },
+                  "LastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "Id": "012264",
+                  "Name": "Buying/Procurement",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    }
+                  ],
+                  "Id": "024878",
+                  "Name": "Ordering",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 7,
+              "SubTaxonomyId": "458",
+              "SubTaxonomyName": "Purchasing"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 73
+                  },
+                  "LastUsed": {
+                    "Value": "2010-01-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    }
+                  ],
+                  "Id": "020086",
+                  "Name": "Inventory",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 70
+                  },
+                  "LastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    }
+                  ],
+                  "Id": "555154644",
+                  "Name": "Inventory Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 7,
+              "SubTaxonomyId": "459",
+              "SubTaxonomyName": "Inventory"
+            }
+          ],
+          "Id": "97",
+          "Name": "Supply Chain and Logistics",
+          "PercentOfOverall": 13
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 149
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-30"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-12"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "005684",
+                      "Name": "Production Planning",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 149
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "MonthsExperience": {
+                    "Value": 149
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    }
+                  ],
+                  "Id": "022739",
+                  "Name": "Scheduling",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 6,
+              "PercentOfParent": 48,
+              "SubTaxonomyId": "208",
+              "SubTaxonomyName": "Planning"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 249
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-12"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-13"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-14"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "022116",
+                  "Name": "Maintenance",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 6,
+              "PercentOfParent": 48,
+              "SubTaxonomyId": "364",
+              "SubTaxonomyName": "Equipment"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY"
+                        }
+                      ],
+                      "Id": "008597",
+                      "Name": "Steel Manufacturing",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "022941",
+                  "Name": "Roll Form",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 5,
+              "SubTaxonomyId": "362",
+              "SubTaxonomyName": "General"
+            }
+          ],
+          "Id": "13",
+          "Name": "Manufacturing",
+          "PercentOfOverall": 12
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 249
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-12"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-13"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-14"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "022117",
+                  "Name": "Maintenance",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 107
+                  },
+                  "LastUsed": {
+                    "Value": "2010-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-13"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-14"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "024121",
+                  "Name": "Plant Maintenance",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 12,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "452",
+              "SubTaxonomyName": "General Repair"
+            }
+          ],
+          "Id": "72",
+          "Name": "Installation, Maintenance, Repair",
+          "PercentOfOverall": 12
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "031018",
+                  "Name": "Excellent Communication Skills",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "532",
+              "SubTaxonomyName": "Aptitudes"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "026529",
+                  "Name": "Team Player",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "528",
+              "SubTaxonomyName": "Attitude"
+            }
+          ],
+          "Id": "90",
+          "Name": "Personal Attributes",
+          "PercentOfOverall": 1
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 141
+                  },
+                  "LastUsed": {
+                    "Value": "1992-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-23"
+                    }
+                  ],
+                  "Id": "026879",
+                  "Name": "Teaching",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 80,
+              "SubTaxonomyId": "361",
+              "SubTaxonomyName": "Other"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 141
+                  },
+                  "LastUsed": {
+                    "Value": "1992-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-23"
+                    }
+                  ],
+                  "Id": "013691",
+                  "Name": "Coaching",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 20,
+              "SubTaxonomyId": "360",
+              "SubTaxonomyName": "One On One"
+            }
+          ],
+          "Id": "64",
+          "Name": "Training",
+          "PercentOfOverall": 1
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "1998-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-20"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-22"
+                    }
+                  ],
+                  "Id": "014744",
+                  "Name": "Customer Service",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 8
+                  },
+                  "LastUsed": {
+                    "Value": "1998-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-20"
+                    }
+                  ],
+                  "Id": "014753",
+                  "Name": "Customer Service Representative",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 9
+                  },
+                  "LastUsed": {
+                    "Value": "1998-03-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-21"
+                    }
+                  ],
+                  "Id": "022907",
+                  "Name": "Inside Sales",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 56,
+              "SubTaxonomyId": "130",
+              "SubTaxonomyName": "Customer Facing"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    }
+                  ],
+                  "Id": "026165",
+                  "Name": "Outbound Calls",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 44,
+              "SubTaxonomyId": "128",
+              "SubTaxonomyName": "Call Center"
+            }
+          ],
+          "Id": "46",
+          "Name": "Call Center or Help Desk or Customer Service",
+          "PercentOfOverall": 1
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "005394",
+                  "Name": "Pricing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "516",
+              "SubTaxonomyName": "Budget Related"
+            }
+          ],
+          "Id": "80",
+          "Name": "General Management",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "023181",
+                  "Name": "Full Life Cycle",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 52,
+              "SubTaxonomyId": "264",
+              "SubTaxonomyName": "Techniques"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "Id": "080793",
+                  "Name": "Packaging",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 26,
+              "SubTaxonomyId": "144",
+              "SubTaxonomyName": "Computer Hardware"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "020750",
+                  "Name": "Life Cycle",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 8
+                      },
+                      "LastUsed": {
+                        "Value": "1998-12-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-20"
+                        }
+                      ],
+                      "Id": "002799",
+                      "Name": "Motorola",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 8
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1998-12-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 8
+                  },
+                  "LastUsed": {
+                    "Value": "1998-12-01"
+                  },
+                  "Id": "080464",
+                  "Name": "Vxworks",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 22,
+              "SubTaxonomyId": "307",
+              "SubTaxonomyName": "General Engineering"
+            }
+          ],
+          "Id": "5",
+          "Name": "Engineering",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 22
+                  },
+                  "LastUsed": {
+                    "Value": "1999-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-19"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-20"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-21"
+                    }
+                  ],
+                  "Id": "005482",
+                  "Name": "Problem Solving",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 77
+                  },
+                  "LastUsed": {
+                    "Value": "2010-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "022445",
+                  "Name": "Shipping",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 8
+                  },
+                  "LastUsed": {
+                    "Value": "1998-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-20"
+                    }
+                  ],
+                  "Id": "025724",
+                  "Name": "Staffing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "437",
+              "SubTaxonomyName": "General Skills and Activities"
+            }
+          ],
+          "Id": "34",
+          "Name": "Business Operations and General Business",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 9
+                  },
+                  "LastUsed": {
+                    "Value": "1998-03-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-21"
+                    }
+                  ],
+                  "Id": "030183",
+                  "Name": "Account Manager",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2000-09-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-18"
+                    }
+                  ],
+                  "Id": "030190",
+                  "Name": "Account Representative",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 61,
+              "SubTaxonomyId": "104",
+              "SubTaxonomyName": "Account Management"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    }
+                  ],
+                  "Id": "026164",
+                  "Name": "Outbound Calls",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 33,
+              "SubTaxonomyId": "248",
+              "SubTaxonomyName": "Telemarketing"
+            },
+            {
+              "PercentOfOverall": 0,
+              "PercentOfParent": 7,
+              "SubTaxonomyId": "105",
+              "SubTaxonomyName": "General"
+            }
+          ],
+          "Id": "20",
+          "Name": "Sales",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 77
+                  },
+                  "LastUsed": {
+                    "Value": "2010-08-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "022446",
+                  "Name": "Shipping",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 66,
+              "SubTaxonomyId": "497",
+              "SubTaxonomyName": "General Tasks"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 1
+                      },
+                      "LastUsed": {
+                        "Value": "2010-01-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "Id": "010785",
+                      "Name": "Warehouse Inventory",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 1
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2010-01-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "2010-01-31"
+                  },
+                  "Id": "022341",
+                  "Name": "Packing",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 26,
+              "SubTaxonomyId": "496",
+              "SubTaxonomyName": "Warehouse Related"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "Id": "004213",
+                  "Name": "Packaging",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 8,
+              "SubTaxonomyId": "495",
+              "SubTaxonomyName": "Warehouse Manual Labor"
+            }
+          ],
+          "Id": "87",
+          "Name": "Warehouse",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "Id": "022783",
+                  "Name": "Payroll",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 44,
+              "SubTaxonomyId": "117",
+              "SubTaxonomyName": "Accounting Related"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 5
+                  },
+                  "LastUsed": {
+                    "Value": "1999-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-19"
+                    }
+                  ],
+                  "Id": "014123",
+                  "Name": "Data Entry",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 26,
+              "SubTaxonomyId": "109",
+              "SubTaxonomyName": "Document-centric"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    }
+                  ],
+                  "Id": "023639",
+                  "Name": "Invoicing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 15,
+              "SubTaxonomyId": "110",
+              "SubTaxonomyName": "Billing and Collections"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 72
+                      },
+                      "LastUsed": {
+                        "Value": "1998-12-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-20"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-22"
+                        }
+                      ],
+                      "Id": "013326",
+                      "Name": "Customer Service",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 72
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1998-12-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "1998-12-01"
+                  },
+                  "Id": "023735",
+                  "Name": "Customer Service Oriented",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 15,
+              "SubTaxonomyId": "112",
+              "SubTaxonomyName": "Messages and Contact"
+            }
+          ],
+          "Id": "1",
+          "Name": "Administrative or Clerical",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 141
+                  },
+                  "LastUsed": {
+                    "Value": "1992-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-23"
+                    }
+                  ],
+                  "Id": "9000164",
+                  "Name": "Coaching",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 82,
+              "SubTaxonomyId": "579",
+              "SubTaxonomyName": "HR Management"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "Id": "004366",
+                  "Name": "Payroll",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 18,
+              "SubTaxonomyId": "185",
+              "SubTaxonomyName": "Payroll"
+            }
+          ],
+          "Id": "9",
+          "Name": "Human Resources",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    }
+                  ],
+                  "Id": "023641",
+                  "Name": "Invoicing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 75,
+              "SubTaxonomyId": "533",
+              "SubTaxonomyName": "Bookeeping Tasks"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "Id": "004365",
+                  "Name": "Payroll",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 25,
+              "SubTaxonomyId": "535",
+              "SubTaxonomyName": "Payroll Tasks"
+            }
+          ],
+          "Id": "89",
+          "Name": "Bookkeeping, Office Management",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 8
+                  },
+                  "LastUsed": {
+                    "Value": "1998-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-20"
+                    }
+                  ],
+                  "Id": "023140",
+                  "Name": "Cellular",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 54,
+              "SubTaxonomyId": "313",
+              "SubTaxonomyName": "Wireless"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "2007-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-15"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-16"
+                    }
+                  ],
+                  "Id": "023640",
+                  "Name": "Invoicing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 30,
+              "SubTaxonomyId": "323",
+              "SubTaxonomyName": "Skilled"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "014984",
+                  "Name": "Data Integrity",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 17,
+              "SubTaxonomyId": "316",
+              "SubTaxonomyName": "Central Office"
+            }
+          ],
+          "Id": "16",
+          "Name": "Telecommunications",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 16
+                      },
+                      "LastUsed": {
+                        "Value": "2009-10-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-13"
+                        }
+                      ],
+                      "Id": "008536",
+                      "Name": "Stainless Steel",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 16
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2009-10-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 16
+                  },
+                  "LastUsed": {
+                    "Value": "2009-10-31"
+                  },
+                  "Id": "023237",
+                  "Name": "TIG Welding",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 81,
+              "SubTaxonomyId": "287",
+              "SubTaxonomyName": "Machine Shop"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "Id": "022189",
+                  "Name": "Packaging",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 19,
+              "SubTaxonomyId": "293",
+              "SubTaxonomyName": "Other"
+            }
+          ],
+          "Id": "27",
+          "Name": "Light Technical/Trades/Skilled Labor",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "1400245",
+                  "Name": "User Interface",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 80,
+              "SubTaxonomyId": "599",
+              "SubTaxonomyName": "Digital"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "Id": "004215",
+                  "Name": "Packaging",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 20,
+              "SubTaxonomyId": "227",
+              "SubTaxonomyName": "Brand Management"
+            }
+          ],
+          "Id": "14",
+          "Name": "Marketing",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 5
+                  },
+                  "LastUsed": {
+                    "Value": "1999-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-19"
+                    }
+                  ],
+                  "Id": "018806",
+                  "Name": "Healthcare",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "158",
+              "SubTaxonomyName": "Allied Health"
+            }
+          ],
+          "Id": "95",
+          "Name": "Healthcare Non-physician Non-nurse",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 5
+                  },
+                  "LastUsed": {
+                    "Value": "1999-05-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-19"
+                    }
+                  ],
+                  "Id": "013437",
+                  "Name": "Clerk",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "961",
+              "SubTaxonomyName": "Payroll"
+            }
+          ],
+          "Id": "32",
+          "Name": "Degreed Accounting",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "020748",
+                  "Name": "Life Cycle",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 64,
+              "SubTaxonomyId": "237",
+              "SubTaxonomyName": "Operations"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "014986",
+                  "Name": "Data Integrity",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 36,
+              "SubTaxonomyId": "243",
+              "SubTaxonomyName": "Other"
+            }
+          ],
+          "Id": "7",
+          "Name": "Finance",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 72
+                      },
+                      "LastUsed": {
+                        "Value": "1998-12-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-20"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-22"
+                        }
+                      ],
+                      "Id": "006920",
+                      "Name": "Customer Service",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 72
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1998-12-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "1998-12-01"
+                  },
+                  "Id": "022943",
+                  "Name": "Retail Sales",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "511",
+              "SubTaxonomyName": "Positions"
+            }
+          ],
+          "Id": "78",
+          "Name": "Retail",
+          "PercentOfOverall": 0
+        }
+      ]
+    }
+  ],
+  "LanguageCompetencies": [
+    {
+      "Language": "English",
+      "LanguageCode": "en",
+      "FoundInContext": "[RESUME_LANGUAGE]"
+    }
+  ],
+  "ResumeMetadata": {
+    "FoundSections": [
+      {
+        "FirstLineNumber": 7,
+        "LastLineNumber": 23,
+        "SectionType": "SUMMARY",
+        "HeaderTextFound": "SUMMARY"
+      },
+      {
+        "FirstLineNumber": 24,
+        "LastLineNumber": 26,
+        "SectionType": "EDUCATION",
+        "HeaderTextFound": "EDUCATION"
+      },
+      {
+        "FirstLineNumber": 27,
+        "LastLineNumber": 142,
+        "SectionType": "WORK HISTORY",
+        "HeaderTextFound": "INDUSTRY EXPERIENCE"
+      }
+    ],
+    "ResumeQuality": [
+      {
+        "Level": "Data Missing",
+        "Findings": [
+          {
+            "QualityCode": "221",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-2"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-4"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-6"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-7"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-5"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-8"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-10"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-11"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-9"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-1"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-23"
+              }
+            ],
+            "Message": "Every position in a resume should have a job title."
+          }
+        ]
+      },
+      {
+        "Level": "Suggested Improvements",
+        "Findings": [
+          {
+            "QualityCode": "151",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "2"
+              }
+            ],
+            "Message": "Every section should have a clear, unambiguous, commonly-used header on a separate line directly above the content associated with it."
+          }
+        ]
+      }
+    ],
+    "ReservedData": {
+      "Phones": [
+        "847-791-6911 -Cell Phone",
+        "847-791-6911"
+      ],
+      "Names": [
+        "Mr. Foster",
+        "Mr. Foster also set up parts using MPG codes and HTS codes for importing and exporting parts from all over the world.",
+        "Mark S. Foster"
+      ],
+      "EmailAddresses": [
+        "marksidfoster@gmail.com"
+      ],
+      "OtherData": [
+        "1301 W. Fletcher St. #216"
+      ]
+    },
+    "PlainText": "Mark S. Foster\n1301 W. Fletcher St. #216\nChicago, Illinois 60657\n847-791-6911 -Cell Phone\nE-Mail: marksidfoster@gmail.com\n•.•.•.•.•.•.•.•.•.•.•.•\n\nSUMMARY:\n• Mark has over 9 years experience in SAP technologies ranging from SAP functional consultant in MM, PM, IM, Purchasing, light QM, MDM (Master Data Module) to Team Leader. Mark is 70% functional and 30% technical.\n\n• Has extensive SAP data management, configuration, data testing, inventory part number, pricing and tax coding expertise. Has implemented several SAP Master Data during SAP roll out and post configuration stages.\n\n• A team player, experienced in working in a diverse work place, with multi-tasking abilities.\n\n• Worked as a Business Analyst the past five years and an SAP Super User the previous four years.\n\n• Extremely skilful in data migration, data entry, data inspection and data integrity management.\n\n• Has worked in three SAP implementations and participated in all aspects of the full life cycle development.  He is very knowledgeable of the ASAP Methodology and the Blueprinting Phase.\n\n• Has been through full life cycle implementations and Go Live situations.  He excels under pressure and enjoys being challenged in a fast paced environment.\n\n• Has excellent communication skills, extensive client and end user interface and has experience training end users on SAP applications.\n\nEDUCATION:\nBachelor's Degree in Education - Western Illinois University\n\nINDUSTRY EXPERIENCE: Dairy Industry, Warehouse Inventory, Steel Manufacturing, and Beverage Production and Packaging\n\nSKILLS/EXPERIENCE SUMMARY:\nTechnical Skills: Years\tMost Recent   Year Skill Exercised   Self Rating (1-10)\nSAP MM (Material Master)\t9 years\t2010\t  8/10\nSAP PP (Production Planning)   9 years\t2010\t  8/10\nSAP PM (Plant Maintenance)\t9 years\t2010\t  8/10\nSAP IM\t9 years\t2010\t  8/10\nSAP QM\t9 years\t2010\t  6/10\nMDM (Master Data Module)\t9 years\t2010\t  8/10\nShipping\t9 years\t2010\t  8/10\nSAP R3 4.6/4.7 ECC 6.0\t9 years\t2010\t  8/10\nMRP Lists\t9 years\t2010\t  8/10\nPhysical Inventory\t9 years\t2010\t  8/10\nGood Receipts\t On & Off   2006\t  5/10\nStock Transfers\t9 years\t2010\t  8/10\nScheduling Agreements\t Light\tOn & Off\t5/10\nHandling Unit Management\tLight\tOn & Off\t5/10\n\n\nProject/Experience Synopsis:\n\nIntegration International/Pepsi- Chicago, Illinois\t\tNovember 2009 to Present\nData Analyst I/Consultant\n\nWorking on various SAP projects for new lines of products and existing products for Pepsi.  Creating, changing, deleting and updating Bills of Materials's, for all the Pepsi sites in North America.\n\n** Describe Role and accomplishments**\nSAP Modules Used MM (Material Maintenance) PP (Production Planning).\n*** NEED More Details**\nMention, SAP Environment (Versions, Modules worked etc\n\n\nThyssenkrupp Stainless Steel\tJuly 2008 to October 2009\nMaterial Master Data Administrator/Spare Parts Administrator\nMobile, Alabama\nMaterial Master Data Administrator and Spare Parts Administrator  working in Mobile, Alabama and Chicago, Illinois. Part of a new SAP implementation for ThyssenKrupp Stainless Steel which is building a new plant in Calvert, Alabama. ThyssenKrupp is one of the leading steel manufacturers in the world.  SAP Modules Used MM (Material Maintenance) PM (Plant Maintenance).\n\n** Describe Role and accomplishments**\n*** NEED More Details**\nMention, SAP Environment (Versions, Modules worked etc\n\n\nSAP Consultant/SAP Analyst -Oakbrook, Illinois\t\t\tMay 2007 to May 2008\nInteractive Business Systems\n\nSAP Consultant/SAP Analyst at Kraft Foods in Glenview, Illinois. Kraft is currently working on implementing SAP into all areas of their business. I am involved in Consulting and setting up parts and services for all of their plants in North America and Canada.  SAP Modules Used MM (Material Maintenance) PM (Plant Maintenance).\n\n** Describe Role and accomplishments**\n*** NEED More Details**\nMention, SAP Environment (Versions, Modules worked etc\n\n\nTetra Pak Inc. - Vernon Hills, Illinois\tMay 2001 to May 2007\nSAP Implementation Team and Master Data Management\n\n** Need to Describe more SAP role, Role in SAP implementations, SAP Master Data management, SAP modules used, Training etc   ***\n** This Info need to be more elaborate, ** TO SHOW HOW You got SAP experience, and\nHow you used SAP knowledge for this role and progressed in 7 years**\n\nSpare Parts Administrator-Processing Division\nI was part of the SAP Implementation Team and Master Data Management team for North America, Canada and Mexico.  Responsibilities for the Implementation Team included Team Leader, Training of SAP and Implementation to different divisions within Tetra Pak.  Responsibilities include receiving technical inbound calls, faxes, and e-mails from client base across the United States and Canada..  Also, making outbound calls, building quotes, costs and invoicing for the client base.\nI have seven years of experience using SAP at Tetra Pak Inc. located in Vernon Hills, IL.  I am considered a \"Super User\" at Tetra Pak.  This means, I have had access to all the SAP codes.  I have been involved with working in the parts department (Processing Division).  Which includes ordering parts, tracking orders, invoicing, credits, returns, and working with the warehouse to maintain inventory and safety stock from Sweden and our outside vendors for the United States and Canada.  I also set up parts using MPG codes and HTS codes for importing and exporting parts from all over the world.  SAP Modules Used MM (Material Maintenance) PM (Plant Maintenance).\n\nTetra Pak Inc, Vernon Hills, IL - 7/2001 - 5/2007\nIndustry: Manufacturing - Other\nSAP Implementation Team  Leader and Master Data Management\nMr. Foster has seven years of experience using SAP at Tetra Pak Inc\n\nMark's  responsibilities started as a SAP Super User elevated to a SAP Configuration/Business Analyst, and eventually to a Team Leader.\n\nSAP Modules Used MM (Material Maintenance) & PM (Plant Maintenance).\nMark utilized all of the following within those to modules: IM (Inventory Management), Purchasing, PI Physical Inventory, Stock Transfers, MDM\n(Master Data Module), MRP Lists, and Shipping.\n\n\nIn addition, Mark led a team responsible for North America, Canada and Mexico. This included.\n\n* Training of SAP and Implementation to different divisions within Tetra Pak.\n\nResponsibilities include receiving technical inbound calls, faxes, and e-mails from client base across the United States and Canada..  Also, making outbound calls,\nbuilding quotes, costs and invoicing for the client base.\n\nI have had access to all the SAP codes.  I have been involved with working in the parts department (Processing Division).\n\nThis includes ordering parts, tracking orders, invoicing, credits, returns, and working with the  warehouse to maintain inventory and safety stock from Sweden and our outside vendors for the United States and Canada.\n\nMr. Foster also set up parts using MPG codes and HTS codes for importing and exporting parts from all over the world.\n\nBaxter Healthcare - Deerfield, Illinois September 2000 to May 2001\nTax Department Representative - (Randstad)\nResponsibilities included calling clients and Internet interactions to retrieve tax information.\n\nWonderlic Inc. - Libertyville, Illinois\tMay 1999 to September 2000\nPhonApp and WebApp Account Representative\nResponsibilities included receiving and making client calls, writing, editing, and managing client base for over 500 accounts.\n\nCM Healthcare Resources Inc.- Northbrook, Illinois December 1998 to May 1999\nData Entry Clerk (Payroll Department) - (Matthews Employment Inc.)\nResponsibilities included data entry, answering inbound calls and problem solving.  CM Healthcare is a subsidiary of Children's Memorial Medical Center.\n\nMotorola (MCSI) - Libertyville, Illinois April 1998 to December 1998\nCustomer Service Representative - (Olsten Staffing Services)\nResponsibilities included answering inbound calls, placing orders and problem solving.  MCSI is the cellular service division of Motorola.\n\nQuill Corporation - Lincolnshire, Illinois July 1997 to March 1998\nAccount Manager - Inside Sales\nResponsibilities included inside sales, placing office products orders for over 125 priority accounts.  Also, problem solving, checking stock and expediting orders.\n\nKeystone Ski Resort - Keystone, Colorado September 1992 to 1997\nSki Lift Supervisor\nResponsibilities included instructing new employees on the safety regulations, customer service and general rules of the resort pertaining to the ski area.\n\nAugust 1980 - May 1992\nUnited Township High School - East Moline, Illinois\nResponsibilities included teaching and coaching at the high school level.",
+    "DocumentLanguage": "en",
+    "DocumentCulture": "en-US",
+    "ParserSettings": "Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = US; Culture.Language = English; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = False; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2022-03-30"
+  }
+}

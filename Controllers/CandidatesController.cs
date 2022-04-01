@@ -8,7 +8,7 @@
 // File Name:           CandidatesController.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          01-26-2022 19:30
-// Last Updated On:     03-26-2022 20:30
+// Last Updated On:     03-30-2022 15:45
 // *****************************************/
 
 #endregion
@@ -19,6 +19,7 @@ using Sovren;
 using Sovren.Models;
 using Sovren.Models.API.Parsing;
 using Sovren.Models.Resume.ContactInfo;
+using Sovren.Models.Resume.Education;
 using Sovren.Models.Resume.Skills;
 
 #endregion
@@ -598,6 +599,7 @@ public class CandidatesController : ControllerBase
         _command.Varchar("JobOptions", 10, searchModel.JobOptions);
         //_command.Varchar("Communications",10, searchModel.Communication);
         _command.Varchar("Security", 10, searchModel.SecurityClearance);
+        _command.Varchar("User", 10, searchModel.User);
 
         await _connection.OpenAsync();
         await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
@@ -632,7 +634,7 @@ public class CandidatesController : ControllerBase
     /// <summary>
     /// </summary>
     [HttpPost]
-    public void ParseResume()
+    public async Task ParseResume([FromQuery] string fileName, [FromQuery] string fileSize, [FromQuery] string mimeType, [FromQuery] string user)
     {
         /*
          // DAXTRA
@@ -675,15 +677,16 @@ public class CandidatesController : ControllerBase
          return;*/
 
         // SOVREN
-        string _name = Request.Form["filename"].ToString();
+        string _fileData = Request.Form["fileData"].ToString();
+        string _name = _fileData.Split('^')[0];
         string _filename = _hostingEnvironment.ContentRootPath + $@"Upload\{_name}";
 
-        using MemoryStream _stream = new();
-        using FileStream _fs = System.IO.File.Open(_filename, FileMode.Create, FileAccess.Write);
+        await using MemoryStream _stream = new();
+        await using FileStream _fs = System.IO.File.Open(_filename, FileMode.Create, FileAccess.Write);
         try
         {
-            Request.Form.Files[0].CopyTo(_fs);
-            Request.Form.Files[0].CopyTo(_stream);
+            await Request.Form.Files[0].CopyToAsync(_fs);
+            await Request.Form.Files[0].CopyToAsync(_stream);
             _fs.Flush();
             _fs.Close();
         }
@@ -692,7 +695,7 @@ public class CandidatesController : ControllerBase
             _fs.Close();
         }
 
-        SovrenClient _clientSovren = new("40288999", "xKxv4d/+q7Pb15JWHSmVoWh0w49k1teWHWbsFa4i", DataCenter.US);
+        SovrenClient _clientSovren = new("40423445", "L5VLzl7TeAukjSXJLIGNRVA1f8bVFYFbr5GWlUip", DataCenter.US);
         Document _doc = new(_stream.ToArray(), DateTime.Today);
 
         ParseRequest _parseRequest = new(_doc, new());
@@ -728,62 +731,65 @@ public class CandidatesController : ControllerBase
             JObject _parsedData = JObject.Parse(_jsonFile);
             JToken _personToken = _parsedData.SelectToken("Resume.StructuredResume.PersonName");*/
             ParseResumeResponseExtensions _parseData = _parseResume.EasyAccess();
-            string _firstName, _lastName, _middleName, _emailAddress, _phoneMain, _altPhone, _address1, _address2, _city, _state, _zipCode;
-            string _experienceSummary;
+            string _firstName = "", _lastName = "", _middleName = "", _emailAddress = "", _phoneMain = "", _altPhone = "", _address1 = "", _address2 = "", _city = "", _state = "", _zipCode = "";
+            string _keywords = "", _experienceSummary = "", _backgroundNotes = "", _textResume = "", _objective = "", _user = _fileData.Split('^')[3];
             if (_parseData.GetCandidateName() != null)
             {
                 PersonName _candidateName = _parseData.GetCandidateName();
-                _firstName = _candidateName.GivenName;
-                _middleName = _candidateName.MiddleName;
-                _lastName = _candidateName.FamilyName;
+                _firstName = _candidateName.GivenName ?? "";
+                _middleName = _candidateName.MiddleName ?? "";
+                _lastName = _candidateName.FamilyName ?? "";
             }
 
+            bool _background = _parseData.HasSecurityClearance();
+
+            //_parseResume
             /*JToken _contactToken = _parsedData.SelectToken("Resume.StructuredResume.ContactMethod");
             Regex _pattern = new("[^0-9]");*/
 
             if (_parseData.GetContactInfo() != null)
             {
                 ContactInformation _contactInfo = _parseData.GetContactInfo();
-                if (_contactInfo.EmailAddresses.Count > 0)
+                if (_contactInfo.EmailAddresses?.Count > 0)
                 {
                     _emailAddress = _contactInfo.EmailAddresses[0];
                 }
 
-                if (_contactInfo.Telephones.Count > 0)
+                if (_contactInfo.Telephones?.Count > 0)
                 {
-                    _phoneMain = $"({_contactInfo.Telephones[0].AreaCityCode}) {_contactInfo.Telephones[0].SubscriberNumber}";
+                    _phoneMain = $"{_contactInfo.Telephones[0].AreaCityCode}{_contactInfo.Telephones[0].SubscriberNumber}".Replace("-", "").Replace(" ", "");
                 }
 
-                if (_contactInfo.Telephones.Count > 1)
+                if (_contactInfo.Telephones?.Count > 1)
                 {
-                    _altPhone = $"({_contactInfo.Telephones[1].AreaCityCode}) {_contactInfo.Telephones[1].SubscriberNumber}";
+                    _altPhone = $"{_contactInfo.Telephones[1].AreaCityCode}{_contactInfo.Telephones[1].SubscriberNumber}".Replace("-", "").Replace(" ", "");
                 }
 
                 if (_contactInfo.Location != null)
                 {
                     Location _location = _contactInfo.Location;
-                    if (_location.StreetAddressLines.Count > 0)
+                    if (_location.StreetAddressLines?.Count > 0)
                     {
                         _address1 = _location.StreetAddressLines[0];
                     }
 
-                    if (_location.StreetAddressLines.Count > 1)
+                    if (_location.StreetAddressLines?.Count > 1)
                     {
                         _address2 = _location.StreetAddressLines[0];
                     }
 
-                    _city = _location.Municipality;
+                    _city = _location.Municipality ?? "";
                     if (_location.Regions.Count > 0)
                     {
                         _state = _location.Regions[0];
                     }
 
-                    _zipCode = _location.PostalCode;
+                    _zipCode = _location.PostalCode ?? "";
                 }
             }
 
             _experienceSummary = _parseResume.Value.ResumeData.ProfessionalSummary;
-            
+
             DataTable _tableEducation = new();
             _tableEducation.Columns.Add("Degree", typeof(string));
             _tableEducation.Columns.Add("College", typeof(string));
@@ -792,25 +798,29 @@ public class CandidatesController : ControllerBase
             _tableEducation.Columns.Add("Year", typeof(string));
 
             //_parseResume.
-            _parseResume.Value.ResumeData?.Education?.EducationDetails?.ForEach(education =>
-                                                                                {
-                                                                                    DataRow _dr = _tableEducation.NewRow();
-                                                                                    if (education == null)
-                                                                                    {
-                                                                                        return;
-                                                                                    }
+            List<EducationDetails> _educationDetails = _parseResume.Value.ResumeData?.Education?.EducationDetails;
+            if (_educationDetails != null)
+            {
+                foreach (EducationDetails _education in _educationDetails)
+                {
+                    DataRow _dr = _tableEducation.NewRow();
+                    if (_education == null)
+                    {
+                        return;
+                    }
 
-                                                                                    _dr["Degree"] = education.Degree?.Name?.Normalized ?? string.Empty;
-                                                                                    _dr["College"] = education.SchoolName?.Normalized ?? string.Empty;
-                                                                                    if (education.Location?.Regions?.Count > 0)
-                                                                                    {
-                                                                                        _dr["State"] = education.Location.Regions[0];
-                                                                                    }
+                    _dr["Degree"] = _education.Degree?.Name?.Normalized ?? string.Empty;
+                    _dr["College"] = _education.SchoolName?.Normalized ?? string.Empty;
+                    if (_education.Location?.Regions?.Count > 0)
+                    {
+                        _dr["State"] = _education.Location.Regions[0];
+                    }
 
-                                                                                    _dr["Country"] = education.Location?.CountryCode ?? string.Empty;
-                                                                                    _dr["Year"] = education.LastEducationDate?.Date.Year.ToString() ?? string.Empty;
-                                                                                    _tableEducation.Rows.Add(_dr);
-                                                                                });
+                    _dr["Country"] = _education.Location?.CountryCode ?? string.Empty;
+                    _dr["Year"] = _education.LastEducationDate?.Date.Year.ToString() ?? string.Empty;
+                    _tableEducation.Rows.Add(_dr);
+                }
+            }
 
             DataTable _tableEmployer = new();
             _tableEmployer.Columns.Add("Employer", typeof(string));
@@ -866,45 +876,171 @@ public class CandidatesController : ControllerBase
 
             List<ResumeTaxonomyRoot> _skillsData = _parseResume.Value.ResumeData?.SkillsData;
 
-            _skillsData?.ForEach(skills =>
-                                 {
-                                     if (skills == null)
-                                     {
-                                         return;
-                                     }
+            if (_skillsData is {Count: > 0})
+            {
+                try
+                {
+                    foreach (ResumeTaxonomyRoot _skillResume in _skillsData)
+                    {
+                        List<ResumeTaxonomy> _taxonomies = _skillResume?.Taxonomies;
+                        if (_taxonomies is not {Count: > 0})
+                        {
+                            return;
+                        }
 
-                                     List<ResumeTaxonomy> _taxonomies = skills.Taxonomies;
-                                     if (_taxonomies.Any())
-                                     {
-                                         _taxonomies.ForEach(taxonomy =>
-                                                             {
-                                                                 List<ResumeSubTaxonomy> _subTaxonomies = taxonomy.SubTaxonomies;
-                                                                 if (_subTaxonomies.Any())
-                                                                 {
-                                                                     _subTaxonomies.ForEach(subTaxonomy =>
-                                                                                            {
-                                                                                                if (subTaxonomy == null)
-                                                                                                {
-                                                                                                    return;
-                                                                                                }
+                        foreach (ResumeTaxonomy _taxonomy in _taxonomies)
+                        {
+                            if (_taxonomy == null)
+                            {
+                                continue;
+                            }
 
-                                                                                                List<ResumeSkill> _skills = subTaxonomy.Skills;
-                                                                                                if (_skills.Any())
-                                                                                                {
-                                                                                                    _skills.ForEach(skill =>
-                                                                                                                    {
-                                                                                                                        DataRow _dr = _tableSkills.NewRow();
-                                                                                                                        _dr["Skill"] = skill.Name;
-                                                                                                                        _dr["LastUsed"] = skill.LastUsed.Value.Year.ToString();
-                                                                                                                        _dr["Month"] = skill.MonthsExperience.Value.ToString();
-                                                                                                                        _tableSkills.Rows.Add(_dr);
-                                                                                                                    });
-                                                                                                }
-                                                                                            });
-                                                                 }
-                                                             });
-                                     }
-                                 });
+                            _keywords += ", " + _taxonomy.Name;
+                            List<ResumeSubTaxonomy> _subTaxonomies = _taxonomy.SubTaxonomies;
+                            if (_subTaxonomies is not {Count: > 0})
+                            {
+                                return;
+                            }
+
+                            foreach (ResumeSubTaxonomy _subTaxonomy in _subTaxonomies)
+                            {
+                                List<ResumeSkill> _skills = _subTaxonomy?.Skills;
+                                if (_skills is not {Count: > 0})
+                                {
+                                    return;
+                                }
+
+                                foreach (ResumeSkill _skillDetails in _skills)
+                                {
+                                    DataRow _dr = _tableSkills.NewRow();
+                                    _dr["Skill"] = _skillDetails.Name ?? "";
+                                    _dr["LastUsed"] = _skillDetails.LastUsed?.Value.Year.ToString() ?? "";
+                                    _dr["Month"] = _skillDetails.MonthsExperience?.Value.ToString() ?? "0";
+                                    _tableSkills.Rows.Add(_dr);
+                                }
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    await Task.Delay(1);
+                }
+            }
+
+            if (!_keywords.NullOrWhiteSpace())
+            {
+                _keywords = _keywords[2..(_keywords.Length > 502 ? 502 : _keywords.Length)].Trim();
+            }
+
+            if (_parseResume.Value.ResumeData?.SecurityCredentials?.Any() ?? true)
+            {
+                _parseResume.Value.ResumeData.SecurityCredentials?.ForEach(security => { _backgroundNotes += ", " + security.Name; });
+            }
+
+            if (!_backgroundNotes.NullOrWhiteSpace())
+            {
+                _backgroundNotes = _backgroundNotes[2..].Trim();
+            }
+
+            _objective = _parseResume.Value.ResumeData?.Objective ?? "";
+            _textResume = _parseResume.Value.ResumeData?.ResumeMetadata.PlainText ?? "";
+
+            await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
+            await _connection.OpenAsync();
+            int _returnCode = 0;
+            try
+            {
+                await using SqlCommand _command = new("SaveParsedCandidate", _connection)
+                                                  {
+                                                      CommandType = CommandType.StoredProcedure
+                                                  };
+                _command.Int("@ID", DBNull.Value, true);
+                _command.Varchar("@FirstName", 50, _firstName);
+                _command.Varchar("@MiddleName", 50, _middleName);
+                _command.Varchar("@LastName", 50, _lastName);
+                _command.Varchar("@Address", 255, _address1);
+                _command.Varchar("@Address2", 255, _address2);
+                _command.Varchar("@City", 50, _city);
+                _command.Varchar("@State", 50, _state);
+                _command.Varchar("@Zip", 20, _zipCode);
+                _command.Varchar("@Email", 255, _emailAddress);
+                _command.Bit("@Background", _background);
+                _command.Varchar("@SecurityNotes", -1, _backgroundNotes);
+                _command.Varchar("@Phone1", 15, _phoneMain);
+                _command.Varchar("@Phone2", 15, _altPhone);
+                _command.Varchar("@ExperienceSummary", -1, _experienceSummary);
+                _command.Int("@Experience", _parseResume.Value.ResumeData.EmploymentHistory?.ExperienceSummary?.MonthsOfWorkExperience ?? 0);
+                _command.Varchar("@Summary", -1, _parseResume.Value.ResumeData.EmploymentHistory?.ExperienceSummary?.Description ?? "");
+                _command.Varchar("@Objective", -1, _objective);
+                _command.Varchar("@Keywords", 500, _keywords);
+                _command.Varchar("@JobOptions", 5, "F");
+                _command.Varchar("@TaxTerm", 10, "E");
+                _command.Varchar("@TextResume", -1, _textResume);
+                _command.Varchar("@OriginalResume", 255, _name);
+                _command.Varchar("@User", 10, _user);
+                _command.Parameters.AddWithValue("@Education", _tableEducation);
+                _command.Parameters.AddWithValue("@Employer", _tableEmployer);
+                _command.Parameters.AddWithValue("@Skills", _tableSkills);
+
+                await _command.ExecuteNonQueryAsync();
+
+                /*_command.Varchar("@Title", 50, candidateDetails.Title);
+                _command.Int("@Eligibility", candidateDetails.EligibilityID);
+                _command.Decimal("@HourlyRate", 6, 2, candidateDetails.HourlyRate);
+                _command.Decimal("@HourlyRateHigh", 6, 2, candidateDetails.HourlyRateHigh);
+                _command.Decimal("@SalaryLow", 9, 2, candidateDetails.SalaryLow);
+                _command.Decimal("@SalaryHigh", 9, 2, candidateDetails.SalaryHigh);
+                _command.Varchar("@JobOptions", 50, candidateDetails.JobOptions);
+                _command.Char("@Communication", 1, candidateDetails.Communication);
+                _command.Varchar("@TextResume", -1, candidateDetails.TextResume);
+                _command.Varchar("@OriginalResume", 255, candidateDetails.OriginalResume);   //TODO:
+                _command.Varchar("@FormattedResume", 255, candidateDetails.FormattedResume); //TODO:
+                _command.Varchar("@Keywords", 500, candidateDetails.Keywords);
+                _command.Varchar("@Status", 3, "AVL");
+                _command.UniqueIdentifier("@OriginalFileID", DBNull.Value);
+                _command.UniqueIdentifier("@FormattedFileID", DBNull.Value);
+                _command.Varchar("@Phone3", 15, candidateDetails.Phone3);
+                _command.SmallInt("@Phone3Ext", candidateDetails.PhoneExt.ToInt16());
+                _command.VarcharD("@OriginalFileType", 10);      //TODO:
+                _command.VarcharD("@OriginalContentType", 255);  //TODO:
+                _command.VarcharD("@FormattedFileType", 10);     //TODO:
+                _command.VarcharD("@FormattedContentType", 255); //TODO:
+                _command.Varchar("@LinkedIn", 255, candidateDetails.LinkedIn);
+                _command.Varchar("@Facebook", 255, candidateDetails.Facebook);
+                _command.Varchar("@Twitter", 255, candidateDetails.Twitter);
+                _command.Varchar("@Google", 255, candidateDetails.GooglePlus);
+                _command.Bit("@Refer", candidateDetails.Refer);                                 //TODO:
+                _command.Varchar("@ReferAccountMgr", 10, candidateDetails.ReferAccountManager); //TODO:
+                _command.Varchar("@TaxTerm", 10, candidateDetails.TaxTerm);
+                _command.Bit("@Background", candidateDetails.Background);
+                _command.Varchar("@Summary", -1, candidateDetails.Summary);
+                _command.Varchar("@Objective", -1, "");
+                _command.Bit("@EEO", candidateDetails.Eeo);
+                _command.Varchar("@EEOFile", 255, candidateDetails.EeoFile);
+                _command.VarcharD("@EEOFileType", 10);     //TODO:
+                _command.VarcharD("@EEOContentType", 255); //TODO:
+                _command.Varchar("@RelocNotes", 200, candidateDetails.RelocationNotes);
+                _command.Varchar("@SecurityClearanceNotes", 200, candidateDetails.SecurityNotes);*/
+                /*_command.Varchar("@User", 10, "ADMIN");
+
+                await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+
+                _reader.Read();
+                if (_reader.HasRows)
+                {
+                    _returnCode = _reader.GetInt32(0);
+                }
+
+                await _reader.CloseAsync();*/
+            }
+            catch //(Exception exception)
+            {
+                await Task.Delay(1);
+                // ignored
+            }
+
+            await _connection.CloseAsync();
         }
     }
 

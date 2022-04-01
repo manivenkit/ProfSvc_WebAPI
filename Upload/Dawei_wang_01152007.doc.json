@@ -1,0 +1,4555 @@
+﻿{
+  "ContactInformation": {
+    "CandidateName": {
+      "FormattedName": "Dawei Wang",
+      "GivenName": "Dawei",
+      "FamilyName": "Wang"
+    },
+    "Telephones": [
+      {
+        "InternationalCountryCode": "1",
+        "AreaCityCode": "609",
+        "SubscriberNumber": "721-3361",
+        "Raw": "(609)-721-3361",
+        "Normalized": "+1 609-721-3361"
+      }
+    ],
+    "Location": {
+      "CountryCode": "US",
+      "PostalCode": "08536",
+      "Regions": [
+        "NJ"
+      ],
+      "Municipality": "Plainsboro",
+      "StreetAddressLines": [
+        "8 Narrowbrook Court"
+      ]
+    }
+  },
+  "ProfessionalSummary": "OPERATION SYSTEMS: UNIX (Solaris, HP-UX, AIX-UX), DOS, Window NT/2000/XP, Linux (RedHat)\nDATABASE: Oracle, MS SQL server, ACCESS, Oracle Portal, Essbase.\nORACLE TOOLS: Oracle10R2DS, Oracle Developer (Forms 4.5+, Reports 2.5+, Discovery), Oracle Applications Coding and User Interface Standards (Releases 10.7SC, 10.7NCA, 11, 11.5.9, and 11.5.10.1), Oracle Workflow (2.6), Oracle JDeveloper\nAPPLICATIONS: Oracle Applications Release 10.5, 10.7, 11.5.8, 11.5.9, 11.5.10 (ERP/CRM) (module: GL, AR, AP, INV, FA, OE, PO, OPM); HRMS (module: HR, Payroll and i-recruitment); Oracle Portal 3.0.9/9.0.2/10g(904)/10gR2;\nAPPLICATION SERVER: Oracle Application Server 3.0.2/4.0.8; Oracle 10gAS R2/10gAs (904), Oracle 9iAS (1.0.2.2.2/9.0.2.01)\nLANGUAGES: UNIX C/C++, SQL*PLUS, PL/SQL, Visual BASIC, Shell Script\nOTHERS: OEM, STATSPACK, RMAN, Oracle OPS, Oracle RAC10g/9i, Oracle Data Guard, Oracle 10gR2 Grid Control, Oracle OID/SSO/SSL/Wallet Manager. ERWIN, SQLAB, TOAD, FOGLIGHT,IWATCH, SPACEMANAGER, SPOTLIHGT,FST, DBARISAN, BMC SQL*Backtrack, Data Stage (ETL tools), Precise, Patrol, RSA Clear Trust, Noetix view, Hyperion Tools; Veritas, HA Failover (VCS), BCV Split, Clustering and EMC / Disk Suite Disk Storage\nMaster Certification of Oracle Database Administrator\nOracle Certified Professional/Database Administrator",
+  "Education": {
+    "HighestDegree": {
+      "Name": {
+        "Raw": "MS in Engineering",
+        "Normalized": "masters"
+      },
+      "Type": "masters"
+    },
+    "EducationDetails": [
+      {
+        "Id": "DEG-1",
+        "Text": "9/90 - 5/92\tMS in Engineering, New Jersey Institute of Technology, Newark, NJ",
+        "SchoolName": {
+          "Raw": "New Jersey Institute of Technology",
+          "Normalized": "New Jersey Institute of Technology"
+        },
+        "SchoolType": "university",
+        "Location": {
+          "CountryCode": "US",
+          "Regions": [
+            "NJ"
+          ],
+          "Municipality": "Newark"
+        },
+        "Degree": {
+          "Name": {
+            "Raw": "MS in Engineering",
+            "Normalized": "masters"
+          },
+          "Type": "masters"
+        },
+        "Majors": [
+          "Engineering"
+        ],
+        "LastEducationDate": {
+          "Date": "1992-05-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        }
+      },
+      {
+        "Id": "DEG-2",
+        "Text": "9/87 - 9/90\tMS in Engineering, Tong Ji University, Shanghai, P.R. China",
+        "SchoolName": {
+          "Raw": "Tong Ji University",
+          "Normalized": "Tong Ji University"
+        },
+        "SchoolType": "university",
+        "Location": {
+          "CountryCode": "CN",
+          "Municipality": "Shanghai"
+        },
+        "Degree": {
+          "Name": {
+            "Raw": "MS in Engineering",
+            "Normalized": "masters"
+          },
+          "Type": "masters"
+        },
+        "Majors": [
+          "Engineering"
+        ],
+        "LastEducationDate": {
+          "Date": "1990-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        }
+      },
+      {
+        "Id": "DEG-3",
+        "Text": "9/80 - 9/84\tBS in Engineering, Tong Ji University, Shanghai, P.R. China",
+        "SchoolName": {
+          "Raw": "Tong Ji University",
+          "Normalized": "Tong Ji University"
+        },
+        "SchoolType": "university",
+        "Location": {
+          "CountryCode": "CN",
+          "Municipality": "Shanghai"
+        },
+        "Degree": {
+          "Name": {
+            "Raw": "BS in Engineering",
+            "Normalized": "BSc"
+          },
+          "Type": "bachelors"
+        },
+        "Majors": [
+          "Engineering"
+        ],
+        "LastEducationDate": {
+          "Date": "1984-09-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        }
+      }
+    ]
+  },
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "Dawei Wang is experienced in the management of:  Information Technology (Database; UNIX and LINUX). Dawei Wang has 25 years of work experience, with 2 years of management experience, including a mid-level position.",
+      "MonthsOfWorkExperience": 297,
+      "MonthsOfManagementExperience": 25,
+      "ExecutiveType": "GENERAL",
+      "AverageMonthsPerEmployer": 33,
+      "FulltimeDirectHirePredictiveIndex": 48,
+      "ManagementStory": "The following management-related items were found:\r\nTeam Leader/Project Manager\r\n\nStarting on 10/1/2007, the candidate held the following mid-level management position for 1 months:\n\tTitle: SSL and Wallet Manger for Security Patch\nStarting on 10/1/1997, the candidate held the following mid-level management position for 2 years:\n\tTitle: Installation Orale Enterprise Manger, Oracle Web Application for THE NEWARK GROUP, INC",
+      "CurrentManagementLevel": "",
+      "ManagementScore": 55,
+      "AttentionNeeded": "ATTENTION: The candidate appears to have been in management in a past role (SSL and Wallet Manger for Security Patch), but was not in management in the most recent role as Senior Oracle DBA /Oracle Application DBA for Merrill Lynch."
+    },
+    "Positions": [
+      {
+        "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Merrill Lynch",
+            "Normalized": "Merrill Lynch"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "NJ"
+            ],
+            "Municipality": "Hopewell"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": true,
+        "JobTitle": {
+          "Raw": "Senior Oracle DBA /Oracle Application DBA",
+          "Normalized": "Senior Oracle DBA Oracle Application DBA",
+          "Probability": "Confident",
+          "Variations": [
+            "Senior Oracle DBA",
+            "Oracle DBA /Oracle Application DBA",
+            "Oracle DBA"
+          ]
+        },
+        "StartDate": {
+          "Date": "2006-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2022-03-30",
+          "IsCurrentDate": true,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Database",
+        "JobLevel": "Low Level",
+        "TaxonomyPercentage": 89,
+        "Description": "Team Leader/Project Manager\nManaging Merrill Lynch Oracle DBA group for Human Resource/Finanical system\n\nAs Team Leader:\n* Manage Oracle DBA group and  responsible for Merrill Lynch Human Resource/Financial Database System\n* Responsible for Oracle RDBMS verion 10gR2/9i/8x/7\n* Responsible for Oracle Application E-Business 11i\n* Managing DBAgroup for development/production support (24x7x365) globally.\n\nAs Senior Oracle Core DBA:\n* Oracle database administrator and technical production global support (24x7x365)\n(Platform: AIX 5.3/Solaris OS 5.6/Linux Redhat ¾)\n* Install/setup/upgrade/support Oracle database 10R2/9i/8x/7\n* Install/Setup/configure Oracle 10gRAC/DataGuard\n* Install/setup /Oracle Enterprise Manager: 10g grid control/9i OEM\n* Implmentation Data Replication using Materialized view\n* Leading and responsible for performance tuning for Merill Lynch Financial/Human system.\n* RMAN backup setup\n* Database/Application monitoring setup\n\nAs Senior Oracle Application DBA\n* Responsible for Oracle Application E-Business 11i (11.5.10.2) running RDBMS 10gR2\n* Setup/configure Oracle Application Server (10gR2)/Oracle Application 11i(11.5.10.1)/Oracle Express Server\n* APPS DBA routine works: patching/module version upgrade/Quarterly Security Patch upgrade\n\nProject working and finished:"
+      },
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Security Patch",
+            "Normalized": "Security Patch"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "SSL and Wallet Manger",
+          "Normalized": "SSL and Wallet Manager",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2007-10-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2007-10-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Database",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 86,
+        "Description": "(Oct, 2007) for Oracle application 11.5.10.1\n* Oracle Application 11i RUP2/ATG5 Implementation.\n* C & R Failover for Oracle Database\n* 10gR2 RAC for Linux Redhat 3 POC\n* OATM for Oracle application 11.5.10.1\n* Oracle Portal upgrade from 3.0.9 to 10gR2\n* Oracle Application Server 10gR2 integration with Oracle Application 11i\n* Irec payroll upgrade project\n* Oracle application 11.5.9 (financial) - GL partition project\n* Oracle database RDBMS upgrade from 9i to 10gR2\n* Oracle Portal Intergrated with OHRMS\n* Oracle Application E-Business intergation with Oracle Application server 10gR2\n* Oracle Internet Directory, Single sign-on, SSL and Wallet Manger\n* Daylight Saving project"
+      },
+      {
+        "Id": "POS-3",
+        "IsSelfEmployed": true,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Senior Consultant",
+          "Normalized": "Senior Consultant",
+          "Probability": "Confident",
+          "Variations": [
+            "Consultant"
+          ]
+        },
+        "StartDate": {
+          "Date": "2004-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2006-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Database",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 77,
+        "Description": "Senior Database Architect/Senior Database Administrator/Senior Application DBA\nResponsible roles in Finance Globalization project: (Platform: AIX 5.2/Solaris OS 5.6/Linux 3.0)\n* Oracle database administrator and technical production global support (24x7)\n* Install/setup/upgrade/support Oracle database (9.2.0.6)/Oracle Application Server (10g)/Oracle Application 11i(11.5.9)/Oracle Express Server\n* Install/setup/upgrade/support Hyperion Essbase/Hyperion Reports/Hyperion Deployment Service/Hyperion Spreadsheet Service/Hyperion Integration Service (7.1.2)\n* Install/setup/support Websphere 5.1\n* Convert Oracle Web/Form/Concurrent Manager Tier from platform AIX to linux\n* Performance Tuning for database/application server/application\n* Architecture design for the global finance project\n* Install/setup Quest software: Foglight; Spotlight; FST; Performance Analyzer; SQL tuning.\n* Install/setup/upgrade/support Oracle Discoverer 9i/Oracle Portal 9i/Noetix Views\n* Finance Database Archive Project\n* Oracle finance Database RAC setup\n* Support database involved:\n1. OLTP side: Oracle Application database 8.1.7.4/9.2.0.5 (Application 11.5.5/11.5.9)\n2. OLAP side: Hyperion Analytical Server: Essbase Server (7.1.2);\nOracle Express Server;  Oracle data warehouse database (9.2.0.5)\n* Support Application Servers:\n1. Oracle Application Server 10gas (release 1)\n2. IBM Websphere 5.1\n* Support Applications:\n1. Oracle financial Application (Oracle Application 11.5.9)\n2. Oracle Discoverer 9i/Oracle Portal (9.0.4)\n3. Hyperion Deployment Service, Hyperion Spreadsheet, Hyperion Report, Hyperion Analyzer,\nHyperion Integration Service (version 7.1.2)\n4. Oracle Application (11.5.5) embed with Data Warehouse Environment running RDBMS 8.1.7.4\non Sun Solaris\nPerform roles in Project Management:\n• help for recruiting the new DBA for Technical evaluation\n• New software evaluation and project management"
+      },
+      {
+        "Id": "POS-4",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Sungard & Company, Inc",
+            "Normalized": "Sungard"
+          }
+        },
+        "IsSelfEmployed": true,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Senior Consultant",
+          "Normalized": "Senior Consultant",
+          "Probability": "Confident",
+          "Variations": [
+            "Consultant"
+          ]
+        },
+        "StartDate": {
+          "Date": "2003-12-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2004-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Database",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 91,
+        "Description": "Senior Database Administrator/Senior Application DBA\n* Oracle database administrator and technical support (24X7) for Oracle Application (11.5.9)  running RDBMS 9.2.0.4 on Sun Solaris\n- Lead the installation, configuration, and maintenance of multiple Oracle Application 11i\nEnvironments.\n* Oracle Database Upgrade 8.1.7.4 to 9.2.0.4; Oracle Application upgrade 11.5.8 to 11.5. 9\n* Oracle Application Server 10gas install and setup\n* Implementation for Integrating RSA ClearTrust with OracleAS 10g Single-Sign-On\n* Lead performance monitoring and fine-tuning of the system for optimal performance and proactively plan to ensure that optimal performance is maintained.\n* Oracle 9iAS/10sAs Portal support\n* Oracle 9i DataGuard project\n* Oracle 9i RAC project"
+      },
+      {
+        "Id": "POS-5",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Mckinsey & Company, Inc",
+            "Normalized": "Mckinsey"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "NY"
+            ],
+            "Municipality": "New York"
+          }
+        },
+        "IsSelfEmployed": true,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Senior Consultant",
+          "Normalized": "Senior Consultant",
+          "Probability": "Confident",
+          "Variations": [
+            "Consultant"
+          ]
+        },
+        "StartDate": {
+          "Date": "2000-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2003-12-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "contract",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Database",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 69,
+        "Description": "Senior Database Administrator/Senior Application (Financial) DBA/Data Warehouse DBA\nResponsible roles in\n* Firm Financial Reporting Supporting (ERP/CRM)\n* Data Warehouse: Database and ETL supporting\n* Oracle 9iAS(9.0.2.0.1) Portal Development Supporting\n* Oracle 9iAS(9.0.2.0.1) Discovery Supporting\n* Oracle 9iAS(9.0.2.0.1) Oracle Internet Directory Server Supporting\n* Firm Financial Database Reorganization Project\n* Firm Financial Database Upgrade\n* Firm Financial Disaster Recovery Testing Project\n* Standby database project\n* RMAN backup project\n\n- Provide the following expert-level services to client Mckinsey & company:\nPerformed as Regular DBA roles:\n* Oracle database administrator and technical support (24X7) for Oracle Financial database running\n(10.7,11.0.3, 11i Character, Smart Client, NCA, ICA) on Solar/Aix\n* DBA technical support including database creation, storage management, backup and recovery, user account and security management, database tuning and query optimization\n* Participate in data modeling, logical and physical database design for Mckinsey Finanical AP Reporting\n* Plan and implement the backup and recovery procedures for the Oracle Application database\n- Setup RMAN backup and recovery project (Replace BMC- sqlbacktrack tools)\n- Disaster Recovery Testing Project\n* Setup Oracle Enterprise Manager Server (OEM) for monitoring\n* Database Reorganization Project\n* Participate in designing and implementing system disaster recovery procedures, fail-over procedures\n* Installation, migration of Oracle RDBMS (7x/8x/8i/9i)\nPerformed as APPS DBA roles to support Oracle application 11.0.3, 11.5.5:\n- Lead the installation, configuration, administration and maintenance of multiple Oracle\nApplications 11.0.3, 11.5.5, which includes OLTP/OLAP environments for Mckinsey\n- Lead the planning of the production rollout for the Oracle Applications 11i environment\n- Use utility adadmin, adpatch, adaimgr, and adclone to do Oracle Application database\nTechnology stack administration, patch, upgrade, and cloning\n- Main support for Mckinsey Financial database Monthly-Close\n* Oracle financial database setup/configuration/upgrade\n- Mckinsey Finsys database upgrade project\n* Coordinate and support Mckinsey Application Function Team to do Mckinsey Financial Custom implementation\n* Application Tier/Database Tier tuning; SQL query tuning; Concurrent Process Tuning\n- Mckinsey Financial Reporting database performance evaluation and tuning project, which\ninvolved:\nInstance and database tuning; Application Tuning; Server resource Monitoring; concurrent process tuning\nPerformed as IAS DBA role to support Oracle 9i Application\nServer(3.02/4.0.8/9.0.1.0.1/9.0.2.0.1):\n* Leading for Mckinsey Oracle9iAS Application Server Project:\n* Infrastructure design for Oracle9iAS Portal for Mckinsey Financial Reporting\n* Infrastructure design for Oracle9iAS Discovery for Mckinsey Financial Reporting\n- Establishing the best practices\n- Identifying 9iAS software component\n- Define instance and Farms\n* Install the Oracle9iAS infrastructure and its components\n* Install the Oracle9iAS Application and its components\n- Surveying the hardware requirement\n- Determine the proper installation plans\n* Administering the Oracle9iAS application server\n* Administering the Oracle9iAS infrastructure\n- Manage the metadata repository database\n* Managing Security\n- Implementing Mckinsey Reporting Portal Security using Oracle9iAS Single Sign-on and Oracle\nInternet Directory (OID)\n- Implementing Report Server Security setting\n* Supporting Oracle9iAS Portal version (3.0.9/9.0.2.0/9.0.2.6)\n* Supporting Oracle9iAS Discovery (9.0.2.0.58)\nPerformed as Data Warehouse DBA role:\n* Supporting Mckinsey data warehouse database Sail (9.2.0)\n* Data Warehouse Design & Reporting/ DDS Performance Tuning/ETT strategies/Development\nMethodology/ Datastage (ETL tools) support\n* Database Security implementation for  Data warehouse project\n- Implement data warehouse security in database layer instead of application layer by creating\nfunction roles\n- Implement OID server replace TNSNAMES connection from client to server\n* Performance tuning for Data Warehouse (Materialized view/Query Rewrite/ Star Schema)"
+      },
+      {
+        "Id": "POS-6",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Brown Brother Harriman & Co",
+            "Normalized": "Brown Brother Harriman"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "PostalCode": "07310",
+            "Regions": [
+              "NJ"
+            ],
+            "Municipality": "Jersey City"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Senior Database Administrator",
+          "Normalized": "Senior Database Administrator",
+          "Probability": "Confident",
+          "Variations": [
+            "Database Administrator"
+          ]
+        },
+        "StartDate": {
+          "Date": "1999-10-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2000-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Database",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 57,
+        "Description": "Senior Database Administrator/Data Warehouse Database Administrator\nOracle database administrator and technical support for banking, trade securities brokerage & Custody,\nforeign exchange & Mutual funds business.\nResponsible rules in"
+      },
+      {
+        "Id": "POS-7",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Mcafee, Autosys",
+            "Normalized": "Mcafee Autosys"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-8"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "1999-10-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2000-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "TaxonomyPercentage": 0,
+        "Description": "* Firm Data Warehouse Database Production Supporting (24x7) (10/99 - 06/00)\n* Data Modeling for Firm Data Warehouse Project (10/99 - 06/00)\n* Application Support for Mcafee, Autosys\n* Year 2000 Project Testing and Implementation"
+      },
+      {
+        "Id": "POS-8",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Mcafee, Autosys",
+            "Normalized": "Mcafee Autosys"
+          },
+          "OtherFoundName": {
+            "Raw": "Installation OEM, Mcafee, Iwatch, Space Management, SQLLAB",
+            "Normalized": "Installation OEM Mcafee Iwatch Space Management SQLLAB"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-7"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "StartDate": {
+          "Date": "2000-02-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2000-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "TaxonomyPercentage": 0,
+        "Description": "- Provide the following export-level technical support to the client:\n* Installation/upgrade/migration of database (v7.3.4, v8.0.5, and v8.1.5)\n* Installation OEM, Mcafee, Iwatch, Space Management, SQLLAB, and other application tools\n* Data Modeling, local and physical database design for data warehouse project\n* Performance Tunning for database level and application level\n* Designed and implemented a general backup and recovery procedure for Oracle database (Hot backup, Cold backup, Archive backup, Export)\n* Setup monitoring scripts for monitoring Firm wide database"
+      },
+      {
+        "Id": "POS-9",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "THE NEWARK GROUP, INC",
+            "Normalized": "THE NEWARK GROUP"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "PostalCode": "07016",
+            "Regions": [
+              "NJ"
+            ],
+            "Municipality": "Cranford"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-10"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Senior Database Administrator",
+          "Normalized": "Senior Database Administrator",
+          "Probability": "Confident",
+          "Variations": [
+            "Database Administrator"
+          ]
+        },
+        "StartDate": {
+          "Date": "1997-10-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1999-10-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Database",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 69,
+        "Description": "Senior Database Administrator/Application (Financial/Manufacture) DBA\nOracle database administration and technical support for Order Entry of Manufacturing Business and Oracle Financials  (Oracle Applications 10.7 NCA)\nResponsible rules in\n* Corporation database Production Supporting (24x7) (Back-end)  (10/97 - 10/99)\n* Oracle Application (Financial/Manufacture) Supporting (10/97- 10/99)\n* Re-Design for Manufacture Order Entry system for Corporation (10/97- 10/99)"
+      },
+      {
+        "Id": "POS-10",
+        "Employer": {
+          "Name": {
+            "Raw": "THE NEWARK GROUP, INC",
+            "Normalized": "THE NEWARK GROUP"
+          }
+        },
+        "RelatedToByDates": [
+          "POS-9"
+        ],
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Installation Orale Enterprise Manger, Oracle Web Application",
+          "Normalized": "Installation Orale Enterprise Manager Oracle Web Application",
+          "Probability": "Confident",
+          "Variations": [
+            "Installation Orale Enterprise Manger"
+          ]
+        },
+        "StartDate": {
+          "Date": "1997-10-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1999-10-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Database",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 91,
+        "Description": "* Existing Manufacture Reporting Supporting (SQLform 3.0, Reports 1.0) (10/97-10/99)\n* Year 2000 Project (5/99 - 10/99)\n- Provide the following technical support:\n* Architecture design/Data Modeling\n* Oracle database administrating and technical support\n* Installation/upgrade/migration of Oracle database (v7.3.x, v8.x)\n* Installation Orale Enterprise Manger, Oracle Web Application\n* Installation Oracle Application 10.7 NCA on Sun Solaris\n* Performed as APPS DBA rules for patch applying, application setup, etc\n* Provide 24x7 technical support corporation users\n* Designed and developed system and application monitor programs using shell script, SQL and PL/SQL\n* Used I-Watch 3.0 (Quest software tools) as an aid for monitoring production database for managing all kinds of alarms, alert, messages and daily monitoring (alert log, trace files, backups, free space, next extent, cronjob, etc)"
+      },
+      {
+        "Id": "POS-11",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "CHEMTECH Consulting Group, INC",
+            "Normalized": "CHEMTECH Consulting Group"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "PostalCode": "07631",
+            "Regions": [
+              "NJ"
+            ],
+            "Municipality": "Englewood"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Database Administrator",
+          "Normalized": "Database Administrator",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1997-10-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1997-10-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Database",
+        "JobLevel": "Entry Level",
+        "TaxonomyPercentage": 52,
+        "Description": "Database Administrator/Architecture\nOracle database administration and technical support for Laboratory database management system.\nResponsible rule in:\n* Logical and Physical Designing and Developing a Laboratory Database System\n* Designed and Implemented an Application\n* Production Database Supporting\n- Provide the following technical support:\n* Oracle database support and administration\n* Maintained, designed and implemented an application using Developer 2000 to implement Order Entry, AP, AR system\n* Oracle backup and recovery, storage organization, system monitoring, database tuning, and query optimization\n* Data analysis, process analysis, system requirement and specification implement, data modeling, schema mapping, data retrieving, data updating\n* Code review, migration from testing environment to production"
+      }
+    ]
+  },
+  "SkillsData": [
+    {
+      "Root": "Sovren",
+      "Taxonomies": [
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "014961",
+                  "Name": "Data Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 294
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "022486",
+                  "Name": "Database",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "1999-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "015028",
+                  "Name": "Database Administration",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 294
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "015029",
+                  "Name": "Database Administrator",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 74
+                      },
+                      "LastUsed": {
+                        "Value": "2003-12-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-10"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-11"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-5"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-7"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-8"
+                        }
+                      ],
+                      "Id": "01503802",
+                      "Name": "Data Modeling",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 46
+                      },
+                      "LastUsed": {
+                        "Value": "2003-12-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-5"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-8"
+                        }
+                      ],
+                      "Id": "015032",
+                      "Name": "Database Design",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 74
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 74
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "Id": "026777",
+                  "Name": "Database Modeling",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "008483",
+                      "Name": "SQL Server",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "023733",
+                  "Name": "MS SQL Server",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 66
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "003789",
+                  "Name": "OLTP",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 24
+                      },
+                      "LastUsed": {
+                        "Value": "2006-06-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "003983",
+                      "Name": "Oracle Discoverer",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 214
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-30"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "003984",
+                      "Name": "Oracle Express",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 24
+                      },
+                      "LastUsed": {
+                        "Value": "1999-10-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-9"
+                        }
+                      ],
+                      "Id": "003985",
+                      "Name": "Oracle Financials",
+                      "ExistsInText": true
+                    },
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "004000",
+                      "Name": "Oracle Tools",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 238
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "MonthsExperience": {
+                    "Value": 294
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "031048",
+                  "Name": "Oracle",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "1999-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    }
+                  ],
+                  "Id": "004871",
+                  "Name": "PL/SQL",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 190
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "025246",
+                  "Name": "Replication",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 90
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "008481",
+                  "Name": "SQL",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 41,
+              "PercentOfParent": 46,
+              "SubTaxonomyId": "193",
+              "SubTaxonomyName": "Database"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 256
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "017141",
+                  "Name": "AIX",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 214
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "023926",
+                  "Name": "Linux",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 244
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "026332",
+                  "Name": "Solaris",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "01026309",
+                  "Name": "UNIX",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 14,
+              "PercentOfParent": 16,
+              "SubTaxonomyId": "203",
+              "SubTaxonomyName": "UNIX and LINUX"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "5551333",
+                  "Name": "Clustering",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 190
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "5551109",
+                  "Name": "Data Replication",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "5551150",
+                  "Name": "HP-UX",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 244
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "5551192",
+                  "Name": "Solaris",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 7,
+              "PercentOfParent": 8,
+              "SubTaxonomyId": "555",
+              "SubTaxonomyName": "Enterprise Storage"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 262
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "024219",
+                  "Name": "Application Server",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "002371",
+                  "Name": "C/C++",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "012287",
+                  "Name": "C++",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "013739",
+                  "Name": "Coding",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "024398",
+                  "Name": "Developer 2000",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "022210",
+                  "Name": "Visual Basic",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 6,
+              "PercentOfParent": 7,
+              "SubTaxonomyId": "204",
+              "SubTaxonomyName": "Programming"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "015370",
+                  "Name": "Disaster Recovery",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 232
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "007117",
+                  "Name": "RMAN",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 6
+                  },
+                  "LastUsed": {
+                    "Value": "2004-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "007273",
+                  "Name": "RSA",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "2007-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "008512",
+                  "Name": "SSL",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "008513",
+                  "Name": "SSO",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "010489",
+                  "Name": "Veritas",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 6,
+              "PercentOfParent": 7,
+              "SubTaxonomyId": "338",
+              "SubTaxonomyName": "Security"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 190
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "022909",
+                  "Name": "Project Manager",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 5,
+              "PercentOfParent": 5,
+              "SubTaxonomyId": "199",
+              "SubTaxonomyName": "Project Management"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 262
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "022369",
+                  "Name": "RDBMS",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 5,
+              "PercentOfParent": 5,
+              "SubTaxonomyId": "341",
+              "SubTaxonomyName": "Reporting"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "5530921",
+                  "Name": "Clustering",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "5530966",
+                  "Name": "Database Management System",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "5530736",
+                  "Name": "Datastage",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 42
+                      },
+                      "LastUsed": {
+                        "Value": "2003-12-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-5"
+                        }
+                      ],
+                      "Id": "5530984",
+                      "Name": "ERP",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 42
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "Id": "5530983",
+                  "Name": "Enterprise Resource Planning",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "5530987",
+                  "Name": "ETL",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "5531026",
+                  "Name": "Metadata",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 66
+                      },
+                      "LastUsed": {
+                        "Value": "2006-06-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-5"
+                        }
+                      ],
+                      "Id": "553081401",
+                      "Name": "OLAP",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 66
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 66
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "Id": "5530814",
+                  "Name": "Online Analytical Processing",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 190
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "5531054",
+                  "Name": "Replication",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "5530853",
+                  "Name": "Star Schema",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 3,
+              "PercentOfParent": 3,
+              "SubTaxonomyId": "553",
+              "SubTaxonomyName": "Big Data"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 190
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "015836",
+                  "Name": "E-Business",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "026748",
+                  "Name": "Websphere",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "196",
+              "SubTaxonomyName": "Internet"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "5551322",
+                  "Name": "Backtrack",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "1999-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    }
+                  ],
+                  "Id": "5551232",
+                  "Name": "Backups",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "5551236",
+                  "Name": "Disaster Recovery",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 43
+                  },
+                  "LastUsed": {
+                    "Value": "2007-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "5551244",
+                  "Name": "Single Sign-on",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "2007-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "5551224",
+                  "Name": "SSL",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "556",
+              "SubTaxonomyName": "Privacy and Data Security"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 74
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "022439",
+                  "Name": "Data Warehouse",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "016928",
+                  "Name": "Essbase",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 66
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "003783",
+                  "Name": "OLAP",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "008559",
+                  "Name": "Star Schema",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "192",
+              "SubTaxonomyName": "Data Mining"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "1980058",
+                  "Name": "Application Layer",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "013564",
+                  "Name": "Clustering",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "024519",
+                  "Name": "Infrastructure Design",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "008656",
+                  "Name": "Storage Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "198",
+              "SubTaxonomyName": "Network"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "014101",
+                  "Name": "CRM",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "016891",
+                  "Name": "ERP",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "027119",
+                  "Name": "HRMS",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "006325",
+                      "Name": "R2",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "007436",
+                  "Name": "SAP",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "195",
+              "SubTaxonomyName": "ERP and CRM"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "023631",
+                  "Name": "Deployment",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "025156",
+                  "Name": "Rollout",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "251",
+              "SubTaxonomyName": "Config Deploy Upgrade Migrate"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 74
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "024098",
+                  "Name": "Data Modeling",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "016902",
+                  "Name": "Erwin",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "201",
+              "SubTaxonomyName": "Architecture"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "5540924",
+                  "Name": "Hyperion",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 66
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "5540960",
+                  "Name": "OLAP",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 24
+                      },
+                      "LastUsed": {
+                        "Value": "2006-06-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "554096401",
+                      "Name": "Discoverer",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 24
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "5540964",
+                  "Name": "Oracle Discoverer",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "554",
+              "SubTaxonomyName": "Business Intelligence"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "011742",
+                  "Name": "BMC",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "197",
+              "SubTaxonomyName": "Mainframe"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 42
+                      },
+                      "LastUsed": {
+                        "Value": "2003-12-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-5"
+                        }
+                      ],
+                      "Id": "7200031",
+                      "Name": "ICA",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 42
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "Id": "7200030",
+                  "Name": "Independent Component Analysis",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "720",
+              "SubTaxonomyName": "Machine Learning"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "015054",
+                  "Name": "Datastage",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "016965",
+                  "Name": "ETL",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "345",
+              "SubTaxonomyName": "Middleware and Integration"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "7310067",
+                  "Name": "User Interface",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "731",
+              "SubTaxonomyName": "User Interface"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "3490022",
+                  "Name": "Clustering",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 66
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "3490035",
+                  "Name": "OLAP",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "349",
+              "SubTaxonomyName": "Operations, Monitoring and Software Management"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 80
+                  },
+                  "LastUsed": {
+                    "Value": "2004-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "009271",
+                  "Name": "Technical Support",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "194",
+              "SubTaxonomyName": "Help Desk"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "019366",
+                  "Name": "Hyperion",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "350",
+              "SubTaxonomyName": "Financial"
+            }
+          ],
+          "Id": "10",
+          "Name": "Information Technology",
+          "PercentOfOverall": 89
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 232
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "003671",
+                  "Name": "OEM",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 6,
+              "PercentOfParent": 71,
+              "SubTaxonomyId": "105",
+              "SubTaxonomyName": "General"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 190
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "025686",
+                  "Name": "E-Business",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 29,
+              "SubTaxonomyId": "102",
+              "SubTaxonomyName": "Direct Sales"
+            }
+          ],
+          "Id": "20",
+          "Name": "Sales",
+          "PercentOfOverall": 8
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 256
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "004550",
+                  "Name": "Performance Tuning",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "446",
+              "SubTaxonomyName": "Techniques"
+            }
+          ],
+          "Id": "69",
+          "Name": "QA and QC",
+          "PercentOfOverall": 1
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "9000331",
+                      "Name": "OE",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "9000160",
+                  "Name": "ORG Effectiveness",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 32,
+              "SubTaxonomyId": "579",
+              "SubTaxonomyName": "HR Management"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "019094",
+                  "Name": "HR",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 32,
+              "SubTaxonomyId": "262",
+              "SubTaxonomyName": "Other"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "027120",
+                  "Name": "HRMS",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 16,
+              "SubTaxonomyId": "259",
+              "SubTaxonomyName": "Software"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 42
+                      },
+                      "LastUsed": {
+                        "Value": "2003-12-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-5"
+                        }
+                      ],
+                      "Id": "9000268",
+                      "Name": "CRM",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 42
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "Id": "9000267",
+                  "Name": "Customer Relationship Management",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 11,
+              "SubTaxonomyId": "583",
+              "SubTaxonomyName": "Talent Sourcing"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 42
+                      },
+                      "LastUsed": {
+                        "Value": "2003-12-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-5"
+                        }
+                      ],
+                      "Id": "9000075",
+                      "Name": "ERP",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 42
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "Id": "9000074",
+                  "Name": "Employee Resource Group",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 8,
+              "SubTaxonomyId": "574",
+              "SubTaxonomyName": "Diversity & Inclusion"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "2007-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "004366",
+                  "Name": "Payroll",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "185",
+              "SubTaxonomyName": "Payroll"
+            }
+          ],
+          "Id": "9",
+          "Name": "Human Resources",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "022753",
+                  "Name": "Surveying",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 1
+                      },
+                      "LastUsed": {
+                        "Value": "1997-10-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-11"
+                        }
+                      ],
+                      "Id": "021224",
+                      "Name": "Mapping",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 1
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "Id": "023035",
+                  "Name": "TOPO",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 52,
+              "SubTaxonomyId": "298",
+              "SubTaxonomyName": "Surveying"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "020302",
+                  "Name": "Analyzer",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 23,
+              "SubTaxonomyId": "307",
+              "SubTaxonomyName": "General Engineering"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "024520",
+                  "Name": "Infrastructure Design",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 20,
+              "SubTaxonomyId": "134",
+              "SubTaxonomyName": "Design"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "022542",
+                  "Name": "Laboratory",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 4,
+              "SubTaxonomyId": "137",
+              "SubTaxonomyName": "Industrial"
+            }
+          ],
+          "Id": "5",
+          "Name": "Engineering",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 8
+                  },
+                  "LastUsed": {
+                    "Value": "2000-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "024619",
+                  "Name": "Brokerage",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "7000141",
+                  "Name": "Financial Reporting",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "2007-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "018438",
+                  "Name": "GL",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "7000138",
+                  "Name": "Hyperion",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 36,
+              "SubTaxonomyId": "235",
+              "SubTaxonomyName": "Financial Planning & Analysis"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 74
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "024099",
+                  "Name": "Data Modeling",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "023147",
+                  "Name": "Finance",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 26,
+              "SubTaxonomyId": "243",
+              "SubTaxonomyName": "Other"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "017474",
+                  "Name": "Financial Reporting",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 8
+                  },
+                  "LastUsed": {
+                    "Value": "2000-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "023168",
+                  "Name": "Foreign Exchange",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 25,
+              "SubTaxonomyId": "234",
+              "SubTaxonomyName": "Lending"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 8
+                  },
+                  "LastUsed": {
+                    "Value": "2000-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "003231",
+                  "Name": "Mutual Funds",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 12,
+              "SubTaxonomyId": "238",
+              "SubTaxonomyName": "Equities"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 8
+                  },
+                  "LastUsed": {
+                    "Value": "2000-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "023212",
+                  "Name": "Securities",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "244",
+              "SubTaxonomyName": "Broker"
+            }
+          ],
+          "Id": "7",
+          "Name": "Finance",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "023110",
+                  "Name": "Process Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "024213",
+                  "Name": "Workflow",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 86,
+              "SubTaxonomyId": "876",
+              "SubTaxonomyName": "Workflow and Processes"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 74
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "024100",
+                  "Name": "Data Modeling",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 14,
+              "SubTaxonomyId": "501",
+              "SubTaxonomyName": "Modeling"
+            }
+          ],
+          "Id": "71",
+          "Name": "Strategy and Planning",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "024638",
+                  "Name": "Recruiting",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "006646",
+                  "Name": "Recruitment",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "492",
+              "SubTaxonomyName": "Recruiting Tasks and Activities"
+            }
+          ],
+          "Id": "37",
+          "Name": "Recruiting",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "013538",
+                  "Name": "Cloning",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 57,
+              "SubTaxonomyId": "373",
+              "SubTaxonomyName": "Bio"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "022540",
+                  "Name": "Laboratory",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 66
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "003301",
+                  "Name": "NCA",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 43,
+              "SubTaxonomyId": "375",
+              "SubTaxonomyName": "Clinical"
+            }
+          ],
+          "Id": "15",
+          "Name": "Scientific",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY"
+                    }
+                  ],
+                  "Id": "019876",
+                  "Name": "Instructor",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "361",
+              "SubTaxonomyName": "Other"
+            }
+          ],
+          "Id": "64",
+          "Name": "Training",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "55701622",
+                      "Name": "UX",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "5570161",
+                  "Name": "User Experience Design",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "573",
+              "SubTaxonomyName": "Product Design"
+            }
+          ],
+          "Id": "93",
+          "Name": "User Experience",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "5000006",
+                  "Name": "EMC",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "713",
+              "SubTaxonomyName": "EMC / SI"
+            }
+          ],
+          "Id": "29",
+          "Name": "Hardware Engineering",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "007691",
+                  "Name": "Security Implementation",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 90,
+              "SubTaxonomyId": "466",
+              "SubTaxonomyName": "Financial, Accounting and Processes"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "023065",
+                  "Name": "Disaster Recovery",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 10,
+              "SubTaxonomyId": "464",
+              "SubTaxonomyName": "Disaster"
+            }
+          ],
+          "Id": "98",
+          "Name": "Security",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "013742",
+                  "Name": "Coding",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 65,
+              "SubTaxonomyId": "270",
+              "SubTaxonomyName": "Coding"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 66
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "003300",
+                  "Name": "NCA",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 32,
+              "SubTaxonomyId": "277",
+              "SubTaxonomyName": "Other"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "022541",
+                  "Name": "Laboratory",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 3,
+              "SubTaxonomyId": "276",
+              "SubTaxonomyName": "Tests and Functions"
+            }
+          ],
+          "Id": "28",
+          "Name": "Clinical",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "011365",
+                  "Name": "Best Practices",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "014960",
+                  "Name": "Data Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 74
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "014996",
+                  "Name": "Data Modeling",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "437",
+              "SubTaxonomyName": "General Skills and Activities"
+            }
+          ],
+          "Id": "34",
+          "Name": "Business Operations and General Business",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 43
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "020973",
+                  "Name": "AP",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "002497",
+                  "Name": "AR",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 44,
+              "SubTaxonomyId": "110",
+              "SubTaxonomyName": "Billing and Collections"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "015035",
+                  "Name": "Database Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 32,
+              "SubTaxonomyId": "115",
+              "SubTaxonomyName": "Computer Related"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "2007-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "022783",
+                  "Name": "Payroll",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 11,
+              "SubTaxonomyId": "117",
+              "SubTaxonomyName": "Accounting Related"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "1999-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "015021",
+                  "Name": "Order Entry",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 7,
+              "SubTaxonomyId": "109",
+              "SubTaxonomyName": "Document-centric"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "1999-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "004011",
+                  "Name": "Order Entry",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 7,
+              "SubTaxonomyId": "118",
+              "SubTaxonomyName": "Clerk"
+            }
+          ],
+          "Id": "1",
+          "Name": "Administrative or Clerical",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 42
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "023154",
+                  "Name": "Financial Reporting",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "1999-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "017494",
+                  "Name": "Financials",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 83,
+              "SubTaxonomyId": "962",
+              "SubTaxonomyName": "Reporting"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "2007-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "018439",
+                  "Name": "GL",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 17,
+              "SubTaxonomyId": "944",
+              "SubTaxonomyName": "Bookkeeping"
+            }
+          ],
+          "Id": "32",
+          "Name": "Degreed Accounting",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 43
+                  },
+                  "LastUsed": {
+                    "Value": "2003-12-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "020974",
+                  "Name": "AP",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "002496",
+                  "Name": "AR",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "1999-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "025536",
+                  "Name": "Order Entry",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 96,
+              "SubTaxonomyId": "533",
+              "SubTaxonomyName": "Bookeeping Tasks"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "2007-10-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "004365",
+                  "Name": "Payroll",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 4,
+              "SubTaxonomyId": "535",
+              "SubTaxonomyName": "Payroll Tasks"
+            }
+          ],
+          "Id": "89",
+          "Name": "Bookkeeping, Office Management",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 8
+                  },
+                  "LastUsed": {
+                    "Value": "2000-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "Id": "021721",
+                  "Name": "Application Support",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 80
+                  },
+                  "LastUsed": {
+                    "Value": "2004-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "009270",
+                  "Name": "Technical Support",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "129",
+              "SubTaxonomyName": "Help Desk"
+            }
+          ],
+          "Id": "46",
+          "Name": "Call Center or Help Desk or Customer Service",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "2004-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "022117",
+                  "Name": "Maintenance",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "452",
+              "SubTaxonomyName": "General Repair"
+            }
+          ],
+          "Id": "72",
+          "Name": "Installation, Maintenance, Repair",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2006-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "555155108",
+                  "Name": "Project Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "519",
+              "SubTaxonomyName": "Management and Management Tasks"
+            }
+          ],
+          "Id": "80",
+          "Name": "General Management",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "1400245",
+                  "Name": "User Interface",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 79,
+              "SubTaxonomyId": "599",
+              "SubTaxonomyName": "Digital"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 1
+                      },
+                      "LastUsed": {
+                        "Value": "1997-10-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-11"
+                        }
+                      ],
+                      "Id": "1400327",
+                      "Name": "Data Analysis",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 1
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 1
+                  },
+                  "LastUsed": {
+                    "Value": "1997-10-31"
+                  },
+                  "Id": "1400068",
+                  "Name": "Marketing Analysis",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 21,
+              "SubTaxonomyId": "588",
+              "SubTaxonomyName": "Data & Analytics"
+            }
+          ],
+          "Id": "14",
+          "Name": "Marketing",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "2004-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "022116",
+                  "Name": "Maintenance",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "364",
+              "SubTaxonomyName": "Equipment"
+            }
+          ],
+          "Id": "13",
+          "Name": "Manufacturing",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 8
+                  },
+                  "LastUsed": {
+                    "Value": "2000-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "7270004",
+                  "Name": "Securities",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "727",
+              "SubTaxonomyName": "Corporate"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 8
+                  },
+                  "LastUsed": {
+                    "Value": "2000-06-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "200084",
+                  "Name": "Securities",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "400",
+              "SubTaxonomyName": "Litigation"
+            }
+          ],
+          "Id": "12",
+          "Name": "Legal",
+          "PercentOfOverall": 0
+        }
+      ]
+    }
+  ],
+  "Certifications": [
+    {
+      "Name": "Oracle Certified Professional/Database Administrator",
+      "MatchedFromList": false,
+      "IsVariation": false
+    },
+    {
+      "Name": "Oracle Certified Professional",
+      "MatchedFromList": true,
+      "IsVariation": true
+    },
+    {
+      "Name": "Oracle certified DBA",
+      "MatchedFromList": true,
+      "IsVariation": false
+    },
+    {
+      "Name": "Oracle certified",
+      "MatchedFromList": true,
+      "IsVariation": true
+    },
+    {
+      "Name": "certified DBA",
+      "MatchedFromList": true,
+      "IsVariation": true
+    }
+  ],
+  "LanguageCompetencies": [
+    {
+      "Language": "English",
+      "LanguageCode": "en",
+      "FoundInContext": "[RESUME_LANGUAGE]"
+    }
+  ],
+  "ResumeMetadata": {
+    "FoundSections": [
+      {
+        "FirstLineNumber": 8,
+        "LastLineNumber": 18,
+        "SectionType": "SUMMARY",
+        "HeaderTextFound": "TECHNICAL SUMMARY"
+      },
+      {
+        "FirstLineNumber": 19,
+        "LastLineNumber": 28,
+        "SectionType": "WORK HISTORY",
+        "HeaderTextFound": "MANAGEMENT EXPERIENCE SUMMARY"
+      },
+      {
+        "FirstLineNumber": 29,
+        "LastLineNumber": 249,
+        "SectionType": "WORK HISTORY",
+        "HeaderTextFound": "WORK EXPERIENCE"
+      },
+      {
+        "FirstLineNumber": 250,
+        "LastLineNumber": 253,
+        "SectionType": "EDUCATION",
+        "HeaderTextFound": "EDUCATION"
+      }
+    ],
+    "ResumeQuality": [
+      {
+        "Level": "Major Issues Found",
+        "Findings": [
+          {
+            "QualityCode": "323",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "WORK HISTORY"
+              }
+            ],
+            "Message": "Each section type should only appear once in a resume."
+          }
+        ]
+      },
+      {
+        "Level": "Data Missing",
+        "Findings": [
+          {
+            "QualityCode": "211",
+            "Message": "An email address was not found in the contact information. A resume should always include an email address."
+          },
+          {
+            "QualityCode": "221",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-7"
+              },
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-8"
+              }
+            ],
+            "Message": "Every position in a resume should have a job title."
+          },
+          {
+            "QualityCode": "222",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "WORK HISTORY",
+                "Id": "POS-3"
+              }
+            ],
+            "Message": "Every position in a resume should have an employer name."
+          }
+        ]
+      }
+    ],
+    "ReservedData": {
+      "Phones": [
+        "Tel: (609)-721-3361",
+        "(609)-721-3361",
+        "(1.0.2.2.2/9.0.2.01)",
+        "1.0.2.2.2/9.0.2.01"
+      ],
+      "Names": [
+        "Dawei Wang"
+      ],
+      "OtherData": [
+        "8 Narrowbrook Court"
+      ]
+    },
+    "PlainText": "Dawei Wang\n8 Narrowbrook Court, Plainsboro, NJ 08536\nTel: (609)-721-3361\n\n\nEXPERIENCE SUMMARY:\nSenior Oracle Database Architect/Oracle certified DBA/Oracle Application DBA/Oracle Data Warehouse DBA with over 18 years IT experience, servicing as DBA administrating Oracle 10gR2/9i/8.i/8.0/7.x/6.x; servicing as Oracle Application DBA administrating 11i, 11.0.3, 10.7SC; servicing as Oracle Data Warehouse DBA. Extensive hands-on/expert-level services in performance tuning/production support for large databases for both OLTP /OLAP environment. Application experience covers Oracle Application 11i, 11.0.3, 10.7SC (Financial, Manufacture, clinic, HRMS), Oracle Data Warehouse, Oracle Application Server (3.0.2/4.0.8/9.0.1.0.1/9.0.2.0.1/10gR2), Oracle Portal and Oracle Discoverer. Well-versed with logical and physical database design data modeling concepts and techniques. Proficient in Unix Shell scripting, SQL, PL/SQL, and other Oracle utilities. Experience with Verities, HA Failover, Clustering and EMC/Disk Suite Disk Storage\n\nTECHNICAL SUMMARY:\nOPERATION SYSTEMS: UNIX (Solaris, HP-UX, AIX-UX), DOS, Window NT/2000/XP, Linux (RedHat)\nDATABASE: Oracle, MS SQL server, ACCESS, Oracle Portal, Essbase.\nORACLE TOOLS: Oracle10R2DS, Oracle Developer (Forms 4.5+, Reports 2.5+, Discovery), Oracle Applications Coding and User Interface Standards (Releases 10.7SC, 10.7NCA, 11, 11.5.9, and 11.5.10.1), Oracle Workflow (2.6), Oracle JDeveloper\nAPPLICATIONS: Oracle Applications Release 10.5, 10.7, 11.5.8, 11.5.9, 11.5.10 (ERP/CRM) (module: GL, AR, AP, INV, FA, OE, PO, OPM); HRMS (module: HR, Payroll and i-recruitment); Oracle Portal 3.0.9/9.0.2/10g(904)/10gR2;\nAPPLICATION SERVER: Oracle Application Server 3.0.2/4.0.8; Oracle 10gAS R2/10gAs (904), Oracle 9iAS (1.0.2.2.2/9.0.2.01)\nLANGUAGES: UNIX C/C++, SQL*PLUS, PL/SQL, Visual BASIC, Shell Script\nOTHERS: OEM, STATSPACK, RMAN, Oracle OPS, Oracle RAC10g/9i, Oracle Data Guard, Oracle 10gR2 Grid Control, Oracle OID/SSO/SSL/Wallet Manager. ERWIN, SQLAB, TOAD, FOGLIGHT,IWATCH, SPACEMANAGER, SPOTLIHGT,FST, DBARISAN, BMC SQL*Backtrack, Data Stage (ETL tools), Precise, Patrol, RSA Clear Trust, Noetix view, Hyperion Tools; Veritas, HA Failover (VCS), BCV Split, Clustering and EMC / Disk Suite Disk Storage\nMaster Certification of Oracle Database Administrator\nOracle Certified Professional/Database Administrator\n\nMANAGEMENT EXPERIENCE SUMMARY:\nProject management for Oracle database 10g/9i/8x/7x, Oracle Application 11i for Financial Firm. Managing and leading teams, achieve team and individual targets, addressing any issues of concern regarding performance of team members, monitoring performance, coach, counsel and develop people competencies with in the team etc.  Management DBA group to do Global Database Supporting\n\nINSTRUCTOR EXPERIENCE:\n* Teaches in Oracle Developer course - XINCOME Computer Training School\n* Teaches in Oracle Database Administrator course - Current active with HD Dimension Inc\n* Teaches in Oracle10g/9i Projects course - Current active with HD Dimension Inc\n* Teaches in Oracle E-Business Suites 11i-Application DBA course - Current active with HD Dimension, Inc\n\n\nWORK EXPERIENCE:\nMerrill Lynch, Hopewell, NJ  -- 06/06 to present (employee)\nSenior Oracle DBA /Oracle Application DBA\nTeam Leader/Project Manager\nManaging Merrill Lynch Oracle DBA group for Human Resource/Finanical system\n\nAs Team Leader:\n* Manage Oracle DBA group and  responsible for Merrill Lynch Human Resource/Financial Database System\n* Responsible for Oracle RDBMS verion 10gR2/9i/8x/7\n* Responsible for Oracle Application E-Business 11i\n* Managing DBAgroup for development/production support (24x7x365) globally.\n\nAs Senior Oracle Core DBA:\n* Oracle database administrator and technical production global support (24x7x365)\n(Platform: AIX 5.3/Solaris OS 5.6/Linux Redhat ¾)\n* Install/setup/upgrade/support Oracle database 10R2/9i/8x/7\n* Install/Setup/configure Oracle 10gRAC/DataGuard\n* Install/setup /Oracle Enterprise Manager: 10g grid control/9i OEM\n* Implmentation Data Replication using Materialized view\n* Leading and responsible for performance tuning for Merill Lynch Financial/Human system.\n* RMAN backup setup\n* Database/Application monitoring setup\n\nAs Senior Oracle Application DBA\n* Responsible for Oracle Application E-Business 11i (11.5.10.2) running RDBMS 10gR2\n* Setup/configure Oracle Application Server (10gR2)/Oracle Application 11i(11.5.10.1)/Oracle Express Server\n* APPS DBA routine works: patching/module version upgrade/Quarterly Security Patch upgrade\n\nProject working and finished:\n* Security Patch (Oct, 2007) for Oracle application 11.5.10.1\n* Oracle Application 11i RUP2/ATG5 Implementation.\n* C & R Failover for Oracle Database\n* 10gR2 RAC for Linux Redhat 3 POC\n* OATM for Oracle application 11.5.10.1\n* Oracle Portal upgrade from 3.0.9 to 10gR2\n* Oracle Application Server 10gR2 integration with Oracle Application 11i\n* Irec payroll upgrade project\n* Oracle application 11.5.9 (financial) - GL partition project\n* Oracle database RDBMS upgrade from 9i to 10gR2\n* Oracle Portal Intergrated with OHRMS\n* Oracle Application E-Business intergation with Oracle Application server 10gR2\n* Oracle Internet Directory, Single sign-on, SSL and Wallet Manger\n* Daylight Saving project\n\n\n- Senior Consultant: 06/04 - 06/06\nSenior Database Architect/Senior Database Administrator/Senior Application DBA\nResponsible roles in Finance Globalization project: (Platform: AIX 5.2/Solaris OS 5.6/Linux 3.0)\n* Oracle database administrator and technical production global support (24x7)\n* Install/setup/upgrade/support Oracle database (9.2.0.6)/Oracle Application Server (10g)/Oracle Application 11i(11.5.9)/Oracle Express Server\n* Install/setup/upgrade/support Hyperion Essbase/Hyperion Reports/Hyperion Deployment Service/Hyperion Spreadsheet Service/Hyperion Integration Service (7.1.2)\n* Install/setup/support Websphere 5.1\n* Convert Oracle Web/Form/Concurrent Manager Tier from platform AIX to linux\n* Performance Tuning for database/application server/application\n* Architecture design for the global finance project\n* Install/setup Quest software: Foglight; Spotlight; FST; Performance Analyzer; SQL tuning.\n* Install/setup/upgrade/support Oracle Discoverer 9i/Oracle Portal 9i/Noetix Views\n* Finance Database Archive Project\n* Oracle finance Database RAC setup\n* Support database involved:\n1. OLTP side: Oracle Application database 8.1.7.4/9.2.0.5 (Application 11.5.5/11.5.9)\n2. OLAP side: Hyperion Analytical Server: Essbase Server (7.1.2);\nOracle Express Server;  Oracle data warehouse database (9.2.0.5)\n* Support Application Servers:\n1. Oracle Application Server 10gas (release 1)\n2. IBM Websphere 5.1\n* Support Applications:\n1. Oracle financial Application (Oracle Application 11.5.9)\n2. Oracle Discoverer 9i/Oracle Portal (9.0.4)\n3. Hyperion Deployment Service, Hyperion Spreadsheet, Hyperion Report, Hyperion Analyzer,\nHyperion Integration Service (version 7.1.2)\n4. Oracle Application (11.5.5) embed with Data Warehouse Environment running RDBMS 8.1.7.4\non Sun Solaris\nPerform roles in Project Management:\n• help for recruiting the new DBA for Technical evaluation\n• New software evaluation and project management\n\nSungard & Company, Inc, Waydn, PA\n- Senior Consultant: 12/03 - 06/04\nSenior Database Administrator/Senior Application DBA\n* Oracle database administrator and technical support (24X7) for Oracle Application (11.5.9)  running RDBMS 9.2.0.4 on Sun Solaris\n- Lead the installation, configuration, and maintenance of multiple Oracle Application 11i\nEnvironments.\n* Oracle Database Upgrade 8.1.7.4 to 9.2.0.4; Oracle Application upgrade 11.5.8 to 11.5. 9\n* Oracle Application Server 10gas install and setup\n* Implementation for Integrating RSA ClearTrust with OracleAS 10g Single-Sign-On\n* Lead performance monitoring and fine-tuning of the system for optimal performance and proactively plan to ensure that optimal performance is maintained.\n* Oracle 9iAS/10sAs Portal support\n* Oracle 9i DataGuard project\n* Oracle 9i RAC project\n\nMckinsey & Company, Inc, New York, NY\n- Senior Consultant: 06/00 - 12/03\nSenior Database Administrator/Senior Application (Financial) DBA/Data Warehouse DBA\nResponsible roles in\n* Firm Financial Reporting Supporting (ERP/CRM)\n* Data Warehouse: Database and ETL supporting\n* Oracle 9iAS(9.0.2.0.1) Portal Development Supporting\n* Oracle 9iAS(9.0.2.0.1) Discovery Supporting\n* Oracle 9iAS(9.0.2.0.1) Oracle Internet Directory Server Supporting\n* Firm Financial Database Reorganization Project\n* Firm Financial Database Upgrade\n* Firm Financial Disaster Recovery Testing Project\n* Standby database project\n* RMAN backup project\n\n- Provide the following expert-level services to client Mckinsey & company:\nPerformed as Regular DBA roles:\n* Oracle database administrator and technical support (24X7) for Oracle Financial database running\n(10.7,11.0.3, 11i Character, Smart Client, NCA, ICA) on Solar/Aix\n* DBA technical support including database creation, storage management, backup and recovery, user account and security management, database tuning and query optimization\n* Participate in data modeling, logical and physical database design for Mckinsey Finanical AP Reporting\n* Plan and implement the backup and recovery procedures for the Oracle Application database\n- Setup RMAN backup and recovery project (Replace BMC- sqlbacktrack tools)\n- Disaster Recovery Testing Project\n* Setup Oracle Enterprise Manager Server (OEM) for monitoring\n* Database Reorganization Project\n* Participate in designing and implementing system disaster recovery procedures, fail-over procedures\n* Installation, migration of Oracle RDBMS (7x/8x/8i/9i)\nPerformed as APPS DBA roles to support Oracle application 11.0.3, 11.5.5:\n- Lead the installation, configuration, administration and maintenance of multiple Oracle\nApplications 11.0.3, 11.5.5, which includes OLTP/OLAP environments for Mckinsey\n- Lead the planning of the production rollout for the Oracle Applications 11i environment\n- Use utility adadmin, adpatch, adaimgr, and adclone to do Oracle Application database\nTechnology stack administration, patch, upgrade, and cloning\n- Main support for Mckinsey Financial database Monthly-Close\n* Oracle financial database setup/configuration/upgrade\n- Mckinsey Finsys database upgrade project\n* Coordinate and support Mckinsey Application Function Team to do Mckinsey Financial Custom implementation\n* Application Tier/Database Tier tuning; SQL query tuning; Concurrent Process Tuning\n- Mckinsey Financial Reporting database performance evaluation and tuning project, which\ninvolved:\nInstance and database tuning; Application Tuning; Server resource Monitoring; concurrent process tuning\nPerformed as IAS DBA role to support Oracle 9i Application\nServer(3.02/4.0.8/9.0.1.0.1/9.0.2.0.1):\n* Leading for Mckinsey Oracle9iAS Application Server Project:\n* Infrastructure design for Oracle9iAS Portal for Mckinsey Financial Reporting\n* Infrastructure design for Oracle9iAS Discovery for Mckinsey Financial Reporting\n- Establishing the best practices\n- Identifying 9iAS software component\n- Define instance and Farms\n* Install the Oracle9iAS infrastructure and its components\n* Install the Oracle9iAS Application and its components\n- Surveying the hardware requirement\n- Determine the proper installation plans\n* Administering the Oracle9iAS application server\n* Administering the Oracle9iAS infrastructure\n- Manage the metadata repository database\n* Managing Security\n- Implementing Mckinsey Reporting Portal Security using Oracle9iAS Single Sign-on and Oracle\nInternet Directory (OID)\n- Implementing Report Server Security setting\n* Supporting Oracle9iAS Portal version (3.0.9/9.0.2.0/9.0.2.6)\n* Supporting Oracle9iAS Discovery (9.0.2.0.58)\nPerformed as Data Warehouse DBA role:\n* Supporting Mckinsey data warehouse database Sail (9.2.0)\n* Data Warehouse Design & Reporting/ DDS Performance Tuning/ETT strategies/Development\nMethodology/ Datastage (ETL tools) support\n* Database Security implementation for  Data warehouse project\n- Implement data warehouse security in database layer instead of application layer by creating\nfunction roles\n- Implement OID server replace TNSNAMES connection from client to server\n* Performance tuning for Data Warehouse (Materialized view/Query Rewrite/ Star Schema)\n\nBrown Brother Harriman & Co, Jersey City, NJ 07310\n- Senior Database Administrator: 10/99 - 06/00\nSenior Database Administrator/Data Warehouse Database Administrator\nOracle database administrator and technical support for banking, trade securities brokerage & Custody,\nforeign exchange & Mutual funds business.\nResponsible rules in\n* Firm Data Warehouse Database Production Supporting (24x7) (10/99 - 06/00)\n* Data Modeling for Firm Data Warehouse Project (10/99 - 06/00)\n* Application Support for Mcafee, Autosys\n* Year 2000 Project Testing and Implementation\n* Performance Tunning Project (02/00 - 06/00)\n- Provide the following export-level technical support to the client:\n* Installation/upgrade/migration of database (v7.3.4, v8.0.5, and v8.1.5)\n* Installation OEM, Mcafee, Iwatch, Space Management, SQLLAB, and other application tools\n* Data Modeling, local and physical database design for data warehouse project\n* Performance Tunning for database level and application level\n* Designed and implemented a general backup and recovery procedure for Oracle database (Hot backup, Cold backup, Archive backup, Export)\n* Setup monitoring scripts for monitoring Firm wide database\n\nTHE NEWARK GROUP, INC, Corporate Offices, Cranford, NJ 07016\n- Senior Database Administrator: 10/97 - 10/99\nSenior Database Administrator/Application (Financial/Manufacture) DBA\nOracle database administration and technical support for Order Entry of Manufacturing Business and\nOracle Financials  (Oracle Applications 10.7 NCA)\nResponsible rules in\n* Corporation database Production Supporting (24x7) (Back-end)  (10/97 - 10/99)\n* Oracle Application (Financial/Manufacture) Supporting (10/97- 10/99)\n* Re-Design for Manufacture Order Entry system for Corporation (10/97- 10/99)\n* Existing Manufacture Reporting Supporting (SQLform 3.0, Reports 1.0) (10/97-10/99)\n* Year 2000 Project (5/99 - 10/99)\n- Provide the following technical support:\n* Architecture design/Data Modeling\n* Oracle database administrating and technical support\n* Installation/upgrade/migration of Oracle database (v7.3.x, v8.x)\n* Installation Orale Enterprise Manger, Oracle Web Application\n* Installation Oracle Application 10.7 NCA on Sun Solaris\n* Performed as APPS DBA rules for patch applying, application setup, etc\n* Provide 24x7 technical support corporation users\n* Designed and developed system and application monitor programs using shell script, SQL and PL/SQL\n* Used I-Watch 3.0 (Quest software tools) as an aid for monitoring production database for managing all kinds of alarms, alert, messages and daily monitoring (alert log, trace files, backups, free space, next extent, cronjob, etc)\n\nCHEMTECH Consulting Group, INC, Englewood, NJ 07631\n-  Database Administrator: 05/92/ - 10/97\nDatabase Administrator/Architecture\nOracle database administration and technical support for Laboratory database management system.\nResponsible rule in:\n* Logical and Physical Designing and Developing a Laboratory Database System\n* Designed and Implemented an Application\n* Production Database Supporting\n- Provide the following technical support:\n* Oracle database support and administration\n* Maintained, designed and implemented an application using Developer 2000 to implement Order Entry, AP, AR system\n* Oracle backup and recovery, storage organization, system monitoring, database tuning, and query optimization\n* Data analysis, process analysis, system requirement and specification implement, data modeling, schema mapping, data retrieving, data updating\n* Code review, migration from testing environment to production\n\n\nEDUCATION\n9/90 - 5/92\tMS in Engineering, New Jersey Institute of Technology, Newark, NJ\n9/87 - 9/90\tMS in Engineering, Tong Ji University, Shanghai, P.R. China\n9/80 - 9/84\tBS in Engineering, Tong Ji University, Shanghai, P.R. China",
+    "DocumentLanguage": "en",
+    "DocumentCulture": "en-US",
+    "ParserSettings": "Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = US; Culture.Language = English; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = False; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2022-03-30"
+  }
+}

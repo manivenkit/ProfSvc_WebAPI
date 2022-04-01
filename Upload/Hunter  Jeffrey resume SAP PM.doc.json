@@ -1,0 +1,4437 @@
+﻿{
+  "ContactInformation": {
+    "CandidateName": {
+      "FormattedName": "JEFFREY HUNTER",
+      "GivenName": "JEFFREY",
+      "FamilyName": "HUNTER"
+    },
+    "Telephones": [
+      {
+        "InternationalCountryCode": "1",
+        "AreaCityCode": "248",
+        "SubscriberNumber": "882-1367",
+        "Raw": "248.882.1367",
+        "Normalized": "+1 248-882-1367"
+      }
+    ],
+    "EmailAddresses": [
+      "Jhunter914@gmail.com"
+    ],
+    "Location": {
+      "CountryCode": "US",
+      "PostalCode": "48306",
+      "Regions": [
+        "Michigan"
+      ],
+      "Municipality": "Rochester Hills",
+      "StreetAddressLines": [
+        "28 Cross Creek Blvd"
+      ]
+    }
+  },
+  "ProfessionalSummary": "Results-driven Information Systems Manager with 20 plus years of proven success in managing Multi-site Multi-Systems IT projects.  Experienced in delivering business centric technology projects utilizing structured methodologies (Oracle, SDP-21, PMI/PMBOK 3rd edition, SAP, SCOR 8.0,Six Sigma) focused on reducing business complexity and operational cost.  Strong regulatory software compliance certification experience with SAP and Oracle Application Suite projects in Discrete, Process Industries and Health Care/FDA environments requiring regulatory approval.  A demonstrated ability to collaborate with cross functional team leaders and corporate executives to improve business operations through the deployment of advanced computing solutions.\n\nCORE MANAGEMENT COMPETENCIES\n\nInternational / Domestic Tactical Planning\t\tCreative Leadership / Management\nCross-Cultural / Team Management\t\tProcess Improvement / Management\nPolicies / Procedures Development\t\t\tBusiness Analysis / Administration\nProgram / Project Management\t\t\tProject Management Training / Development\nGlobal Contract Negotiations\t\t Quality Management / Improvement\n\nSYSTEM MODULE BACKGROUND\n\nORACLE APPLICATION KNOWLEDGE R11i.5 and R12.1; OM (Order Management), OPM (Oracle Process Manufacturing, Projects, Warehouse Management, Mobile Supply Chain, Financials, Fixed Assets, Fusion Middleware and Fusion architecture, CRM, PLM, Advanced Supply Planning, Oracle 10g\nSAP APPLICATION KNOWLEDGE R3; MM, PP, CRM, SCM, FI-AR, FI-AP, FI-GL, SD, WM\n\nPROJECT MANAGEMENT TOOLS; Clarity / Oracle AIM 3.5 / Oracle Accelerated Methodology 4.0 / PMBOK  /SAP ASAP Methodology / SCOR / MS Office / MS Project 2007 / MS-SharePoint 4.0 / eGate / MQSeries",
+  "Education": {
+    "EducationDetails": [
+      {
+        "Id": "DEG-1",
+        "Text": "Electrical Engineering, University of Michigan, Dearborn, MI\t1982-1984",
+        "SchoolName": {
+          "Raw": "University of Michigan",
+          "Normalized": "University of Michigan"
+        },
+        "SchoolType": "university",
+        "Location": {
+          "CountryCode": "US",
+          "Regions": [
+            "MI"
+          ],
+          "Municipality": "Dearborn"
+        },
+        "Degree": {},
+        "Majors": [
+          "Electrical Engineering"
+        ],
+        "LastEducationDate": {
+          "Date": "1984-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        }
+      }
+    ]
+  },
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "JEFFREY HUNTER is experienced in the management of:  Information Technology (Project Management); and Supply Chain and Logistics. JEFFREY HUNTER has 38 years of work experience, with 37 years of management experience, including a mid-level position.",
+      "MonthsOfWorkExperience": 459,
+      "MonthsOfManagementExperience": 447,
+      "ExecutiveType": "BUSINESS_DEV",
+      "AverageMonthsPerEmployer": 41,
+      "FulltimeDirectHirePredictiveIndex": 85,
+      "ManagementStory": "Current position is a mid-level management role: Managing Principal / PMO Consulting Services\nStarting on 1/1/2007, the candidate held the following mid-level management position for 15 years and 5 months:\n\tTitle: Managing Principal / PMO Consulting Services for Reilly and Associates INC\nStarting on 1/1/2001, the candidate held the following mid-level management position for 7 years and 1 months:\n\tTitle: Vice President Business Development for SIGNATURE TECHNOLOGY SOLUTIONS\nStarting on 1/1/2001, the candidate held the following mid-level management position for 12 months:\n\tTitle: Vice President Manufacturing Sales for T-SYSTEMS US\nStarting on 1/1/1999, the candidate held the following low-level management position for 2 years:\n\tTitle: Sr. Account Manager for COMPUTER ASSOCIATES\nStarting on 1/1/1997, the candidate held the following mid-level management position for 3 years:\n\tTitle: Regional Business Development Manager for SIEMENS BUSINESS SOLUTIONS GROUP\nStarting on 1/1/1996, the candidate held the following mid-level management position for 2 years:\n\tTitle: Managing Principal Oracle Consulting for ORACLE CORP\nStarting on 1/1/1994, the candidate held the following mid-level management position for 3 years:\n\tTitle: Informational Technology Director for ENERPAC / APPLIED POWER\nStarting on 1/1/1991, the candidate held the following mid-level management position for 4 years:\n\tTitle: Computer Integrated Manufacturing Manager for SCHERING-PLOUGH PHARMACEUTICAL\nStarting on 1/1/1989, the candidate held the following mid-level management position for 3 years:\n\tTitle: Information Technology Plant Manager for KRAFT GENERAL FOODS\nStarting on 1/1/1984, the candidate held the following low-level management position for 4 years:\n\tTitle: Project lead for GENERAL MOTORS / EDS CORPORATION, EDS CORPORATION",
+      "CurrentManagementLevel": "mid-level",
+      "ManagementScore": 55
+    },
+    "Positions": [
+      {
+        "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "Reilly and Associates INC",
+            "Normalized": "Reilly"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "MI"
+            ],
+            "Municipality": "Clarkston"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": true,
+        "JobTitle": {
+          "Raw": "Managing Principal / PMO Consulting Services",
+          "Normalized": "Managing Principal PMO Consulting Services",
+          "Probability": "Confident",
+          "Variations": [
+            "Managing Principal"
+          ]
+        },
+        "StartDate": {
+          "Date": "2007-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2022-03-30",
+          "IsCurrentDate": true,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Project Management",
+        "JobLevel": "Senior Manager (more than 5 years management experience)",
+        "TaxonomyPercentage": 27,
+        "Description": "Clarkston, MI\t\t2007-Present\nLeading Certified Provider of Oracle OPM Solutions to the Process Industries.\n\nManaging Principal / PMO Consulting Services\n• Responsible for integrating Reilly's Safe Step Project Methodology into Lean Six Sigma Process improvement tool set for Reilly Project Managers and customers IT staff members.\n• Improved sales results from previous fiscal year by signing a $2.3 million contract with a Global Specialty Chemical Company.\n• Currently managing onsite project team members through deliverable Phases 1,2 and 3 of  a Oracle Release R12 project delivering Oracle's  OPM, ASC,OM,CRM,WMS, MSCA, PLM, Projects, OTP, Purchasing, AR,AP,PO modules for a multi-site Global entity.\n• Developed RFP response's for several Pharmaceutical based customers requiring FDA certification."
+      },
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "SIGNATURE TECHNOLOGY SOLUTIONS",
+            "Normalized": "SIGNATURE TECHNOLOGY SOLUTIONS"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "MI"
+            ],
+            "Municipality": "Plymouth"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Vice President Business Development",
+          "Normalized": "VP Business Development",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2001-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2007-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Privacy and Data Security",
+        "JobLevel": "Senior Manager (more than 5 years management experience)",
+        "TaxonomyPercentage": 61,
+        "Description": "• Responsible for expanding current Service's offering to include IT Security Services, Public Safety Command & Control and Channel development with Symantec, Intergraph Public Safety and Avnet.\n• Managed consulting resources on assigned customer engagements and maintained account management responsibility for ongoing service level agreements (SLA).\n• Established new Consulting Services which included IT Security, Application Risk Assessment and Business Continuity Assessment."
+      },
+      {
+        "Id": "POS-3",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "T-SYSTEMS US",
+            "Normalized": "T SYSTEMS US"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "IL"
+            ],
+            "Municipality": "Chicago"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Vice President Manufacturing Sales",
+          "Normalized": "VP Manufacturing Sales",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2001-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2001-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Sales",
+        "SubTaxonomyName": "General",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 31,
+        "Description": "Chicago, IL\t\t2001-2001\nLargest European IT Consulting and Outsourcing firm with revenue of $12 billion Euro. It is a joint venture of Deutsche Telecom and Daimler Benz.\n\nVice President Manufacturing Sales\n• Responsible for direct solution Sales and Services Delivery to Ford, General Motors and Chrysler which included both Onsite and Offshore Deliver resources.\n• Successfully extended a new LAN / WAN Managed Services Contract for Ford's European Manufacturing and Dealer Network operations contract worth $11,000,000 annually.\n• Managed T-Systems delivery and account services initiatives to Ford.\n• Implemented new Engine Test Cell system for GM's Power-Train Division."
+      },
+      {
+        "Id": "POS-4",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "COMPUTER ASSOCIATES",
+            "Normalized": "COMPUTER ASSOCIATES"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "MI"
+            ],
+            "Municipality": "Southfield"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Sr. Account Manager",
+          "Normalized": "Senior Account Manager",
+          "Probability": "Confident",
+          "Variations": [
+            "Account Manager"
+          ]
+        },
+        "StartDate": {
+          "Date": "1999-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2000-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Sales",
+        "SubTaxonomyName": "Account Management",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 22,
+        "Description": "Southfield, MI\t\t1999-2000\n4th largest software provider in the world products are used by the 90 % of the fortune 500 companies.\n\nSr. Account Manager\n• Responsible major sales and service delivery projects to General Motors, EDS, Ford, Chrysler and five of the top eight tier-1 Automotive Suppliers.\n• Sold and managed the global consolidation of Ford's nine (9) Mainframe Data Centers to two (2) with a total savings of over $2 million for Ford.\n• Sold CA Consulting Services and managed the delivery consultant team for Chrysler's Global Claims Warranty System which provided $3.5 million in annual cost savings.\n• Built Y2K (BCP) methodology for all three Automotive OEM's and coordinated with their respective staff to assure a smooth transition to year 2000 operations."
+      },
+      {
+        "Id": "POS-5",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "SIEMENS BUSINESS SOLUTIONS GROUP",
+            "Normalized": "SIEMENS BUSINESS SOLUTIONS GROUP"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "MI"
+            ],
+            "Municipality": "Southfield"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Regional Business Development Manager",
+          "Normalized": "Regional Business Development Manager",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1997-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1999-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Sales",
+        "SubTaxonomyName": "General",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 32,
+        "Description": "Southfield, MI\t\t1997-1999\n2nd largest European management and IT Consulting Company.\n\nRegional Business Development Manager\n• Responsible for SAP project management and solution Sales for the mid-west region.\n• Sold four global SAP R-3 implementation projects to John Deere, Purina Mills, ITT Automotive Continental General Tire and Michal Foods International worth $12 million in 13 month period. Modules included: AP,AR,MM,PO,SCM,FI,PLM\n• Built project implementation plans utilizing SAP's ASAP methodology and coordinated staffing requirements with customers and SBS global team members.\n• Rated in the top 5% of Siemens Business Development Managers."
+      },
+      {
+        "Id": "POS-6",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "ORACLE CORP",
+            "Normalized": "Oracle"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "MI"
+            ],
+            "Municipality": "Troy"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Managing Principal Oracle Consulting",
+          "Normalized": "Managing Principal Oracle Consulting",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1996-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1997-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Database",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 60,
+        "Description": "• Responsible for Oracle Application and engagement management as well as Oracle Consulting service sales to customers based in the Midwest Region.\n• Managed Oracle Financial Application Implementations for Eaton, Johnson Control and RR Reynolds.\n• Onsite support Manager responsible for all SLA Development and Delivery to Ford Motor Manufacturing, Dealer Network, Web Farm, and Ford Credit Services. Developed Global QC development process to reduce SDLC quality issues."
+      },
+      {
+        "Id": "POS-7",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "ENERPAC / APPLIED POWER",
+            "Normalized": "ENERPAC APPLIED POWER"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "WI"
+            ],
+            "Municipality": "Butler"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Informational Technology Director",
+          "Normalized": "Informational Technology Director",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1994-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1996-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "NumberEmployeesSupervised": {
+          "Value": 26
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Privacy and Data Security",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 46,
+        "Description": "Butler, WI\t\t1994-1996\nLeading global provider of hydraulic related technology to the Heavy Lift, Construction, Oil and Mining Industries.\nInformational Technology Director\n• Responsible for IT operations and project implementation of Oracle's Applications to nine countries.\n• Managed Oracle Financial Application Implementations for our Asian and European operations.\n• Improved operational quality with the implementation of several ISO 9000 systems.\n• Managed staff of 26 in across 4 global data centers and capital and expense IT budgets."
+      },
+      {
+        "Id": "POS-8",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "SCHERING-PLOUGH PHARMACEUTICAL",
+            "Normalized": "SCHERING PLOUGH PHARMACEUTICAL"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "TN"
+            ],
+            "Municipality": "Memphis"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Computer Integrated Manufacturing Manager",
+          "Normalized": "Computer Integrated Manufacturing Manager",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1991-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1994-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "ERP and CRM",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 27,
+        "Description": "Memphis, TN.\t\t1991-1994\nSchering-Plough is among the top 6 global Pharmaceutical Manufacture and a leading US provider of Over the Counter Consumer Health Care Products.\n\nComputer Integrated Manufacturing Manager\n• Responsible for chairing Schering-Plough's US OTC Division Computer Integrated Manufacturing Committee with direct over site by the divisional President. Responsibilities included ERP, MES budget preparation, review, project management, vendor management and FDA process validation.\n•  Improved Supply-Chain optimization with the deployment of new Manufacturing Execution System (MES) with direct integration to T&E tracking system and SAP R3 Planning, Production Scheduling Modules and Wal-Mart DC systems.\n• Successfully implemented new Batch Recipe Control System which reduced raw material consumption by $500,000 year while reducing Work in Process (WIP) cycle time.\n• Developed new product return system which reduced inventory return cost by 23% annually."
+      },
+      {
+        "Id": "POS-9",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "KRAFT GENERAL FOODS",
+            "Normalized": "KRAFT GENERAL FOODS"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "IL"
+            ],
+            "Municipality": "CHAMPAIGN"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Information Technology Plant Manager",
+          "Normalized": "Information Technology Plant Manager",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1989-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1991-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Supply Chain and Logistics",
+        "SubTaxonomyName": "Logistics",
+        "JobLevel": "Manager",
+        "TaxonomyPercentage": 29,
+        "Description": "CHAMPAIGN, IL\t\t1989-1991\nKraft is the Global leader in food products with diverse brands that span every food segment. Kraft Champaign is the largest US Food manufacturing and Distribution Center with over $5.7 Billion produced and shipped annually.\n\nInformation Technology Plant Manager\n• Responsible for developing process definition, resource requirement, system design and implementation plans for deployment of Logistics /WMS, Transportation, Operations Management and Plant Floor Control systems.\n• Developed and managed capital IT budget and managed contractual deliverables for all IT related contracts.\n• Implemented custom logistics and transportation system with improved and consolidated cross divisional inventory shipments reducing operational cost by $50 million.\n• Built new Data and IT Infrastructure to support plant systems rollout."
+      },
+      {
+        "Id": "POS-10",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "NORTHROP GRUMMAN, Pico",
+            "Normalized": "NORTHROP GRUMMAN Pico"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "CA"
+            ],
+            "Municipality": "Riviera"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Sr. Manufacturing Technology Engineer - Advanced Man-tech Group",
+          "Normalized": "Senior Manufacturing Technology Engineer Advanced Man tech Group",
+          "Probability": "Confident",
+          "Variations": [
+            "Sr. Manufacturing Technology Engineer",
+            "Manufacturing Technology Engineer - Advanced Man-tech Group",
+            "Manufacturing Technology Engineer"
+          ]
+        },
+        "StartDate": {
+          "Date": "1987-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1989-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Manufacturing",
+        "SubTaxonomyName": "Composites",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 36,
+        "Description": "Riviera, CA.\t\t1987-1989\nLeading Defense Systems and Defense Aircraft Manufacturer and Commercial IT Services Company with $32 Billion in annual Sales\n\nSr. Manufacturing Technology Engineer - Advanced Man-tech Group\n• Responsible for system requirements specification and implementing plan for Manufacturing and Warehouse Material movement Systems for the B-2 program.\n• Developed State of the Art Composite Manufacturing system for B-2 large body panels.\n• Developed DoD certified Automated material Handling Systems requirements specification document and implementation plan.\n• Implemented new Engine Test system for engine performance and evaluation."
+      },
+      {
+        "Id": "POS-11",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "GENERAL MOTORS / EDS CORPORATION",
+            "Normalized": "GENERAL MOTORS EDS"
+          },
+          "OtherFoundName": {
+            "Raw": "EDS CORPORATION",
+            "Normalized": "EDS"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "MI"
+            ],
+            "Municipality": "Troy"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "Project lead",
+          "Normalized": "Project lead",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "1984-01-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "1987-12-31",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": false,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Engineering",
+        "SubTaxonomyName": "General Engineering",
+        "JobLevel": "Experienced (non-manager)",
+        "TaxonomyPercentage": 42,
+        "Description": "Troy, MI\t\t1984-1987\nGeneral Motors is the Largest global Passenger Automobiles and Light Duty Truck Manufacturer with annual sales of $187 billion.\nSr. Systems Engineer Plant Automation Group\n• Responsible for design specification and implementation of various Plant Floor Systems deployed for GM, Delco and Saturn assembly and sub assembly plants.\n• Project lead for the implementation of Plant Floor Systems ALDL, Allen-Bradley Fastening, and Mobile Material Container Tracking Systems for GMT 400, GM10, 30,33, Truck and Bus and other assembly and sub assembly plants.\n• Developed system acceptance test scripts for pre vehicle launch and production review.\n• Developed plant floor interfaces to MAP and GM vehicle sequencing and broadcast systems."
+      }
+    ]
+  },
+  "SkillsData": [
+    {
+      "Root": "Sovren",
+      "Taxonomies": [
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "005039",
+                  "Name": "Pmbok",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "005045",
+                  "Name": "PMI",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 183
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "005052",
+                  "Name": "PMO",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 183
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "007058",
+                  "Name": "RFP",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "007579",
+                  "Name": "SDP-21",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "025953",
+                  "Name": "Team Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 11,
+              "PercentOfParent": 46,
+              "SubTaxonomyId": "199",
+              "SubTaxonomyName": "Project Management"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "1997-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "022486",
+                  "Name": "Database",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "031045",
+                      "Name": "Oracle 10G",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 231
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "Id": "031048",
+                  "Name": "Oracle",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 9,
+              "PercentOfParent": 37,
+              "SubTaxonomyId": "193",
+              "SubTaxonomyName": "Database"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 183
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "014101",
+                  "Name": "CRM",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "016891",
+                  "Name": "ERP",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 48
+                      },
+                      "LastUsed": {
+                        "Value": "1994-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-8"
+                        }
+                      ],
+                      "Id": "006327",
+                      "Name": "R3",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 48
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "1999-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "007436",
+                  "Name": "SAP",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 9,
+              "SubTaxonomyId": "195",
+              "SubTaxonomyName": "ERP and CRM"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "023631",
+                  "Name": "Deployment",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "025156",
+                  "Name": "Rollout",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1999-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "007546",
+                  "Name": "SCM",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "251",
+              "SubTaxonomyName": "Config Deploy Upgrade Migrate"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "5551264",
+                  "Name": "Business Continuity",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1996-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "Id": "5551315",
+                  "Name": "ISO",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "556",
+              "SubTaxonomyName": "Privacy and Data Security"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "025406",
+                  "Name": "Middleware",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "022952",
+                  "Name": "MS Project",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1987-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "025726",
+                  "Name": "Systems Engineer",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "204",
+              "SubTaxonomyName": "Programming"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "009054",
+                  "Name": "Symantec",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "252",
+              "SubTaxonomyName": "Prebuilt Software"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "015898",
+                  "Name": "Egate",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "345",
+              "SubTaxonomyName": "Middleware and Integration"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "002817",
+                  "Name": "Mqseries",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "346",
+              "SubTaxonomyName": "Messaging"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "007809",
+                  "Name": "Service Level Agreements",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "349",
+              "SubTaxonomyName": "Operations, Monitoring and Software Management"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "022195",
+                  "Name": "Sharepoint",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "1997-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "025352",
+                  "Name": "WEB Farm",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "196",
+              "SubTaxonomyName": "Internet"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "554095002",
+                      "Name": "MS Project",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "5540950",
+                  "Name": "Microsoft Project",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "554095101",
+                      "Name": "Sharepoint",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "5540951",
+                  "Name": "Microsoft Sharepoint",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "554",
+              "SubTaxonomyName": "Business Intelligence"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "019983",
+                  "Name": "Intergraph",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "022137",
+                  "Name": "MS Office",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "351",
+              "SubTaxonomyName": "Multimedia"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "020223",
+                  "Name": "IT Infrastructure",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 12
+                  },
+                  "LastUsed": {
+                    "Value": "2001-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "003407",
+                  "Name": "Network Operations",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "198",
+              "SubTaxonomyName": "Network"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2000-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "025745",
+                  "Name": "Mainframe",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "197",
+              "SubTaxonomyName": "Mainframe"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "1997-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "025956",
+                  "Name": "SDLC",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "201",
+              "SubTaxonomyName": "Architecture"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2000-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "010778",
+                  "Name": "BCP",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "338",
+              "SubTaxonomyName": "Security"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 48
+                      },
+                      "LastUsed": {
+                        "Value": "1994-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-8"
+                        }
+                      ],
+                      "Id": "5530984",
+                      "Name": "ERP",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 48
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "Id": "5530983",
+                  "Name": "Enterprise Resource Planning",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "553",
+              "SubTaxonomyName": "Big Data"
+            }
+          ],
+          "Id": "10",
+          "Name": "Information Technology",
+          "PercentOfOverall": 24
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "016892",
+                  "Name": "ERP",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "022309",
+                  "Name": "Logistics",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "004014",
+                  "Name": "Order Management",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "024581",
+                  "Name": "Production Scheduling",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "022740",
+                  "Name": "Scheduling",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 219
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "CERTIFICATIONS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "011314",
+                  "Name": "WMS",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 9,
+              "PercentOfParent": 55,
+              "SubTaxonomyId": "460",
+              "SubTaxonomyName": "Logistics"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 183
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-30"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "Id": "006085",
+                      "Name": "Purchasing",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 183
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "MonthsExperience": {
+                    "Value": 183
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "Id": "012264",
+                  "Name": "Buying/Procurement",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "010474",
+                  "Name": "Vendor Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 7,
+              "PercentOfParent": 44,
+              "SubTaxonomyId": "458",
+              "SubTaxonomyName": "Purchasing"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "020086",
+                  "Name": "Inventory",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "459",
+              "SubTaxonomyName": "Inventory"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "014311",
+                  "Name": "Contracts",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "022128",
+                  "Name": "Supply Chain",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "461",
+              "SubTaxonomyName": "Supply Chain"
+            }
+          ],
+          "Id": "97",
+          "Name": "Supply Chain and Logistics",
+          "PercentOfOverall": 17
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "024469",
+                  "Name": "Business Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 183
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "005521",
+                  "Name": "Process Improvement",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "005559",
+                  "Name": "Process Validation",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 9,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "876",
+              "SubTaxonomyName": "Workflow and Processes"
+            }
+          ],
+          "Id": "71",
+          "Name": "Strategy and Planning",
+          "PercentOfOverall": 9
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 231
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "017215",
+                  "Name": "FDA",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 9,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "278",
+              "SubTaxonomyName": "Regulatory"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2000-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "022238",
+                  "Name": "Claims",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "269",
+              "SubTaxonomyName": "Claims and Billing"
+            }
+          ],
+          "Id": "28",
+          "Name": "Clinical",
+          "PercentOfOverall": 9
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1987-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "080489",
+                  "Name": "Allen-Bradley",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 183
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "003792",
+                  "Name": "ASC",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "2001-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "022972",
+                  "Name": "Chrysler",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "024471",
+                  "Name": "Operations Management",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1987-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "007785",
+                  "Name": "Sequencing",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2000-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "010805",
+                  "Name": "Warranty",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 8,
+              "PercentOfParent": 91,
+              "SubTaxonomyId": "307",
+              "SubTaxonomyName": "General Engineering"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION"
+                    }
+                  ],
+                  "Id": "015893",
+                  "Name": "EET",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "1984-01-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-1"
+                    }
+                  ],
+                  "Id": "015991",
+                  "Name": "Electrical Engineering",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 2,
+              "SubTaxonomyId": "135",
+              "SubTaxonomyName": "Electrical"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1987-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "080758",
+                  "Name": "Allen-Bradley",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1987-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "080777",
+                  "Name": "Assembly",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1999-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "080720",
+                  "Name": "Siemens",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 2,
+              "SubTaxonomyId": "144",
+              "SubTaxonomyName": "Computer Hardware"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1989-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    }
+                  ],
+                  "Id": "015587",
+                  "Name": "DOD",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "267",
+              "SubTaxonomyName": "Military"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "024004",
+                  "Name": "Intergraph",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "310",
+              "SubTaxonomyName": "Software and Tools"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1987-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "025727",
+                  "Name": "Systems Engineer",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "263",
+              "SubTaxonomyName": "Other"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 36
+                      },
+                      "LastUsed": {
+                        "Value": "1989-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-10"
+                        }
+                      ],
+                      "Id": "021298",
+                      "Name": "Material Handling",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 36
+                      },
+                      "LastUsed": {
+                        "Value": "1989-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-10"
+                        }
+                      ],
+                      "Id": "021300",
+                      "Name": "Material Handling Systems",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 36
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1989-12-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1989-12-31"
+                  },
+                  "Id": "080872",
+                  "Name": "Conveyor",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "137",
+              "SubTaxonomyName": "Industrial"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "080825",
+                  "Name": "Control Systems",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "142",
+              "SubTaxonomyName": "Plant"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "080621",
+                  "Name": "Control Systems",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "266",
+              "SubTaxonomyName": "Circuits"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "080355",
+                  "Name": "Control Systems",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "308",
+              "SubTaxonomyName": "Power Engineering"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "007095",
+                  "Name": "Risk Assessment",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "136",
+              "SubTaxonomyName": "Environmental"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 12
+                  },
+                  "LastUsed": {
+                    "Value": "2001-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "022904",
+                  "Name": "Telecom",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "268",
+              "SubTaxonomyName": "RF"
+            }
+          ],
+          "Id": "5",
+          "Name": "Engineering",
+          "PercentOfOverall": 8
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 183
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "008428",
+                  "Name": "Specialty Chemical",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 7,
+              "PercentOfParent": 99,
+              "SubTaxonomyId": "377",
+              "SubTaxonomyName": "Chemical"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1987-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "024764",
+                  "Name": "Sequencing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "376",
+              "SubTaxonomyName": "Basic"
+            }
+          ],
+          "Id": "15",
+          "Name": "Scientific",
+          "PercentOfOverall": 7
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 219
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "020973",
+                  "Name": "AP",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 219
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "002497",
+                  "Name": "AR",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 5,
+              "PercentOfParent": 99,
+              "SubTaxonomyId": "110",
+              "SubTaxonomyName": "Billing and Collections"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2000-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "015888",
+                  "Name": "EDS",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "115",
+              "SubTaxonomyName": "Computer Related"
+            }
+          ],
+          "Id": "1",
+          "Name": "Administrative or Clerical",
+          "PercentOfOverall": 6
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 219
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "020974",
+                  "Name": "AP",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 219
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "002496",
+                  "Name": "AR",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "012120",
+                  "Name": "Budget",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1996-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "Id": "026950",
+                  "Name": "Budgets",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 6,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "533",
+              "SubTaxonomyName": "Bookeeping Tasks"
+            }
+          ],
+          "Id": "89",
+          "Name": "Bookkeeping, Office Management",
+          "PercentOfOverall": 6
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 183
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-30"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "Id": "7000221",
+                      "Name": "SIX Sigma",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 183
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "MonthsExperience": {
+                    "Value": 183
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "Id": "7000128",
+                  "Name": "SIX-Sigma",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 4,
+              "PercentOfParent": 92,
+              "SubTaxonomyId": "237",
+              "SubTaxonomyName": "Operations"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "017570",
+                  "Name": "Fixed Assets",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "018438",
+                  "Name": "GL",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "7000144",
+                  "Name": "Supply Chain",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 4,
+              "SubTaxonomyId": "235",
+              "SubTaxonomyName": "Financial Planning & Analysis"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1996-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "Id": "026948",
+                  "Name": "Budgets",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "012194",
+                  "Name": "Business Analysis",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "246",
+              "SubTaxonomyName": "Treasury"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "7000101",
+                  "Name": "Vendor Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "709",
+              "SubTaxonomyName": "Global Security"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "7000088",
+                  "Name": "Vendor Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "708",
+              "SubTaxonomyName": "Procurement"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 12
+                      },
+                      "LastUsed": {
+                        "Value": "2001-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-3"
+                        }
+                      ],
+                      "Id": "7000327",
+                      "Name": "Joint Venture",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 12
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2001-12-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 12
+                  },
+                  "LastUsed": {
+                    "Value": "2001-12-31"
+                  },
+                  "Id": "7000326",
+                  "Name": "Joint Ventures",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "732",
+              "SubTaxonomyName": "Integration"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "007092",
+                  "Name": "Risk Assessment",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "245",
+              "SubTaxonomyName": "Compliance"
+            }
+          ],
+          "Id": "7",
+          "Name": "Finance",
+          "PercentOfOverall": 4
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 183
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-30"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "Id": "9000268",
+                      "Name": "CRM",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 183
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "MonthsExperience": {
+                    "Value": 183
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "Id": "9000267",
+                  "Name": "Customer Relationship Management",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 4,
+              "PercentOfParent": 98,
+              "SubTaxonomyId": "583",
+              "SubTaxonomyName": "Talent Sourcing"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 12
+                  },
+                  "LastUsed": {
+                    "Value": "2001-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "9000123",
+                  "Name": "Services Delivery",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "578",
+              "SubTaxonomyName": "HR Operations"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 48
+                      },
+                      "LastUsed": {
+                        "Value": "1994-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-8"
+                        }
+                      ],
+                      "Id": "9000075",
+                      "Name": "ERP",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 48
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "Id": "9000074",
+                  "Name": "Employee Resource Group",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "574",
+              "SubTaxonomyName": "Diversity & Inclusion"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2000-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "022240",
+                  "Name": "Claims",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "258",
+              "SubTaxonomyName": "Compliance"
+            }
+          ],
+          "Id": "9",
+          "Name": "Human Resources",
+          "PercentOfOverall": 4
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "025224",
+                  "Name": "Account Management",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "022274",
+                  "Name": "Contracts",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "024580",
+                  "Name": "Production Scheduling",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 183
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "007056",
+                  "Name": "RFP",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1999-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "025724",
+                  "Name": "Staffing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 86,
+              "SubTaxonomyId": "437",
+              "SubTaxonomyName": "General Skills and Activities"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "012214",
+                  "Name": "Business Operations",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 108
+                  },
+                  "LastUsed": {
+                    "Value": "2001-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "003875",
+                  "Name": "Operations",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "024470",
+                  "Name": "Operations Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 14,
+              "SubTaxonomyId": "436",
+              "SubTaxonomyName": "Management Activities or Functions"
+            }
+          ],
+          "Id": "34",
+          "Name": "Business Operations and General Business",
+          "PercentOfOverall": 2
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 36
+                      },
+                      "LastUsed": {
+                        "Value": "1996-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-7"
+                        }
+                      ],
+                      "Id": "020175",
+                      "Name": "ISO 9000",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 36
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1996-12-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1996-12-31"
+                  },
+                  "Id": "022358",
+                  "Name": "ISO Standards",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 183
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-30"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "008101",
+                  "Name": "SIX Sigma",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 92,
+              "SubTaxonomyId": "445",
+              "SubTaxonomyName": "Standards"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1987-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "022241",
+                  "Name": "Test Scripts",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 6,
+              "SubTaxonomyId": "941",
+              "SubTaxonomyName": "Other"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "023524",
+                  "Name": "Process Validation",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 2,
+              "SubTaxonomyId": "446",
+              "SubTaxonomyName": "Techniques"
+            }
+          ],
+          "Id": "69",
+          "Name": "QA and QC",
+          "PercentOfOverall": 2
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 120
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "023757",
+                  "Name": "Business Development",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "1997-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-6"
+                    }
+                  ],
+                  "Id": "030888",
+                  "Name": "Service Sales",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 79,
+              "SubTaxonomyId": "105",
+              "SubTaxonomyName": "General"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "2001-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "008372",
+                  "Name": "Solution Sales",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 13,
+              "SubTaxonomyId": "106",
+              "SubTaxonomyName": "Management"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "025223",
+                  "Name": "Account Management",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2000-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "030183",
+                  "Name": "Account Manager",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 8,
+              "SubTaxonomyId": "104",
+              "SubTaxonomyName": "Account Management"
+            }
+          ],
+          "Id": "20",
+          "Name": "Sales",
+          "PercentOfOverall": 1
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "1999-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "555155108",
+                  "Name": "Project Management",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "010788",
+                  "Name": "Warehouse Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 71,
+              "SubTaxonomyId": "519",
+              "SubTaxonomyName": "Management and Management Tasks"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "025955",
+                  "Name": "Team Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 18,
+              "SubTaxonomyId": "517",
+              "SubTaxonomyName": "People Oriented"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "024472",
+                  "Name": "Operations Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 7,
+              "SubTaxonomyId": "518",
+              "SubTaxonomyName": "Operations and Admin"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1996-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "Id": "026949",
+                  "Name": "Budgets",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "014306",
+                  "Name": "Contract Negotiations",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 5,
+              "SubTaxonomyId": "516",
+              "SubTaxonomyName": "Budget Related"
+            }
+          ],
+          "Id": "80",
+          "Name": "General Management",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 72
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "022891",
+                  "Name": "Budget",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1996-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "Id": "026947",
+                  "Name": "Budgets",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "017494",
+                  "Name": "Financials",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 60,
+              "SubTaxonomyId": "962",
+              "SubTaxonomyName": "Reporting"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "024145",
+                  "Name": "Fixed Assets",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 20,
+              "SubTaxonomyId": "932",
+              "SubTaxonomyName": "Accounting"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "018439",
+                  "Name": "GL",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 20,
+              "SubTaxonomyId": "944",
+              "SubTaxonomyName": "Bookkeeping"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2000-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "022239",
+                  "Name": "Claims",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "961",
+              "SubTaxonomyName": "Payroll"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2000-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "013345",
+                  "Name": "Claims",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "933",
+              "SubTaxonomyName": "Accounts Payable"
+            }
+          ],
+          "Id": "32",
+          "Name": "Degreed Accounting",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "017828",
+                  "Name": "Food Manufacturing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 32,
+              "SubTaxonomyId": "362",
+              "SubTaxonomyName": "General"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1989-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    }
+                  ],
+                  "Id": "014046",
+                  "Name": "Composite Manufacturing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 32,
+              "SubTaxonomyId": "480",
+              "SubTaxonomyName": "Composites"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 36
+                      },
+                      "LastUsed": {
+                        "Value": "1989-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-10"
+                        }
+                      ],
+                      "Id": "021297",
+                      "Name": "Material Handling",
+                      "ExistsInText": true
+                    },
+                    {
+                      "MonthsExperience": {
+                        "Value": 36
+                      },
+                      "LastUsed": {
+                        "Value": "1989-12-31"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-10"
+                        }
+                      ],
+                      "Id": "021301",
+                      "Name": "Material Handling Systems",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 36
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "1989-12-31"
+                  },
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1989-12-31"
+                  },
+                  "Id": "022387",
+                  "Name": "Conveyor",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 18,
+              "SubTaxonomyId": "364",
+              "SubTaxonomyName": "Equipment"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "024579",
+                  "Name": "Production Scheduling",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "022739",
+                  "Name": "Scheduling",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 15,
+              "SubTaxonomyId": "208",
+              "SubTaxonomyName": "Planning"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1987-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "022911",
+                  "Name": "Allen-Bradley",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "022458",
+                  "Name": "Control Systems",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 4,
+              "SubTaxonomyId": "207",
+              "SubTaxonomyName": "Process Control"
+            }
+          ],
+          "Id": "13",
+          "Name": "Manufacturing",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "5000076",
+                  "Name": "Cycle Time",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1989-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    }
+                  ],
+                  "Id": "5000086",
+                  "Name": "Material Handling",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "716",
+              "SubTaxonomyName": "New Product Integration"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "5000049",
+                  "Name": "Cycle Time",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1989-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-10"
+                    }
+                  ],
+                  "Id": "5000059",
+                  "Name": "Material Handling",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "715",
+              "SubTaxonomyName": "Design for X"
+            }
+          ],
+          "Id": "29",
+          "Name": "Hardware Engineering",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1987-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "022442",
+                  "Name": "Assembly",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1987-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "008822",
+                  "Name": "SUB Assembly",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 93,
+              "SubTaxonomyId": "379",
+              "SubTaxonomyName": "Assembly"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1987-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-11"
+                    }
+                  ],
+                  "Id": "022912",
+                  "Name": "Allen-Bradley",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "022459",
+                  "Name": "Control Systems",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 7,
+              "SubTaxonomyId": "287",
+              "SubTaxonomyName": "Machine Shop"
+            }
+          ],
+          "Id": "27",
+          "Name": "Light Technical/Trades/Skilled Labor",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "012129",
+                  "Name": "Budget Preparation",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1996-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-7"
+                    }
+                  ],
+                  "Id": "026946",
+                  "Name": "Budgets",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 96,
+              "SubTaxonomyId": "380",
+              "SubTaxonomyName": "Estimating"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "022273",
+                  "Name": "Contracts",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 4,
+              "SubTaxonomyId": "394",
+              "SubTaxonomyName": "Office, Admin and Clerical"
+            }
+          ],
+          "Id": "22",
+          "Name": "Construction Non-Laborer",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "7210010",
+                  "Name": "Contract Negotiations",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 47,
+              "SubTaxonomyId": "721",
+              "SubTaxonomyName": "Mergers & Acquisitions"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "3970012",
+                  "Name": "Contract Negotiations",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 47,
+              "SubTaxonomyId": "397",
+              "SubTaxonomyName": "Clerical & Paralegal"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1991-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-9"
+                    }
+                  ],
+                  "Id": "014309",
+                  "Name": "Contracts",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 5,
+              "SubTaxonomyId": "396",
+              "SubTaxonomyName": "Contracts"
+            }
+          ],
+          "Id": "12",
+          "Name": "Legal",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "9000244",
+                  "Name": "Account Management",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 36
+                  },
+                  "LastUsed": {
+                    "Value": "1999-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-5"
+                    }
+                  ],
+                  "Id": "008529",
+                  "Name": "Staffing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "492",
+              "SubTaxonomyName": "Recruiting Tasks and Activities"
+            }
+          ],
+          "Id": "37",
+          "Name": "Recruiting",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 48
+                  },
+                  "LastUsed": {
+                    "Value": "1994-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-8"
+                    }
+                  ],
+                  "Id": "005560",
+                  "Name": "Process Validation",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 84
+                  },
+                  "LastUsed": {
+                    "Value": "2007-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "022564",
+                  "Name": "Risk Assessment",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "328",
+              "SubTaxonomyName": "Testing, Assessments, and Monitoring"
+            }
+          ],
+          "Id": "6",
+          "Name": "Environmental",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SUMMARY"
+                    }
+                  ],
+                  "Id": "005044",
+                  "Name": "PMI",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 94,
+              "SubTaxonomyId": "415",
+              "SubTaxonomyName": "Sales"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 24
+                  },
+                  "LastUsed": {
+                    "Value": "2000-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-4"
+                    }
+                  ],
+                  "Id": "022237",
+                  "Name": "Claims",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 6,
+              "SubTaxonomyId": "408",
+              "SubTaxonomyName": "Claims and Adjusting"
+            }
+          ],
+          "Id": "19",
+          "Name": "Insurance",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 12
+                  },
+                  "LastUsed": {
+                    "Value": "2001-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "003754",
+                  "Name": "Offshore",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "441",
+              "SubTaxonomyName": "Drilling"
+            }
+          ],
+          "Id": "44",
+          "Name": "Petrochemical",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 12
+                  },
+                  "LastUsed": {
+                    "Value": "2001-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "022262",
+                  "Name": "Network Operations",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 67,
+              "SubTaxonomyId": "323",
+              "SubTaxonomyName": "Skilled"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 12
+                  },
+                  "LastUsed": {
+                    "Value": "2001-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "022903",
+                  "Name": "Telecom",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 33,
+              "SubTaxonomyId": "317",
+              "SubTaxonomyName": "Standards, Protocols, Technologies"
+            }
+          ],
+          "Id": "16",
+          "Name": "Telecommunications",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "022951",
+                      "Name": "MS Project",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "024342",
+                  "Name": "Microsoft Project",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "230",
+              "SubTaxonomyName": "Planning and Analysis"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 12
+                  },
+                  "LastUsed": {
+                    "Value": "2001-12-31"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-3"
+                    }
+                  ],
+                  "Id": "020490",
+                  "Name": "LAN",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SUMMARY"
+                        }
+                      ],
+                      "Id": "022136",
+                      "Name": "MS Office",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "024467",
+                  "Name": "Microsoft Office",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "108",
+              "SubTaxonomyName": "Core Office"
+            }
+          ],
+          "Id": "0",
+          "Name": "Common End-user Software",
+          "PercentOfOverall": 0
+        }
+      ]
+    }
+  ],
+  "Certifications": [
+    {
+      "Name": "WMS",
+      "MatchedFromList": true,
+      "IsVariation": false
+    }
+  ],
+  "LanguageCompetencies": [
+    {
+      "Language": "English",
+      "LanguageCode": "en",
+      "FoundInContext": "[RESUME_LANGUAGE]"
+    }
+  ],
+  "ResumeMetadata": {
+    "FoundSections": [
+      {
+        "FirstLineNumber": 8,
+        "LastLineNumber": 27,
+        "SectionType": "SUMMARY",
+        "HeaderTextFound": "BACKGROUND SUMMARY"
+      },
+      {
+        "FirstLineNumber": 28,
+        "LastLineNumber": 133,
+        "SectionType": "WORK HISTORY",
+        "HeaderTextFound": "PROFESSIONAL EXPERIENCE"
+      },
+      {
+        "FirstLineNumber": 134,
+        "LastLineNumber": 136,
+        "SectionType": "EDUCATION",
+        "HeaderTextFound": "EDUCATION"
+      }
+    ],
+    "ResumeQuality": [
+      {
+        "Level": "Data Missing",
+        "Findings": [
+          {
+            "QualityCode": "231",
+            "SectionIdentifiers": [
+              {
+                "SectionType": "DEG-1"
+              }
+            ],
+            "Message": "Every degree in a resume should have a name or type associated with it, such as 'B.S.' or 'M.S.'."
+          }
+        ]
+      }
+    ],
+    "ReservedData": {
+      "Phones": [
+        "248.882.1367"
+      ],
+      "Names": [
+        "Jeffrey Hunter",
+        "JEFFREY HUNTER",
+        "Hunter\n•.•.•.•.•.•.•.•.•.•.•.•\n\nJEFFREY",
+        "•.•.•.•.•.•.•.•.•.•.•.•"
+      ],
+      "EmailAddresses": [
+        "Jhunter914@gmail.com"
+      ],
+      "OtherData": [
+        "28 Cross Creek Blvd"
+      ]
+    },
+    "PlainText": "Jeffrey Hunter\n•.•.•.•.•.•.•.•.•.•.•.•\n\nJEFFREY HUNTER\n\n28 Cross Creek Blvd.\t248.882.1367\nRochester Hills, Michigan 48306\tJhunter914@gmail.com\n\nBACKGROUND SUMMARY\n\nResults-driven Information Systems Manager with 20 plus years of proven success in managing Multi-site Multi-Systems IT projects.  Experienced in delivering business centric technology projects utilizing structured methodologies (Oracle, SDP-21, PMI/PMBOK 3rd edition, SAP, SCOR 8.0,Six Sigma) focused on reducing business complexity and operational cost.  Strong regulatory software compliance certification experience with SAP and Oracle Application Suite projects in Discrete, Process Industries and Health Care/FDA environments requiring regulatory approval.  A demonstrated ability to collaborate with cross functional team leaders and corporate executives to improve business operations through the deployment of advanced computing solutions.\n\nCORE MANAGEMENT COMPETENCIES\n\nInternational / Domestic Tactical Planning\t\tCreative Leadership / Management\nCross-Cultural / Team Management\t\tProcess Improvement / Management\nPolicies / Procedures Development\t\t\tBusiness Analysis / Administration\nProgram / Project Management\t\t\tProject Management Training / Development\nGlobal Contract Negotiations\t\t Quality Management / Improvement\n\nSYSTEM MODULE BACKGROUND\n\nORACLE APPLICATION KNOWLEDGE R11i.5 and R12.1; OM (Order Management), OPM (Oracle Process Manufacturing, Projects, Warehouse Management, Mobile Supply Chain, Financials, Fixed Assets, Fusion Middleware and Fusion architecture, CRM, PLM, Advanced Supply Planning, Oracle 10g\nSAP APPLICATION KNOWLEDGE R3; MM, PP, CRM, SCM, FI-AR, FI-AP, FI-GL, SD, WM\n\nPROJECT MANAGEMENT TOOLS; Clarity / Oracle AIM 3.5 / Oracle Accelerated Methodology 4.0 / PMBOK  /SAP ASAP Methodology / SCOR / MS Office / MS Project 2007 / MS-SharePoint 4.0 / eGate / MQSeries\n\n\nPROFESSIONAL EXPERIENCE\n\nReilly and Associates INC. Clarkston, MI\t\t2007-Present\nLeading Certified Provider of Oracle OPM Solutions to the Process Industries.\n\nManaging Principal / PMO Consulting Services\n• Responsible for integrating Reilly's Safe Step Project Methodology into Lean Six Sigma Process improvement tool set for Reilly Project Managers and customers IT staff members.\n• Improved sales results from previous fiscal year by signing a $2.3 million contract with a Global Specialty Chemical Company.\n• Currently managing onsite project team members through deliverable Phases 1,2 and 3 of  a Oracle Release R12 project delivering Oracle's  OPM, ASC,OM,CRM,WMS, MSCA, PLM, Projects, OTP, Purchasing, AR,AP,PO modules for a multi-site Global entity.\n• Developed RFP response's for several Pharmaceutical based customers requiring FDA certification.\n\n\nSIGNATURE TECHNOLOGY SOLUTIONS, Plymouth, MI\t\t2001-2007\nMid-Market Consulting and Technology Provider.\n\nVice President Business Development\n• Responsible for expanding current Service's offering to include IT Security Services, Public Safety Command & Control and Channel development with Symantec, Intergraph Public Safety and Avnet.\n• Managed consulting resources on assigned customer engagements and maintained account management responsibility for ongoing service level agreements (SLA).\n• Established new Consulting Services which included IT Security, Application Risk Assessment and Business Continuity Assessment.\n\n\nT-SYSTEMS US, Chicago, IL\t\t2001-2001\nLargest European IT Consulting and Outsourcing firm with revenue of $12 billion Euro. It is a joint venture of Deutsche Telecom and Daimler Benz.\n\nVice President Manufacturing Sales\n• Responsible for direct solution Sales and Services Delivery to Ford, General Motors and Chrysler which included both Onsite and Offshore Deliver resources.\n• Successfully extended a new LAN / WAN Managed Services Contract for Ford's European Manufacturing and Dealer Network operations contract worth $11,000,000 annually.\n• Managed T-Systems delivery and account services initiatives to Ford.\n• Implemented new Engine Test Cell system for GM's Power-Train Division.\n\n\nCOMPUTER ASSOCIATES, Southfield, MI\t\t1999-2000\n4th largest software provider in the world products are used by the 90 % of the fortune 500 companies.\n\nSr. Account Manager\n• Responsible major sales and service delivery projects to General Motors, EDS, Ford, Chrysler and five of the top eight tier-1 Automotive Suppliers.\n• Sold and managed the global consolidation of Ford's nine (9) Mainframe Data Centers to two (2) with a total savings of over $2 million for Ford.\n• Sold CA Consulting Services and managed the delivery consultant team for Chrysler's Global Claims Warranty System which provided $3.5 million in annual cost savings.\n• Built Y2K (BCP) methodology for all three Automotive OEM's and coordinated with their respective staff to assure a smooth transition to year 2000 operations.\n\n\nSIEMENS BUSINESS SOLUTIONS GROUP, Southfield, MI\t\t1997-1999\n2nd largest European management and IT Consulting Company.\n\nRegional Business Development Manager\n• Responsible for SAP project management and solution Sales for the mid-west region.\n• Sold four global SAP R-3 implementation projects to John Deere, Purina Mills, ITT Automotive Continental General Tire and Michal Foods International worth $12 million in 13 month period. Modules included: AP,AR,MM,PO,SCM,FI,PLM\n• Built project implementation plans utilizing SAP's ASAP methodology and coordinated staffing requirements with customers and SBS global team members.\n• Rated in the top 5% of Siemens Business Development Managers.\n\nORACLE CORP, Troy, MI\t\t1996-1997\nLargest provider of database and software tools in the world.\n\nManaging Principal Oracle Consulting\n• Responsible for Oracle Application and engagement management as well as Oracle Consulting service sales to customers based in the Midwest Region.\n• Managed Oracle Financial Application Implementations for Eaton, Johnson Control and RR Reynolds.\n• Onsite support Manager responsible for all SLA Development and Delivery to Ford Motor Manufacturing, Dealer Network, Web Farm, and Ford Credit Services. Developed Global QC development process to reduce SDLC quality issues.\n\n\nENERPAC / APPLIED POWER, Butler, WI\t\t1994-1996\nLeading global provider of hydraulic related technology to the Heavy Lift, Construction, Oil and Mining Industries.\nInformational Technology Director\n• Responsible for IT operations and project implementation of Oracle's Applications to nine countries.\n• Managed Oracle Financial Application Implementations for our Asian and European operations.\n• Improved operational quality with the implementation of several ISO 9000 systems.\n• Managed staff of 26 in across 4 global data centers and capital and expense IT budgets.\n\n\nSCHERING-PLOUGH PHARMACEUTICAL. Memphis, TN.\t\t1991-1994\nSchering-Plough is among the top 6 global Pharmaceutical Manufacture and a leading US provider of Over the Counter Consumer Health Care Products.\n\nComputer Integrated Manufacturing Manager\n• Responsible for chairing Schering-Plough's US OTC Division Computer Integrated Manufacturing Committee with direct over site by the divisional President. Responsibilities included ERP, MES budget preparation, review, project management, vendor management and FDA process validation.\n•  Improved Supply-Chain optimization with the deployment of new Manufacturing Execution System (MES) with direct integration to T&E tracking system and SAP R3 Planning, Production Scheduling Modules and Wal-Mart DC systems.\n• Successfully implemented new Batch Recipe Control System which reduced raw material consumption by $500,000 year while reducing Work in Process (WIP) cycle time.\n• Developed new product return system which reduced inventory return cost by 23% annually.\n\n\nKRAFT GENERAL FOODS, CHAMPAIGN, IL\t\t1989-1991\nKraft is the Global leader in food products with diverse brands that span every food segment. Kraft Champaign is the largest US Food manufacturing and Distribution Center with over $5.7 Billion produced and shipped annually.\n\nInformation Technology Plant Manager\n• Responsible for developing process definition, resource requirement, system design and implementation plans for deployment of Logistics /WMS, Transportation, Operations Management and Plant Floor Control systems.\n• Developed and managed capital IT budget and managed contractual deliverables for all IT related contracts.\n• Implemented custom logistics and transportation system with improved and consolidated cross divisional inventory shipments reducing operational cost by $50 million.\n• Built new Data and IT Infrastructure to support plant systems rollout.\n\n\nNORTHROP GRUMMAN, Pico Riviera, CA.\t\t1987-1989\nLeading Defense Systems and Defense Aircraft Manufacturer and Commercial IT Services Company with $32 Billion in annual Sales\n\nSr. Manufacturing Technology Engineer - Advanced Man-tech Group\n• Responsible for system requirements specification and implementing plan for Manufacturing and Warehouse Material movement Systems for the B-2 program.\n• Developed State of the Art Composite Manufacturing system for B-2 large body panels.\n• Developed DoD certified Automated material Handling Systems requirements specification document and implementation plan.\n• Implemented new Engine Test system for engine performance and evaluation.\n\n\nGENERAL MOTORS / EDS CORPORATION, Troy, MI\t\t1984-1987\nGeneral Motors is the Largest global Passenger Automobiles and Light Duty Truck Manufacturer with annual sales of $187 billion.\nSr. Systems Engineer Plant Automation Group\n• Responsible for design specification and implementation of various Plant Floor Systems deployed for GM, Delco and Saturn assembly and sub assembly plants.\n• Project lead for the implementation of Plant Floor Systems ALDL, Allen-Bradley Fastening, and Mobile Material Container Tracking Systems for GMT 400, GM10, 30,33, Truck and Bus and other assembly and sub assembly plants.\n• Developed system acceptance test scripts for pre vehicle launch and production review.\n• Developed plant floor interfaces to MAP and GM vehicle sequencing and broadcast systems.\n\nEDUCATION\nElectrical Engineering, University of Michigan, Dearborn, MI\t1982-1984\nAssoc. EET, Electrical Engineering Technology, Macomb, Warren, MI\t1981",
+    "DocumentLanguage": "en",
+    "DocumentCulture": "en-US",
+    "ParserSettings": "Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = US; Culture.Language = English; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = False; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2022-03-30"
+  }
+}

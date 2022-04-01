@@ -1,0 +1,1809 @@
+﻿{
+  "ContactInformation": {
+    "CandidateName": {
+      "FormattedName": "Daniel C. Daugherty",
+      "GivenName": "Daniel",
+      "MiddleName": "C.",
+      "FamilyName": "Daugherty"
+    },
+    "Telephones": [
+      {
+        "InternationalCountryCode": "1",
+        "AreaCityCode": "714",
+        "SubscriberNumber": "470-3229",
+        "Raw": "714-470-3229",
+        "Normalized": "+1 714-470-3229"
+      }
+    ],
+    "EmailAddresses": [
+      "D@ugherty.com"
+    ],
+    "Location": {
+      "CountryCode": "US",
+      "Regions": [
+        "CA"
+      ],
+      "Municipality": "Marina del Rey"
+    }
+  },
+  "ProfessionalSummary": "Versatile, solution driven with proven strategic thinking, analytical and troubleshooting skills. Data-centric.",
+  "Education": {
+    "HighestDegree": {
+      "Name": {
+        "Raw": "B.A.",
+        "Normalized": "bachelors"
+      },
+      "Type": "bachelors"
+    },
+    "EducationDetails": [
+      {
+        "Id": "DEG-1",
+        "Text": "B.A. Psychology, California State University, Fullerton. Fullerton, CA\nPersistent student with a diverse academic background across disciplines including accounting, finance, journalism, sta- tistics, behavioral science, computer science, others. Significant completed units / hours at: University of California, LA; Fullerton College; Union University; California State University, Fullerton.\n\n\nd@ugherty.com:",
+        "SchoolName": {
+          "Raw": "California State University",
+          "Normalized": "California State University"
+        },
+        "SchoolType": "university",
+        "Location": {
+          "CountryCode": "US",
+          "Regions": [
+            "CA"
+          ],
+          "Municipality": "Fullerton"
+        },
+        "Degree": {
+          "Name": {
+            "Raw": "B.A.",
+            "Normalized": "bachelors"
+          },
+          "Type": "bachelors"
+        },
+        "Majors": [
+          "Psychology"
+        ],
+        "Graduated": {
+          "Value": false
+        }
+      }
+    ]
+  },
+  "EmploymentHistory": {
+    "ExperienceSummary": {
+      "Description": "Daniel C. Daugherty is experienced in the management of:  Information Technology (Programming). Daniel C. Daugherty has 23 years of work experience, with 6 years of management experience, including a mid-level position.",
+      "MonthsOfWorkExperience": 270,
+      "MonthsOfManagementExperience": 76,
+      "ExecutiveType": "OPERATIONS",
+      "AverageMonthsPerEmployer": 135,
+      "FulltimeDirectHirePredictiveIndex": 100,
+      "ManagementStory": "Starting on 6/1/1999, the candidate held the following mid-level management position for 6 years and 5 months:\n\tTitle: operations manager, Southern California division for ARIS Software, Inc",
+      "CurrentManagementLevel": "",
+      "ManagementScore": 55,
+      "AttentionNeeded": "ATTENTION: The candidate appears to have been in management in a past role (operations manager, Southern California division for ARIS Software, Inc), but was not in management in the most recent role as Senior management for VeriTES Analytics / PSB, WPP. Southern California."
+    },
+    "Positions": [
+      {
+        "Id": "POS-1",
+        "Employer": {
+          "Name": {
+            "Probability": "Probable",
+            "Raw": "VeriTES Analytics / PSB, WPP. Southern California",
+            "Normalized": "VeriTES Analytics PSB WPP Southern California"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": true,
+        "JobTitle": {
+          "Raw": "Senior management",
+          "Normalized": "Senior management",
+          "Probability": "Confident"
+        },
+        "StartDate": {
+          "Date": "2006-02-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2022-03-29",
+          "IsCurrentDate": true,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Programming",
+        "JobLevel": "Low Level",
+        "TaxonomyPercentage": 97,
+        "Description": "for a small divisional segment of a large international conglomerate.\n• Architect of a suite of products involving data collection, analytics, and predictions for theatrical feature films.\n• Realtime ingestion and reporting of field force supplied and electronically retrieved data.\n• Responsible for delivering cost effective, but highly responsive solutions to meet client needs including our ma- chine learning platform and models for market prediction products.\n• Agnostic environment spanning multiple languages and platforms including PHP, Python, JavaScript & Node.JS, C#, among others.\n• Responsible for corporate owned server rooms and cloud resources (Amazon Web Services).\n• Tasked with providing all IT needs including network administration and application development."
+      },
+      {
+        "Id": "POS-2",
+        "Employer": {
+          "Name": {
+            "Probability": "Confident",
+            "Raw": "ARIS Software, Inc",
+            "Normalized": "ARIS Software"
+          },
+          "Location": {
+            "CountryCode": "US",
+            "Regions": [
+              "CA"
+            ],
+            "Municipality": "Rancho Cucamonga"
+          }
+        },
+        "IsSelfEmployed": false,
+        "IsCurrent": false,
+        "JobTitle": {
+          "Raw": "operations manager, Southern California division",
+          "Normalized": "operations manager Southern California division",
+          "Probability": "Probable"
+        },
+        "StartDate": {
+          "Date": "1999-06-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "EndDate": {
+          "Date": "2005-10-01",
+          "IsCurrentDate": false,
+          "FoundYear": true,
+          "FoundMonth": true,
+          "FoundDay": false
+        },
+        "JobType": "directHire",
+        "TaxonomyName": "Information Technology",
+        "SubTaxonomyName": "Programming",
+        "JobLevel": "Senior Manager (more than 5 years management experience)",
+        "TaxonomyPercentage": 45,
+        "Description": ", Rancho Cucamonga, CA\tJune 1999 - Oct. 2005\n• Large scale ERP / billing platform development.\n• Responsible for reporting and inventory control modules as well as numerous other development projects.\n• Visual Fox Pro, Microsoft .Net (C#), SQL Server (T-SQL) and Business Objects - Crystal Reports.\n\n\nEXPERIENCE (OLDER)\nStrategic Direct Marketing, Inc., Nashville, TN\t~ Two Years\n• Banking / Finance market research firm.\n• Ingestion of marketing data from banks, modeling retention probabilities for mega-CD and other financial in- struments targeted to municipalities and institutional portfolio managers.\n• General management of IT operations and in-house software development.\nADM, Inc. / ATI, Inc. Nashville, TN\t~ Three Years\n• General market research firm.\n• General management of IT operations and in-house software development.\n• Call center management for non-profits such as American Heart Association and corporate clients such as Ingersoll Rand.\nMighty Distribution System of America, Santa Fe Springs, CA\t~ Six Years Mighty Product Center, Jackson, TN\n• Large automotive OEM and Distribution company.\n• General management of technical operations. Promoted to operations manager, Southern California division.\n• Responsible for inventory control, personnel, and day to day operations while continuing to provide technical expertise for the corporation.\nNewsLeader, Inc. / News Group Inc. Parsons, TN\t~ Four Years Editor, West Tennessee Business Journal, Jackson, TN\n• Regional newspaper / business journal.\n• Full print production, photography, and darkroom tech. Light editorial writing and general copy writing."
+      }
+    ]
+  },
+  "SkillsData": [
+    {
+      "Root": "Sovren",
+      "Taxonomies": [
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "023039",
+                  "Name": ".NET",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "021556",
+                  "Name": "Application Development",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 270
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "012275",
+                  "Name": "C#",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "025394",
+                  "Name": "Javascript",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 194
+                      },
+                      "LastUsed": {
+                        "Value": "2022-03-29"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-1"
+                        }
+                      ],
+                      "Id": "339002002",
+                      "Name": "Node.JS",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 194
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "Id": "0253941",
+                  "Name": "Javascript Frameworks and Libraries",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 76
+                      },
+                      "LastUsed": {
+                        "Value": "2005-10-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "021807",
+                      "Name": "Microsoft .Net",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 76
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "Id": "026107",
+                  "Name": "MS .NET",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "004736",
+                  "Name": "PHP",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "006120",
+                  "Name": "Python",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 76
+                      },
+                      "LastUsed": {
+                        "Value": "2005-10-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "008213",
+                      "Name": "Software Development",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 76
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "Id": "022594",
+                  "Name": "Structured Software",
+                  "ExistsInText": false
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "3391144",
+                  "Name": "Swift",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "010438",
+                  "Name": "Vbscript",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 53,
+              "PercentOfParent": 58,
+              "SubTaxonomyId": "204",
+              "SubTaxonomyName": "Programming"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "Id": "550000102",
+                      "Name": "EC2",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "5500001",
+                  "Name": "Amazon Elastic Compute Cloud",
+                  "ExistsInText": false
+                },
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "Id": "555121760",
+                      "Name": "AWS",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "3391154",
+                  "Name": "Amazon Web Services",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "3391147",
+                  "Name": "Docker",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 9,
+              "PercentOfParent": 10,
+              "SubTaxonomyId": "550",
+              "SubTaxonomyName": "Cloud Computing"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "004324",
+                  "Name": "ASP",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "011022",
+                  "Name": "WEB Services",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 9,
+              "PercentOfParent": 10,
+              "SubTaxonomyId": "196",
+              "SubTaxonomyName": "Internet"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "3490002",
+                  "Name": "Network Administration",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 7,
+              "PercentOfParent": 8,
+              "SubTaxonomyId": "349",
+              "SubTaxonomyName": "Operations, Monitoring and Software Management"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "081188",
+                  "Name": "Realtime",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 7,
+              "PercentOfParent": 8,
+              "SubTaxonomyId": "253",
+              "SubTaxonomyName": "Protocols and Standards"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "Id": "553087501",
+                      "Name": "Dynamodb",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "5530875",
+                  "Name": "Amazon Dynamodb",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "5530944",
+                  "Name": "Data Collection",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 76
+                      },
+                      "LastUsed": {
+                        "Value": "2005-10-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "5530984",
+                      "Name": "ERP",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 76
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "Id": "5530983",
+                  "Name": "Enterprise Resource Planning",
+                  "ExistsInText": false
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "5530812",
+                  "Name": "Nosql",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "5530835",
+                  "Name": "Redis",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 4,
+              "PercentOfParent": 5,
+              "SubTaxonomyId": "553",
+              "SubTaxonomyName": "Big Data"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "014961",
+                  "Name": "Data Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 76
+                      },
+                      "LastUsed": {
+                        "Value": "2005-10-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        },
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "008483",
+                      "Name": "SQL Server",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 76
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "Id": "023733",
+                  "Name": "MS SQL Server",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "008481",
+                  "Name": "SQL",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "010610",
+                  "Name": "Visual Fox Pro",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 1,
+              "SubTaxonomyId": "193",
+              "SubTaxonomyName": "Database"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "Id": "554095401",
+                      "Name": "SSRS",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "5540954",
+                  "Name": "Microsoft SSRS",
+                  "ExistsInText": false
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "5540990",
+                  "Name": "T-SQL",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "554",
+              "SubTaxonomyName": "Business Intelligence"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "023926",
+                  "Name": "Linux",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "01026309",
+                  "Name": "UNIX",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "203",
+              "SubTaxonomyName": "UNIX and LINUX"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "024116",
+                  "Name": "Crystal Reports",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "341",
+              "SubTaxonomyName": "Reporting"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "023328",
+                  "Name": "JAVA",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "339",
+              "SubTaxonomyName": "Java"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "024045",
+                  "Name": "Network Troubleshooting",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "198",
+              "SubTaxonomyName": "Network"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "023085",
+                  "Name": "Operations Manager",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "251",
+              "SubTaxonomyName": "Config Deploy Upgrade Migrate"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "016891",
+                  "Name": "ERP",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 0,
+              "SubTaxonomyId": "195",
+              "SubTaxonomyName": "ERP and CRM"
+            }
+          ],
+          "Id": "10",
+          "Name": "Information Technology",
+          "PercentOfOverall": 92
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "022474",
+                  "Name": "Billing",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "013780",
+                  "Name": "Collection",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 3,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "110",
+              "SubTaxonomyName": "Billing and Collections"
+            }
+          ],
+          "Id": "1",
+          "Name": "Administrative or Clerical",
+          "PercentOfOverall": 3
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "014974",
+                  "Name": "Data Collection",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 2,
+              "PercentOfParent": 96,
+              "SubTaxonomyId": "316",
+              "SubTaxonomyName": "Central Office"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "024046",
+                  "Name": "Network Troubleshooting",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 4,
+              "SubTaxonomyId": "318",
+              "SubTaxonomyName": "Network"
+            }
+          ],
+          "Id": "16",
+          "Name": "Telecommunications",
+          "PercentOfOverall": 2
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "013778",
+                  "Name": "Collection",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 85,
+              "SubTaxonomyId": "235",
+              "SubTaxonomyName": "Financial Planning & Analysis"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-1"
+                    },
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "023147",
+                  "Name": "Finance",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 15,
+              "SubTaxonomyId": "243",
+              "SubTaxonomyName": "Other"
+            }
+          ],
+          "Id": "7",
+          "Name": "Finance",
+          "PercentOfOverall": 1
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-1"
+                    }
+                  ],
+                  "Id": "005856",
+                  "Name": "Accounting",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "011553",
+                  "Name": "Billing",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 194
+                  },
+                  "LastUsed": {
+                    "Value": "2022-03-29"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-1"
+                    }
+                  ],
+                  "Id": "013779",
+                  "Name": "Collection",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 1,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "533",
+              "SubTaxonomyName": "Bookeeping Tasks"
+            }
+          ],
+          "Id": "89",
+          "Name": "Bookkeeping, Office Management",
+          "PercentOfOverall": 1
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "1400326",
+                  "Name": "Market Research",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 23,
+              "SubTaxonomyId": "223",
+              "SubTaxonomyName": "Market Research"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "021241",
+                  "Name": "Marketing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 23,
+              "SubTaxonomyId": "249",
+              "SubTaxonomyName": "General"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "1400195",
+                  "Name": "Copy Writing",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "1400208",
+                  "Name": "Direct Marketing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 19,
+              "SubTaxonomyId": "595",
+              "SubTaxonomyName": "Advertising"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "1400176",
+                  "Name": "Copy Writing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 12,
+              "SubTaxonomyId": "224",
+              "SubTaxonomyName": "Public Relations"
+            },
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "FoundIn": [
+                        {
+                          "SectionType": "SKILLS"
+                        }
+                      ],
+                      "Id": "1400327",
+                      "Name": "Data Analysis",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "Id": "1400068",
+                  "Name": "Marketing Analysis",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 8,
+              "SubTaxonomyId": "588",
+              "SubTaxonomyName": "Data & Analytics"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "1400223",
+                  "Name": "Direct Marketing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 8,
+              "SubTaxonomyId": "226",
+              "SubTaxonomyName": "Channel Management"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "015465",
+                  "Name": "Direct Marketing",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 8,
+              "SubTaxonomyId": "222",
+              "SubTaxonomyName": "Direct"
+            }
+          ],
+          "Id": "14",
+          "Name": "Marketing",
+          "PercentOfOverall": 1
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "003875",
+                  "Name": "Operations",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "023086",
+                  "Name": "Operations Manager",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "436",
+              "SubTaxonomyName": "Management Activities or Functions"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "014960",
+                  "Name": "Data Analysis",
+                  "ExistsInText": true
+                },
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "SKILLS"
+                    }
+                  ],
+                  "Id": "008585",
+                  "Name": "Statistics",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "437",
+              "SubTaxonomyName": "General Skills and Activities"
+            }
+          ],
+          "Id": "34",
+          "Name": "Business Operations and General Business",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "020086",
+                  "Name": "Inventory",
+                  "ExistsInText": true
+                },
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "023029",
+                  "Name": "Inventory Control",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 97,
+              "SubTaxonomyId": "459",
+              "SubTaxonomyName": "Inventory"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "016892",
+                  "Name": "ERP",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 3,
+              "SubTaxonomyId": "460",
+              "SubTaxonomyName": "Logistics"
+            }
+          ],
+          "Id": "97",
+          "Name": "Supply Chain and Logistics",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "012516",
+                  "Name": "Call Center Management",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 75,
+              "SubTaxonomyId": "517",
+              "SubTaxonomyName": "People Oriented"
+            },
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "023087",
+                  "Name": "Operations Manager",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 25,
+              "SubTaxonomyId": "518",
+              "SubTaxonomyName": "Operations and Admin"
+            }
+          ],
+          "Id": "80",
+          "Name": "General Management",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "FoundIn": [
+                    {
+                      "SectionType": "WORK HISTORY",
+                      "Id": "POS-2"
+                    }
+                  ],
+                  "Id": "003671",
+                  "Name": "OEM",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "105",
+              "SubTaxonomyName": "General"
+            }
+          ],
+          "Id": "20",
+          "Name": "Sales",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-1"
+                    }
+                  ],
+                  "Id": "7000058",
+                  "Name": "Accounting",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "950",
+              "SubTaxonomyName": "CPA"
+            },
+            {
+              "Skills": [
+                {
+                  "FoundIn": [
+                    {
+                      "SectionType": "EDUCATION",
+                      "Id": "DEG-1"
+                    }
+                  ],
+                  "Id": "022499",
+                  "Name": "Accounting",
+                  "ExistsInText": true
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 50,
+              "SubTaxonomyId": "944",
+              "SubTaxonomyName": "Bookkeeping"
+            }
+          ],
+          "Id": "32",
+          "Name": "Degreed Accounting",
+          "PercentOfOverall": 0
+        },
+        {
+          "SubTaxonomies": [
+            {
+              "Skills": [
+                {
+                  "Variations": [
+                    {
+                      "MonthsExperience": {
+                        "Value": 76
+                      },
+                      "LastUsed": {
+                        "Value": "2005-10-01"
+                      },
+                      "FoundIn": [
+                        {
+                          "SectionType": "WORK HISTORY",
+                          "Id": "POS-2"
+                        }
+                      ],
+                      "Id": "9000075",
+                      "Name": "ERP",
+                      "ExistsInText": true
+                    }
+                  ],
+                  "ChildrenMonthsExperience": {
+                    "Value": 76
+                  },
+                  "ChildrenLastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "MonthsExperience": {
+                    "Value": 76
+                  },
+                  "LastUsed": {
+                    "Value": "2005-10-01"
+                  },
+                  "Id": "9000074",
+                  "Name": "Employee Resource Group",
+                  "ExistsInText": false
+                }
+              ],
+              "PercentOfOverall": 0,
+              "PercentOfParent": 100,
+              "SubTaxonomyId": "574",
+              "SubTaxonomyName": "Diversity & Inclusion"
+            }
+          ],
+          "Id": "9",
+          "Name": "Human Resources",
+          "PercentOfOverall": 0
+        }
+      ]
+    }
+  ],
+  "Associations": [
+    {
+      "Organization": "American Heart Association",
+      "Role": ""
+    }
+  ],
+  "LanguageCompetencies": [
+    {
+      "Language": "English",
+      "LanguageCode": "en",
+      "FoundInContext": "[RESUME_LANGUAGE]"
+    }
+  ],
+  "QualificationsSummary": "SKILLS\n• Data analysis / science with experience in ML, statistics, modeling. Human behavior.\n• Wide IT experience including robust software development and hardware and network troubleshooting.\n• PHP, Python, C#, Java, JavaScript, Node.JS, VBScript, ASP, R, Go, Fox, Swift, Dart, T-SQL.\n• Years of RDBS / SQL experience along with NoSQL / Key-value stores such as Redis and DynamoDB.\n• Reporting platforms such as Business Objects - Crystal Reports, SQL Server Reporting Service (SSRS).\n• Traditional server room management (Windows, Linux, Unix), Docker, CD/CI pipelines.\n• Amazon Web Services (AWS) experience spanning many years. (EC2, RDS, S3, DynamoDB, IAM, VPC, ML   ).",
+  "ResumeMetadata": {
+    "FoundSections": [
+      {
+        "FirstLineNumber": 5,
+        "LastLineNumber": 6,
+        "SectionType": "SUMMARY",
+        "HeaderTextFound": "PROFILE"
+      },
+      {
+        "FirstLineNumber": 7,
+        "LastLineNumber": 15,
+        "SectionType": "SKILLS",
+        "HeaderTextFound": "SKILLS"
+      },
+      {
+        "FirstLineNumber": 16,
+        "LastLineNumber": 48,
+        "SectionType": "WORK HISTORY",
+        "HeaderTextFound": "EXPERIENCE (RECENT)"
+      },
+      {
+        "FirstLineNumber": 49,
+        "LastLineNumber": 54,
+        "SectionType": "EDUCATION",
+        "HeaderTextFound": "EDUCATION"
+      }
+    ],
+    "ResumeQuality": [
+      {
+        "Level": "Data Missing",
+        "Findings": [
+          {
+            "QualityCode": "213",
+            "Message": "A street level address was not found in the contact information. A full contact address should always be included in a resume as it allows for location based searches."
+          }
+        ]
+      },
+      {
+        "Level": "Suggested Improvements",
+        "Findings": [
+          {
+            "QualityCode": "112",
+            "Message": "The following section was identified as a skills section type: 'SKILLS'. Skills should not be in a separate section, but instead, each skill should be included in the descriptions of work history or education. THIS IS INCREDIBLY IMPORTANT FOR AI MATCHING ALGORITHMS"
+          }
+        ]
+      }
+    ],
+    "ReservedData": {
+      "Phones": [
+        "714-470-3229"
+      ],
+      "Names": [
+        "Daniel C. Daugherty"
+      ],
+      "EmailAddresses": [
+        "D@ugherty.com",
+        "d@ugherty.com"
+      ]
+    },
+    "PlainText": "Daniel C. Daugherty\nMarina del Rey, CA\n714-470-3229: D@ugherty.com\n\n\nPROFILE\nVersatile, solution driven with proven strategic thinking, analytical and troubleshooting skills. Data-centric.\nSKILLS\n• Data analysis / science with experience in ML, statistics, modeling. Human behavior.\n• Wide IT experience including robust software development and hardware and network troubleshooting.\n• PHP, Python, C#, Java, JavaScript, Node.JS, VBScript, ASP, R, Go, Fox, Swift, Dart, T-SQL.\n• Years of RDBS / SQL experience along with NoSQL / Key-value stores such as Redis and DynamoDB.\n• Reporting platforms such as Business Objects - Crystal Reports, SQL Server Reporting Service (SSRS).\n• Traditional server room management (Windows, Linux, Unix), Docker, CD/CI pipelines.\n• Amazon Web Services (AWS) experience spanning many years. (EC2, RDS, S3, DynamoDB, IAM, VPC, ML   ).\n\nEXPERIENCE (RECENT)\nVeriTES Analytics / PSB, WPP. Southern California\tFeb. 2006 - Present\n• Senior management for a small divisional segment of a large international conglomerate.\n• Architect of a suite of products involving data collection, analytics, and predictions for theatrical feature films.\n• Realtime ingestion and reporting of field force supplied and electronically retrieved data.\n• Responsible for delivering cost effective, but highly responsive solutions to meet client needs including our ma- chine learning platform and models for market prediction products.\n• Agnostic environment spanning multiple languages and platforms including PHP, Python, JavaScript & Node.JS, C#, among others.\n• Responsible for corporate owned server rooms and cloud resources (Amazon Web Services).\n• Tasked with providing all IT needs including network administration and application development.\nARIS Software, Inc., Rancho Cucamonga, CA\tJune 1999 - Oct. 2005\n• Large scale ERP / billing platform development.\n• Responsible for reporting and inventory control modules as well as numerous other development projects.\n• Visual Fox Pro, Microsoft .Net (C#), SQL Server (T-SQL) and Business Objects - Crystal Reports.\n\n\nEXPERIENCE (OLDER)\nStrategic Direct Marketing, Inc., Nashville, TN\t~ Two Years\n• Banking / Finance market research firm.\n• Ingestion of marketing data from banks, modeling retention probabilities for mega-CD and other financial in- struments targeted to municipalities and institutional portfolio managers.\n• General management of IT operations and in-house software development.\nADM, Inc. / ATI, Inc. Nashville, TN\t~ Three Years\n• General market research firm.\n• General management of IT operations and in-house software development.\n• Call center management for non-profits such as American Heart Association and corporate clients such as Ingersoll Rand.\nMighty Distribution System of America, Santa Fe Springs, CA\t~ Six Years Mighty Product Center, Jackson, TN\n• Large automotive OEM and Distribution company.\n• General management of technical operations. Promoted to operations manager, Southern California division.\n• Responsible for inventory control, personnel, and day to day operations while continuing to provide technical expertise for the corporation.\nNewsLeader, Inc. / News Group Inc. Parsons, TN\t~ Four Years Editor, West Tennessee Business Journal, Jackson, TN\n• Regional newspaper / business journal.\n• Full print production, photography, and darkroom tech. Light editorial writing and general copy writing.\n\n\nEDUCATION\nB.A. Psychology, California State University, Fullerton. Fullerton, CA\nPersistent student with a diverse academic background across disciplines including accounting, finance, journalism, sta- tistics, behavioral science, computer science, others. Significant completed units / hours at: University of California, LA; Fullerton College; Union University; California State University, Fullerton.\n\n\nd@ugherty.com: 714-470-3229",
+    "DocumentLanguage": "en",
+    "DocumentCulture": "en-US",
+    "ParserSettings": "Coverage.PersonalAttributes = True; Coverage.Training = True; Culture.CountryCodeForUnitedKingdomIsUK = True; Culture.DefaultCountryCode = US; Culture.Language = English; Culture.PreferEnglishVersionIfTwoLanguagesInDocument = False; Data.UserDefinedParsing = False; OutputFormat.AssumeCompanyNameFromPrecedingJob = False; OutputFormat.ContactMethod.PackStyle = Split; OutputFormat.DateOutputStyle = ExplicitlyKnownDateInfoOnly; OutputFormat.NestJobsBasedOnDateRanges = True; OutputFormat.NormalizeRegions = False; OutputFormat.SimpleCustomLinkedIn = False; OutputFormat.SkillsStyle = Default; OutputFormat.StripParsedDataFromPositionHistoryDescription = True; OutputFormat.TelcomNumber.Style = Raw; OutputFormat.XmlFormat = HrXmlResume25",
+    "DocumentLastModified": "2022-03-29"
+  }
+}
