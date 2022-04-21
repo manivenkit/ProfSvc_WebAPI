@@ -108,21 +108,28 @@ public class RequisitionController : ControllerBase
                                           {
                                               CommandType = CommandType.StoredProcedure
                                           };
-        _command.Int("CandidateID", requisitionID);
+        _command.Int("RequisitionID", requisitionID);
         _command.Varchar("RoleID", 2, roleID);
         await _connection.OpenAsync();
         await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
         if (_reader.HasRows) //Candidate Details
         {
             _reader.Read();
-            _requisitionDetail = new(_reader.GetString(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetInt32(4),
-                                     _reader.GetString(5), _reader.GetString(6), _reader.GetString(7), _reader.GetString(8), _reader.GetDecimal(9),
-                                     _reader.GetDecimal(10), _reader.GetDecimal(11), _reader.GetDecimal(12), _reader.GetDecimal(13), _reader.GetBoolean(14),
-                                     _reader.GetString(15), _reader.NString(16), _reader.GetDecimal(17), _reader.GetDecimal(18), _reader.GetBoolean(19),
-                                     _reader.GetDateTime(20), _reader.GetString(21), _reader.GetString(22), _reader.GetString(23), _reader.GetDateTime(24),
-                                     _reader.GetString(25), _reader.GetDateTime(26), _reader.GetString(27), _reader.GetString(28), _reader.GetString(29),
-                                     _reader.GetBoolean(30), _reader.GetBoolean(31), _reader.GetString(32), _reader.GetBoolean(33), _reader.GetDateTime(34),
-                                     _reader.GetBoolean(35));
+            try
+            {
+                _requisitionDetail = new(_reader.GetString(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetInt32(4),
+                                         _reader.GetString(5), _reader.GetString(6), _reader.GetString(7), _reader.GetString(8), _reader.GetDecimal(9),
+                                         _reader.GetDecimal(10), _reader.GetDecimal(11), _reader.GetDecimal(12), _reader.GetDecimal(13), _reader.GetBoolean(14),
+                                         _reader.GetString(15), _reader.NString(16), _reader.GetDecimal(17), _reader.GetDecimal(18), _reader.GetBoolean(19),
+                                         _reader.GetDateTime(20), _reader.GetString(21), _reader.GetString(22), _reader.GetString(23), _reader.GetDateTime(24),
+                                         _reader.GetString(25), _reader.GetDateTime(26), _reader.NString(27), _reader.NString(28), _reader.NString(29),
+                                         _reader.GetBoolean(30), _reader.GetBoolean(31), _reader.NString(32), _reader.GetBoolean(33), _reader.GetDateTime(34),
+                                         _reader.GetBoolean(35));
+            }
+            catch (Exception exception)
+            {
+                //
+            }
         }
 
 
@@ -145,7 +152,7 @@ public class RequisitionController : ControllerBase
         return new Dictionary<string, object>
                {
                    {
-                       "Candidate", _requisitionDetail
+                       "Requisition", _requisitionDetail
                    },
                    {
                        "Document", _activity
