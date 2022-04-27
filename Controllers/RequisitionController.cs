@@ -155,7 +155,7 @@ public class RequisitionController : ControllerBase
                        "Requisition", _requisitionDetail
                    },
                    {
-                       "Document", _activity
+                       "Activity", _activity
                    }
                };
     }
