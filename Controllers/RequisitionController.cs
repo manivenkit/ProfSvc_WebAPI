@@ -124,9 +124,9 @@ public class RequisitionController : ControllerBase
                                          _reader.GetDateTime(20), _reader.GetString(21), _reader.GetString(22), _reader.GetString(23), _reader.GetDateTime(24),
                                          _reader.GetString(25), _reader.GetDateTime(26), _reader.NString(27), _reader.NString(28), _reader.NString(29),
                                          _reader.GetBoolean(30), _reader.GetBoolean(31), _reader.NString(32), _reader.GetBoolean(33), _reader.GetDateTime(34),
-                                         _reader.GetBoolean(35));
+                                         _reader.GetBoolean(35), _reader.GetString(36), _reader.GetInt32(37), _reader.GetString(38));
             }
-            catch (Exception exception)
+            catch (Exception)
             {
                 //
             }
