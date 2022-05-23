@@ -922,7 +922,7 @@ public class CandidatesController : ControllerBase
                         }
                     }
                 }
-                catch (Exception ex)
+                catch
                 {
                     await Task.Delay(1);
                 }
@@ -948,7 +948,7 @@ public class CandidatesController : ControllerBase
 
             await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
             await _connection.OpenAsync();
-            int _returnCode = 0;
+            //int _returnCode = 0;
             try
             {
                 await using SqlCommand _command = new("SaveParsedCandidate", _connection)
