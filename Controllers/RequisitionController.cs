@@ -8,7 +8,7 @@
 // File Name:           RequisitionController.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          03-18-2022 20:58
-// Last Updated On:     04-12-2022 15:44
+// Last Updated On:     06-29-2022 15:31
 // *****************************************/
 
 #endregion
@@ -124,14 +124,15 @@ public class RequisitionController : ControllerBase
                                          _reader.GetDateTime(20), _reader.GetString(21), _reader.GetString(22), _reader.GetString(23), _reader.GetDateTime(24),
                                          _reader.GetString(25), _reader.GetDateTime(26), _reader.NString(27), _reader.NString(28), _reader.NString(29),
                                          _reader.GetBoolean(30), _reader.GetBoolean(31), _reader.NString(32), _reader.GetBoolean(33), _reader.GetDateTime(34),
-                                         _reader.GetBoolean(35), _reader.GetString(36), _reader.GetInt32(37), _reader.GetString(38));
+                                         _reader.GetBoolean(35), _reader.GetString(39), _reader.GetInt32(38), _reader.GetString(40), _reader.NString(41), 
+                                         _reader.NString(42), _reader.NString(43), _reader.GetInt16(44), _reader.GetInt32(45), _reader.GetInt32(46), 
+                                         _reader.GetInt32(47), _reader.NString(48), _reader.GetInt32(36), _reader.GetInt32(37));
             }
             catch (Exception)
             {
                 //
             }
         }
-
 
         _reader.NextResult(); //Activity
         List<CandidateActivity> _activity = new();
