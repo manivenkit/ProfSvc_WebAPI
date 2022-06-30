@@ -78,6 +78,22 @@ public class RequisitionController : ControllerBase
                                   _reader.GetBoolean(11), _reader.GetBoolean(12), _reader.GetBoolean(13), _reader.GetString(14), _reader.GetString(15)));
         }
 
+        _reader.NextResult();
+
+        List<Company> _companies = new();
+        while (_reader.Read())
+        {
+            _companies.Add(new Company(_reader.GetInt32(0), _reader.GetString(1)));
+        }
+
+        _reader.NextResult();
+
+        List<CompanyContact> _companyContacts = new();
+        while (_reader.Read())
+        {
+            _companyContacts.Add(new CompanyContact(_reader.GetInt32(0), _reader.GetInt32(1), _reader.GetString(1)));
+        }
+
         await _reader.CloseAsync();
 
         await _connection.CloseAsync();
@@ -86,6 +102,12 @@ public class RequisitionController : ControllerBase
                {
                    {
                        "Requisitions", _requisitions
+                   },
+                   {
+                       "Companies", _companies
+                   },
+                   {
+                       "Contacts", _companyContacts
                    },
                    {
                        "Count", _count
