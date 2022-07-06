@@ -31,7 +31,7 @@
         <PackageReference Include="Radzen.Blazor" Version="3.19.2" />
         <PackageReference Include="RestSharp" Version="108.0.1" />
         <PackageReference Include="Sovren.SDK" Version="1.5.3" />
-        <PackageReference Include="Syncfusion.Blazor" Version="20.2.0.36" />
+        <PackageReference Include="Syncfusion.Blazor" Version="20.1.0.61" />
     </ItemGroup>
 
     <ItemGroup>

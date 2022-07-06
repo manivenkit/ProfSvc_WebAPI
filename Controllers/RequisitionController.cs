@@ -88,14 +88,14 @@ public class RequisitionController : ControllerBase
 
             while (_reader.Read())
             {
-                _companies.Add(new Company(_reader.GetInt32(0), _reader.GetString(1)));
+                _companies.Add(new(_reader.GetInt32(0), _reader.GetString(1)));
             }
 
             _reader.NextResult();
 
             while (_reader.Read())
             {
-                _companyContacts.Add(new CompanyContact(_reader.GetInt32(0), _reader.GetInt32(1), _reader.GetString(1)));
+                _companyContacts.Add(new(_reader.GetInt32(0), _reader.GetInt32(2), _reader.GetString(1)));
             }
         }
 
@@ -151,9 +151,9 @@ public class RequisitionController : ControllerBase
                                          _reader.GetDateTime(20), _reader.GetString(21), _reader.GetString(22), _reader.GetString(23), _reader.GetDateTime(24),
                                          _reader.GetString(25), _reader.GetDateTime(26), _reader.NString(27), _reader.NString(28), _reader.NString(29),
                                          _reader.GetBoolean(30), _reader.GetBoolean(31), _reader.NString(32), _reader.GetBoolean(33), _reader.GetDateTime(34),
-                                         _reader.GetBoolean(35), _reader.GetString(39), _reader.GetInt32(38), _reader.GetString(40), _reader.NString(41), 
-                                         _reader.NString(42), _reader.NString(43), _reader.GetInt16(44), _reader.GetInt32(45), _reader.GetInt32(46), 
-                                         _reader.GetInt32(47), _reader.NString(48), _reader.GetInt32(36), _reader.GetInt32(37));
+                                         _reader.GetBoolean(35), _reader.GetString(39), _reader.GetInt32(7), _reader.GetString(40), _reader.NString(41), 
+                                         _reader.NString(42), _reader.NString(43), _reader.GetByte(44), _reader.NInt32(45), _reader.NInt32(46), 
+                                         _reader.NInt32(47), _reader.NString(48), _reader.GetInt32(36), _reader.GetInt32(37));
             }
             catch (Exception)
             {
