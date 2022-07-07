@@ -144,7 +144,7 @@ public class RequisitionController : ControllerBase
             _reader.Read();
             try
             {
-                _requisitionDetail = new(_reader.GetString(0), _reader.GetString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetInt32(4),
+                _requisitionDetail = new(_reader.GetString(0), _reader.NString(1), _reader.GetString(2), _reader.GetString(3), _reader.GetInt32(4),
                                          _reader.GetString(5), _reader.GetString(6), _reader.GetString(38), _reader.GetString(8), _reader.GetDecimal(9),
                                          _reader.GetDecimal(10), _reader.GetDecimal(11), _reader.GetDecimal(12), _reader.GetDecimal(13), _reader.GetBoolean(14),
                                          _reader.GetString(15), _reader.NString(16), _reader.GetDecimal(17), _reader.GetDecimal(18), _reader.GetBoolean(19),
