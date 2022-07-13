@@ -36,7 +36,7 @@ global using ProfSvc_Classes;
 
 global using Microsoft.AspNetCore.Http.Features;
 
-global using Newtonsoft.Json.Linq;
+//global using Newtonsoft.Json.Linq;
 
 global using RestSharp;
 

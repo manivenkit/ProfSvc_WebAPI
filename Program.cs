@@ -15,13 +15,13 @@
 
 #region Using
 
-using Syncfusion.Blazor;
-using Syncfusion.Licensing;
+//using Syncfusion.Blazor;
+//using Syncfusion.Licensing;
 
 #endregion
 
 WebApplicationBuilder _builder = WebApplication.CreateBuilder(args);
-_builder.Services.AddSyncfusionBlazor();
+//_builder.Services.AddSyncfusionBlazor();
 
 // Add services to the container.
 //_builder.Services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
@@ -29,7 +29,7 @@ _builder.Services.AddSyncfusionBlazor();
 _builder.Services.AddControllers();
 
 WebApplication _app = _builder.Build();
-SyncfusionLicenseProvider.RegisterLicense("NjY5MjIyQDMyMzAyZTMyMmUzMGQwUmxjaWZkYmlZS05HL2QreE9ub1pGU1VJYjN6a0ZRekt4WUdEMkFFcFU9");
+//SyncfusionLicenseProvider.RegisterLicense("NjY5MjIyQDMyMzAyZTMyMmUzMGQwUmxjaWZkYmlZS05HL2QreE9ub1pGU1VJYjN6a0ZRekt4WUdEMkFFcFU9");
 
 // Configure the HTTP request pipeline.
 
