@@ -634,7 +634,7 @@ public class CandidatesController : ControllerBase
     /// <summary>
     /// </summary>
     [HttpPost]
-    public async Task ParseResume([FromQuery] string fileName, [FromQuery] string fileSize, [FromQuery] string mimeType, [FromQuery] string user)
+    public async Task ParseResume()
     {
         /*
          // DAXTRA

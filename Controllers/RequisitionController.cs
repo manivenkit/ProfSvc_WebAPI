@@ -8,7 +8,7 @@
 // File Name:           RequisitionController.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          03-18-2022 20:58
-// Last Updated On:     06-29-2022 15:31
+// Last Updated On:     07-15-2022 21:01
 // *****************************************/
 
 #endregion
@@ -81,21 +81,26 @@ public class RequisitionController : ControllerBase
 
         List<Company> _companies = new();
         List<CompanyContact> _companyContacts = new();
+        List<IntValues> _skills = new();
 
         if (getCompanyInformation)
         {
             _reader.NextResult();
-
             while (_reader.Read())
             {
                 _companies.Add(new(_reader.GetInt32(0), _reader.GetString(1)));
             }
 
             _reader.NextResult();
-
             while (_reader.Read())
             {
                 _companyContacts.Add(new(_reader.GetInt32(0), _reader.GetInt32(2), _reader.GetString(1)));
+            }
+
+            _reader.NextResult();
+            while (_reader.Read())
+            {
+                _skills.Add(new(_reader.GetInt32(0), _reader.GetString(1)));
             }
         }
 
@@ -113,6 +118,9 @@ public class RequisitionController : ControllerBase
                    },
                    {
                        "Contacts", _companyContacts
+                   },
+                   {
+                       "Skills", _skills
                    },
                    {
                        "Count", _count
@@ -151,8 +159,8 @@ public class RequisitionController : ControllerBase
                                          _reader.GetDateTime(20), _reader.GetString(21), _reader.GetString(22), _reader.GetString(23), _reader.GetDateTime(24),
                                          _reader.GetString(25), _reader.GetDateTime(26), _reader.NString(27), _reader.NString(28), _reader.NString(29),
                                          _reader.GetBoolean(30), _reader.GetBoolean(31), _reader.NString(32), _reader.GetBoolean(33), _reader.GetDateTime(34),
-                                         _reader.GetBoolean(35), _reader.GetString(39), _reader.GetInt32(7), _reader.GetString(40), _reader.NString(41), 
-                                         _reader.NString(42), _reader.NString(43), _reader.GetByte(44), _reader.NInt32(45), _reader.NInt32(46), 
+                                         _reader.GetBoolean(35), _reader.GetString(39), _reader.GetInt32(7), _reader.GetString(40), _reader.NString(41),
+                                         _reader.NString(42), _reader.NString(43), _reader.GetByte(44), _reader.NInt32(45), _reader.NInt32(46),
                                          _reader.NInt32(47), _reader.NString(48), _reader.GetInt32(36), _reader.GetInt32(37));
             }
             catch (Exception)
@@ -186,6 +194,34 @@ public class RequisitionController : ControllerBase
                        "Activity", _activity
                    }
                };
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
+    [HttpPost]
+    public async Task<string> UploadBenefitsDocument()
+    {
+        string _fileData = Request.Form["fileData"].ToString();
+        string _name = _fileData.Split('^')[0];
+
+        new DirectoryInfo(_hostingEnvironment.ContentRootPath + "Upload\\Benefits").Create();
+        string _filename = _hostingEnvironment.ContentRootPath + $"Upload\\Benefits\\{_name}";
+
+        await using FileStream _fs = System.IO.File.Open(_filename, FileMode.Create, FileAccess.Write);
+        try
+        {
+            await Request.Form.Files[0].CopyToAsync(_fs);
+            _fs.Flush();
+            _fs.Close();
+        }
+        catch
+        {
+            _fs.Close();
+        }
+
+        return _filename;
     }
 
     private static string GetPriority(byte priority)
