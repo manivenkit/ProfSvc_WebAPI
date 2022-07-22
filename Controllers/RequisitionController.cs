@@ -8,12 +8,10 @@
 // File Name:           RequisitionController.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          03-18-2022 20:58
-// Last Updated On:     07-15-2022 21:01
+// Last Updated On:     07-21-2022 20:12
 // *****************************************/
 
 #endregion
-
-using ProfSvc_Classes;
 
 namespace ProfSvc_WebAPI.Controllers;
 
@@ -33,82 +31,6 @@ public class RequisitionController : ControllerBase
     private readonly IConfiguration _configuration;
 
     private readonly IWebHostEnvironment _hostingEnvironment;
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="requisitionDetails"></param>
-    /// <returns></returns>
-    [HttpPost]
-    public async Task<int> SaveRequisition(RequisitionDetails requisitionDetails)
-{
-        if (requisitionDetails == null)
-        {
-            return -1;
-        }
-
-        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
-        await _connection.OpenAsync();
-        int _returnCode = 0;
-        try
-        {
-            await using SqlCommand _command = new("SaveRequisition", _connection)
-                                              {
-                                                  CommandType = CommandType.StoredProcedure
-};
-            _command.Int("@RequisitionId", requisitionDetails.RequisitionID, true);
-            _command.Int("@Company", requisitionDetails.CompanyID, true);
-            _command.Int("@HiringMgr", requisitionDetails.ContactID, true);
-            _command.Varchar("@City", 50, requisitionDetails.City);
-            _command.Int("@StateId", requisitionDetails.StateID, true);
-            _command.Varchar("@Zip", 10, requisitionDetails.ZipCode);
-            _command.TinyInt("@IsHot", requisitionDetails.PriorityID);
-            _command.Varchar("@Title", 200, requisitionDetails.Title);
-            _command.Varchar("@Description", -1, requisitionDetails.Description);
-            _command.Int("@Pos", requisitionDetails.Positions);
-            _command.DateTime("@ExpStart",  requisitionDetails.ExpectedStart);
-            _command.DateTime("@Due", requisitionDetails.DueDate);
-            _command.Int("@Education", requisitionDetails.EducationID);
-            _command.Varchar("@Skills", 2000, requisitionDetails.SkillsRequired);
-            _command.Char("@JobOptions", 1, requisitionDetails.JobOptionID);
-            _command.Int("@ExperienceID", requisitionDetails.ExperienceID);
-            _command.Int("@EligibilityID", requisitionDetails.EligibilityID);
-            _command.Varchar("@Duration", 50, requisitionDetails.Duration);   //TODO:
-            _command.Char("@DurationCode", 1, requisitionDetails.DurationCode);
-            _command.Decimal("@ExpRateLow", 9, 2, requisitionDetails.ExpRateLow);
-            _command.Decimal("@ExpRateHigh", 9, 2, requisitionDetails.ExpRateHigh);
-            _command.Decimal("@ExpLoadLow", 9, 2, requisitionDetails.ExpLoadLow);
-            _command.Decimal("@ExpLoadHigh", 9, 2, requisitionDetails.ExpLoadHigh);
-            _command.Decimal("@SalLow", 9, 2, requisitionDetails.SalaryLow);
-            _command.Decimal("@SalHigh", 9, 2, requisitionDetails.SalaryHigh);
-            _command.Bit("@ExpPaid", requisitionDetails.ExpensesPaid);
-            _command.Char("@Status", 3, requisitionDetails.Status);
-            _command.Bit("@Security", requisitionDetails.SecurityClearance);                                 //TODO:
-            _command.Decimal("@PlacementFee", 8, 2, requisitionDetails.PlacementFee);
-            _command.Varchar("@BenefitsNotes", -1, requisitionDetails.BenefitNotes);
-            _command.Bit("@OFCCP", requisitionDetails.OFCCP);
-            _command.Varchar("@User", 10, "JOLLY");
-            _command.Varchar("@Assign", 550, requisitionDetails.AssignedToID);
-
-            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
-
-            _reader.Read();
-            if (_reader.HasRows)
-            {
-                _returnCode = _reader.GetInt32(0);
-            }
-
-            await _reader.CloseAsync();
-        }
-        catch
-        {
-            // ignored
-        }
-
-        await _connection.CloseAsync();
-
-        return _returnCode;
-    }
 
     /// <summary>
     /// </summary>
@@ -276,7 +198,88 @@ public class RequisitionController : ControllerBase
     }
 
     /// <summary>
-    /// 
+    /// </summary>
+    /// <param name="requisitionDetails"></param>
+    /// <param name="fileName"></param>
+    /// <returns></returns>
+    [HttpPost]
+    public async Task<int> SaveRequisition(RequisitionDetails requisitionDetails, string fileName = "")
+    {
+        if (requisitionDetails == null)
+        {
+            return -1;
+        }
+
+        if (!fileName.NullOrWhiteSpace())
+        {
+
+        }
+
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        int _returnCode = 0;
+        try
+        {
+            await using SqlCommand _command = new("SaveRequisition", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("@RequisitionId", requisitionDetails.RequisitionID, true);
+            _command.Int("@Company", requisitionDetails.CompanyID);
+            _command.Int("@HiringMgr", requisitionDetails.ContactID);
+            _command.Varchar("@City", 50, requisitionDetails.City);
+            _command.Int("@StateId", requisitionDetails.StateID);
+            _command.Varchar("@Zip", 10, requisitionDetails.ZipCode);
+            _command.TinyInt("@IsHot", requisitionDetails.PriorityID);
+            _command.Varchar("@Title", 200, requisitionDetails.PositionTitle);
+            _command.Varchar("@Description", -1, requisitionDetails.Description);
+            _command.Int("@Positions", requisitionDetails.Positions);
+            _command.DateTime("@ExpStart", requisitionDetails.ExpectedStart);
+            _command.DateTime("@Due", requisitionDetails.DueDate);
+            _command.Int("@Education", requisitionDetails.EducationID);
+            _command.Varchar("@Skills", 2000, requisitionDetails.SkillsRequired);
+            _command.Varchar("@OptionalRequirement", 8000, requisitionDetails.Optional);
+            _command.Char("@JobOption", 1, requisitionDetails.JobOptionID);
+            _command.Int("@ExperienceID", requisitionDetails.ExperienceID);
+            _command.Int("@Eligibility", requisitionDetails.EligibilityID);
+            _command.Varchar("@Duration", 50, requisitionDetails.Duration);
+            _command.Char("@DurationCode", 1, requisitionDetails.DurationCode);
+            _command.Decimal("@ExpRateLow", 9, 2, requisitionDetails.ExpRateLow);
+            _command.Decimal("@ExpRateHigh", 9, 2, requisitionDetails.ExpRateHigh);
+            _command.Decimal("@ExpLoadLow", 9, 2, requisitionDetails.ExpLoadLow);
+            _command.Decimal("@ExpLoadHigh", 9, 2, requisitionDetails.ExpLoadHigh);
+            _command.Decimal("@SalLow", 9, 2, requisitionDetails.SalaryLow);
+            _command.Decimal("@SalHigh", 9, 2, requisitionDetails.SalaryHigh);
+            _command.Bit("@ExpPaid", requisitionDetails.ExpensesPaid);
+            _command.Char("@Status", 3, requisitionDetails.Status);
+            _command.Bit("@Security", requisitionDetails.SecurityClearance);
+            _command.Decimal("@PlacementFee", 8, 2, requisitionDetails.PlacementFee);
+            _command.Varchar("@BenefitsNotes", -1, requisitionDetails.BenefitNotes);
+            _command.Bit("@OFCCP", requisitionDetails.OFCCP);
+            _command.Varchar("@User", 10, "JOLLY");
+            _command.Varchar("@Assign", 550, requisitionDetails.AssignedToID);
+
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+
+            _reader.Read();
+            if (_reader.HasRows)
+            {
+                _returnCode = _reader.GetInt32(0);
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            // ignored
+        }
+
+        await _connection.CloseAsync();
+
+        return _returnCode;
+    }
+
+    /// <summary>
     /// </summary>
     /// <returns></returns>
     [HttpPost]
