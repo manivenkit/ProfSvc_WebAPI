@@ -8,7 +8,7 @@
 // File Name:           RequisitionController.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          03-18-2022 20:58
-// Last Updated On:     07-21-2022 20:12
+// Last Updated On:     07-23-2022 15:51
 // *****************************************/
 
 #endregion
@@ -162,7 +162,7 @@ public class RequisitionController : ControllerBase
                                          _reader.GetBoolean(30), _reader.GetBoolean(31), _reader.NString(32), _reader.GetBoolean(33), _reader.GetDateTime(34),
                                          _reader.GetBoolean(35), _reader.GetString(39), _reader.GetInt32(7), _reader.GetString(40), _reader.NString(41),
                                          _reader.NString(42), _reader.NString(43), _reader.GetByte(44), _reader.NInt32(45), _reader.NInt32(46),
-                                         _reader.NInt32(47), _reader.NString(48), _reader.GetInt32(36), _reader.GetInt32(37));
+                                         _reader.NInt32(47), _reader.NString(48), _reader.GetInt32(36), _reader.GetInt32(37), _reader.NString(49));
             }
             catch (Exception)
             {
@@ -182,6 +182,25 @@ public class RequisitionController : ControllerBase
                               _reader.GetBoolean(23)));
         }
 
+        _reader.NextResult();
+        List<RequisitionDocuments> _documents = new();
+        if (_reader.HasRows)
+        {
+            while (_reader.Read())
+            {
+                try
+                {
+                    _documents.Add(new(_reader.GetInt32(0), _reader.GetInt32(1), _reader.NString(2), _reader.NString(3), _reader.NString(6),
+                                       $"{_reader.NDateTime(5)} [{_reader.NString(4)}]", _reader.NString(7)));
+                }
+                catch (Exception ex)
+                {
+                    //
+                }
+            }
+        }
+
+
         await _reader.CloseAsync();
 
         await _connection.CloseAsync();
@@ -193,6 +212,55 @@ public class RequisitionController : ControllerBase
                    },
                    {
                        "Activity", _activity
+                   },
+                   {
+                       "Documents", _documents
+                   }
+               };
+    }
+
+    /// <summary>
+    /// </summary>
+    /// <param name="documentID"></param>
+    /// <param name="user"></param>
+    /// <returns></returns>
+    [HttpPost]
+    public async Task<Dictionary<string, object>> DeleteRequisitionDocument([FromQuery] int documentID, [FromQuery] string user)
+    {
+        await Task.Delay(1);
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        List<RequisitionDocuments> _documents = new();
+        try
+        {
+            await using SqlCommand _command = new("DeleteRequisitionDocuments", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("RequisitionDocId", documentID);
+            _command.Varchar("User", 10, user);
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            _reader.NextResult();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _documents.Add(new(_reader.GetInt32(0), _reader.GetInt32(1), _reader.NString(2), _reader.NString(3), _reader.NString(6),
+                                       $"{_reader.NDateTime(5)} [{_reader.NString(4)}]", _reader.NString(7)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        return new()
+               {
+                   {
+                       "Document", _documents
                    }
                };
     }
@@ -203,7 +271,7 @@ public class RequisitionController : ControllerBase
     /// <param name="fileName"></param>
     /// <returns></returns>
     [HttpPost]
-    public async Task<int> SaveRequisition(RequisitionDetails requisitionDetails, string fileName = "")
+    public async Task<int> SaveRequisition(RequisitionDetails requisitionDetails, string fileName = "", string mimeType = "")
     {
         if (requisitionDetails == null)
         {
@@ -212,7 +280,6 @@ public class RequisitionController : ControllerBase
 
         if (!fileName.NullOrWhiteSpace())
         {
-
         }
 
         await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
@@ -251,13 +318,13 @@ public class RequisitionController : ControllerBase
             _command.Decimal("@SalLow", 9, 2, requisitionDetails.SalaryLow);
             _command.Decimal("@SalHigh", 9, 2, requisitionDetails.SalaryHigh);
             _command.Bit("@ExpPaid", requisitionDetails.ExpensesPaid);
-            _command.Char("@Status", 3, requisitionDetails.Status);
+            _command.Char("@Status", 3, requisitionDetails.StatusCode);
             _command.Bit("@Security", requisitionDetails.SecurityClearance);
             _command.Decimal("@PlacementFee", 8, 2, requisitionDetails.PlacementFee);
             _command.Varchar("@BenefitsNotes", -1, requisitionDetails.BenefitNotes);
             _command.Bit("@OFCCP", requisitionDetails.OFCCP);
             _command.Varchar("@User", 10, "JOLLY");
-            _command.Varchar("@Assign", 550, requisitionDetails.AssignedToID);
+            _command.Varchar("@Assign", 550, requisitionDetails.AssignedTo);
 
             await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
 
@@ -304,6 +371,72 @@ public class RequisitionController : ControllerBase
         }
 
         return _filename;
+    }
+
+    /// <summary>
+    /// </summary>
+    [HttpPost]
+    public async Task<Dictionary<string, object>> UploadDocument()
+    {
+        await Task.Delay(1);
+        string _fileName = Request.Form.Files[0].FileName;
+        string _requisitionID = Request.Form["requisitionID"].ToString();
+        string _mime = Request.Form.Files[0].ContentDisposition;
+        string _internalFileName = Guid.NewGuid().ToString("N");
+        Directory.CreateDirectory(Path.Combine(Request.Form["path"].ToString(), "Uploads", "Requisition", _requisitionID));
+        string _destinationFileName = Path.Combine(Request.Form["path"].ToString(), "Uploads", "Requisition", _requisitionID, _internalFileName);
+
+        await using MemoryStream _stream = new();
+        await using FileStream _fs = System.IO.File.Open(_destinationFileName, FileMode.OpenOrCreate, FileAccess.Write);
+        try
+        {
+            await Request.Form.Files[0].CopyToAsync(_fs);
+            _fs.Flush();
+            _fs.Close();
+        }
+        catch
+        {
+            _fs.Close();
+        }
+
+        await using SqlConnection _connection = new(_configuration.GetConnectionString("DBConnect"));
+        await _connection.OpenAsync();
+        List<RequisitionDocuments> _documents = new();
+        try
+        {
+            await using SqlCommand _command = new("SaveRequisitionDocuments", _connection)
+                                              {
+                                                  CommandType = CommandType.StoredProcedure
+                                              };
+            _command.Int("RequisitionId", _requisitionID);
+            _command.Varchar("DocumentName", 255, Request.Form["name"].ToString());
+            _command.Varchar("DocumentLocation", 255, _fileName);
+            _command.Varchar("DocumentNotes", 2000, Request.Form["notes"].ToString());
+            _command.Varchar("InternalFileName", 50, _internalFileName);
+            _command.Varchar("DocsUser", 10, Request.Form["user"].ToString());
+            await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
+            if (_reader.HasRows)
+            {
+                while (_reader.Read())
+                {
+                    _documents.Add(new(_reader.GetInt32(0), _reader.GetInt32(1), _reader.NString(2), _reader.NString(3), _reader.NString(6),
+                                       $"{_reader.NDateTime(5)} [{_reader.NString(4)}]", _reader.NString(7)));
+                }
+            }
+
+            await _reader.CloseAsync();
+        }
+        catch
+        {
+            //
+        }
+
+        return new()
+               {
+                   {
+                       "Document", _documents
+                   }
+               };
     }
 
     private static string GetPriority(byte priority)

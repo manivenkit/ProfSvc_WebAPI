@@ -1144,9 +1144,10 @@ public class CandidatesController : ControllerBase
     /// <param name="candidateID"></param>
     /// <param name="user"></param>
     /// <param name="roleID"></param>
+    /// <param name="isCandidateScreen"></param>
     /// <returns></returns>
     [HttpPost]
-    public async Task<Dictionary<string, object>> SaveCandidateActivity(CandidateActivity activity, [FromQuery] int candidateID, [FromQuery] string user, [FromQuery] string roleID = "RS")
+    public async Task<Dictionary<string, object>> SaveCandidateActivity(CandidateActivity activity, [FromQuery] int candidateID, [FromQuery] string user, [FromQuery] string roleID = "RS", [FromQuery]bool isCandidateScreen = true)
     {
         await Task.Delay(1);
         List<CandidateActivity> _activities = new();
@@ -1180,7 +1181,7 @@ public class CandidatesController : ControllerBase
             _command.Varchar("PhoneNumber", 20, activity.PhoneNumber);
             _command.Varchar("InterviewDetails", 2000, activity.InterviewDetails);
             _command.Bit("UpdateSchedule", false);
-            _command.Bit("CandScreen", true);
+            _command.Bit("CandScreen", isCandidateScreen);
             _command.Char("RoleID", 2, roleID);
             await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
             if (_reader.HasRows)
@@ -1572,9 +1573,10 @@ public class CandidatesController : ControllerBase
     /// <param name="submissionID"></param>
     /// <param name="user"></param>
     /// <param name="roleID"></param>
+    /// <param name="isCandidateScreen"></param>
     /// <returns></returns>
     [HttpPost]
-    public async Task<Dictionary<string, object>> UndoCandidateActivity(int submissionID, [FromQuery] string user, [FromQuery] string roleID = "RS")
+    public async Task<Dictionary<string, object>> UndoCandidateActivity(int submissionID, [FromQuery] string user, [FromQuery] string roleID = "RS", [FromQuery] bool isCandidateScreen = true)
     {
         await Task.Delay(1);
         List<CandidateActivity> _activities = new();
@@ -1598,7 +1600,7 @@ public class CandidatesController : ControllerBase
                                               };
             _command.Int("Id", submissionID);
             _command.Varchar("User", 10, user);
-            _command.Bit("CandScreen", true);
+            _command.Bit("CandScreen", isCandidateScreen);
             _command.Char("RoleID", 2, roleID);
             await using SqlDataReader _reader = await _command.ExecuteReaderAsync();
             if (_reader.HasRows)
